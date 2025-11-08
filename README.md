@@ -9,44 +9,56 @@ This project provides tools to automatically fetch, enrich, and analyze open gov
 ## 🚀 Features
 
 - **📥 Automated Data Fetching**: Batch download datasets from Eurostat and other statistical agencies
-- **🤖 AI-Powered Enrichment**: Generate meaningful descriptions and example queries using LLMs
 - **📊 Structured Processing**: Convert raw statistical data into analysis-ready formats
 - **🔍 Metadata Generation**: Create comprehensive dataset catalogs with searchable metadata
 
 ## 📁 Project Structure
 
+```
 open-govt-data/
 ├── eurostat_fetch_one.py           # main downloader + flattener
 ├── batch_fetch_eurostat.py         # batch processing tool
 ├── csv_to_ollama_jsonl_complete_only.py # AI enrichment pipeline
+├── cbs_tiny_agent.py               # CBS Netherlands data agent
 ├── data/
-│   ├── eurostat_enriched.csv       # dataset metadata (downloaded list)
-│   └── eurostat_gemma3_gpt5.jsonl  # LLM-enriched metadata catalog
-├── downloads/                      # generated CSV outputs
-├── notebooks/                      # optional visual analysis notebooks
-└── README.md
+│   ├── eurostat_base.csv           # original dataset catalog
+│   ├── eurostat_gemma3.jsonl       # AI-enriched metadata
+│   └── eurostat_gemma3_gpt5.jsonl  # refined metadata catalog
+├── downloads/                      # generated CSV outputs (gitignored)
+├── requirements.txt                # Python dependencies
+├── .gitignore                      # Git ignore rules
+├── LICENSE                         # MIT license
+└── README.md                       # this file
+```
 
-## 🛠️ Installation
-{{ ... }}
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/ogd-data-analysis.git
-   cd ogd-data-analysis
-   ```
+## ⚙️ Installation
 
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### Requirements
 
-3. **Set up Ollama** (for AI enrichment):
-   ```bash
-   # Install Ollama
-   curl -fsSL https://ollama.ai/install.sh | sh
-   
-   # Pull required models
-   ollama pull gemma3:latest
-   ```
+- Python ≥ 3.9
+- Packages:
+
+```bash
+pip install pandas requests tabulate numpy
+```
+
+### Clone and run
+
+```bash
+git clone https://github.com/avishekanand/open-govt-data.git
+cd open-govt-data
+pip install -r requirements.txt
+```
+
+### Optional: Set up Ollama (for AI enrichment)
+
+```bash
+# Install Ollama
+curl -fsSL https://ollama.ai/install.sh | sh
+
+# Pull required models
+ollama pull gemma3:latest
+```
 
 ## 🎮 Usage
 
