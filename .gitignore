@@ -1,9 +1,7 @@
 # OGD Data Analysis - Git Ignore File
 
-# Downloaded datasets
+# Downloaded datasets (large files only)
 downloads/
-*.csv
-*.jsonl
 
 # Python
 __pycache__/

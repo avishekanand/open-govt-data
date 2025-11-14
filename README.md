@@ -20,6 +20,9 @@ open-govt-data/
 ├── batch_fetch_eurostat.py         # batch processing tool
 ├── csv_to_ollama_jsonl_complete_only.py # AI enrichment pipeline
 ├── cbs_tiny_agent.py               # CBS Netherlands data agent
+├── utils/
+│   ├── __init__.py                 # Python package init
+│   └── jsonl_to_csv.py             # JSONL to CSV converter
 ├── data/
 │   ├── eurostat_base.csv           # original dataset catalog
 │   ├── eurostat_gemma3.jsonl       # AI-enriched metadata
@@ -97,6 +100,16 @@ python csv_to_ollama_jsonl_complete_only.py \
     --temperature 0.2
 ```
 
+### Convert JSONL to CSV for Excel
+
+```bash
+# Convert JSONL metadata to Excel-friendly CSV
+python utils/jsonl_to_csv.py data/eurostat_gemma3_gpt5.jsonl -o eurostat_data.csv
+
+# Convert any JSONL file
+python utils/jsonl_to_csv.py input.jsonl --output output.csv
+```
+
 ## 📊 Dataset Sources
 
 - **🇪🇺 Eurostat**: European Union statistical data
@@ -153,12 +166,6 @@ Dataset: TPS00001 - Population on 1 January
 }
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
 ## 📄 License
@@ -171,11 +178,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **CBS Netherlands** for accessible statistical data
 - **Ollama** for local LLM capabilities
 - **OpenAI** for AI-powered enrichment
-
-## 📞 Contact
-
-- **Project**: [OGD Data Analysis](https://github.com/avishekanand/ogd-data-analysis)
-- **Issues**: [GitHub Issues](https://github.com/avishekanand/ogd-data-analysis/issues)
 
 ---
 
