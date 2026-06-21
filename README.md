@@ -110,6 +110,63 @@ python utils/jsonl_to_csv.py data/eurostat_gemma3_gpt5.jsonl -o eurostat_data.cs
 python utils/jsonl_to_csv.py input.jsonl --output output.csv
 ```
 
+## 🇳🇱 CBS StatLine — metadata search engine
+
+A "Dutch Public Data Intelligence Engine" over public CBS aggregate data (no
+confidential microdata). Lives in the `cbs/` package and uses the CBS OData v4
+API (`https://datasets.cbs.nl/odata/v1/CBS/{TABLE_ID}`).
+
+```bash
+# 1. Fetch the full table catalogue (4,857 tables -> Parquet)
+python -m cbs.catalog
+
+# 2. Ingest the semantic metadata for the active tables (Properties/Dimensions/Measures)
+python -m cbs.batch_ingest_statline --limit 700 --sample-data 5
+
+# 3. (optional) doc2query-enrich tables into English with a local LLM (gemma4 via Ollama)
+python -m cbs.enrich_cbs --limit 8 --model gemma4:latest
+
+# 4. Build the SQLite FTS5 term-matching index over all metadata text fields
+python -m cbs.build_search_index --selftest
+
+# 5. Launch the search web app  ->  http://localhost:8501
+streamlit run cbs/search_app.py
+```
+
+Single-table deep ingest (with full code lists + sample observations):
+
+```bash
+python -m cbs.ingest_statline --table 83765NED --regions GM0363 GM0503
+```
+
+The search indexes Dutch titles/descriptions, gemma4 English enrichment,
+dimensions and measures — so both `inkomen` and `income` find the same tables.
+
+### Running on a server
+
+The whole pipeline is wrapped in idempotent, resumable scripts under `scripts/`:
+
+```bash
+# End-to-end (catalogue -> metadata -> enrich -> index), configurable via env vars
+LIMIT=700 MODEL=gemma4:latest ./scripts/run_pipeline.sh
+
+# Point enrichment at a remote/cluster Ollama
+OLLAMA_HOST=http://gpu-node:11434 ./scripts/run_pipeline.sh
+
+# Skip the slow LLM step (metadata + index only)
+SKIP_ENRICH=1 ./scripts/run_pipeline.sh
+
+# Serve the UI headless on a server, then SSH port-forward to view it
+PORT=8080 ./scripts/serve_app.sh
+```
+
+On **TU Delft DAIC** (SLURM + GPU), submit the enrichment as a batch job — it starts
+Ollama on the allocated GPU node and caches the model on the umbrella share:
+
+```bash
+sbatch scripts/enrich_daic.slurm           # edit partition / OLLAMA_MODELS path first
+```
+
 ## 📊 Dataset Sources
 
 - **🇪🇺 Eurostat**: European Union statistical data

@@ -3,6 +3,23 @@
 # Downloaded datasets (large files only)
 downloads/
 
+# Local virtualenv
+.venv/
+
+# SQLite search index (rebuildable from parquet)
+data/processed/*.db
+
+# CBS raw API dumps (rebuildable)
+data/raw/cbs/
+
+# Throwaway test + single-table demo outputs (regenerable via cbs.ingest_statline)
+data/eurostat_gemma4_test.jsonl
+data/processed/statline_codes.parquet
+data/processed/statline_datasets.parquet
+data/processed/statline_dimensions.parquet
+data/processed/statline_measures.parquet
+data/processed/statline_observations_sample.parquet
+
 # Python
 __pycache__/
 *.py[cod]
