@@ -12,6 +12,9 @@ data/processed/*.db
 # CBS raw API dumps (rebuildable)
 data/raw/cbs/
 
+# Fetched per-table observation data + generated plots (rebuildable via cbs.fetch_table_data)
+data/processed/tables/
+
 # Throwaway test + single-table demo outputs (regenerable via cbs.ingest_statline)
 data/eurostat_gemma4_test.jsonl
 data/processed/statline_codes.parquet
