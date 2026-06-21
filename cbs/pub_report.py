@@ -47,15 +47,38 @@ def _cbs_line(row) -> str:
     return " · ".join(bits) if bits else "_no explicit CBS table reference found in text_"
 
 
-def build(docs: pd.DataFrame, urls: pd.DataFrame, out: Path) -> None:
-    # bring in institute/title context from the URL table
-    ctx = urls.set_index("url")[["domain"]] if "url" in urls.columns else pd.DataFrame()
+def _load_extractions(path: Path) -> dict:
+    """url -> {cbs_datasets, data_kind, summary} from the stage-4 LLM pass."""
+    if not path.exists():
+        return {}
+    e = pd.read_parquet(path)
+    return {r["url"]: r for _, r in e.iterrows()}
+
+
+def _dataset_frequency(ext: dict) -> list:
+    from collections import Counter
+    c = Counter()
+    for r in ext.values():
+        for d in str(r.get("cbs_datasets") or "").split(","):
+            d = d.strip()
+            if d and d.lower() not in ("none", "unclear", "n/a"):
+                c[d] += 1
+    return c.most_common(25)
+
+
+def build(docs: pd.DataFrame, urls: pd.DataFrame, out: Path,
+          ext_path: Path = PUB / "pub_extractions.parquet") -> None:
+    ext = _load_extractions(ext_path)
     ok = docs[docs["ok"]].copy() if "ok" in docs.columns else docs.copy()
     # rank: docs with CBS table ids first, then microdata mentions, then text length
     ok["_score"] = (ok.get("n_cbs_table_ids", 0).fillna(0) * 100
                     + ok.get("mentions_microdata", False).astype(int) * 10
                     + (ok.get("text_len", 0).fillna(0) > 500).astype(int))
     ok = ok.sort_values("_score", ascending=False)
+
+    # rank docs with an LLM extraction first
+    ok["_has_ext"] = ok["url"].map(lambda u: 1 if u in ext else 0)
+    ok = ok.sort_values(["_has_ext", "_score"], ascending=False)
 
     n_total = len(docs)
     n_ok = int(docs["ok"].sum()) if "ok" in docs.columns else len(docs)
@@ -77,9 +100,16 @@ def build(docs: pd.DataFrame, urls: pd.DataFrame, out: Path) -> None:
         "Each entry: **link** · what it is about · which CBS data it uses "
         "(table ids, microdata mention, CBS project number).",
         "",
-        "---",
-        "",
     ]
+
+    # Aggregate: which CBS datasets are used most (from the LLM extraction).
+    freq = _dataset_frequency(ext)
+    if freq:
+        lines += [f"## Most-used CBS datasets across {len(ext)} analysed publications", ""]
+        lines += ["| CBS dataset / register | publications |", "|---|---|"]
+        lines += [f"| {name} | {n} |" for name, n in freq]
+        lines += [""]
+    lines += ["---", ""]
 
     for _, r in ok.iterrows():
         url = r["url"]
@@ -88,7 +118,13 @@ def build(docs: pd.DataFrame, urls: pd.DataFrame, out: Path) -> None:
         lines.append(f"### [{dom}]({final})")
         lines.append(f"- **Link:** {url}")
         lines.append(f"- **About:** {_about(r)}")
-        lines.append(f"- **CBS data used:** {_cbs_line(r)}")
+        ex = ext.get(url)
+        if ex is not None:
+            ds = (ex.get("cbs_datasets") or "").strip()
+            lines.append(f"- **CBS datasets used (LLM):** {ds or '_none identified_'}  _[{ex.get('data_kind','')}]_")
+            if ex.get("summary"):
+                lines.append(f"- **How used:** {ex['summary']}")
+        lines.append(f"- **Signals:** {_cbs_line(r)}")
         rtype = r.get("resource_type") or ""
         lines.append(f"- **Type:** {rtype} · status {r.get('status_code')}")
         lines.append("")
