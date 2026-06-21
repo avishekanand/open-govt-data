@@ -39,6 +39,10 @@ from cbs.plotting import period_col
 DB_PATH = Path("data/processed/cbs_search.db")
 OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
 MODEL = os.environ.get("MODEL", "gemma4:latest")
+# Verification uses a strong model by default (catches subject mismatches that a
+# smaller chat model misses), even when the chat model is something lighter.
+VERIFY_MODEL = os.environ.get("VERIFY_MODEL", "gemma4:latest")
+CONF_THRESHOLD = float(os.environ.get("CONF_THRESHOLD", "0.5"))
 JSON_RE = re.compile(r"\{.*\}", re.DOTALL)
 
 
@@ -271,6 +275,8 @@ class Answer:
     narrative: str = ""
     reasoning: str = ""
     confidence: Optional[float] = None
+    rejected: bool = False
+    candidates: List[Dict[str, Any]] = field(default_factory=list)
     odata_url: str = ""
     source_url: str = ""
     error: Optional[str] = None
@@ -356,7 +362,14 @@ def execute(q: str, understanding: Dict[str, Any], pl: Dict[str, Any]) -> Answer
     return ans
 
 
-def answer(q: str, model: str = MODEL, do_verify: bool = True) -> Answer:
+def _cand_list(cands: List[Dict[str, Any]], k: int = 4) -> List[Dict[str, Any]]:
+    return [{"table_id": c["table_id"], "title": c.get("title_en") or c.get("title_nl")}
+            for c in cands[:k]]
+
+
+def answer(q: str, model: str = MODEL, do_verify: bool = True,
+           verify_model: Optional[str] = None, reject_low_conf: bool = True,
+           conf_threshold: float = CONF_THRESHOLD) -> Answer:
     understanding = understand(q, model=model)
     # Search with both the LLM-reformulated terms and the raw question for recall.
     cands = search_index(understanding["search_terms"] + " " + q, k=8)
@@ -365,14 +378,25 @@ def answer(q: str, model: str = MODEL, do_verify: bool = True) -> Answer:
     if not cands:
         return Answer(q, understanding, {}, error="No tables matched the search terms.")
     pl = plan(q, understanding["transform"], cands, model=model)
-    # Chain-of-thought double-check of the chosen table/measure (and chart type).
+    # Chain-of-thought double-check of the chosen table/measure (and chart type),
+    # on a strong verifier model by default.
     if do_verify and pl.get("table_id"):
-        v = verify(q, understanding["transform"], pl, cands, model=model)
+        v = verify(q, understanding["transform"], pl, cands, model=verify_model or VERIFY_MODEL)
         if v.get("table_id"):
             pl = {**pl, **{k: v[k] for k in
                   ("table_id", "measure", "series_dim", "chart_type", "answer") if v.get(k)}}
         pl["reasoning"] = v.get("reasoning", "")
         pl["confidence"] = v.get("confidence")
+        # Reject low-confidence answers instead of plotting a likely-wrong table.
+        conf = v.get("confidence")
+        if reject_low_conf and (conf is not None) and conf < conf_threshold:
+            ans = Answer(q, understanding, pl, table_id=pl.get("table_id"),
+                         reasoning=pl["reasoning"], confidence=conf, rejected=True,
+                         candidates=_cand_list(cands),
+                         narrative=(f"⚠️ Low confidence ({conf:.0%}): I couldn't find a CBS table "
+                                    f"that clearly answers this. Try rephrasing, or pick from the "
+                                    f"closest candidates below."))
+            return ans
     return execute(q, understanding, pl)
 
 

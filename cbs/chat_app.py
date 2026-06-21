@@ -48,6 +48,15 @@ def plot_answer(a: "agent.Answer"):
 
 
 def render_answer(a: "agent.Answer"):
+    if getattr(a, "rejected", False):
+        st.warning(a.narrative)
+        if a.reasoning:
+            st.caption(f"🧠 {a.reasoning}")
+        if a.candidates:
+            st.markdown("**Closest candidate tables:**")
+            for c in a.candidates:
+                st.markdown(f"- `{c['table_id']}` — {c['title']}")
+        return
     if a.error and a.plot_df is None:
         st.warning(f"{a.error}")
         if a.understanding:
