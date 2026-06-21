@@ -42,7 +42,8 @@ def plot_answer(a: "agent.Answer"):
         st.info("No plottable series for this question.")
         return
     from cbs.plotting import plot_answer_figure
-    fig = plot_answer_figure(a.plot_df, a.chart_type, a.title, a.ylabel, a.transform)
+    src = f"Source: CBS {a.table_id}" if a.table_id else ""
+    fig = plot_answer_figure(a.plot_df, a.chart_type, a.title, a.ylabel, a.transform, source=src)
     st.pyplot(fig)
 
 

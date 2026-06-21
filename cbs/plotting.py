@@ -14,7 +14,50 @@ from typing import Optional
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mticker
 import pandas as pd
+
+# ---- house style ----------------------------------------------------------
+CBS_BLUE = "#0b3d63"
+PALETTE = ["#0b3d63", "#e4711a", "#2a9d8f", "#a4243b", "#5b8c5a",
+           "#6c5b7b", "#c9a227", "#3d5a80", "#bc4749", "#457b9d"]
+plt.rcParams.update({
+    "figure.dpi": 150,
+    "savefig.dpi": 200,
+    "font.family": "sans-serif",
+    "font.size": 11,
+    "axes.titlesize": 13,
+    "axes.titleweight": "bold",
+    "axes.labelsize": 10.5,
+    "axes.edgecolor": "#888888",
+    "axes.linewidth": 0.8,
+    "axes.grid": True,
+    "axes.axisbelow": True,
+    "grid.color": "#dddddd",
+    "grid.linewidth": 0.7,
+    "legend.frameon": False,
+    "legend.fontsize": 9,
+})
+
+
+def _style_ax(ax, ylabel: str = "", source: str = ""):
+    """Apply the house style: clean spines, y-grid only, thousands formatting."""
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    ax.grid(axis="x", visible=False)
+    ax.tick_params(length=0, labelsize=9.5)
+    if ylabel:
+        ax.set_ylabel(ylabel, color="#444444")
+    # thousands separators when values are large
+    try:
+        ymax = max(abs(v) for v in ax.get_yticks()) if len(ax.get_yticks()) else 0
+        if ymax >= 1000:
+            ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"{x:,.0f}"))
+    except Exception:
+        pass
+    if source:
+        ax.figure.text(0.99, 0.01, source, ha="right", va="bottom",
+                       fontsize=7.5, color="#999999")
 
 
 def period_col(df: pd.DataFrame) -> Optional[str]:
@@ -35,36 +78,47 @@ def main_measure(df: pd.DataFrame) -> Optional[str]:
 
 
 def plot_answer_figure(plot_df, chart_type: str, title: str, ylabel: str,
-                       transform: str = "level"):
-    """Render an agent answer (long df: year, series, value) as a line or bar fig.
+                       transform: str = "level", source: str = ""):
+    """Render an agent answer (long df: year, series, value) as a polished line/bar fig.
 
-    bar + multiple series -> compare series at their latest year.
-    bar + single series   -> bars over years.
+    bar + multiple series -> horizontal bars comparing series at their latest year.
+    bar + single series   -> vertical bars over years.
     line                  -> one line per series over years.
     """
-    fig, ax = plt.subplots(figsize=(8.5, 4.3))
+    fig, ax = plt.subplots(figsize=(9.5, 5.2))
     if plot_df is None or len(plot_df) == 0:
         ax.text(0.5, 0.5, "no data", ha="center"); return fig
     n_series = plot_df["series"].nunique()
-    if chart_type == "bar":
-        if n_series > 1:
-            latest = plot_df.sort_values("year").groupby("series").tail(1)
-            latest = latest.dropna(subset=["value"]).sort_values("value", ascending=False).head(12)
-            ax.barh([str(s)[:36] for s in latest["series"]][::-1], list(latest["value"])[::-1])
-            ax.set_xlabel(ylabel)
-        else:
-            g = plot_df.dropna(subset=["value"]).sort_values("year")
-            ax.bar(g["year"], g["value"]); ax.set_xlabel("Year"); ax.set_ylabel(ylabel)
+
+    if chart_type == "bar" and n_series > 1:
+        latest = plot_df.sort_values("year").groupby("series").tail(1)
+        latest = latest.dropna(subset=["value"]).sort_values("value").tail(12)
+        labels = [str(s)[:38] for s in latest["series"]]
+        bars = ax.barh(labels, list(latest["value"]), color=CBS_BLUE, height=0.72)
+        ax.bar_label(bars, fmt=lambda v: f"{v:,.0f}", padding=3, fontsize=8.5, color="#444")
+        ax.margins(x=0.12)
+        _style_ax(ax, source=source)
+        ax.grid(axis="y", visible=False); ax.grid(axis="x", visible=True)
+        ax.set_xlabel(ylabel, color="#444")
+    elif chart_type == "bar":
+        g = plot_df.dropna(subset=["value"]).sort_values("year")
+        bars = ax.bar(g["year"], g["value"], color=CBS_BLUE, width=0.7)
+        ax.bar_label(bars, fmt=lambda v: f"{v:,.0f}", padding=2, fontsize=8, color="#444")
+        ax.set_xlabel("Year"); _style_ax(ax, ylabel, source)
     else:
-        for name, g in plot_df.groupby("series"):
+        for i, (name, g) in enumerate(plot_df.groupby("series")):
             g = g.sort_values("year")
-            ax.plot(g["year"], g["value"], marker="o", ms=3, label=str(name)[:34])
+            ax.plot(g["year"], g["value"], marker="o", ms=4.5, lw=2.2,
+                    color=PALETTE[i % len(PALETTE)], label=str(name)[:34],
+                    markeredgecolor="white", markeredgewidth=0.7)
         if n_series > 1:
-            ax.legend(fontsize=8)
+            ax.legend(loc="best", ncol=1 if n_series <= 6 else 2)
         if transform == "yoy":
-            ax.axhline(0, color="k", lw=.6)
-        ax.set_xlabel("Year"); ax.set_ylabel(ylabel)
-    ax.set_title(title[:74]); ax.grid(alpha=.3)
+            ax.axhline(0, color="#999", lw=0.8, zorder=0)
+        ax.set_xlabel("Year"); _style_ax(ax, ylabel, source)
+        ax.xaxis.set_major_locator(mticker.MaxNLocator(integer=True, nbins=10))
+
+    ax.set_title(title[:80], loc="left", pad=12)
     fig.tight_layout()
     return fig
 
