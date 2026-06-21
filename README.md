@@ -176,6 +176,54 @@ strong at JSON; gemma needs an `HF_TOKEN` and license acceptance. GPU extras:
 `pip install -r requirements-gpu.txt`. The local laptop path still uses Ollama
 (`cbs.enrich_cbs`); both write the same JSONL schema.
 
+### Conversational data agent (chat)
+
+Beyond search, a chat UI answers questions with charts. The agent (local Ollama
+model) understands the question, searches the metadata, decides the chart's
+x/y/series from each table's real columns, computes transforms (e.g. year-over-year)
+and plots the answer.
+
+```bash
+streamlit run cbs/chat_app.py          # http://localhost:8502
+python -m cbs.agent "yoy values of dutch residents going for tourism"
+```
+
+A model picker lists installed Ollama models (switch when one is busy). One table
+per answer; cross-table joins are not yet supported.
+
+## 🇳🇱 CBS microdata-use — publication evidence layer
+
+Indexes **public evidence of how CBS microdata has been used** (not the confidential
+microdata itself). Parses the publications workbook, downloads each public document,
+and uses an LLM to extract which CBS datasets each publication used.
+
+```bash
+python -m cbs.pub_ingest      # workbook -> records + classified, deduped URLs
+python -m cbs.pub_download    # concurrent, polite, resumable crawl + text extraction
+python -m cbs.pub_extract     # LLM: which CBS datasets/registers each publication used
+python -m cbs.pub_report      # -> data/processed/pub/publication_findings.md
+```
+
+**What was downloadable** (workbook = `Publications_overview_internet_May_26.xlsx`):
+
+| | count |
+|---|---|
+| publication records | 3,106 |
+| unique URLs | 2,217 |
+| **downloaded OK** (text/PDF extracted) | **1,487** |
+| unreachable / blocked (404/403/dead) | 730 |
+| by type (OK) | html 1,193 · pdf 206 · doi 83 · github 3 · zenodo 2 |
+| mention microdata / StatLine / CBS | 570 |
+
+The findings file (`data/processed/pub/publication_findings.md`, kept in git) lists,
+per document: the **link**, **what it is about**, and **which CBS data it uses** —
+specific registers (GBA/BRP population, POLIS/SPOLIS jobs & wages, SECMBUS
+socio-economic status, HOOGSTEOPLTAB education, INPATAB/INHATAB income, …), the
+data kind (microdata vs aggregate/StatLine), a one-line *how-used* summary, and the
+CBS project number — plus an aggregate table of the most-used datasets. Raw
+downloads and scraped full text are git-ignored; only the findings MD + structured
+metadata are kept.
+
 ## 📊 Dataset Sources
 
 - **🇪🇺 Eurostat**: European Union statistical data
