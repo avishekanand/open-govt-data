@@ -15,13 +15,20 @@ from __future__ import annotations
 import os
 import re
 import sqlite3
+import sys
 from pathlib import Path
+
+# `streamlit run cbs/search_app.py` puts cbs/ on sys.path but not the repo root,
+# so `import cbs.*` would fail. Add the repo root explicitly.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
+
+from cbs.plotting import period_col as _period_col
 
 # Cap the in-app fetch so huge tables don't hang the UI.
 MAX_PLOT_OBS = 60000
@@ -115,9 +122,6 @@ def load_table_data(table_id: str, max_obs: int = MAX_PLOT_OBS) -> pd.DataFrame:
     """Fetch + tidy a table's observations (cached). Hits the live CBS API."""
     from cbs.fetch_table_data import fetch_tidy
     return fetch_tidy(table_id, max_obs=max_obs)
-
-
-from cbs.plotting import period_col as _period_col
 
 
 def render_table_plot(table_id: str, title: str):
