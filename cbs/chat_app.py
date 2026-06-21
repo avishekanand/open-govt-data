@@ -75,11 +75,11 @@ def render_answer(a: "agent.Answer"):
             st.dataframe(a.plot_df, use_container_width=True)
 
 
-def run_query(q: str):
+def run_query(q: str, model: str):
     st.session_state.messages.append({"role": "user", "content": q})
-    with st.spinner("Understanding → searching → planning the chart → fetching data…"):
+    with st.spinner(f"[{model}] Understanding → searching → planning → fetching data…"):
         try:
-            a = agent.answer(q)
+            a = agent.answer(q, model=model)
         except Exception as exc:  # noqa: BLE001
             a = agent.Answer(q, {}, {}, error=f"{type(exc).__name__}: {exc}")
     st.session_state.messages.append({"role": "assistant", "answer": a})
@@ -96,6 +96,18 @@ def main():
                f"Model: `{agent.MODEL}` via `{agent.OLLAMA_HOST}`.")
 
     with st.sidebar:
+        st.header("Model")
+        installed = agent.list_models()
+        if installed:
+            # Prefer a lighter model by default if gemma4 is busy with enrichment.
+            default = next((m for m in installed if "qwen" in m or "llama" in m), installed[0])
+            model = st.selectbox("Ollama model", installed, index=installed.index(default))
+        else:
+            model = agent.MODEL
+            st.warning(f"Ollama not reachable at {agent.OLLAMA_HOST}; using `{model}`.")
+        st.caption("Switch models if one is busy. Smaller models answer faster.")
+        st.divider()
+
         st.header("Try an example")
         for ex in EXAMPLES:
             if st.button(ex, use_container_width=True):
@@ -121,7 +133,7 @@ def main():
         with st.chat_message("user"):
             st.markdown(q)
         with st.chat_message("assistant"):
-            run_query(q)
+            run_query(q, model)
             render_answer(st.session_state.messages[-1]["answer"])
 
 

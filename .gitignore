@@ -15,6 +15,10 @@ data/raw/cbs/
 # Fetched per-table observation data + generated plots (rebuildable via cbs.fetch_table_data)
 data/processed/tables/
 
+# Downloaded publication documents (raw files) + scraped full text — keep only the MD findings
+data/raw/pub_docs/
+data/processed/pub/documents.parquet
+
 # Throwaway test + single-table demo outputs (regenerable via cbs.ingest_statline)
 data/eurostat_gemma4_test.jsonl
 data/processed/statline_codes.parquet

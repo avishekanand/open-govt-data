@@ -43,13 +43,23 @@ JSON_RE = re.compile(r"\{.*\}", re.DOTALL)
 
 
 # --------------------------------------------------------------------- Ollama
-def ollama_json(system: str, user: str, temperature: float = 0.1,
+def list_models(host: str = OLLAMA_HOST) -> List[str]:
+    """Return the model names installed in the Ollama instance."""
+    try:
+        r = requests.get(host.rstrip("/") + "/api/tags", timeout=5)
+        r.raise_for_status()
+        return sorted(m["name"] for m in r.json().get("models", []))
+    except Exception:
+        return []
+
+
+def ollama_json(system: str, user: str, model: str = MODEL, temperature: float = 0.1,
                 timeout: int = 180) -> Dict[str, Any]:
     """Call Ollama chat with JSON format and return the parsed object."""
     resp = requests.post(
         OLLAMA_HOST.rstrip("/") + "/api/chat",
         json={
-            "model": MODEL,
+            "model": model,
             "messages": [{"role": "system", "content": system},
                          {"role": "user", "content": user}],
             "options": {"temperature": temperature, "num_ctx": 8192},
@@ -84,8 +94,8 @@ Return JSON:
 """
 
 
-def understand(q: str) -> Dict[str, Any]:
-    out = ollama_json(UNDERSTAND_SYS, UNDERSTAND_USER.format(q=q))
+def understand(q: str, model: str = MODEL) -> Dict[str, Any]:
+    out = ollama_json(UNDERSTAND_SYS, UNDERSTAND_USER.format(q=q), model=model)
     out.setdefault("search_terms", q)
     out.setdefault("transform", "level")
     if out["transform"] not in ("yoy", "index100", "level"):
@@ -153,9 +163,9 @@ def _fmt_candidates(cands: List[Dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def plan(q: str, transform: str, cands: List[Dict[str, Any]]) -> Dict[str, Any]:
+def plan(q: str, transform: str, cands: List[Dict[str, Any]], model: str = MODEL) -> Dict[str, Any]:
     user = PLAN_USER.format(q=q, transform=transform, candidates=_fmt_candidates(cands))
-    out = ollama_json(PLAN_SYS, user)
+    out = ollama_json(PLAN_SYS, user, model=model)
     return out
 
 
@@ -264,15 +274,15 @@ def execute(q: str, understanding: Dict[str, Any], pl: Dict[str, Any]) -> Answer
     return ans
 
 
-def answer(q: str) -> Answer:
-    understanding = understand(q)
+def answer(q: str, model: str = MODEL) -> Answer:
+    understanding = understand(q, model=model)
     # Search with both the LLM-reformulated terms and the raw question for recall.
     cands = search_index(understanding["search_terms"] + " " + q, k=8)
     if not cands:
         cands = search_index(q, k=8)
     if not cands:
         return Answer(q, understanding, {}, error="No tables matched the search terms.")
-    pl = plan(q, understanding["transform"], cands)
+    pl = plan(q, understanding["transform"], cands, model=model)
     return execute(q, understanding, pl)
 
 
