@@ -113,13 +113,23 @@ def search_index(terms: str, k: int = 6, db_path: Path = DB_PATH) -> List[Dict[s
     match = " OR ".join(f'"{t}"' for t in toks)
     rows = conn.execute(
         "SELECT t.table_id, t.title_nl, t.title_en, t.topics, t.measures_text, "
-        "t.dimensions_text, t.obs_count, bm25(tables_fts) AS score "
+        "t.dimensions_text, t.enriched_description, t.example_queries_list, "
+        "t.obs_count, bm25(tables_fts) AS score "
         "FROM tables_fts JOIN tables t ON t.rowid = tables_fts.rowid "
         "WHERE tables_fts MATCH ? ORDER BY score LIMIT ?",
         (match, k),
     ).fetchall()
     conn.close()
     return [dict(r) for r in rows]
+
+
+def get_table_row(table_id: str, db_path: Path = DB_PATH) -> Dict[str, Any]:
+    """Full indexed metadata for one table (for the verification step)."""
+    conn = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
+    conn.row_factory = sqlite3.Row
+    r = conn.execute("SELECT * FROM tables WHERE table_id = ?", (table_id,)).fetchone()
+    conn.close()
+    return dict(r) if r else {}
 
 
 # ----------------------------------------------------------------------- 3. plan
@@ -147,10 +157,76 @@ Choose ONE table and return JSON:
   "series_dim": "<a dimension title to draw one line per category, or empty string for a single line>",
   "series_values": ["<optional specific categories to show; empty = pick the most relevant>"],
   "transform": "{transform}",
+  "chart_type": "<line for trends over time; bar for comparing categories or a single time point>",
   "chart_title": "<short English chart title>",
   "answer": "<1-2 sentence answer to the question, noting the table used>"
 }}
 """
+
+VERIFY_SYS = (
+    "You are a meticulous data analyst double-checking another model's choice of "
+    "CBS table and columns to answer a question. Reason step by step using the "
+    "table's description and the questions it is meant to answer, then decide if it "
+    "is truly the right table — and switch to a better candidate if not. JSON only."
+)
+VERIFY_USER = """\
+Question: {q}
+Requested transform: {transform}
+
+PROPOSED ANSWER:
+  table {table_id}: {title}
+  description: {description}
+  questions this table answers: {queries}
+  available measures: {measures}
+  dimensions: {dimensions}
+  proposed measure (Y): {measure}
+  proposed breakdown: {series_dim}
+  proposed chart type: {chart_type}
+
+OTHER CANDIDATES:
+{candidates}
+
+Think step by step:
+1. Does the proposed table's SUBJECT actually match the question (right topic, right
+   direction/population, right unit)? Watch for near-misses (inbound vs outbound,
+   stock vs flow, persons vs households).
+2. Is the proposed MEASURE the correct quantity? If not, name a better measure from
+   the table's measures.
+3. Is any OTHER candidate a clearly better fit? If so, switch to it.
+4. Would a LINE (trend over time) or a BAR (compare categories, or one period) chart
+   communicate the answer better?
+
+Return JSON:
+{{
+  "reasoning": "<2-4 sentences of your step-by-step check>",
+  "table_ok": true/false,
+  "confidence": <0.0-1.0>,
+  "table_id": "<keep, or a better candidate id>",
+  "measure": "<keep, or a corrected measure name>",
+  "series_dim": "<keep or correct; empty for single series>",
+  "chart_type": "line | bar",
+  "answer": "<final 1-2 sentence answer>"
+}}
+"""
+
+
+def verify(q: str, transform: str, pl: Dict[str, Any], cands: List[Dict[str, Any]],
+           model: str = MODEL) -> Dict[str, Any]:
+    """Chain-of-thought check that the planned table+columns answer the question."""
+    tid = pl.get("table_id")
+    row = get_table_row(tid) if tid else {}
+    user = VERIFY_USER.format(
+        q=q, transform=transform, table_id=tid,
+        title=row.get("title_en") or row.get("title_nl") or "",
+        description=(row.get("enriched_description") or "")[:600],
+        queries=(row.get("example_queries_list") or "").replace("\n", " | ")[:400],
+        measures=(row.get("measures_text") or "")[:300],
+        dimensions=row.get("dimensions_text") or "",
+        measure=pl.get("measure", ""), series_dim=pl.get("series_dim", ""),
+        chart_type=pl.get("chart_type", "line"),
+        candidates=_fmt_candidates([c for c in cands if c["table_id"] != tid][:6]),
+    )
+    return ollama_json(VERIFY_SYS, user, model=model)
 
 
 def _fmt_candidates(cands: List[Dict[str, Any]]) -> str:
@@ -191,7 +267,10 @@ class Answer:
     plot_df: Optional[pd.DataFrame] = None   # long: year, series, value
     ylabel: str = ""
     transform: str = "level"
+    chart_type: str = "line"
     narrative: str = ""
+    reasoning: str = ""
+    confidence: Optional[float] = None
     odata_url: str = ""
     source_url: str = ""
     error: Optional[str] = None
@@ -210,6 +289,9 @@ def _apply_transform(s: pd.DataFrame, transform: str) -> pd.DataFrame:
 
 def execute(q: str, understanding: Dict[str, Any], pl: Dict[str, Any]) -> Answer:
     ans = Answer(q, understanding, pl, transform=pl.get("transform", understanding.get("transform", "level")))
+    ans.chart_type = pl.get("chart_type", "line") if pl.get("chart_type") in ("line", "bar") else "line"
+    ans.reasoning = pl.get("reasoning", "")
+    ans.confidence = pl.get("confidence")
     tid = pl.get("table_id")
     if not tid:
         ans.error = "No table chosen."
@@ -274,7 +356,7 @@ def execute(q: str, understanding: Dict[str, Any], pl: Dict[str, Any]) -> Answer
     return ans
 
 
-def answer(q: str, model: str = MODEL) -> Answer:
+def answer(q: str, model: str = MODEL, do_verify: bool = True) -> Answer:
     understanding = understand(q, model=model)
     # Search with both the LLM-reformulated terms and the raw question for recall.
     cands = search_index(understanding["search_terms"] + " " + q, k=8)
@@ -283,6 +365,14 @@ def answer(q: str, model: str = MODEL) -> Answer:
     if not cands:
         return Answer(q, understanding, {}, error="No tables matched the search terms.")
     pl = plan(q, understanding["transform"], cands, model=model)
+    # Chain-of-thought double-check of the chosen table/measure (and chart type).
+    if do_verify and pl.get("table_id"):
+        v = verify(q, understanding["transform"], pl, cands, model=model)
+        if v.get("table_id"):
+            pl = {**pl, **{k: v[k] for k in
+                  ("table_id", "measure", "series_dim", "chart_type", "answer") if v.get(k)}}
+        pl["reasoning"] = v.get("reasoning", "")
+        pl["confidence"] = v.get("confidence")
     return execute(q, understanding, pl)
 
 
@@ -296,7 +386,9 @@ def main() -> None:
         print("ERROR:", a.error); return
     print(f"\ntable: {a.table_id}  |  {a.title}")
     print("narrative:", a.narrative)
-    print(f"transform: {a.transform}  ylabel: {a.ylabel}")
+    if a.reasoning:
+        print(f"verify (conf={a.confidence}): {a.reasoning}")
+    print(f"transform: {a.transform}  chart: {a.chart_type}  ylabel: {a.ylabel}")
     if a.plot_df is not None:
         print("\nplot data (head):")
         print(a.plot_df.head(12).to_string(index=False))

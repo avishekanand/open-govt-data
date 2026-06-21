@@ -41,16 +41,8 @@ def plot_answer(a: "agent.Answer"):
     if a.plot_df is None or a.plot_df.empty:
         st.info("No plottable series for this question.")
         return
-    fig, ax = plt.subplots(figsize=(8.5, 4.2))
-    for name, g in a.plot_df.groupby("series"):
-        g = g.sort_values("year")
-        ax.plot(g["year"], g["value"], marker="o", ms=3, label=str(name)[:34])
-    if a.transform == "yoy":
-        ax.axhline(0, color="k", lw=.6)
-    if a.plot_df["series"].nunique() > 1:
-        ax.legend(fontsize=8)
-    ax.set_title(a.title[:74]); ax.set_xlabel("Year"); ax.set_ylabel(a.ylabel)
-    ax.grid(alpha=.3); fig.tight_layout()
+    from cbs.plotting import plot_answer_figure
+    fig = plot_answer_figure(a.plot_df, a.chart_type, a.title, a.ylabel, a.transform)
     st.pyplot(fig)
 
 
@@ -65,11 +57,16 @@ def render_answer(a: "agent.Answer"):
     chips = []
     if a.table_id:
         chips.append(f"📊 CBS **{a.table_id}**")
+    chips.append(f"chart: `{a.chart_type}`")
     chips.append(f"transform: `{a.transform}`")
+    if a.confidence is not None:
+        chips.append(f"confidence: `{a.confidence:.0%}`")
     st.caption("  ·  ".join(chips))
+    if a.reasoning:
+        st.caption(f"🧠 _Verified:_ {a.reasoning}")
     if a.source_url:
         st.markdown(f"[CBS table ↗]({a.source_url})  ·  [OData endpoint ↗]({a.odata_url})")
-    with st.expander("🔎 how I answered this (understanding · plan · data)"):
+    with st.expander("🔎 how I answered this (understanding · plan · verification · data)"):
         st.json({"understanding": a.understanding, "plan": a.plan})
         if a.plot_df is not None:
             st.dataframe(a.plot_df, use_container_width=True)

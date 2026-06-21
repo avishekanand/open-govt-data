@@ -34,6 +34,41 @@ def main_measure(df: pd.DataFrame) -> Optional[str]:
     return g.index[0] if len(g) else None
 
 
+def plot_answer_figure(plot_df, chart_type: str, title: str, ylabel: str,
+                       transform: str = "level"):
+    """Render an agent answer (long df: year, series, value) as a line or bar fig.
+
+    bar + multiple series -> compare series at their latest year.
+    bar + single series   -> bars over years.
+    line                  -> one line per series over years.
+    """
+    fig, ax = plt.subplots(figsize=(8.5, 4.3))
+    if plot_df is None or len(plot_df) == 0:
+        ax.text(0.5, 0.5, "no data", ha="center"); return fig
+    n_series = plot_df["series"].nunique()
+    if chart_type == "bar":
+        if n_series > 1:
+            latest = plot_df.sort_values("year").groupby("series").tail(1)
+            latest = latest.dropna(subset=["value"]).sort_values("value", ascending=False).head(12)
+            ax.barh([str(s)[:36] for s in latest["series"]][::-1], list(latest["value"])[::-1])
+            ax.set_xlabel(ylabel)
+        else:
+            g = plot_df.dropna(subset=["value"]).sort_values("year")
+            ax.bar(g["year"], g["value"]); ax.set_xlabel("Year"); ax.set_ylabel(ylabel)
+    else:
+        for name, g in plot_df.groupby("series"):
+            g = g.sort_values("year")
+            ax.plot(g["year"], g["value"], marker="o", ms=3, label=str(name)[:34])
+        if n_series > 1:
+            ax.legend(fontsize=8)
+        if transform == "yoy":
+            ax.axhline(0, color="k", lw=.6)
+        ax.set_xlabel("Year"); ax.set_ylabel(ylabel)
+    ax.set_title(title[:74]); ax.grid(alpha=.3)
+    fig.tight_layout()
+    return fig
+
+
 def auto_plot(df: pd.DataFrame, title: str, out_path: str, max_series: int = 6) -> bool:
     """Render a default chart for a tidy table dataframe to out_path. Returns success."""
     df = df.copy()
