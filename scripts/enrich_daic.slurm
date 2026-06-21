@@ -1,65 +1,65 @@
 #!/usr/bin/env bash
 #SBATCH --job-name=cbs-enrich
-#SBATCH --partition=gpu               # adjust to your DAIC GPU partition
+#SBATCH --partition=gpu               # adjust to your DAIC GPU partition (check `sinfo`)
 #SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=16G
-#SBATCH --time=12:00:00
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=48G
+#SBATCH --time=06:00:00
 #SBATCH --output=slurm-%x-%j.out
 #SBATCH --error=slurm-%x-%j.err
 #
-# Run the CBS doc2query enrichment + index build on TU Delft DAIC (SLURM).
+# CBS doc2query enrichment on TU Delft DAIC — SERVER-FREE batched inference.
 #
-# Ollama runs locally on the allocated compute node and serves gemma4 on the GPU.
-# The model (~9.6GB) is cached on the umbrella share so it is pulled only once.
+# No Ollama daemon. vLLM loads a HuggingFace model straight onto the GPU and
+# runs ALL table prompts as one batched job. The model is downloaded from HF
+# once and cached on the umbrella share (HF_HOME) for subsequent runs.
 #
 # Submit:   sbatch scripts/enrich_daic.slurm
 # Tail:     tail -f slurm-cbs-enrich-<jobid>.out
 #
 set -euo pipefail
 
-# --- paths -------------------------------------------------------------------
+# --- config ------------------------------------------------------------------
 REPO="${REPO:-$HOME/projects/open-govt-data}"
-# Persist Ollama models on the SIR umbrella share so re-runs skip the download.
-export OLLAMA_MODELS="${OLLAMA_MODELS:-/tudelft.net/staff-umbrella/sir/ollama/models}"
-export OLLAMA_HOST="127.0.0.1:11434"
-MODEL="${MODEL:-gemma4:latest}"
-LIMIT="${LIMIT:-700}"
+MODEL="${MODEL:-Qwen/Qwen2.5-7B-Instruct}"   # ungated, strong JSON. gemma needs HF_TOKEN.
+LIMIT="${LIMIT:-}"                             # empty = all ingested tables
+# Cache HF model weights on the SIR umbrella share so re-runs skip the download.
+export HF_HOME="${HF_HOME:-/tudelft.net/staff-umbrella/sir/hf}"
+export HUGGINGFACE_HUB_CACHE="$HF_HOME/hub"
+# For gated models (e.g. google/gemma-2-9b-it) export HF_TOKEN before sbatch.
+# export HF_TOKEN=hf_xxx
 
 cd "$REPO"
-mkdir -p "$OLLAMA_MODELS"
+mkdir -p "$HF_HOME"
 
 # --- environment -------------------------------------------------------------
-# DAIC: load a Python (or your conda env). Adjust to the cluster's module names.
 module load miniconda3 2>/dev/null || module load python 2>/dev/null || true
+module load cuda 2>/dev/null || true
 [ -d .venv ] || python3 -m venv .venv
 source .venv/bin/activate
 pip install -q --upgrade pip
-pip install -q -r requirements.txt
+pip install -q -r requirements.txt          # pandas/pyarrow/etc (CPU side)
+pip install -q -r requirements-gpu.txt       # vllm + huggingface_hub
 
-# --- start Ollama on the compute node ---------------------------------------
-if ! command -v ollama >/dev/null 2>&1; then
-  echo "Installing Ollama into \$HOME (no root needed)..."
-  curl -fsSL https://ollama.com/install.sh | sh || {
-    echo "Ollama install failed — install manually and re-submit." >&2; exit 1; }
-fi
+# --- 1. ensure metadata exists (catalogue + per-table semantic layer) --------
+# CPU-only; skips work already on disk. Set LIMIT to bound the table count.
+python -m cbs.catalog
+python -m cbs.batch_ingest_statline ${LIMIT:+--limit "$LIMIT"} --sample-data 5
 
-echo "Starting ollama serve (GPU: ${CUDA_VISIBLE_DEVICES:-?})..."
-ollama serve > "ollama-$SLURM_JOB_ID.log" 2>&1 &
-OLLAMA_PID=$!
-trap 'kill $OLLAMA_PID 2>/dev/null || true' EXIT
+# --- 2. batched enrichment on the GPU (no server) ----------------------------
+echo "Enriching with $MODEL on GPU ${CUDA_VISIBLE_DEVICES:-?} ..."
+python -m cbs.enrich_cbs_vllm \
+  --model "$MODEL" \
+  --output data/processed/cbs_enriched_vllm.jsonl \
+  ${LIMIT:+--limit "$LIMIT"} \
+  --resume \
+  --tensor-parallel-size "${TP_SIZE:-1}"
 
-# Wait for the server, then pull the model (cached on umbrella after first run).
-for i in $(seq 1 60); do
-  curl -fsS -m 2 "http://$OLLAMA_HOST/api/tags" >/dev/null 2>&1 && break
-  sleep 2
-done
-ollama pull "$MODEL"
+# --- 3. build the search index (point it at the vLLM output) -----------------
+# build_search_index reads cbs_enriched_gemma4.jsonl by default; symlink so the
+# index picks up the vLLM enrichment without code changes.
+ln -sf cbs_enriched_vllm.jsonl data/processed/cbs_enriched_gemma4.jsonl
+python -m cbs.build_search_index --selftest
 
-# --- run the pipeline --------------------------------------------------------
-echo "Running enrichment + index build (LIMIT=$LIMIT MODEL=$MODEL)..."
-export OLLAMA_HOST="http://127.0.0.1:11434"
-SKIP_ENRICH=0 LIMIT="$LIMIT" MODEL="$MODEL" PYTHON="$REPO/.venv/bin/python" \
-  bash scripts/run_pipeline.sh
-
-echo "Done. Enriched JSONL + cbs_search.db are under data/processed/."
+echo "Done. data/processed/cbs_enriched_vllm.jsonl + cbs_search.db are ready."
+echo "Serve the UI with:  PORT=8080 ./scripts/serve_app.sh"

@@ -160,12 +160,21 @@ SKIP_ENRICH=1 ./scripts/run_pipeline.sh
 PORT=8080 ./scripts/serve_app.sh
 ```
 
-On **TU Delft DAIC** (SLURM + GPU), submit the enrichment as a batch job — it starts
-Ollama on the allocated GPU node and caches the model on the umbrella share:
+On **TU Delft DAIC** (SLURM + GPU), enrichment runs **server-free**: vLLM loads a model
+straight from HuggingFace onto the GPU and batches every table prompt in one job (no Ollama
+daemon). The model is cached on the umbrella share (`HF_HOME`) so it downloads once.
 
 ```bash
-sbatch scripts/enrich_daic.slurm           # edit partition / OLLAMA_MODELS path first
+sbatch scripts/enrich_daic.slurm                       # edit --partition first
+MODEL=google/gemma-2-9b-it HF_TOKEN=hf_xxx sbatch scripts/enrich_daic.slurm   # gated model
+LIMIT=200 TP_SIZE=2 sbatch scripts/enrich_daic.slurm   # subset + 2-GPU tensor parallel
 ```
+
+The job fetches the catalogue, ingests metadata (CPU), runs `cbs.enrich_cbs_vllm` (GPU,
+batched), and builds the FTS5 index. Default model `Qwen/Qwen2.5-7B-Instruct` is ungated and
+strong at JSON; gemma needs an `HF_TOKEN` and license acceptance. GPU extras:
+`pip install -r requirements-gpu.txt`. The local laptop path still uses Ollama
+(`cbs.enrich_cbs`); both write the same JSONL schema.
 
 ## 📊 Dataset Sources
 
