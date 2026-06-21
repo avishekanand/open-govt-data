@@ -17,7 +17,14 @@ import re
 import sqlite3
 from pathlib import Path
 
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import pandas as pd
 import streamlit as st
+
+# Cap the in-app fetch so huge tables don't hang the UI.
+MAX_PLOT_OBS = 60000
 
 DB_PATH = Path(os.environ.get("CBS_SEARCH_DB", "data/processed/cbs_search.db"))
 
@@ -103,6 +110,70 @@ def stats(conn):
     return total, enr, statuses
 
 
+@st.cache_data(show_spinner=False)
+def load_table_data(table_id: str, max_obs: int = MAX_PLOT_OBS) -> pd.DataFrame:
+    """Fetch + tidy a table's observations (cached). Hits the live CBS API."""
+    from cbs.fetch_table_data import fetch_tidy
+    return fetch_tidy(table_id, max_obs=max_obs)
+
+
+from cbs.plotting import period_col as _period_col
+
+
+def render_table_plot(table_id: str, title: str):
+    """Load a table's data and render an auto-built chart with measure/series pickers."""
+    with st.spinner(f"Fetching observations for {table_id} from CBS…"):
+        df = load_table_data(table_id)
+    df = df.copy()
+    df["value"] = pd.to_numeric(df["value"], errors="coerce")
+    if df["value"].notna().sum() == 0:
+        st.warning("No numeric observations to plot for this table.")
+        return
+    st.caption(f"Loaded {len(df):,} observations" + (f" (capped at {MAX_PLOT_OBS:,})" if len(df) >= MAX_PLOT_OBS else ""))
+
+    measures = df["measure"].dropna().unique().tolist()
+    measure = st.selectbox("Measure", measures, key=f"m_{table_id}")
+    sub = df[df["measure"] == measure].copy()
+    unit = sub["unit"].dropna().iloc[0] if sub["unit"].notna().any() else ""
+
+    pcol = _period_col(df)
+    dim_cols = [c for c in df.columns if c.endswith("_label") and c != pcol]
+
+    if pcol:
+        sub["year"] = pd.to_numeric(sub[pcol].astype(str).str.extract(r"(\d{4})")[0], errors="coerce")
+        fig, ax = plt.subplots(figsize=(9, 4.5))
+        if dim_cols:
+            cat = st.selectbox("Break down by", dim_cols, key=f"c_{table_id}",
+                               format_func=lambda c: c[:-6])
+            latest = sub.dropna(subset=["year"])
+            top = (latest.sort_values("year").groupby(cat)["value"].last()
+                   .sort_values(ascending=False).head(6).index.tolist())
+            chosen = st.multiselect("Series", sorted(sub[cat].dropna().unique().tolist()),
+                                    default=top, key=f"s_{table_id}")
+            for name in chosen:
+                s = sub[sub[cat] == name].dropna(subset=["year", "value"]).sort_values("year")
+                if not s.empty:
+                    ax.plot(s["year"], s["value"], marker="o", ms=3, label=str(name))
+            if chosen:
+                ax.legend(fontsize=8)
+        else:
+            s = sub.dropna(subset=["year", "value"]).sort_values("year")
+            ax.plot(s["year"], s["value"], marker="o", ms=3)
+        ax.set_xlabel("Period"); ax.set_ylabel(f"{measure} ({unit})"[:60])
+        ax.set_title(title[:70]); ax.grid(alpha=.3)
+        st.pyplot(fig)
+    elif dim_cols:
+        cat = st.selectbox("Category", dim_cols, key=f"c_{table_id}", format_func=lambda c: c[:-6])
+        s = (sub.dropna(subset=["value"]).groupby(cat)["value"].sum()
+             .sort_values(ascending=False).head(15))
+        st.bar_chart(s)
+    else:
+        st.dataframe(sub[["measure", "value", "unit"]].head(50))
+
+    with st.expander("📄 underlying data"):
+        st.dataframe(sub.head(500), use_container_width=True)
+
+
 def render_card(r):
     title_en = r["title_en"]
     head = f"**{r['table_id']} · {r['title_nl']}**"
@@ -141,6 +212,14 @@ def render_card(r):
                 st.caption("**Applications:** " + " · ".join(apps))
 
     st.markdown(f"[CBS table]({r['source_url']}) · [OData endpoint]({r['odata_url']})")
+
+    # Load the real observations and plot them, inline.
+    tid = r["table_id"]
+    if st.button("📈 Load data & plot", key=f"btn_{tid}"):
+        st.session_state[f"plot_{tid}"] = True
+    if st.session_state.get(f"plot_{tid}"):
+        render_table_plot(tid, r["title_en"] or r["title_nl"])
+
     st.divider()
 
 

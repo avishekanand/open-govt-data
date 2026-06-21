@@ -138,13 +138,15 @@ class CbsODataClient:
                 codes[key] = self.fetch_dimension_codes(table_id, key)
             if dim.get("ContainsGroups") and f"{key}Groups" in entities:
                 groups[key] = self.fetch_dimension_groups(table_id, key)
+        # Entity sets vary per table (e.g. some lack MeasureGroups) — only
+        # request what the table actually advertises to avoid 404s.
         return {
             "table_id": table_id,
             "entities": entities,
-            "properties": self.fetch_properties(table_id),
+            "properties": self.fetch_properties(table_id) if "Properties" in entities else {},
             "dimensions": dimensions,
-            "measure_codes": self.fetch_measure_codes(table_id),
-            "measure_groups": self.fetch_measure_groups(table_id),
+            "measure_codes": self.fetch_measure_codes(table_id) if "MeasureCodes" in entities else [],
+            "measure_groups": self.fetch_measure_groups(table_id) if "MeasureGroups" in entities else [],
             "codes": codes,
             "groups": groups,
         }
