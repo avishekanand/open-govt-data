@@ -55,14 +55,32 @@ def _load_extractions(path: Path) -> dict:
     return {r["url"]: r for _, r in e.iterrows()}
 
 
+_CANON = {"BRP": "GBA/BRP", "SPOLIS": "POLIS/SPOLIS", "POLIS": "POLIS/SPOLIS",
+          "SECM": "SECMBUS", "INHATAB": "INPATAB/INHATAB", "INPATAB": "INPATAB/INHATAB"}
+_REGS = ["GBA/BRP", "BRP", "POLIS", "SPOLIS", "SECMBUS", "SECM", "HOOGSTEOPLTAB",
+         "INPATAB", "INHATAB", "VSLGWBTAB"]
+
+
+def _canon_dataset(d: str):
+    """Merge naming variants of the same CBS register to a canonical label."""
+    d = d.strip()
+    key = d.upper()
+    for reg in _REGS:
+        if reg in key:
+            return _CANON.get(reg, reg)
+    if "MICRODATA" in key and len(d) > 30:   # drop verbose generic 'CBS microdata ...'
+        return "CBS microdata (unspecified)"
+    return d[:40]
+
+
 def _dataset_frequency(ext: dict) -> list:
     from collections import Counter
     c = Counter()
     for r in ext.values():
         for d in str(r.get("cbs_datasets") or "").split(","):
-            d = d.strip()
-            if d and d.lower() not in ("none", "unclear", "n/a"):
-                c[d] += 1
+            name = _canon_dataset(d)
+            if name and name.lower() not in ("none", "unclear", "n/a", ""):
+                c[name] += 1
     return c.most_common(25)
 
 
