@@ -42,14 +42,19 @@ On SLURM (DAIC-style), the whole pipeline is wrapped:
 sbatch scripts/enrich_daic.slurm             # edit --partition + HF_HOME first
 ```
 
-**Point the index at the vLLM output** (build_search_index reads `cbs_enriched_gemma4.jsonl`):
-```bash
-ln -sf cbs_enriched_vllm.jsonl data/processed/cbs_enriched_gemma4.jsonl
-```
+Each model/machine should write its **own** file (so runs don't clobber each other),
+e.g. `--output data/processed/cbs_enriched_<model>_<host>.jsonl`. The index merges
+them all automatically (next step) — no symlink needed.
 
 ## 3. Build the search index (CPU)
 ```bash
 python -m cbs.build_search_index --selftest          # -> data/processed/cbs_search.db
+```
+By default it **merges every `data/processed/cbs_enriched_*.jsonl`** (highest
+self-reported confidence wins on duplicate tables), so a gemma4 file and a qwen
+file are combined. To index a specific subset instead:
+```bash
+python -m cbs.build_search_index --enriched data/processed/cbs_enriched_qwen_neumann.jsonl
 ```
 
 ## 4. Apps

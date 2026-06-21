@@ -70,11 +70,41 @@ def load_enrichment(path: Path) -> Dict[str, dict]:
     return out
 
 
-def build_rows() -> List[dict]:
+def _conf(r: dict) -> float:
+    """Self-reported confidence used to break ties when merging enrichment files."""
+    c = r.get("confidence") or {}
+    try:
+        return float(c.get("desc", 0)) + float(c.get("queries", 0))
+    except Exception:
+        return 0.0
+
+
+def resolve_enrichment_files(paths=None) -> List[Path]:
+    """Default: every data/processed/cbs_enriched_*.jsonl, so each model/machine can
+    write its own file and they all get merged. Or an explicit list of files."""
+    if paths:
+        return [Path(p) for p in paths]
+    return sorted(PROC.glob("cbs_enriched_*.jsonl"))
+
+
+def load_enrichments(paths: List[Path]) -> Dict[str, dict]:
+    """Merge several enrichment files by table code; on duplicate tables keep the
+    record with the higher self-reported confidence (tagged with its source file)."""
+    merged: Dict[str, dict] = {}
+    for p in paths:
+        for code, rec in load_enrichment(p).items():
+            if code not in merged or _conf(rec) >= _conf(merged[code]):
+                merged[code] = {**rec, "_source": p.name}
+    return merged
+
+
+def build_rows(enriched_paths=None) -> List[dict]:
     datasets = pd.read_parquet(META / "statline_datasets.parquet").drop_duplicates("table_id")
     dims = pd.read_parquet(META / "statline_dimensions.parquet")
     meas = pd.read_parquet(META / "statline_measures.parquet")
-    enrich = load_enrichment(PROC / "cbs_enriched_gemma4.jsonl")
+    files = resolve_enrichment_files(enriched_paths)
+    enrich = load_enrichments(files)
+    print(f"[INFO] enrichment sources: {[f.name for f in files]} -> {len(enrich)} enriched tables")
 
     # obs_count from the full catalogue, if present.
     obs_count: Dict[str, int] = {}
@@ -157,8 +187,8 @@ CREATE VIRTUAL TABLE tables_fts USING fts5(
 """
 
 
-def build_db(db_path: Path = DB_PATH) -> int:
-    rows = build_rows()
+def build_db(db_path: Path = DB_PATH, enriched_paths=None) -> int:
+    rows = build_rows(enriched_paths)
     db_path.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(db_path)
     try:
@@ -205,10 +235,13 @@ def selftest(db_path: Path = DB_PATH) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description="Build CBS metadata FTS5 search index")
     ap.add_argument("--db", default=str(DB_PATH), type=Path)
+    ap.add_argument("--enriched", nargs="*", default=None,
+                    help="Enrichment JSONL file(s) to index. Default: merge all "
+                         "data/processed/cbs_enriched_*.jsonl (highest confidence wins on dupes).")
     ap.add_argument("--selftest", action="store_true", help="Run sanity queries after build")
     args = ap.parse_args()
 
-    n = build_db(args.db)
+    n = build_db(args.db, enriched_paths=args.enriched)
     print(f"[OK] built {args.db} with {n} tables indexed")
     if args.selftest:
         selftest(args.db)
