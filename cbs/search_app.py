@@ -47,7 +47,7 @@ def make_match_query(raw: str, mode: str = "AND") -> str:
     return f" {mode} ".join(quoted)
 
 
-def search(conn: sqlite3.Connection, raw: str, status, only_enriched, min_obs, limit=50):
+def search(conn: sqlite3.Connection, raw: str, status, only_enriched, min_obs, topic="", limit=50):
     bm25 = f"bm25(tables_fts, {', '.join(str(w) for w in WEIGHTS)})"
     filters, params = [], []
     if status and status != "(all)":
@@ -58,6 +58,9 @@ def search(conn: sqlite3.Connection, raw: str, status, only_enriched, min_obs, l
     if min_obs:
         filters.append("t.obs_count >= ?")
         params.append(int(min_obs))
+    if topic and topic.strip():
+        filters.append("lower(t.topics) LIKE ?")
+        params.append(f"%{topic.strip().lower()}%")
 
     def run(match_expr):
         where = ["tables_fts MATCH ?"] + filters
@@ -76,7 +79,7 @@ def search(conn: sqlite3.Connection, raw: str, status, only_enriched, min_obs, l
     return rows
 
 
-def browse(conn, status, only_enriched, min_obs, limit=50):
+def browse(conn, status, only_enriched, min_obs, topic="", limit=50):
     filters, params = [], []
     if status and status != "(all)":
         filters.append("status = ?"); params.append(status)
@@ -84,6 +87,8 @@ def browse(conn, status, only_enriched, min_obs, limit=50):
         filters.append("has_enrichment = 1")
     if min_obs:
         filters.append("obs_count >= ?"); params.append(int(min_obs))
+    if topic and topic.strip():
+        filters.append("lower(topics) LIKE ?"); params.append(f"%{topic.strip().lower()}%")
     where = ("WHERE " + " AND ".join(filters)) if filters else ""
     return conn.execute(
         f"SELECT * FROM tables {where} ORDER BY obs_count DESC LIMIT ?", [*params, limit]
@@ -124,6 +129,17 @@ def render_card(r):
     except (IndexError, KeyError):
         pass
     st.caption("  ".join(bits))
+
+    # Example queries (doc2query) — easily viewable in an expander.
+    queries = [q for q in (r["example_queries_list"] or "").split("\n") if q.strip()]
+    if queries:
+        with st.expander(f"💬 {len(queries)} example questions this table can answer"):
+            for q in queries:
+                st.markdown(f"- {q}")
+            apps = [a for a in (r["applications_list"] or "").split("\n") if a.strip()]
+            if apps:
+                st.caption("**Applications:** " + " · ".join(apps))
+
     st.markdown(f"[CBS table]({r['source_url']}) · [OData endpoint]({r['odata_url']})")
     st.divider()
 
@@ -143,6 +159,7 @@ def main():
     with st.sidebar:
         st.header("Filters")
         status = st.selectbox("Status", ["(all)"] + statuses, index=0)
+        topic = st.text_input("Theme / topic contains", placeholder="e.g. energy, demographics, trade")
         only_enriched = st.checkbox("Only AI-enriched tables", value=False)
         min_obs = st.number_input("Min. observation count", min_value=0, value=0, step=1000)
         st.divider()
@@ -153,15 +170,17 @@ def main():
     q = st.text_input("Search", placeholder="e.g. income neighbourhood · vakanties · werkgelegenheid lonen")
 
     if q.strip():
-        rows = search(conn, q, status, only_enriched, min_obs)
-        st.subheader(f"{len(rows)} results for “{q}”")
+        rows = search(conn, q, status, only_enriched, min_obs, topic)
+        scope = f" · theme “{topic}”" if topic.strip() else ""
+        st.subheader(f"{len(rows)} results for “{q}”{scope}")
         if not rows:
             st.info("No matches. Try fewer or different terms.")
         for r in rows:
             render_card(r)
     else:
-        st.subheader("Browse — largest tables")
-        for r in browse(conn, status, only_enriched, min_obs):
+        head = f"Browse — {topic} tables" if topic.strip() else "Browse — largest tables"
+        st.subheader(head)
+        for r in browse(conn, status, only_enriched, min_obs, topic):
             render_card(r)
 
 

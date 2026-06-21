@@ -116,6 +116,8 @@ def build_rows() -> List[dict]:
             "summary": (d.get("summary") or "")[:4000],
             "enriched_description": e.get("enriched_description") or "",
             "example_queries": " ".join(queries) + (" " + " ".join(apps) if apps else ""),
+            "example_queries_list": "\n".join(queries),     # display (one per line)
+            "applications_list": "\n".join(apps),           # display (one per line)
             "topics": ", ".join(topics) if isinstance(topics, list) else str(topics),
             "dimensions_text": dim_text.get(tid, ""),
             "measures_text": meas_text.get(tid, ""),
@@ -139,6 +141,7 @@ CREATE TABLE tables (
     table_id TEXT UNIQUE,
     title_nl TEXT, title_en TEXT, summary TEXT, enriched_description TEXT,
     example_queries TEXT, topics TEXT, dimensions_text TEXT, measures_text TEXT,
+    example_queries_list TEXT, applications_list TEXT,
     status TEXT, modified_at TEXT, obs_count INTEGER,
     n_dimensions INTEGER, n_measures INTEGER,
     source_url TEXT, odata_url TEXT, has_enrichment INTEGER
@@ -161,7 +164,8 @@ def build_db(db_path: Path = DB_PATH) -> int:
     try:
         conn.executescript(SCHEMA)
         conn.execute(FTS_DDL)
-        cols = ["table_id", *FTS_COLS, "status", "modified_at", "obs_count",
+        cols = ["table_id", *FTS_COLS, "example_queries_list", "applications_list",
+                "status", "modified_at", "obs_count",
                 "n_dimensions", "n_measures", "source_url", "odata_url", "has_enrichment"]
         placeholders = ", ".join("?" for _ in cols)
         conn.executemany(
