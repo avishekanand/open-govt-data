@@ -11,16 +11,350 @@ _Generated from 2217 processed URLs._
 
 Each entry: **link** · what it is about · which CBS data it uses (table ids, microdata mention, CBS project number).
 
-## Most-used CBS datasets across 5 analysed publications
+## Most-used CBS datasets across 145 analysed publications
 
 | CBS dataset / register | publications |
 |---|---|
-| GBA/BRP (population) | 5 |
-| SECMBUS (socio-economic status) | 3 |
-| HOOGSTEOPLTAB (education) | 1 |
+| GBA/BRP (population) | 82 |
+| POLIS/SPOLIS (jobs & wages) | 14 |
+| GBA/BRP | 13 |
+| SECMBUS (socio-economic status) | 11 |
+| INPATAB/INHATAB (income) | 11 |
+| SECMBUS | 5 |
+| HOOGSTEOPLTAB (education) | 4 |
+| HOOGSTEOPLTAB | 3 |
+| POLIS/SPOLIS | 3 |
+| INHATAB (income) | 2 |
 | CBS-microdata (verhuisbewegingen) | 1 |
+| CBS-microdata | 1 |
+| CBS-gegevens over prijsontwikkeling | 1 |
+| CBS -microdata over een periode van 2015 tot en met 2021 | 1 |
+| PronGeff | 1 |
+| CBS-Microdata | 1 |
+| INPATAB/INHATAB | 1 |
+| national accounts (aggregate tables) | 1 |
+| CBS Financieringsmonitor | 1 |
+| Integraal Inkomens- en Vermogensonderzoek | 1 |
+| Monitor Internationals (based on CBS Microdata) | 1 |
+| DHD (Hospital Data) from 1995 onwards | 1 |
+| Alle zaken die instromen bij het Openbaar Ministerie | 1 |
+| LISA (national employment database) | 1 |
+| EBA 2011 | 1 |
 
 ---
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-420-Home-Ownership-and-Home-Equity-Promote-Entrepreneurial-Activity.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-420-Home-Ownership-and-Home-Equity-Promote-Entrepreneurial-Activity.pdf
+- **About:** **Home Ownership and Home Equity Promote Entrepreneurial Activity** — Home Ownership and Home Equity Promote Entrepreneurial Activity We study the effects of private real estate collateral on entrepreneurial lending and entrepreneurial activity in the Netherlands. Home ownership and positive home equity impro
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** StatLine table ids detected: `1000AB,2511CW,2594AV,3508TC` · CBS project **7859**
+- **Type:** pdf · status 200.0
+
+### [voion.nl](https://www.voion.nl/media/tvajv2kb/rapportage-regionale-spreiding-startende-leraren-in-het-voortgezet-onderwijs_def.pdf)
+- **Link:** https://www.voion.nl/media/tvajv2kb/rapportage-regionale-spreiding-startende-leraren-in-het-voortgezet-onderwijs_def.pdf
+- **About:** **Rapport** — ……………………………………………………………………………………………………………………………………………………………. | 1 Regionale spreiding van startende leraren in het vo: Onderzoek naar de opleidings- en werklocatie ……………………………………………………………………………………………………………………………………………………………. …………………………………………
+- **CBS datasets used (LLM):** GBA/BRP (population), SECMBUS (socio-economic status), HOOGSTEOPLTAB (education)  _[microdata]_
+- **How used:** The report uses GBA/BRP, SECMBUS, and HOOGSTEOPLTAB microdata to analyze the regional distribution of newly qualified teachers in vocational education, focusing on their educational and workplace locations.
+- **Signals:** StatLine table ids detected: `84929NED` · mentions microdata / StatLine / CBS · CBS project **9823**
+- **Type:** pdf · status 200.0
+
+### [trudo.nl](https://www.trudo.nl/files/shares/trudo/220714_ABF_Rapport_definitief.pdf)
+- **Link:** https://www.trudo.nl/files/shares/trudo/220714_ABF_Rapport_definitief.pdf
+- **About:** **Onderzoek naar Slimmer Kopen** — Onderzoek naar Slimmer Kopen® Onderzoek naar Slimmer Kopen® Uitgevoerd in opdracht van Trudo Berry Blijie, Dennis Bogers, Ruud Steijvers (ABF Research) & Johan Conijn (Finance Ideas) juli 2022 | r2021-0056DB | 20319-WRG ABF Research | Verwe
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** StatLine table ids detected: `0056DB` · mentions microdata / StatLine / CBS · CBS project **8530**
+- **Type:** pdf · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/1cbf1e9e-1799-49ee-b368-b996e67023f3/file)
+- **Link:** https://open.overheid.nl/documenten/1cbf1e9e-1799-49ee-b368-b996e67023f3/file
+- **About:** **Woningdelers** — Woningdelers Een kwantitatieve analyse naar omvang, diversiteit en woonpaden ABF Research Verwersdijk 8, 2611 NH Delft +31 (0) 15 27 99 300 • info@abf.nl • www.abfresearch.nl Copyright ABF Research 2025 De informatie in dit rapport is met d
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used GBA/BRP microdata to analyze the characteristics and dynamics of cohabitants in Dutch households.
+- **Signals:** StatLine table ids detected: `0021TKL` · mentions microdata / StatLine / CBS · CBS project **7844**
+- **Type:** html · status 200.0
+
+### [panteia.nl](https://panteia.nl/bestanden/mdieu-sectoranalyse-groothandel-groenten-en-fruit-2021-pdf/)
+- **Link:** https://panteia.nl/bestanden/mdieu-sectoranalyse-groothandel-groenten-en-fruit-2021-pdf/
+- **About:** **Microsoft Word - MDIEU-sectoranalyse Groothandel Groenten en Fruit 2021** — MDIEU-sectoranalyse Sector Groothandel Groenten en Fruit Merle Bartsch; Koen Maas; Douwe Grijpstra Zoetermeer, juni 2021 De verantwoordelijkheid voor de inhoud berust bij Panteia. Het gebruik van cijfers en/of teksten als toelichting of ond
+- **CBS datasets used (LLM):** POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** CBS microdata from POLIS/SPOLIS was used to match KvK numbers of companies registered with Handel Groeit and gather information on their turnover and number of employees.
+- **Signals:** StatLine table ids detected: `82435NED` · mentions microdata / StatLine / CBS · CBS project **8706**
+- **Type:** html · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/7667.116-Aedes-en-Woonbond-Onderzoek-herijking-vergoedingentabel-ivm-NTA8800-Eindconcept.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/7667.116-Aedes-en-Woonbond-Onderzoek-herijking-vergoedingentabel-ivm-NTA8800-Eindconcept.pdf
+- **About:** **Onderzoek herijking tabellen vergoedingen bij labelstappen vanwege overgang naar NTA 8800** — Onderzoek herijking tabellen vergoedingen bij labelstappen vanwege overgang naar NTA 8800 Aedes en de Woonbond 23 november 2021 Eindconcept rapport DATUM 23 november 2021 TITEL Onderzoek herijking tabellen vergoedingen bij labelstappen vanw
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used GBA/BRP microdata to analyze label shifts and gas savings based on energy labels.
+- **Signals:** StatLine table ids detected: `7120NV` · mentions microdata / StatLine / CBS · CBS project **8598**
+- **Type:** pdf · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/ea262d88-ff78-47ee-8e22-c372494c188b/file)
+- **Link:** https://open.overheid.nl/documenten/ea262d88-ff78-47ee-8e22-c372494c188b/file
+- **About:** **Kwantitatieve nulmeting verduurzaming private verhuurders - ABF Research - juni 2024** — Kwantitatieve nulme- ting verduurzaming private verhuurders ABF Research Verwersdijk 8, 2611 NH Delft +31 (0) 15 27 99 300 • info@abf.nl • www.abfresearch.nl Copyright ABF Research 2024 De informatie in dit rapport is met de grootste zorg s
+- **CBS datasets used (LLM):** GBA/BRP  _[microdata]_
+- **How used:** The research used GBA/BRP microdata to analyze the current state of private rental housing stock as of January 1, 2023.
+- **Signals:** StatLine table ids detected: `0010RST` · mentions microdata / StatLine / CBS · CBS project **7844**
+- **Type:** html · status 200.0
+
+### [ftp.iza.org](https://docs.iza.org/dp5817.pdf)
+- **Link:** http://ftp.iza.org/dp5817.pdf
+- **About:** **Migrant Women on the Labour Market: On the Role of Home- and Host-Country Participation** — DISCUSSION PAPER SERIES Forschungsinstitut zur Zukunft der Arbeit Institute for the Study of Labor Migrant Women on the Labour Market: On the Role of Home- and Host-Country Participation IZA DP No. 5817 June 2011 Suzanne Kok Nicole Bosch An
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The study uses GBA/BRP microdata to analyze the labor market participation of migrant women, considering both home- and host-country cultural influences.
+- **Signals:** StatLine table ids detected: `2508GM` · CBS project **6088**
+- **Type:** pdf · status 200.0
+
+### [onderzoek010.nl](https://onderzoek010.nl/documents/Werk-en-inkomen)
+- **Link:** https://onderzoek010.nl/documents/Werk-en-inkomen
+- **About:** **Rapportages
+ | Werk en inkomen | Onderzoek010** — Rapportages | Werk en inkomen | Onderzoek010 Een ogenblik geduld a.u.b. Zoeken Contact Inloggen Help Home Rapportages Werk en inkomen Rapportages Werk en inkomen Werk en inkomen Algemeen en overig onderzoek Ambtelijke organisatie Bevolking 
+- **CBS datasets used (LLM):** Integraal Inkomens- en Vermogensonderzoek  _[aggregate/StatLine]_
+- **How used:** The publication uses Integraal Inkomens- en Vermogensonderzoek data from CBS to provide financial well-being statistics at the neighborhood level for Rotterdam.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7682**
+- **Type:** html · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/7ec58a02-d131-4b9b-a951-8de952647778/file)
+- **Link:** https://open.overheid.nl/documenten/7ec58a02-d131-4b9b-a951-8de952647778/file
+- **About:** Ontwikkeling in integratie De maatschappelijke positie van zeven groepen met een migratieachtergrond in kaart gebracht J. de Boom R. van Leeuwen N. Sam Y. Seidler P. van Wensveen Risbo, Erasmus Universiteit Mei 2023 Ontwikkeling in integrat
+- **CBS datasets used (LLM):** GBA/BRP (population), SECMBUS (socio-economic status), INPATAB/INHATAB (income), HOOGSTEOPLTAB (education)  _[microdata]_
+- **How used:** The publication uses CBS microdata, including population data from GBA/BRP, socio-economic status from SECMBUS, income data from INPATAB/INHATAB, and education levels from HOOGSTEOPLTAB.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9371**
+- **Type:** html · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/40aeb730-c37c-4635-93d6-14b3f82a8c42/file)
+- **Link:** https://open.overheid.nl/documenten/40aeb730-c37c-4635-93d6-14b3f82a8c42/file
+- **About:** r Opdrachtgever Ministerie van Economische Zaken Datum 12-03-2025 Onderzoek voor onderbouwd beleid. Rapport Onderzoek stimulering risicodragend ka- pitaal voor het mkb en startups Auteurs Adriaan Smeitink Frank Bongers Reg Brennenraedts Pet
+- **CBS datasets used (LLM):** CBS Financieringsmonitor  _[aggregate/StatLine]_
+- **How used:** The publication uses CBS Financieringsmonitor aggregate data to analyze the need for financing among small and medium-sized enterprises (SMEs) and startups.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9849**
+- **Type:** html · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/dpc-f0826fed593efaaf38ba8d5cc20e4475a8e0a83a/pdf)
+- **Link:** https://open.overheid.nl/documenten/dpc-f0826fed593efaaf38ba8d5cc20e4475a8e0a83a/pdf
+- **About:** Dialogic innovatie & interactie 1 Een serieuze zaak De wereld van kansen ongelijkheid voor eerstegeneratiestudenten achter het halen van een diploma dr. Timon de Boer, ir. Evie Tossaint, ir. Sonja Kleter, José van der Geest MSc., ir. Wazir 
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not mention the use of any specific CBS datasets or registers.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9727**
+- **Type:** pdf · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/ronl-5232b5844b64d8b05dee4084203df1e0b7c1fd33/pdf)
+- **Link:** https://open.overheid.nl/documenten/ronl-5232b5844b64d8b05dee4084203df1e0b7c1fd33/pdf
+- **About:** Samen gezond, fit en veerkrachtig Het verschil in zorgkosten tussen zorg met en zonder verblijf in de Wlz Een vergelijkende studie naar de zorgkosten van ouderen met intramurale en extramurale Wlz-zorg na een ingrijpende gebeurtenis Inhouds
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The study used GBA/BRP microdata to analyze zorgkosten of older adults with intramural and extramural Wlz-care after an ingrijpende gebeurtenis.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9162**
+- **Type:** pdf · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/c82b508c-6e93-4791-a895-93bb1957c49e/file)
+- **Link:** https://open.overheid.nl/documenten/c82b508c-6e93-4791-a895-93bb1957c49e/file
+- **About:** 1 De stapeling van sociale problematiek en de centrumfunctie gemeentefonds sociaal domein Gemeentefonds sociaal domein 2 Datum 21 augustus 2024 Opdrachtgever Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK) Onderzoeksteam Gill
+- **CBS datasets used (LLM):** GBA/BRP, SECMBUS  _[microdata]_
+- **How used:** The research used GBA/BRP and SECMBUS microdata to analyze potential alternative metrics for the central function in the social domain of municipal funds.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9558**
+- **Type:** html · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/f6031eef-c3cf-4007-9520-916ae96af4c9/file)
+- **Link:** https://open.overheid.nl/documenten/f6031eef-c3cf-4007-9520-916ae96af4c9/file
+- **About:** **Van verdenking tot vrijheidsstraf** — Wetenschappelijk Onderzoek- en Datacentrum P .W. de Jong A. Leerkes D. Shchetinin m.m.v. W. Bezemer N. Ne/t_ten Cahier 2025-2 Cahier 2025-2 Van verdenking tot vrijheidsstraf Een statistisch onderzoek naar de invloed van migratieachtergrond 
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The research used GBA/BRP and POLIS/SPOLIS microdata to analyze the cumulative representation of individuals with a migration background in the Dutch criminal justice system.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9455**
+- **Type:** html · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/f9a8cfa5-5480-4117-a674-708b3f7628a8/file)
+- **Link:** https://open.overheid.nl/documenten/f9a8cfa5-5480-4117-a674-708b3f7628a8/file
+- **About:** 1 Ervaringen met het gebruik van voorzieningen bij meerdere loketten Kwantitatief en kwalitatief onderzoek onder gebruikers en uitvoerders SEPTEMBER 2023 2 Projectnummer P0286 Onderzoek in opdracht van het ministerie van Sociale Zaken en We
+- **CBS datasets used (LLM):** SECMBUS (socio-economic status)  _[aggregate/StatLine]_
+- **How used:** CBS SECMBUS data was used to provide statistical insights on the usage of work provisions.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9433**
+- **Type:** html · status 200.0
+
+### [nijmegen.bestuurlijkeinformatie.nl](https://nijmegen.bestuurlijkeinformatie.nl/Document/View/b99b143f-5934-4594-aa7e-06aab06826d6)
+- **Link:** https://nijmegen.bestuurlijkeinformatie.nl/Document/View/b99b143f-5934-4594-aa7e-06aab06826d6
+- **About:** **Doelgroepenanalyse flexwonen Sliedrecht** — ECONOMISCH ONDERZOEK EN ADVIES Arbeidsmigranten in de Groene Metropoolregio Arnhem-Nijmegen Datum 20 februari 2024 Versie Eindrapport Projectteam Decisio Suzanne Steegman Simone Vos Projectteam Companen Bram Klouwen Iris Voncken In opdracht
+- **CBS datasets used (LLM):** Monitor Internationals (based on CBS Microdata)  _[microdata]_
+- **How used:** The research used CBS microdata through the Monitor Internationals database to analyze the economic situation and housing needs of workers' migrants in the Green Metropolitan Region.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8315**
+- **Type:** html · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/ronl-a83e41b7-dc77-41a4-8c19-54b36fb118a5/pdf)
+- **Link:** https://open.overheid.nl/documenten/ronl-a83e41b7-dc77-41a4-8c19-54b36fb118a5/pdf
+- **About:** a. 63756 30 juli 2021 Meer dan alleen taal Eindrapportage Onderzoek naar de effecten en succesfactoren van Project JA+ voor uitkeringsgerechtigden met een taalachterstand 63756 2 Bram Berkhout Arend Odé Hedwig Rossing Jasper Varwijk 30 juli
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8979**
+- **Type:** pdf · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/ronl-aa3fbd0d-5849-4589-b966-1e2156416862/pdf)
+- **Link:** https://open.overheid.nl/documenten/ronl-aa3fbd0d-5849-4589-b966-1e2156416862/pdf
+- **About:** **Het inkoopvolume van de Nederlandse overheid** — MONITOR AANBESTEDINGEN IN NEDERLAND 2017 - 2019 Onderzoek naar de waarde van, het aantal aanbestedingen en de mkb-deelname daarbinnen OPDRACHTGEVER KENMERK Ministerie van Economische Zaken en Klimaat FH/jve/002349 AUTEUR(S) Team Significant
+- **CBS datasets used (LLM):** national accounts (aggregate tables)  _[aggregate/StatLine]_
+- **How used:** The publication uses Statistics Netherlands' national accounts aggregate tables to estimate the procurement volume of Dutch public authorities.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8881**
+- **Type:** pdf · status 200.0
+
+### [papers.tinbergen.nl](https://papers.tinbergen.nl/24047.pdf)
+- **Link:** https://papers.tinbergen.nl/24047.pdf
+- **About:** TI 2024-047/V Tinbergen Institute Discussion Paper The persistence and nature of the labor reallocation shock during the COVID-19 crisis Mathieu P.A. Steijn1 1 Vrije Universiteit Amsterdam & Tinbergen Institute Tinbergen Institute is the gr
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The study used Statistics Netherlands' GBA/BRP and POLIS/SPOLIS microdata to analyze labor market dynamics during the COVID-19 crisis.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9644**
+- **Type:** pdf · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/ronl-e90619e3-4831-48ab-b58f-9fc99182088f/pdf)
+- **Link:** https://open.overheid.nl/documenten/ronl-e90619e3-4831-48ab-b58f-9fc99182088f/pdf
+- **About:** **Vaststellen van de bijstandsbudgetten 2022** — VASTSTELLEN VAN DE BIJ- STANDSBUDGETTEN 2022 HERSCHATTING EN VERDELING VAN DE BUDGETTEN RAPPORT AUTEURS WOUTER VERMEULEN, LENNART, KROON, TIM SCHWARTZ, MARTEN MIDDELDORP (ATLAS RESEARCH), FRAN- CINE BUREMA (ATLAS RESEARCH) IN OPDRACHT VAN M
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research uses GBA/BRP microdata to estimate the likelihood of receiving benefits and benefit amounts based on objective factors such as household composition, age, origin, and living situation.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8496**
+- **Type:** pdf · status 200.0
+
+### [panteia.nl](https://panteia.nl/sites/new-nl/assets/file/Definitief_technisch_rapport_monitor_niet-gebruik_toeslagen_Panteia_LU_deel_2.pdf)
+- **Link:** https://panteia.nl/sites/new-nl/assets/file/Definitief_technisch_rapport_monitor_niet-gebruik_toeslagen_Panteia_LU_deel_2.pdf
+- **About:** Nederlands Technische toelichting bij monitor niet-gebruik toeslagen Behorend bij de Monitor niet-gebruik 2021 2 Click here and insert picture via Insert|Picture Click here and insert picture via Insert|Picture Click here and insert picture
+- **CBS datasets used (LLM):** GBA/BRP (population), INPATAB/INHATAB (income)  _[microdata]_
+- **How used:** The publication uses GBA/BRP and INPATAB/INHATAB microdata to analyze non-use of various benefits including zorgtoeslag, huurtoeslag, kindgebonden budget, and kinderopvangtoeslag.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9750**
+- **Type:** pdf · status 200.0
+
+### [papers.tinbergen.nl](https://papers.tinbergen.nl/24027.pdf)
+- **Link:** https://papers.tinbergen.nl/24027.pdf
+- **About:** TI 2024-027/V Tinbergen Institute Discussion Paper Estimating the Lifecycle Fertility Consequences of WWII Using Bunching Esmée Zwiers1 1 University of Amsterdam and Tinbergen Institute Tinbergen Institute is the graduate school and researc
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research uses GBA/BRP microdata to analyze the lifecycle fertility consequences of WWII in the Netherlands.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9432**
+- **Type:** pdf · status 200.0
+
+### [panteia.nl](https://panteia.nl/sites/new-nl/assets/file/Definitief_rapport_2_monitor_niet-gebruik_toeslagen_2021_Panteia_LU.pdf)
+- **Link:** https://panteia.nl/sites/new-nl/assets/file/Definitief_rapport_2_monitor_niet-gebruik_toeslagen_2021_Panteia_LU.pdf
+- **About:** Nederlands Monitor niet-gebruik toeslagen Rapportage niet-gebruik 2021 2 Click here and insert picture via Insert|Picture Click here and insert picture via Insert|Picture Click here and insert picture via Insert|Picture Click here and inser
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used GBA/BRP microdata to analyze non-use of benefits.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9750**
+- **Type:** pdf · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/8dda65b3-1cda-43d3-bf4f-211d3dc9336b/file)
+- **Link:** https://open.overheid.nl/documenten/8dda65b3-1cda-43d3-bf4f-211d3dc9336b/file
+- **About:** **Monitor van gelijkwaardige kansen en evenredige posities op de arbeidsmarkt, ongeacht migratieachtergrond** — MONITOR VAN GELIJKWAARDIGE KANSEN EN EVENREDIGE POSITIES OP DE ARBEIDSMARKT, ONGEACHT MIGRATIEACHTERGROND DERDE METING KLANT Ministerie van Sociale Zaken en Werkgelegenheid AUTEUR(S) Michiel Bosma, Maartje Gielen, Victor Hoornweg, Lisa Geer
+- **CBS datasets used (LLM):** GBA/BRP, SECMBUS, HOOGSTEOPLTAB, INPATAB/INHATAB  _[microdata | aggregate/StatLine]_
+- **How used:** The publication uses CBS microdata and aggregate tables to analyze educational achievements, labor market opportunities, and social security status of different migration backgrounds.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9292**
+- **Type:** html · status 200.0
+
+### [open.overheid.nl](https://open.overheid.nl/documenten/ronl-f2bf26b4-a21e-4004-b19a-030638fdfd77/pdf)
+- **Link:** https://open.overheid.nl/documenten/ronl-f2bf26b4-a21e-4004-b19a-030638fdfd77/pdf
+- **About:** **Verdeelmodel beschut werk** — VERDEELMODEL BESCHUT WERK NIEUWE VERDELING KLANT Ministerie van Sociale Zaken en Werkgelegenheid AUTEUR(S) Lisette Swart, Maartje Gielen, Tom Boersma en Leo Aarts DATUM 31 maart 2021 INHOUDSOPGAVE Inhoudsopgave Samenvatting 3 1 Achtergrond 
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8864**
+- **Type:** pdf · status 200.0
+
+### [panteia.nl](https://panteia.nl/bestanden/arbeidsmarktonderzoek-sector-groothandels-in-groenten-en-fruit-pdf/)
+- **Link:** https://panteia.nl/bestanden/arbeidsmarktonderzoek-sector-groothandels-in-groenten-en-fruit-pdf/
+- **About:** Arbeidsmarktonderzoek Sector Groothandel in Groenten en Fruit Douwe Grijpstra; Koen Maas; Merle Bartsch; Liset van Oeveren; Eelco Tammens Zoetermeer , 4 oktober 2021 De verantwoordelijkheid voor de inhoud berust bij Panteia. Het gebruik van
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The research used CBS microdata from GBA/BRP and POLIS/SPOLIS for analyzing the labor market dynamics in the wholesale sector of vegetables and fruits.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8706**
+- **Type:** html · status 200.0
+
+### [panteia.nl](https://panteia.nl/bestanden/mdieu-sectoranalyse-gehandicaptenzorg-2022-pdf/)
+- **Link:** https://panteia.nl/bestanden/mdieu-sectoranalyse-gehandicaptenzorg-2022-pdf
+- **About:** Sectoranalyse Gehandicaptenzorg MDIEU Zoetermeer , juli 2021 De verantwoordelijkheid voor de inhoud berust bij Panteia. Het gebruik van cijfers en/of teksten als toelichting of ondersteuning in artikelen, scripties en boeken is toegestaan m
+- **CBS datasets used (LLM):** _none identified_  _[aggregate/StatLine | microdata]_
+- **How used:** The publication uses both StatLine aggregate tables and microdata from the AZW research program, but no specific CBS datasets are mentioned.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8706**
+- **Type:** html · status 200.0
+
+### [panteia.nl](https://panteia.nl/bestanden/doorrekening-kostenstijgingen-in-de-detailhandel-pdf/)
+- **Link:** https://panteia.nl/bestanden/doorrekening-kostenstijgingen-in-de-detailhandel-pdf/
+- **About:** Nederlands 10807 Effecten van kostenstijgingen voor de Detailhandel 1 2 Effecten van kostenstijgingen voor de Detailhandel Auteur(s) Opdrachtgever(s) Pieter Fris, René Vogels, Melanie de Ruiter-Groenewegen, Gratiella Schippers, Loïs Verhuls
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of CBS data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8706**
+- **Type:** html · status 200.0
+
+### [regioplan.nl](https://www.regioplan.nl/wp-content/uploads/2021/11/Rapport-Arbeidsmarktonderzoek-Woningcorporaties.pdf)
+- **Link:** https://www.regioplan.nl/wp-content/uploads/2021/11/Rapport-Arbeidsmarktonderzoek-Woningcorporaties.pdf
+- **About:** **Arbeidsmarktonderzoek Woningcorporaties 2021** — Arbeidsmarktonderzoek Woningcorporaties 2021 Onderzoek onder werkgevers & werknemers naar ontwikkelingen op de sectorale arbeidsmarkt FLOW maakt werk van morgen Arbeidsmarktonderzoek Woningcorporaties 2021 - EINDRAPPORT - Auteurs Stef Molle
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze the workforce composition and trends in the housing corporation sector.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9022**
+- **Type:** pdf · status 200.0
+
+### [pbl.nl](https://www.pbl.nl/system/files/document/2025-04/pbl-2025-de-spoorweg-naar-werk-5282.pdf)
+- **Link:** https://www.pbl.nl/system/files/document/2025-04/pbl-2025-de-spoorweg-naar-werk-5282.pdf
+- **About:** **De (spoor)weg naar werk? Arbeidsmarkteffecten van de opening van een nieuw treinstation** — DE (SPOOR)WEG NAAR WERK? Arbeidsmarkteffecten van de opening van een nieuw treinstation Anet Weterings en Jeroen Bastiaanssen 7 april 2025 Colofon DE (SPOOR)WEG NAAR WERK? Arbeidsmarkteffecten van de opening van een nieuw treinstation © PB 
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The study uses GBA/BRP microdata to analyze the impact of improved public transport connectivity on the labor market outcomes of residents in Dronten.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **3017**
+- **Type:** pdf · status 200.0
+
+### [rechtspraak.nl](https://www.rechtspraak.nl/binaries/_rts_1768906541279/content/assets/rvdr/rm/2016/rvdr-rm-2016-research-memoranda-2016-02.pdf)
+- **Link:** https://www.rechtspraak.nl/SiteCollectionDocuments/research-memoranda-2016-02.pdf
+- **About:** **Research Memoranda Nummer 2 2016** — Raad voor de rechtspraak Research Memoranda Nummer 2 / 2016 Jaargang 11 Sigrid van Wingerden & Hilde Wermink Zwaarder gestraft?Research Memoranda2016 - nr 2 Zwaarder gestraft? Verder onderzoek naar etnisch gerelateerde straf - toemeting: ve
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used GBA/BRP microdata to analyze the role of ethnicity in sentencing, including different types and measures of sanctions.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7621**
+- **Type:** pdf · status 200.0
+
+### [pascalachard.com](https://www.pascalachard.com/uploads/1/2/0/0/120084194/achard_3g.pdf)
+- **Link:** https://www.pascalachard.com/uploads/1/2/0/0/120084194/achard_3g.pdf
+- **About:** The long-term integration of non-Western immigrants in Europe: Evidence from the third generation Pascal Achard∗ May 13, 2025 Abstract This paper studies the long-term integration of non-Western immigrants in Eu- rope by focusing on their g
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze the long-term integration of non-Western immigrants in Europe, focusing on educational and cultural outcomes.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9676**
+- **Type:** pdf · status 200.0
+
+### [ossokina.com](https://www.ossokina.com/pdf/2023/insulation_paper.pdf)
+- **Link:** https://www.ossokina.com/pdf/2023/insulation_paper.pdf
+- **About:** Welfare trade-oﬀs of energy-eﬃcient homes: poverty, environment and comfort∗ Vincent P. Roberdel, # Ioulia V. Ossokina, # Vladimir A. Karamychev, ## Theo A. Arentze # # Eindhoven University of Technology, ## Erasmus University Rotterdam Jul
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The study uses GBA/BRP microdata to analyze the welfare effects of energy-efficient home upgrades on different income groups.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8729**
+- **Type:** pdf · status 200.0
+
+### [pbl.nl](https://www.pbl.nl/uploads/default/downloads/PBL_2013_A-hedonic-price-analysis-of-the-value-of-industrial-sites_.pdf)
+- **Link:** https://www.pbl.nl/uploads/default/downloads/PBL_2013_A-hedonic-price-analysis-of-the-value-of-industrial-sites_.pdf
+- **About:** 1 PBL WORKING PAPER 10 MARCH 2013 A hedonic price analysis of the value of industrial sites Jasper Beekmans, Institute for Management Research, Radboud University Nijmegen, The Netherlands1 Pascal Beckers, PBL Netherlands Environmental Asse
+- **CBS datasets used (LLM):** LISA (national employment database)  _[microdata]_
+- **How used:** The study used LISA microdata from Statistics Netherlands to link property values with industrial sites.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7134**
+- **Type:** pdf · status 200.0
+
+### [oranjefonds.nl](https://www.oranjefonds.nl/sites/default/files/atoms/files/NJi%20Vooronderzoek%20Meer%20Kansen%20voor%20Jongeren.pdf)
+- **Link:** https://www.oranjefonds.nl/sites/default/files/atoms/files/NJi%20Vooronderzoek%20Meer%20Kansen%20voor%20Jongeren.pdf
+- **About:** **Offerte** — Kansen voor jongeren in kwetsbare posities Vooronderzoek programmering Kansen voor jongeren II 2 © 2017 Nederlands Jeugdinstituut Niets uit deze uitgave mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie, micr
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8125**
+- **Type:** pdf · status 200.0
+
+### [link.springer.com](https://link.springer.com/content/pdf/10.1007/s10508-024-02902-9.pdf)
+- **Link:** https://link.springer.com/content/pdf/10.1007/s10508-024-02902-9.pdf
+- **About:** **Same-Sex Relationships and Criminal Behavior: A Total Population Study in The Netherlands** — Vol.:(0123456789)1 3 Archives of Sexual Behavior (2024) 53:2923–2938 https://doi.org/10.1007/s10508-024-02902-9 ORIGINAL PAPER Same‑Sex Relationships and Criminal Behavior: A Total Population Study in The Netherlands Steve G. A. van de Weij
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The study used GBA/BRP microdata to analyze crime rates among individuals in same-sex and opposite-sex relationships.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8714**
+- **Type:** pdf · status 200.0
+
+### [link.springer.com](https://link.springer.com/article/10.1186/s12939-025-02518-y)
+- **Link:** https://link.springer.com/article/10.1186/s12939-025-02518-y
+- **About:** **Decomposing socioeconomic differences in self-rated health and healthcare expenditure by chronic conditions and social determinants | International Journal for Equity in Health | Springer Nature Link** — Decomposing socioeconomic differences in self-rated health and healthcare expenditure by chronic conditions and social determinants | International Journal for Equity in Health | Springer Nature Link Skip to main content Advertisement BMC j
+- **CBS datasets used (LLM):** GBA/BRP (population), INPATAB/INHATAB (income), HOOGSTEOPLTAB (education), SECMBUS (socio-economic status)  _[microdata]_
+- **How used:** The study used GBA/BRP, INPATAB/INHATAB, HOOGSTEOPLTAB, and SECMBUS microdata to analyze the contributions of chronic conditions and social determinants to socioeconomic differences in self-rated health and healthcare expenditure.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7765**
+- **Type:** html · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/08/342.107-Woningmarktonderzoek-Soest-definitief.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2025/08/342.107-Woningmarktonderzoek-Soest-definitief.pdf
+- **About:** Woningmarktonderzoek 2023-2040 Gemeente Soest 26 september 2023 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM 26 sep
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze the population and housing market in Soest.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
 
 ### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/08/Rapportage-onderzoek-woningbehoefte-Loenen-definitief-v1_1.pdf)
 - **Link:** https://www.companen.nl/wp-content/uploads/2025/08/Rapportage-onderzoek-woningbehoefte-Loenen-definitief-v1_1.pdf
@@ -46,12 +380,812 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
 - **Type:** pdf · status 200.0
 
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/01/Provincie-Gelderland-Onderzoek-kleine-woningen-definitief.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2025/01/Provincie-Gelderland-Onderzoek-kleine-woningen-definitief.pdf
+- **About:** Onderzoek kleine woningen Gelderland Provincie Gelderland 15 januari 2025 Definitief 3000.124/G | Onderzoek kleine woningen Gelderland 2 Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 3
+- **CBS datasets used (LLM):** GBA/BRP  _[microdata]_
+- **How used:** The research used CBS microdata to analyze the composition and development of housing stock in Gelderland, specifically focusing on small dwellings.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9811**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/02/168.107-Woningbehoefteonderzoek-Gemeente-Losser-2024-definitief.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2025/02/168.107-Woningbehoefteonderzoek-Gemeente-Losser-2024-definitief.pdf
+- **About:** Woningbehoefteonderzoek Losser 2024 Gemeente Losser 4 oktober 2024 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM 4 o
+- **CBS datasets used (LLM):** GBA/BRP (population), CBS-microdata, CBS-gegevens over prijsontwikkeling  _[microdata | aggregate/StatLine]_
+- **How used:** The research used CBS microdata for analyzing population and household trends, as well as CBS aggregate data on price developments.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/02/1955.108-Woningmarktonderzoek-Montferland-2024-def.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2025/02/1955.108-Woningmarktonderzoek-Montferland-2024-def.pdf
+- **About:** Woningmarktonderzoek Montferland 2024 Behoefte in de kernen Gemeente Montferland en Plavei 3 september 2024 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 0903
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze population development and housing needs in Montferland.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/01/Woon-welzijn-zorgvisie-Deurne-vastgesteld-10-december-2024.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2025/01/Woon-welzijn-zorgvisie-Deurne-vastgesteld-10-december-2024.pdf
+- **About:** Vastgesteld gemeenteraad 10 december 2024 2 Inhoudsopgave Voorwoord ............................................................................................................ 4 1. Inleiding ................................................
+- **CBS datasets used (LLM):** INPATAB/INHATAB (income)  _[aggregate/StatLine]_
+- **How used:** The publication uses INPATAB/INHATAB income data to analyze the increase in average WOZ values in Deurne from 2019 to 2023.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/11/Kempische-visie-op-wonen-2024-2028-Volkshuisvestingsprogramma.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/11/Kempische-visie-op-wonen-2024-2028-Volkshuisvestingsprogramma.pdf
+- **About:** Kempische visie op wonen 2024-2028 Volkshuisvestingsprogramma Kempengemeenten 7 mei 2024 Versie 3.2 - Eindconcept Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** No specific CBS datasets are mentioned in the provided text excerpt.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/09/Woonzorgvisie-Lopik-2024-2029.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/09/Woonzorgvisie-Lopik-2024-2029.pdf
+- **About:** Woonzorgvisie Lopik 2024 - 2029 Onderdeel van het Volkshuisvestingsprogramma Lopik Maart 2024 Woonzorgvisie Lopik 2024 - 2029 Voorwoord In onze gemeente is het fijn wonen. Dat is de grote rode lijn die we het afgelopen jaar in voorbereiding
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of CBS data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [afm.nl](https://www.afm.nl/~/profmedia/files/doelgroepen/pensioenuitvoerders/2023/pensioenopbouw-derde-pijler.pdf)
+- **Link:** https://www.afm.nl/~/profmedia/files/doelgroepen/pensioenuitvoerders/2023/pensioenopbouw-derde-pijler.pdf
+- **About:** **Fiscaal gefaciliteerde opbouw van individueel pensioenvermogen in de derde pijler** — Fiscaal-gefaciliteerde opbouw van individueel pensioenvermogen in de derde pijler Een analyse van de afnemerskant op basis van CBS-microdata Lees verder ONDER EMBARGO 2 Inhoud Inhoud Samenvatting 3 01 Introductie 6 02 Data 7 03 Werkenden me
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** CBS microdata from GBA/BRP was used to analyze the use of fiscal-privileged third pillar pension products by workers and self-employed individuals.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9290**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/09/Woningmarktonderzoek-Leusden-020224.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/09/Woningmarktonderzoek-Leusden-020224.pdf
+- **About:** Woningmarktonderzoek Gemeente Leusden Gemeente Leusden 2 februari 2024 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM
+- **CBS datasets used (LLM):** GBA/BRP  _[microdata]_
+- **How used:** The research used GBA/BRP microdata to analyze demographic trends in the municipality of Leusden.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/06/301.103-Gemeente-Zutphen-Woningmarktanalyse-2023-definitief.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/06/301.103-Gemeente-Zutphen-Woningmarktanalyse-2023-definitief.pdf
+- **About:** 301.103/G | Woningmarktanalyse Zutphen 1 Woningmarktanalyse Zutphen Wonen in sterke wijken en dorpen Gemeente Zutphen 22 december 2023 Definitief 301.103/G | Woningmarktanalyse Zutphen 2 Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Ar
+- **CBS datasets used (LLM):** CBS -microdata over een periode van 2015 tot en met 2021  _[microdata]_
+- **How used:** Used CBS microdata to analyze migration trends within and to/from Zutphen from 2015 to 2021.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/Woonzorgvisie-Oisterwijk-def.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/Woonzorgvisie-Oisterwijk-def.pdf
+- **About:** **Woonzorgvisie Gemeente Oisterwijk 2022 - 2027** — Woonzorgvisie Gemeente Oisterwijk 2022 - 2027 Een visie op wonen en leven in Oisterwijk, Moergestel, Haaren en Heukelom 21 april 2022 DATUM 21 april 2022 TITEL Woonzorgvisie Gemeente Oisterwijk 2022 - 2027 Een visie op wonen en leven in Ois
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8971**
+- **Type:** pdf · status 200.0
+
 ### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/08/Rapportage-Woononderzoek-2024-definitief-v1_3.pdf)
 - **Link:** https://www.companen.nl/wp-content/uploads/2025/08/Rapportage-Woononderzoek-2024-definitief-v1_3.pdf
 - **About:** Woononderzoek 2024 - 2040 Gemeente Eindhoven 18 oktober 2024 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM 18 oktobe
 - **CBS datasets used (LLM):** GBA/BRP (population), SECMBUS (socio-economic status), HOOGSTEOPLTAB (education)  _[microdata]_
 - **How used:** The research used CBS microdata registers including GBA/BRP, SECMBUS, and HOOGSTEOPLTAB for analyzing the housing demand in Eindhoven.
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [scherpenzeel.bestuurlijkeinformatie.nl](https://scherpenzeel.bestuurlijkeinformatie.nl/Document/View/d88c893b-c11b-4f03-8553-d1b07e6cda6e)
+- **Link:** https://scherpenzeel.bestuurlijkeinformatie.nl/Document/View/d88c893b-c11b-4f03-8553-d1b07e6cda6e
+- **About:** Woningbehoefte- onderzoek regio Foodvalley Stec Groep aan regio Foodvalley 15 oktober 2024 Woningbehoefte-onderzoek regio Foodvalley 1 Inhoudsopgave Management-samenvatting 2 1. Inleiding 9 1.1 Uw situatie 9 1.2 U vraagt: scherp inzicht in 
+- **CBS datasets used (LLM):** GBA/BRP (population), INHATAB (income)  _[aggregate/StatLine | microdata]_
+- **How used:** The publication uses CBS population and income data to analyze the housing needs in the Foodvalley region.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9584**
+- **Type:** html · status 200.0
+
+### [swov.nl](https://swov.nl/sites/default/files/bestanden/downloads/R-2023-08.pdf)
+- **Link:** https://swov.nl/sites/default/files/bestanden/downloads/R-2023-08.pdf
+- **About:** Verkeersongevallen buiten zicht Door de politie geregistreerde verkeersongevallen die (nog) niet in BRON terechtkomen R-2023-8 Auteurs Ir. R.J. Decae Drs. N.M Bos Dr. L.T. Aarts Ongevallen voorkomen Letsel beperken Levens redden Documentbes
+- **CBS datasets used (LLM):** _none identified_  _[aggregate/StatLine | microdata]_
+- **How used:** The publication uses both StatLine aggregate tables and microdata from the Landelijke Basisregistratie Ziekenhuiszorg (LBZ) for analyzing traffic accidents not recorded as such in BRON.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8439**
+- **Type:** pdf · status 200.0
+
+### [significant.nl](https://significant.nl/wp-content/uploads/2023/09/Onderzoek-woonruimtedeler-bijstandsgerechtigden.pdf)
+- **Link:** https://significant.nl/wp-content/uploads/2023/09/Onderzoek-woonruimtedeler-bijstandsgerechtigden.pdf
+- **About:** **Belemmeringen woonruimte delen** — SAMEN ONDER DAK BELEMMERINGEN VOOR BIJSTANDSGERECHTIGDEN OM WOONRUIMTE TE DELEN KLANT Ministerie van Sociale Zaken en Werkgelegenheid AUTEUR(S) Michiel Blom, Sam Huberts, Marjolijn Zwanepol, Maartje Gielen, Ellen Westhoff, Joeri Athmer, Ils
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** Microdata from GBA/BRP was used for data-analyses to quantify the experiences of benefit recipients with barriers to sharing housing.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8750**
+- **Type:** pdf · status 200.0
+
+### [sociaalplanbureaugroningen.nl](https://sociaalplanbureaugroningen.nl/wp-content/uploads/2020/02/Eindrapport-De-rol-van-binnenlandse-verhuizingen-in-groeiende-inkomens....pdf)
+- **Link:** https://sociaalplanbureaugroningen.nl/wordpress/wp-content/uploads/2020/02/Eindrapport-De-rol-van-binnenlandse-verhuizingen-in-groeiende-inkomens....pdf
+- **About:** 1 Het proces om tot dit Regioplan te komen heeft niet alleen geleid tot een Werkagenda. Het inzicht in welke acties van iedere gemeente in de komende twee jaar nodig is, heeft ook geleid tot een actieve houding en inzet van iedere individue
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** Microdata from GBA/BRP was used to link income positions of individuals to their moving behavior in Noord-Netherlands between 2011 and 2016.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8226**
+- **Type:** pdf · status 200.0
+
+### [stecstat.nl](https://stecstat.nl/wp-content/uploads/2026/04/25.165-Rotterdam-zuid-publicatieversie.pdf)
+- **Link:** https://stecstat.nl/wp-content/uploads/2026/04/25.165-Rotterdam-zuid-publicatieversie.pdf
+- **About:** Pendelstromen Rotterdam-Zuid Analyse samenhang inwoners, werkenden en werklocaties 10 februari 2026 Pendelstromen Rotterdam-Zuid 2 Inhoudsopgave Samenvatting 3 1. Inleiding 4 1.1 Aanleiding 4 1.2 Gebiedsindeling 4 1.3 Onbekend opleidingsniv
+- **CBS datasets used (LLM):** GBA/BRP, POLIS/SPOLIS  _[microdata]_
+- **How used:** CBS microdata from GBA/BRP and POLIS/SPOLIS were used to analyze the commuting patterns of residents and workers in Rotterdam-Zuid.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9757**
+- **Type:** pdf · status 200.0
+
+### [centerdata.nl](https://www.centerdata.nl/app/uploads/sites/2/2024/06/Evaluatie-heffingskortingen-en-tariefstructuur.pdf)
+- **Link:** https://www.centerdata.nl/app/uploads/sites/2/2024/06/Evaluatie-heffingskortingen-en-tariefstructuur.pdf
+- **About:** **Eindrapport Evaluatie heffingskortingen en tariefstructuur** — Evaluatie Heffingskortingen en Tariefstructuur Onderzoek in opdracht van Ministerie van Financiën Datum 10 april 2024 Auteurs drs. Boukje Cuelenaere dr. Roxanne van Giesen drs. Marcia den Uijl met medewerking van dr. Jan Dirk Vlasblom Versi
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used CBS microdata, specifically GBA/BRP population data, for analyzing the effectiveness of income-related tax reliefs on labor market participation.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9513**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/312.104-Gemeente-Bunnik-Woningbehoefteonderzoek-2023-Definitief-v1_2.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/312.104-Gemeente-Bunnik-Woningbehoefteonderzoek-2023-Definitief-v1_2.pdf
+- **About:** Woningbehoefteonderzoek Gemeente Bunnik 31 augustus 2023 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM 31 augustus 2
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The publication used GBA/BRP and POLIS/SPOLIS microdata to analyze population, household composition, and economic conditions in Bunnik.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/09/Onderzoek-woningbehoefte-Maarn-en-Maarsbergen-definitief.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/09/Onderzoek-woningbehoefte-Maarn-en-Maarsbergen-definitief.pdf
+- **About:** Onderzoek woningbehoefte Maarn en Maarsbergen Gemeente Utrechtse Heuvelrug 17 april 2024 x Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517
+- **CBS datasets used (LLM):** GBA/BRP (population), INPATAB/INHATAB (income)  _[aggregate/StatLine | microdata]_
+- **How used:** The research used CBS population and income data, likely in both aggregate form and microdata, to analyze the current housing market situation in Maarn and Maarsbergen.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [biolink-nl.eu](https://www.biolink-nl.eu/public/2015_Biolink_white_paper_NKI.pdf)
+- **Link:** https://www.biolink-nl.eu/public/2015_Biolink_white_paper_NKI.pdf
+- **About:** **BBMRI NKI White paper revised 27082015** — 1 Using record linkage to construct a population-­‐based cancer patient cohort with multiple disease outcomes PART I Methods and experiences of the Netherlands Cancer Institute in the construction of a population-­‐based breast cancer survi
+- **CBS datasets used (LLM):** DHD (Hospital Data) from 1995 onwards  _[microdata]_
+- **How used:** The publication uses DHD microdata from Statistics Netherlands for diagnosis years 1995 and later to construct a cohort of breast cancer survivors.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7008**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2022/06/Rapportage-gemeente-Zwolle.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2022/06/Rapportage-gemeente-Zwolle.pdf
+- **About:** **Wonen in een 3e levensfase** — Wonen in een 3e levensfase Gemeente Zwolle Maart 2022 Eindrapportage DATUM Maart 2022 TITEL Wonen in een 3e levensfase OPDRACHTGEVER Gemeente Zwolle AUTEUR(S) Bas de Ruigh Wouter de Vries Arjan Rottier PROJECTNUMMER 193.111 STATUS Eindrappo
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research likely used GBA/BRP microdata to analyze the demographic composition and future demand for housing among older adults in Zwolle.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8581**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/994.100-Gemeente-Valkenburg-aan-de-Geul-Onderzoek-woonbehoefte-kern-Valkenburg-def.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/994.100-Gemeente-Valkenburg-aan-de-Geul-Onderzoek-woonbehoefte-kern-Valkenburg-def.pdf
+- **About:** **Onderzoek woonbehoefte Stad Valkenburg** — Onderzoek woonbehoefte Stad Valkenburg Gemeente Valkenburg aan de Geul 17 januari 2022 x DATUM 17 januari 2022 TITEL Onderzoek woonbehoefte Stad Valkenburg OPDRACHTGEVER Gemeente Valkenburg aan de Geul AUTEUR(S) Jeroen Lijzenga Harrie Wilhe
+- **CBS datasets used (LLM):** GBA/BRP, PronGeff  _[microdata | aggregate/StatLine]_
+- **How used:** The research used CBS microdata (GBA/BRP) and PronGeff data for analyzing the current housing situation and future housing demand in Stad Valkenburg.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8581**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/189.112-Rapportage-Woningbehoefteonderzoek-Wierden-2023-definitief.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/189.112-Rapportage-Woningbehoefteonderzoek-Wierden-2023-definitief.pdf
+- **About:** Woningbehoefteonderzoek 2023 Wierden Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM 24 januari 2024 TITEL Woningbehoefteonderzoe
+- **CBS datasets used (LLM):** GBA/BRP, CBS-Microdata  _[microdata]_
+- **How used:** The research used GBA/BRP microdata to analyze demographic and income trends, and CBS Microdata for verifiable relocation behavior over a longer period.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/766.106-Gemeente-Dongen-Woonwensen-en-woningbehoefteonderzoek.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/766.106-Gemeente-Dongen-Woonwensen-en-woningbehoefteonderzoek.pdf
+- **About:** **Woningbehoefteonderzoek 2021** — Woningbehoefteonderzoek 2021 Gemeente Dongen 7 januari 2022 Eindrapport DATUM 7 januari 2022 TITEL Woningbehoefteonderzoek 2021 OPDRACHTGEVER Gemeente Dongen AUTEUR(S) Mattijs Letteboer Valentine Reijers PROJECTNUMMER 766.106/G STATUS Eindr
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used GBA/BRP microdata to analyze demographic trends and household profiles in Dongen.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8581**
+- **Type:** pdf · status 200.0
+
+### [caop.nl](https://www.caop.nl/app/uploads/2025/03/Voion-rapport-verschillen-in-de-omvang-van-de-werkweek.pdf)
+- **Link:** https://www.caop.nl/app/uploads/2025/03/Voion-rapport-verschillen-in-de-omvang-van-de-werkweek.pdf
+- **About:** **Rapport** — ……………………………………………………………………………………………………………………………………………………………. | 1 …… …………… …………………… ……… ………………………………………………………… ………… …………………… …………………………… ………………… ………………………. | 1 Verschillen in de omvang van de werkweek …………………………………………………………………………………………………………
+- **CBS datasets used (LLM):** POLIS/SPOLIS  _[microdata]_
+- **How used:** The publication uses POLIS/SPOLIS microdata to analyze variations in the length of working weeks among employees.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9559**
+- **Type:** pdf · status 200.0
+
+### [caop.nl](https://www.caop.nl/app/uploads/2026/02/Voion-schoolleiders-in-beweging.pdf)
+- **Link:** https://www.caop.nl/app/uploads/2026/02/Voion-schoolleiders-in-beweging.pdf
+- **About:** **Rapport** — ……………………………………………………………………………………………………………………………………………………………. | 1 Schoolleiders in beweging ……………………………………………………………………………………………………………………………………………………………. Arbeidsmarkt en loopbanen van schoolleiders nader onderzocht Arbeidsmarkt en loopbanen v
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research uses GBA/BRP microdata to analyze the supply of school leaders, their characteristics, and mobility patterns.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **3144**
+- **Type:** pdf · status 200.0
+
+### [pdc.sudwestfryslan.nl](https://pdc.sudwestfryslan.nl/wp-content/uploads/2024/05/Woningmarktonderzoek-Sudwest-Fryslan-2024.pdf)
+- **Link:** https://pdc.sudwestfryslan.nl/wp-content/uploads/2024/05/Woningmarktonderzoek-Sudwest-Fryslan-2024.pdf
+- **About:** COMPANEN Woningmarktonderzoek 2024 Gemeente Súdwest-Fryslân 21 maart 2024 Definitief Kijk vooruit. 1900.108/G | Woningmarktonderzoek 2023 1 ADVIES VOOR WONINGMARKT EN LEEFOMGEVING DATUM 21 maart 2024 TITEL Woningmarktonderzoek 2024 OPDRACHT
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
+- **Type:** pdf · status 200.0
+
+### [kbanijmegen.nl](https://www.kbanijmegen.nl/doc/pdf/Profiel_dienstverlening_en_producten_in_het_vmbo.pdf)
+- **Link:** https://www.kbanijmegen.nl/doc/pdf/Profiel_dienstverlening_en_producten_in_het_vmbo.pdf
+- **About:** **PROFIEL DIENSTVERLENING EN** — PROFIEL DIENSTVERLENING EN PRODUCTEN IN HET VMBO Wat is de toegevoegde waarde van het profiel Dienstverlening en Producten voor de oriëntatie op studiekeuze en de doorstroom naar het mbo? Martijn Peters en Tessa Jenniskens December 2021 PRO
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used CBS microdata from the GBA/BRP to analyze the graduation streams of VMBO students in 2017/2018 and 2018/2019, focusing on their subsequent education paths.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9155**
+- **Type:** pdf · status 200.0
+
+### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10475&m=1631798302&action=file.download)
+- **Link:** https://www.kennisbanksportenbewegen.nl/?file=10475&m=1631798302&action=file.download
+- **About:** Remko van den Dool Wesley van den Breul Sportdeelname in eigen huis of tuin Thuis, de vergeten sportaccommodatie Mulier Instituut sportonderzoek voor beleid en samenleving Postbus 85445 | 3508 AK Utrecht Herculesplein 269 | 3584 AA Utrecht 
+- **CBS datasets used (LLM):** Vrijetijdsomnibus (VTO), Tijdbestedingsonderzoek (TBO)  _[aggregate/StatLine | microdata]_
+- **How used:** The publication used Vrijetijdsomnibus and Tijdbestedingsonderzoek data from CBS, primarily for trend analysis before the coronavirus pandemic.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
+- **Type:** html · status 200.0
+
+### [ifn.se](https://www.ifn.se/media/nxdngkyd/wp1503.pdf)
+- **Link:** https://www.ifn.se/media/nxdngkyd/wp1503.pdf
+- **About:** Research Institute of Industrial Economics P.O. Box 55665 SE-102 15 Stockholm, Sweden info@ifn.se www.ifn.se IFN Working Paper No. 1503, 2024 Heterogeneity and Persistence in Tax Responsiveness: Evidence from Owner- Managed Companies Gabrie
+- **CBS datasets used (LLM):** _none identified_  _[microdata]_
+- **How used:** The research uses Dutch tax records linking firms to their owners, not CBS microdata.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9485**
+- **Type:** pdf · status 200.0
+
+### [infoleek.nl](https://www.infoleek.nl/wp-content/uploads/2024/04/Rapport_woonlastenonderzoek_Westerkwartier_23.pdf)
+- **Link:** https://www.infoleek.nl/wp-content/uploads/2024/04/Rapport_woonlastenonderzoek_Westerkwartier_23.pdf
+- **About:** In samenwerking met: In opdracht van: Gemeente Westerkwartier Plaats, datum: Rotterdam, 25 januari 2024 Woonlastenonderzoek 2023 Woonlasten, betaalbaarheidsrisico en energiearmoede onder de bewoners van de gemeente Westerkwartier Woonlasten
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used CBS microdata, specifically GBA/BRP population data, to analyze housing costs, affordability risk, and energy poverty in the Westerkwartier municipality.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9561**
+- **Type:** pdf · status 200.0
+
+### [ipsos-publiek.nl](https://www.ipsos-publiek.nl/wp-content/uploads/2026/05/Ipsos-IO-SEO-ex-post-evaluatie-kinderopvang-definitief-rapport.pdf)
+- **Link:** https://www.ipsos-publiek.nl/wp-content/uploads/2026/05/Ipsos-IO-SEO-ex-post-evaluatie-kinderopvang-definitief-rapport.pdf
+- **About:** Arbeidsmarkt-kraptebeleid Kinderopvang Arbeidsmarkt- kraptebeleid Kinderopvang Rapport Ipsos I&O en SEO Economisch Onderzoek www.ipsos-publiek.nl www.seo.nl Arbeidsmarkt-kraptebeleid Kinderopvang 2 van 78 Colofon Uitgave Ipsos I&O Amstelvee
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not specify the use of any CBS data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **10010**
+- **Type:** pdf · status 200.0
+
+### [haaksbergen.nl](https://www.haaksbergen.nl/Docs/bouwen/College%201-10-2024/Bijlage%205%20actualisatie%20woonbehoefteonderzoek%20Stec.pdf)
+- **Link:** https://www.haaksbergen.nl/Docs/bouwen/College 1-10-2024/Bijlage 5 actualisatie woonbehoefteonderzoek Stec.pdf
+- **About:** WBO Haaksbergen Actualisatie woningbehoefte & voorzieningenscan 26 september 2024 2 Inhoudsopgave 1. Inleiding 3 1.1 Aanleiding 3 1.2 Onze aanpak 3 2. Conclusies 4 2.1 Vergrijzing is ingezet, verjonging met name door migratie 4 2.2 Tot 2034
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of CBS data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9584**
+- **Type:** pdf · status 200.0
+
+### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10544&m=1637916150&action=file.download)
+- **Link:** https://www.kennisbanksportenbewegen.nl/?file=10544&m=1637916150&action=file.download
+- **About:** Jaarrapport Duurzame Sportinfrastructuur 2021 Remco Hoekman Daniëlle Ruikes Merle Schots Laura van der Meijde Nathan Geurink Jaarrapport Duurzame Sportinfrastructuur 2021 Remco Hoekman Daniëlle Ruikes Merle Schots Laura van der Meijde Natha
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[aggregate/StatLine]_
+- **How used:** The publication uses CBS population data through the Database SportAanbod (DSA) for analyzing the landscape of sports facilities and their accessibility.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
+- **Type:** html · status 200.0
+
+### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10607&m=1641999758&action=file.download)
+- **Link:** https://www.kennisbanksportenbewegen.nl/?file=10607&m=1641999758&action=file.download
+- **About:** Deelname sport en bewegen door mensen met een beperking Remko van den Dool, Caroline van Lindert, Saskia van den Berg, Wanda Wendel-Vos De stand van zaken eind 2019 Mulier Instituut sportonderzoek voor beleid en samenleving Postbus 85445 | 
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze the participation in sports and physical activity among people with a limitation.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9082**
+- **Type:** html · status 200.0
+
+### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=11678&m=1711723623&action=file.download)
+- **Link:** https://www.kennisbanksportenbewegen.nl/?file=11678&m=1711723623&action=file.download
+- **About:** **Mentale gezondheid en sport- en beweegdeelname** — Mulier Instituut | 2024 Wikke van Stam | Linda Ooms | Remko van den Dool Met steun van het ministerie van VWS Mulier Instituut Wikke van Stam Linda Ooms Remko van den Dool Voor meer informatie kunt u contact opnemen met het Mulier Instituut
+- **CBS datasets used (LLM):** GBA/BRP, SECMBUS, HOOGSTEOPLTAB  _[microdata]_
+- **How used:** The publication uses GBA/BRP, SECMBUS, and HOOGSTEOPLTAB microdata to analyze the relationship between mental health and sports participation among different demographic groups in the Netherlands.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
+- **Type:** html · status 200.0
+
+### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10795&m=1652275811&action=file.download)
+- **Link:** https://www.kennisbanksportenbewegen.nl/?file=10795&m=1652275811&action=file.download
+- **About:** Deelname aan sport en bewegen door ouderen Remko van den Dool Eva Heijnen De stand van zaken eind 2020 Mulier Instituut sportonderzoek voor beleid en samenleving Postbus 85445 | 3508 AK Utrecht Herculesplein 269 | 3584 AA Utrecht T +31 (0)3
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze the participation of older adults in sports and physical activity.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9082**
+- **Type:** html · status 200.0
+
+### [regioplan.nl](https://www.regioplan.nl/wp-content/uploads/2021/02/20058-Eindrapport-Evaluatie-STiP-Regioplan-18nov2020.pdf)
+- **Link:** https://www.regioplan.nl/wp-content/uploads/2021/02/20058-Eindrapport-Evaluatie-STiP-Regioplan-18nov2020.pdf
+- **About:** **Eindrapport Evaluatie STiP** — Evaluatie STiP -regeli ng - EINDRAPPORT - Auteurs Vera Haanstra, MSc Adriaan Oostveen, MSc (projectleider) Joris Timmerman, MA MMC Drs. Hetty Visee Amsterdam, 18 november 2020 Publicatienr. 20058 © 2020 Regioplan, in opdracht van gemeente D
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8798**
+- **Type:** pdf · status 200.0
+
+### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=12604&m=1770219137&action=file.download)
+- **Link:** https://www.kennisbanksportenbewegen.nl/?file=12604&m=1770219137&action=file.download
+- **About:** **Trendrapport arbeidsmarkt sport en bewegen 2025** — Mulier Instituut | 2026  Niels Meulenbroeks | Arnold Bronkhorst | Peter van Eldert Trendrapport arbeidsmarkt sport en bewegen 2025 Trendrapport arbeidsmarkt sport en bewegen 2025 Met ondersteuning van het Ministerie van Volksgezondheid, We
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The publication used CBS microdata from GBA/BRP and POLIS/SPOLIS for analyzing the labor market trends in sports and physical activity.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9539**
+- **Type:** html · status 200.0
+
+### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=2679&m=1422883205&action=file.download)
+- **Link:** https://www.kennisbanksportenbewegen.nl/?file=2679&m=1422883205&action=file.download
+- **About:** RIGO Research en Advies BV Woon- werk- en leefomgeving www.rigo.nl Bewegen op het werk Een verkenning van kosten en baten De verantwoordelijkheid voor de inhoud berust bij RIGO. Het gebruik van cijfers en/of teksten als toe- lichting of ond
+- **CBS datasets used (LLM):** EBA 2011, POLS 1997-2002  _[microdata]_
+- **How used:** The research used EBA 2011 microdata for workplace exposure to risks and POLS 1997-2002 data for health benefits of movement.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7426**
+- **Type:** html · status 200.0
+
+### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10948&m=1664347336&action=file.download)
+- **Link:** https://www.kennisbanksportenbewegen.nl/?file=10948&m=1664347336&action=file.download
+- **About:** 1 Vidar Stevens | Johan Steenbergen Samenwerking, dialoog en zelforganisatie als kiemen van een positieve sportcultuur 2 © Mulier Instituut | Utrecht, september 2022 Mulier Instituut sportonderzoek voor beleid en samenleving Postbus 85445 |
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not appear to use any CBS data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
+- **Type:** html · status 200.0
+
+### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=11870&m=1725448057&action=file.download)
+- **Link:** https://www.kennisbanksportenbewegen.nl/?file=11870&m=1725448057&action=file.download
+- **About:** **Corona** — Mulier Instituut | 2024 Remko van den Dool met subsidie van het ministerie van VWS Mulier Instituut Remko van den Dool Voor meer informatie kunt u contact opnemen met het Mulier Instituut. © Mulier Instituut Utrecht, augustus 2024 www.mulie
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
+- **Type:** html · status 200.0
+
+### [ggdwb.nl](https://www.ggdwb.nl/app/uploads/sites/3/2025/09/Energiearmoede-binnenmilieu-en-gezondheid-bestaanszekerheid-en-woningisolatie-2025.pdf)
+- **Link:** https://www.ggdwb.nl/app/uploads/sites/3/2025/09/Energiearmoede-binnenmilieu-en-gezondheid-bestaanszekerheid-en-woningisolatie-2025.pdf
+- **About:** Energiearmoede, binnenmilieu en gezondheid bestaanszekerheid én woningisolatie Tess Christensen, Marjolein Stoopendaal, Leonard Vanbrabant en Ike Kroesbergen Dankwoord: De auteurs bedanken Karien van den Bergh GGD Hart voor Brabant, Lisa va
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The study used GBA/BRP microdata to analyze the relationship between energy poverty and health, including subgroups based on low energy house quality or high energy costs.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9550**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-376-complexities-in-the-spatial-scope-of-agglomeration-economies.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-376-complexities-in-the-spatial-scope-of-agglomeration-economies.pdf
+- **About:** 1 Complexities in the spatial scope of agglomeration economies* Paul Verstraten, Gerard Verweij, and Peter Zwaneveld† February 2018 Abstract This article argues that the spatial scope of agglomeration economies is much more complex than is 
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used GBA/BRP microdata to analyze individual wages with high spatial detail.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7853**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Notitie-feb2020-Een-nieuwe-kijk-op-de-Wet-Inburgering-2013.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Notitie-feb2020-Een-nieuwe-kijk-op-de-Wet-Inburgering-2013.pdf
+- **About:** **Een nieuwe kijk op de Wet Inburgering 2013** — Een nieuwe kijk op de Wet Inburgering 2013 De Wet Inburgering 2013 heeft ertoe geleid dat meer mensen hun inburgeringsexamen halen. Wel komen inburgeraars langzamer op gang dan voorheen. Een regierol voor gemeenten bij de start van de inbur
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze the effects of the Wet Inburgering 2013 on inburgering outcomes, scholastic participation, and labor market integration.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8332**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Policy-Brief-2017-12-Fiscaliteit-en-de-rechtsvorm-van-ondernemingen.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Policy-Brief-2017-12-Fiscaliteit-en-de-rechtsvorm-van-ondernemingen.pdf
+- **About:** box 1 box 2 inkomsten- belasting (ib) inkomsten- belasting (ib) vennootschap- belasting (vpb) dividend- belasting aantal ondernemers % met personeel % mannen lee/f_tijd (gem.) sector winst aansprakelijkheid persoonlijkheid en type werk -60 
+- **CBS datasets used (LLM):** INPATAB/INHATAB (income)  _[aggregate/StatLine | microdata]_
+- **How used:** The publication uses CBS income data from INPATAB/INHATAB and possibly microdata registers for analyzing the tax burden on different types of entrepreneurs.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7907**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/DP%20Bosch%20et%20al%202019%20-reduced.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/DP%20Bosch%20et%20al%202019%20-reduced.pdf
+- **About:** Non-Bunching at Kinks and Notches in Cash Transfers We study the behavioural responses to kinks and notches in the Dutch system of cash transfers, using data on the universe of Dutch households for the period 2007-2014. We typically do not 
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The study used GBA/BRP microdata to analyze the behavioral responses of Dutch households to kinks and notches in cash transfer systems.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8074**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/cpb-discussion-paper-do-house-prices-matter-for-household-consumption.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/cpb-discussion-paper-do-house-prices-matter-for-household-consumption.pdf
+- **About:** Do house prices matter for household consumption? Real house prices in the Netherlands peaked in 2008 and have since then fallen by about 27% until the end of 2013. Aggregate household consumption dropped by 7% during 2008-2013. To what ext
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research uses GBA/BRP microdata to analyze the relationship between house prices and household consumption in the Netherlands.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8056**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Notitie-Wijkteams-en-praktijkondersteuners-in-de-jeugdzorg.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Notitie-Wijkteams-en-praktijkondersteuners-in-de-jeugdzorg.pdf
+- **About:** **Wijkteams en praktijkondersteuners in de jeugdzorg** — Wijkteams en praktijkondersteuners in de jeugdzorg Een van de hoofddoelen van de decentralisatie van jeugdzorg naar gemeenten was om met de inzet van lichte hulp het gebruik van dure tweedelijnszorg zo veel als mogelijk te voorkomen. Dit zo
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used GBA/BRP microdata to analyze the impact of wijkteams and praktijkondersteuners on youth care utilization.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8647**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-427-Contribution-of-business-dynamics-to-productivity-growth-Netherlands.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-427-Contribution-of-business-dynamics-to-productivity-growth-Netherlands.pdf
+- **About:** **Discussion Paper 427 'The contribution of business dynamics to productivity growth in the Netherlands'** — The contribution of business dynamics to productivity growth in the Netherlands Firm dynamism in the Netherlands has been steadily declining since at least 2006 and productivity growth rates have been sluggish at best. We find that in servi
+- **CBS datasets used (LLM):** _none identified_  _[microdata]_
+- **How used:** The study uses a microdata set covering nearly all corporations in the Netherlands from 2006-2016, but it is not specified if this data comes from CBS.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8066**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Notitie-Niet-gebruik-van-de-aanvullende-beurs.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Notitie-Niet-gebruik-van-de-aanvullende-beurs.pdf
+- **About:** **Notitie 'Niet-gebruik van de aanvullende beurs'** — Niet-gebruik van de aanvullende beurs 24% van de eerstejaars- studenten in het hoger onderwijs die recht hebben op een aanvullende beurs, maakt daar geen gebruik van. Deze studenten lopen naar schatting gemiddeld 175 euro aan maandelijkse a
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research likely used GBA/BRP microdata to analyze first-year higher education students' eligibility and non-use of the additional scholarship.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8478**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-433-Entries-and-Regional-Growth-The-Role-of-Relatedness.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-433-Entries-and-Regional-Growth-The-Role-of-Relatedness.pdf
+- **About:** **Discussion Paper 433 'Entries and Regional Growth: The Role of Relatedness'** — Entries and Regional Growth: The Role of Relatedness If new businesses and establishments are more closely related to existing economic activities in a region, is this associated with higher regional growth a few years later? We investigate
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The study used Statistics Netherlands' GBA/BRP and POLIS/SPOLIS microdata to analyze the relatedness of new business entries to existing economic activities in Dutch regions.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8377**
+- **Type:** pdf · status 200.0
+
+### [eur.nl](https://www.eur.nl/eshpm/media/132633)
+- **Link:** https://www.eur.nl/eshpm/media/132633
+- **About:** **Template** — Sociale Benadering Dementie in het zorgsysteem Een analyse van de impact van de SBD op de arbeidsmarkt, kosten en bekostiging ESHPM Juni 2025 Colophon Uitgever Erasmus School of Health Policy & Management (ESHPM) Erasmus Universiteit Rotter
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9846**
+- **Type:** html · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-381-The-scope-of-the-external-return-to-higher-education.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-381-The-scope-of-the-external-return-to-higher-education.pdf
+- **About:** **dp-381.indd** — The scope of the external return to higher education Paul Verstraten CPB Discussion Paper | 381 1 The scope of the external return to higher education Paul Verstraten* September 2018 Abstract This article examines whether the productivity s
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The research used GBA/BRP and POLIS/SPOLIS microdata to analyze the external return to higher education through matched employer-employee panel data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7853**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-377-why-do-wages-grow-faster-in-urban-areas.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-377-why-do-wages-grow-faster-in-urban-areas.pdf
+- **About:** 1 Why do wages grow faster in urban areas? Sorting of high potentials matters* Paul Verstraten, Gerard Verweij, and Peter Zwaneveld† February 2018 Abstract The existence of an urban wage growth premium is a well -established empirical fact.
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The research used Statistics Netherlands' GBA/BRP and POLIS/SPOLIS microdata to analyze the sorting of workers and firms into urban areas and its impact on wage growth.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7853**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-368-Cheaper-and-more-haircuts-after-VAT-Cut.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-368-Cheaper-and-more-haircuts-after-VAT-Cut.pdf
+- **About:** Cheaper and More Haircuts After V AT Cut? Evidence From the Netherlands∗ Egbert Jongen† Arjan Lejour‡ Gabriella Massenz§ November 2017 Abstract We study the eﬀect of the reduction in the VAT rate on services by hair- dressers from 17.5 to 6
+- **CBS datasets used (LLM):** GBA/BRP (population), SECMBUS (socio-economic status)  _[microdata]_
+- **How used:** Used GBA/BRP and SECMBUS microdata for monthly survey data on average prices, sales and volume.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7977**
+- **Type:** pdf · status 200.0
+
+### [pure.tue.nl](https://pure.tue.nl/ws/portalfiles/portal/381268711/Mohamed_Elsaady_EngD_Thesis.pdf)
+- **Link:** https://pure.tue.nl/ws/portalfiles/portal/381268711/Mohamed_Elsaady_EngD_Thesis.pdf
+- **About:** Predicting homeowner retrofit decisions using one-stop shop data Citation for published version (APA): Elsaady, M. (2026). Predicting homeowner retrofit decisions using one-stop shop data: analysis and tool. Technische Universiteit Eindhove
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research combined transaction data with household microdata from GBA/BRP to analyze homeowner retrofit decisions.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9872**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Achtergronddocument-verscheidenheid-vermogens-Nederlandse-huishoudens-update.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Achtergronddocument-verscheidenheid-vermogens-Nederlandse-huishoudens-update.pdf
+- **About:** **De verscheidenheid van vermogens van Nederlandse huishoudens: update** — De verscheidenheid van vermogens van Nederlandse huishoudens: update Huishoudens met een eigen woning hebben hogere netto vermogens dan huurders, zelfs bij vergelijkbare inkomens en leeftijden. De balansen van huishoudens met een eigen woni
+- **CBS datasets used (LLM):** GBA/BRP (population), INPATAB/INHATAB (income)  _[microdata]_
+- **How used:** The publication used CBS microdata, specifically GBA/BRP and INPATAB/INHATAB datasets, to analyze the diversity of household wealth in the Netherlands.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7881**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-411-Cyber-incidents-security-measures-and-financial-returns.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-411-Cyber-incidents-security-measures-and-financial-returns.pdf
+- **About:** **Cyber incidents, security measures and financial returns: Empirical evidence from Dutch firms** — Cyber incidents, security measures and financial returns: Empirical evidence from Dutch firms In this paper we empirically study how cybersecurity investments relate to the probability of cyber incidents and firm profitability. For that pur
+- **CBS datasets used (LLM):** INPATAB/INHATAB (income)  _[aggregate/StatLine | both]_
+- **How used:** The study uses administrative tax record data on Dutch firms and combines it with income data from INPATAB/INHATAB to analyze the relationship between cybersecurity measures, cyber incidents, and firm profitability.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8236**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-410-Markups-in-a-dual-labour-market-the-case-of-the-Netherlands.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-410-Markups-in-a-dual-labour-market-the-case-of-the-Netherlands.pdf
+- **About:** **Markups in a dual labour market: the case of the Netherlands** — Markups in a dual labour market: the case of the Netherlands The choice of the free input may explain at least some of the discrepancies in the literature. Stable markups in the Netherlands 2006-2016. CPB Discussion Paper Gerrit Hugo van He
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The study uses GBA/BRP microdata to analyze the markup trends in the Dutch labor market, considering flexible contract labor arrangements.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8066**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/cpb-discussion-paper-395-disentangling-the-effect-of-household-debt-on-consumption.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/cpb-discussion-paper-395-disentangling-the-effect-of-household-debt-on-consumption.pdf
+- **About:** Disentangling the effect of household debt on consumption We estimate the contemporaneous relationship between household debt and consumption during the crisis. We find that average consumption of households with high debt has decreased muc
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** Used GBA/BRP microdata to analyze the relationship between household debt and consumption during the crisis.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7881**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-Nr-460-The-Effect-Of-Adverse-Life-Events-On-Income-Trajectories.pdf)
+- **Link:** https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-Nr-460-The-Effect-Of-Adverse-Life-Events-On-Income-Trajectories.pdf
+- **About:** **The effect of adverse life-events on income trajectories** — The Effect of Adverse Life-Events on Income Trajectories This paper studies and compares the effect of different adverse life events on individuals’ income trajectories. We use a harmonized research design across events and assess the effec
+- **CBS datasets used (LLM):** GBA/BRP (population), INPATAB/INHATAB (income)  _[microdata]_
+- **How used:** The study used GBA/BRP and INPATAB/INHATAB microdata to analyze the effect of adverse life events on income trajectories.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7716**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/CPB_discussion_paper-nr-467-lasting-impacts-covid-19-infections-and-their-effects-on-labor-supply-and-disability-insurance.pdf)
+- **Link:** https://www.cpb.nl/system/files/cpbmedia/CPB_discussion_paper-nr-467-lasting-impacts-covid-19-infections-and-their-effects-on-labor-supply-and-disability-insurance.pdf
+- **About:** **Lasting impacts: COVID-19 infections and their effects on labor supply and disability insurance** — Lasting Impacts: COVID-19 Infections and Their Effects on Labor Supply and Disability Insurance We estimate the causal effects of a COVID-19 infection on hours worked and disability insurance (DI) take-up. Linking Dutch administrative data 
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The research used Statistics Netherlands' GBA/BRP and POLIS/SPOLIS microdata to analyze the effects of COVID-19 infections on labor supply and disability insurance.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9762**
+- **Type:** pdf · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/Kansrijk_integratiebeleid_op_de_arbeidsmarkt2.pdf)
+- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/Kansrijk_integratiebeleid_op_de_arbeidsmarkt2.pdf
+- **About:** **Kansrijk integratiebeleid op de arbeidsmarkt** — integratiebeleid op de arbeidsmarkt Kansrijk oktober 2020 Centraal Planbureau Sociaal en Cultureel Planbureau Kansrijk integratiebeleid op de arbeidsmarkt Beleidsopties voor het verbeteren van de arbeidsmarktuitkomsten van personen met een 
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze differences in labor market outcomes between people with and without migration backgrounds.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8332**
+- **Type:** pdf · status 200.0
+
+### [econtribute.de](https://www.econtribute.de/RePEc/ajk/ajkdps/ECONtribute_338_2024.pdf)
+- **Link:** https://www.econtribute.de/RePEc/ajk/ajkdps/ECONtribute_338_2024.pdf
+- **About:** **Worker Displacement and Labor Market Success: Evidence from Forced Labor Conscription during WWII** — ECONtribute Discussion Paper No. 338 October 2024 (updated version) www.econtribute.de Funding by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 2126/1-390838866 is gratefully
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research uses GBA/BRP microdata to analyze the long-term labor market outcomes of individuals conscripted for forced labor during WWII.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9557**
+- **Type:** pdf · status 200.0
+
+### [eur.nl](https://www.eur.nl/eshpm/media/2026-02-eindrapportexterneevaluatie)
+- **Link:** https://www.eur.nl/eshpm/media/2026-02-eindrapportexterneevaluatie
+- **About:** Externe Evaluatie Social Trials Sociale Benadering Dementie Samenvatting en eindconclusie Colophon Titel rapport Externe Evaluatie Social Trials Sociale Benadering Dementie Samenvatting en eindconclusie Auteurs Isabelle Fabbricotti Warsha J
+- **CBS datasets used (LLM):** GBA/BRP, CBS  _[microdata | aggregate/StatLine]_
+- **How used:** CBS microdata (GBA/BRP) and aggregate data from CBS were used to analyze the effects of the Social Benadering Dementie on quality of life, capacity, and costs.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9846**
+- **Type:** html · status 200.0
+
+### [eerstekamer.nl](https://www.eerstekamer.nl/overig/20140523/antilliaanse_nederlanders_2013_de/document)
+- **Link:** https://www.eerstekamer.nl/overig/20140523/antilliaanse_nederlanders_2013_de/document
+- **About:** **Eerste Kamer der Staten-Generaal** — Antilliaanse Nederlanders 2013 De positie op de terreinen van onderwijs, arbeid en uitkering en criminaliteit (meting 4) J. de Boom P . van Wensveen P . Hermus A. Weltevrede M. van San Antilliaanse Nederlanders 2013 De positie op de terrein
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages), INPATAB/INHATAB (income)  _[microdata | aggregate/StatLine]_
+- **How used:** The publication uses CBS microdata and aggregate tables from GBA/BRP, POLIS/SPOLIS, and INPATAB/INHATAB for analyzing the position of Antillean-Dutch youth in education, employment, benefits, and criminality.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7559**
+- **Type:** html · status 200.0
+
+### [crctr224.de](https://www.crctr224.de/research/discussion-papers/archive/dp721)
+- **Link:** https://www.crctr224.de/research/discussion-papers/archive/dp721
+- **About:** **The Novel Vehicle Tax on Fine Particulate** — Collaborative Research Center Transregio 224 - www.crctr224.de Rheinische Friedrich-Wilhelms-Universität Bonn - Universität Mannheim Discussion Paper No. 721 Project B 07 The Novel Vehicle Tax on Fine Particulate Matter Emissions Nico Lukas
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research uses GBA/BRP microdata to analyze household decisions over the life-cycle, including finances, education, and care.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8266**
+- **Type:** html · status 200.0
+
+### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-459-Cycling-cities-Mode-choice-car-congestion-and-urban-structure.pdf)
+- **Link:** https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-459-Cycling-cities-Mode-choice-car-congestion-and-urban-structure.pdf
+- **About:** **Cycling cities: Mode choice, car congestion, and urban structure** — Cycling cities: Mode choice, car congestion, and urban structure This study examines the impact of cycling on urban spatial structure and welfare through the development of a quantitative spatial model that incorporates mode choice and car 
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The study used Statistics Netherlands' GBA/BRP and POLIS/SPOLIS microdata to develop a quantitative spatial model examining the impact of cycling on urban structure and worker welfare.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9258**
+- **Type:** pdf · status 200.0
+
+### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/160.107-Gemeente-Hardenberg-woningbehoefte-DEF.pdf)
+- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/160.107-Gemeente-Hardenberg-woningbehoefte-DEF.pdf
+- **About:** Woningbehoefteonderzoek gemeente Hardenberg 2022 Gemeente Hardenberg 30 mei 2022 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL00182651
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze demographic trends and housing needs in Gemeente Hardenberg.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8581**
+- **Type:** pdf · status 200.0
+
+### [seor.nl](https://www.seor.nl/wp-content/uploads/2025/03/S1509-Kenmerken-van-de-zzper.pdf)
+- **Link:** https://www.seor.nl/wp-content/uploads/2025/03/S1509-Kenmerken-van-de-zzper.pdf
+- **About:** KENMERKEN VAN DE ZZP’ER: FACTS & FIGURES EINDRAPPORT Mark den Hartog Yvonne Prince Rotterdam, 21 maart 2024 COLOFON DIT IS EEN UITGAVE VAN SEOR BV © SEOR BV / ROTTERDAM, 21 MAART 2024 Niets van deze uitgave mag op welke wijze dan ook worden
+- **CBS datasets used (LLM):** GBA/BRP  _[microdata]_
+- **How used:** CBS microdata from GBA/BRP was used to analyze the demographic and economic characteristics of self-employed workers (zzp'ers) in the Netherlands.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9626**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2024/06/2024-78-Kunde-kosten-en-keuzes.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2024/06/2024-78-Kunde-kosten-en-keuzes.pdf
+- **About:** **kunde, kosten en keuzes** — KUNDE, KOSTEN EN KEUZES EVALUATIE 30%-REGELING, EXTRATERRITORIALE KOSTENREGELING & PARTIËLE BUITENLANDSE BELASTINGPLICHT 2016-2022 RAPPORT AUTEURS MICHIEL BIJLSMA, DERCK STÄBLER, NILS VERHEUVEL, STEF KONIJN, ASTRID LENSINK, ALBERT RUTTEN, W
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9695**
+- **Type:** pdf · status 200.0
+
+### [rvo.nl](https://www.rvo.nl/sites/default/files/2021/02/Analyse-energiebesparende-maatregelen-Nationaal-Energiebespaarfonds-TNO-2020.pdf)
+- **Link:** https://www.rvo.nl/sites/default/files/2021/02/Analyse-energiebesparende-maatregelen-Nationaal-Energiebespaarfonds-TNO-2020.pdf
+- **About:** **Analyse energiebesparende maatregelen** — Analyse energiebesparende maatregelen Nationaal Energiebespaarfonds In opdracht van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties Radarweg 60 1043 NT Amsterdam www.tno.nl T +31 88 866 50 10 TNO-rapport TNO 2020 P11295 Analyse
+- **CBS datasets used (LLM):** GBA/BRP (population), SECMBUS (socio-economic status)  _[microdata]_
+- **How used:** The research used CBS microdata, specifically GBA/BRP and SECMBUS, to analyze the impact of energy-saving measures on household energy consumption.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8682**
+- **Type:** pdf · status 200.0
+
+### [saxion.nl](https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport---eerste-raming-waarde-van-reclasseren.pdf#Reclasseren)
+- **Link:** https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport---eerste-raming-waarde-van-reclasseren.pdf#Reclasseren
+- **About:** **De waarde van reclasseren in Nederland** — De waarde van reclasseren in Nederland Eerste raming van maatschappelijke baten rond cliënten van de reclassering Datum 22 november 2022 Titel De waarde van reclasseren in Nederland Pagina 2 Colofon Datum 22 november 2022 Referentie Versie 
+- **CBS datasets used (LLM):** Alle zaken die instromen bij het Openbaar Ministerie  _[microdata]_
+- **How used:** The publication uses microdata from CBS regarding cases that flow into the Public Prosecution Service to quantify the benefits of reclassification in society.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8471**
+- **Type:** html · status 200.0
+
+### [stateninformatie.provincie-utrecht.nl](https://www.stateninformatie.provincie-utrecht.nl/documenten/Ingekomen-stukken-van-GS-naar-PS/1-Rapport-Arbeidsmigranten-in-de-Utrechtse-gemeenten-Companen-Decisio-april-2021.pdf)
+- **Link:** https://www.stateninformatie.provincie-utrecht.nl/documenten/Ingekomen-stukken-van-GS-naar-PS/1-Rapport-Arbeidsmigranten-in-de-Utrechtse-gemeenten-Companen-Decisio-april-2021.pdf
+- **About:** **Arbeidsmigranten in de Utrechtse gemeenten** — Arbeidsmigranten in de Utrechtse gemeenten Provincie Utrecht 26 april 2021 Definitief DATUM 26 april 2021 TITEL Arbeidsmigranten in de Utrechtse gemeenten OPDRACHTGEVER Provincie Utrecht AUTEUR(S) COMPANEN Bram Klouwen Koen Klouwen Valentin
+- **CBS datasets used (LLM):** GBA/BRP  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to estimate the number of working migrants in Utrecht and their housing needs.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8315**
+- **Type:** pdf · status 200.0
+
+### [saxion.nl](https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport-typologie.pdf#Reclasseren)
+- **Link:** https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport-typologie.pdf#Reclasseren
+- **About:** **Typologie reclassenten** — Typologie reclassenten ten behoeve van een MKBA Datum 22 november 2022 Titel Typologie reclassenten Pagina 2 / 39 Colofon Datum 22 november 2022 Referentie Versie 1.0 Afdeling Lectoraat Modelleren van Maatschappelijke Impact Auteur Anouk Vi
+- **CBS datasets used (LLM):** _none identified_  _[microdata]_
+- **How used:** The publication uses microdata from the RISc 4.0 instrument, not specific CBS datasets.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8471**
+- **Type:** html · status 200.0
+
+### [saxion.nl](https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport---reclasseren-en-bestaanszekerheid.pdf)
+- **Link:** https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport---reclasseren-en-bestaanszekerheid.pdf
+- **About:** **Reclasseren en bestaanszekerheid** — Reclasseren en bestaanszekerheid De impact van reclasseren op wonen, werk en financiën Datum Februari 2024 Titel Reclasseren en bestaanszekerheid Pagina 2 / 86 Colofon Datum Februari 2024 Status Afdeling Lectoraat Modelleren van Maatschappe
+- **CBS datasets used (LLM):** POLIS/SPOLIS (jobs & wages), SECMBUS (socio-economic status)  _[microdata]_
+- **How used:** The publication uses CBS microdata from POLIS/SPOLIS and SECMBUS for analyzing the impact of reclassification on living, working, and finances.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8471**
+- **Type:** pdf · status 200.0
+
+### [staten-generaal.nl](https://www.eerstekamer.nl/9370000/1/j4nvgs5kjg27kof_j9vvkfvj6b325az/vjf5p44qk0zg)
+- **Link:** https://www.staten-generaal.nl/9370000/1/j4nvgs5kjg27kof_j9vvkfvj6b325az/vjf5p44qk0zg
+- **About:** **Eerste Kamer der Staten-Generaal** — 1 Voortgangsrapportage wijkaanpak 2013 Aanleiding Met deze Voortgangsrapportage wijkaanpak 2013 wordt u geïnformeerd over de voortgang van de inzet op leefbare buurten, wijken en steden. Hiermee wordt voldaan aan de wens van uw Kamer zoals 
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[aggregate/StatLine]_
+- **How used:** The publication uses GBA/BRP population data to analyze trends in housing prices, social rental housing, and educational attainment across specific neighborhoods.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7515**
+- **Type:** html · status 200.0
+
+### [seor.nl](https://www.seor.nl/wp-content/uploads/2025/04/Bijlage-SEOR-derde-tussenrapport-MDEIU.pdf)
+- **Link:** https://www.seor.nl/wp-content/uploads/2025/04/Bijlage-SEOR-derde-tussenrapport-MDEIU.pdf
+- **About:** VOORTGANG MDIEU-REGELING: BEREIK EN EERSTE EFFECTEN Derde tussenrapport monitoring en evaluatie MDIEU-regeling Mark den Hartog Arie Gelderblom Tim Koenders Elisa de Vleeschouwer M.m.v. Eveline Ruijters COLOFON DIT IS EEN UITGAVE VAN SEOR BV
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9503**
+- **Type:** pdf · status 200.0
+
+### [seor.nl](https://www.seor.nl/wp-content/uploads/2026/01/Rapport-BUIG.pdf)
+- **Link:** https://www.seor.nl/wp-content/uploads/2026/01/Rapport-BUIG.pdf
+- **About:** HET VERDEELMODEL BUIG IN ROTTERDAMSE BUURTEN Eindrapport Paul de Hek Arie-Jan van der Toorn COLOFON DIT IS EEN UITGAVE VAN SEOR BV © SEOR BV / ROTTERDAM, OKTOBER 2023 Niets van deze uitgave mag op welke wijze dan ook worden verveelvoudigd z
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research uses GBA/BRP microdata to analyze the distribution of BUIG benefits across Rotterdam neighborhoods.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9466**
+- **Type:** pdf · status 200.0
+
+### [seor.nl](https://www.seor.nl/wp-content/uploads/2025/03/Tussenrapportage-Evaluatie-Monitoring-STAP-regeling_2024_definitief.pdf)
+- **Link:** https://www.seor.nl/wp-content/uploads/2025/03/Tussenrapportage-Evaluatie-Monitoring-STAP-regeling_2024_definitief.pdf
+- **About:** EVALUATIE EN MONITORING STAP-REGELING Doeltreffendheid en doelmatigheid STAP-regeling Tweede tussenrapportage, juli 2024 Bert-Jan Buiskool Paul de Hek Arie Gelderblom Mark den Hartog Elisa de Vleeschouwer Arie-Jan van der Toorn Daniël Bos A
+- **CBS datasets used (LLM):** SECMBUS, HOOGSTEOPLTAB  _[microdata]_
+- **How used:** Used SECMBUS microdata and HOOGSTEOPLTAB for analyzing the composition of STAP users in terms of education level and employment status.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9546**
+- **Type:** pdf · status 200.0
+
+### [sociale-verloskunde.nl](https://www.sociale-verloskunde.nl/uploads/artikelen/Duiding-trends-in-perinatale-uitkomsten-tussen-2010-en-2021.pdf)
+- **Link:** https://www.sociale-verloskunde.nl/uploads/artikelen/Duiding-trends-in-perinatale-uitkomsten-tussen-2010-en-2021.pdf
+- **About:** Duiding trends in perinatale uitkomsten in Nederland en de vier grote steden tussen 2010 en 2021 Auteur: Dr. Loes C.M. Bertens (senior epidemioloog) Afdeling Verloskunde & Gynaecologie, Erasmus MC, Rotterdam Afdelingshoofd; Prof. dr. Eric A
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research uses GBA/BRP microdata to analyze trends in perinatal outcomes for the four largest cities in the Netherlands between 2010 and 2021.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9675**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2020/04/Notitie_Bijstandsduur_Syriers_en_Eritreeers_v2.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2020/04/Notitie_Bijstandsduur_Syriers_en_Eritreeers_v2.pdf
+- **About:** SEO ECONOMISCH ONDERZOEK 1 Notitie Bijstandsduur Syriërs en Eri- treeërs datum 14 maart 2018 aan Gemeenten Eindhoven, Valkenswaard en Veldhoven auteurs Sandra Vriend & Siemen van der Werff, SEO Economisch On- derzoek Rapportnummer 2016-106 
+- **CBS datasets used (LLM):** GBA/BRP (population), SECMBUS (socio-economic status)  _[microdata]_
+- **How used:** The research uses GBA/BRP microdata and SECMBUS to analyze the duration of social assistance among Syrian and Eritrean immigrants.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7972**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2020/04/2014-56_Beweging_in_cao_s.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2020/04/2014-56_Beweging_in_cao_s.pdf
+- **About:** Beweging in cao’s SEO Economisch Onderzoek - Roetersstraat 29 - 1018 WB Amsterdam - T (+31) 20 525 1630 - www.seo.nl - secretariaat@seo.nl ABN-AMRO IBAN: NL14ABNA0411744356 BIC: ABNANL2A - ING: IBAN: NL96INGB0004641100 BIC: INGBNL2A KvK Ams
+- **CBS datasets used (LLM):** INPATAB/INHATAB (income)  _[microdata]_
+- **How used:** The research used INPATAB/INHATAB microdata from CBS to map quantitative developments in long-term employability.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **7551**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2025/10/2025-161-Alternatief-voor-toeslagen.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2025/10/2025-161-Alternatief-voor-toeslagen.pdf
+- **About:** **alternatief voor toeslagen** — ALTERNATIEF VOOR TOESLAGEN EEN HOGE HEFFINGSKORTING VERDER UITGEWERKT RAPPORT AUTEURS KIM VAN BERKEL, JELLIEN KNOL, DANIËL VAN VUUREN MET MEDEWERKING VAN MIRIAM GIELEN IN OPDRACHT VAN STICHTING ICTU Hoge Heffingskorting doorgerekend Een een
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** Microsimulation model using GBA/BRP microdata to analyze the income effects of a High Tax Allowance (HH) for various household types.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **3040**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2025/09/2025-82-Evaluatie-GO-GO-C-en-GO-ETFF-1.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2025/09/2025-82-Evaluatie-GO-GO-C-en-GO-ETFF-1.pdf
+- **About:** **Evaluatie Go, GO-C en go ETFF** — EVALUATIE GO, GO -C EN GO ETFF RAPPORT AUTEURS MICHIEL BIJLSMA (SEO), ADAM KUCZYNSKI (SEO), ASTRID LENSINK (SEO), ALBERT RUTTEN (SEO), REG BRENNENRAEDTS (DIALOGIC), VINCENT MOSMULLER (DIALOGIC), BRIGITTE VAN DER LUGT (DIALOGIC) IN OPDRACHT 
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9858**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2025/07/2025-52-Evaluatie-btw-vrijstellingen.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2025/07/2025-52-Evaluatie-btw-vrijstellingen.pdf
+- **About:** **evaluatie btw-vrijstellingen** — EVALUATIE BTW- VRIJSTELLINGEN DIENSTEN VAN LIJKBEZORGERS, SCHRIJVERS JOURNALISTEN EN COMPONISTEN, VOORDRACHTEN EN FONDSWERVENDE ACTIVITEITEN RAPPORT AUTEURS MICHIEL BIJLSMA (SEO), WASSIM OURAK (SEO), BEREND HOLWERDA (DIALOGIC), REG BRENNENR
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9864**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2023/06/2023-48-Evaluatie-coronasteun-cultuursector-definitief.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2023/06/2023-48-Evaluatie-coronasteun-cultuursector-definitief.pdf
+- **About:** **Evaluatie coronasteun cultuursector** — EVALUATIE CORONASTEUN CULTUURSECTOR EEN SYNTHESESTUDIE RAPPORT AUTEURS MICHIEL BIJLSMA (SEO), THIJS BUSSCHOTS (SEO), ADAM KUCZYNSKI (SEO), SANDER GEURTS (AEF) , JIM ROMIJN (AEF), ANNABEL VAESSEN (KI), HAJO MEIJER (KI), MARIEKE BUISMAN (KI) 
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The evaluation used GBA/BRP microdata to analyze the effectiveness and efficiency of support measures for the cultural sector.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9386**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2025/05/2025-76-Draagt-de-DGA-zijn-steentje-bij.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2025/05/2025-76-Draagt-de-DGA-zijn-steentje-bij.pdf
+- **About:** **DRAAGT de DGa zijn steentje bij?** — DRAAGT DE DGA ZIJN STEENTJE BIJ? EVALUATIE GEBRUIKELIJKLOONREGELING RAPPORT AUTEURS TIM SCHWARTZ, DERCK STABLER, JELLIEN KNOL, WASSIM OURAK, ARJAN LEJOUR, MICHIEL B IJLSMA IN OPDRACHT VAN MINISTERIE VAN FINANCIEN AMSTERDAM, APRIL 2025 EVALU
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze the implementation and effectiveness of the regular wage regulation for directeur-grootaandeelhouder (DGA).
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9874**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2024/06/2024-74-Evaluatie-fiscale-ondernemerschapsregelingen.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2024/06/2024-74-Evaluatie-fiscale-ondernemerschapsregelingen.pdf
+- **About:** **evaluatie Fiscale ondernemerschapsregelingen** — EVALUATIE FISCALE ONDERNEMERSCHAPSREGELINGEN RAPPORT AUTEURS TIM SCHWARTZ, DANIËL VAN VUUREN, REG BRENNENRAEDTS (DIALOGIC), JELLIEN KNOL, JOSÉ VAN DER GEEST (DIALOGIC), GERBEN DE JONG, BRIGITTE VAN DER LUGT (DIALOGIC) IN OPDRACHT VAN MINIST
+- **CBS datasets used (LLM):** GBA/BRP, SECMBUS  _[microdata]_
+- **How used:** The publication uses GBA/BRP and SECMBUS microdata to analyze the effectiveness and efficiency of fiscal entrepreneurship regulations.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9618**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2021/12/2022-101-Een-overwacht-valse-start-op-de-arbeidsmarkt.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2021/12/2022-101-Een-overwacht-valse-start-op-de-arbeidsmarkt.pdf
+- **About:** **Een onverwacht valse start op de arbeidsmarkt** — EEN ONVERWACHT VALSE START OP DE ARBEIDSMARKT DE IMPACT VAN DE CORONAPANDEMIE OP DE OVERGANG VAN HET ONDERWIJS NAAR DE ARBEIDSMARKT EINDRAPPORT AUTEURS HENRI BUSSINK, TOBIAS VERVLIET & BAS TER WEEL (SEO ECONOMISCH ONDERZOEK) SUZAN DE WINTER
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** CBS microdata from GBA/BRP was used to analyze the employment rates of young people transitioning from education to the labor market during the pandemic.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8848**
+- **Type:** pdf · status 200.0
+
+### [seo.nl](https://www.seo.nl/wp-content/uploads/2023/12/Derde-rapport-Macromonitor-NPO-mbo-ho_Koen-van-der-Ven.pdf)
+- **Link:** https://www.seo.nl/wp-content/uploads/2023/12/Derde-rapport-Macromonitor-NPO-mbo-ho_Koen-van-der-Ven.pdf
+- **About:** **Derde rapport Macromonitor NPO mbo-ho** — Macromonitor NPO mbo-ho Onderzoek in opdracht van het Ministerie van Onderwijs, Cultuur en Wetenschap Derde rapport November 2023 Derde rapport Macromonitor NPO mbo-ho | ii Derde rapport Macromonitor NPO mbo-ho Onderzoek in opdracht van het
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9283**
+- **Type:** pdf · status 200.0
+
+### [voion.nl](https://www.voion.nl/media/3mccnkbf/rapport-deeltijdwerken-vo_def3-docx.pdf)
+- **Link:** https://www.voion.nl/media/3mccnkbf/rapport-deeltijdwerken-vo_def3-docx.pdf
+- **About:** **Rapport** — ……………………………………………………………………………………………………………………………………………………………. | 1 …… …………… …………………… ……… ………………………………………………………… ………… …………………… …………………………… ………………… ………………………. | 1 Verschillen in de omvang van de werkweek …………………………………………………………………………………………………………
+- **CBS datasets used (LLM):** POLIS/SPOLIS  _[microdata]_
+- **How used:** The publication uses POLIS/SPOLIS microdata to analyze variations in the length of working weeks among employees.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9559**
+- **Type:** pdf · status 200.0
+
+### [provinciegroningen.nl](https://www.provinciegroningen.nl/fileadmin/user_upload/Documenten/Downloads/Downloads_2023/23.256_Stec_Groep_-_Onderzoeksrapport_Groningen.pdf)
+- **Link:** https://www.provinciegroningen.nl/fileadmin/user_upload/Documenten/Downloads/Downloads_2023/23.256_Stec_Groep_-_Onderzoeksrapport_Groningen.pdf
+- **About:** Woonzorgonderzoek provincie Groningen Resultaten analyses (fase 1) van regionaal traject wonen & zorg 29 mei 2024 Woonzorgonderzoek provincie Groningen 2 Inhoudsopgave 1. Inleiding 4 1.1 Aanleiding 4 1.2 Provinciale woon-zorgopgave in beeld
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research uses GBA/BRP microdata to analyze the provincial housing and care needs in Groningen.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9548**
+- **Type:** pdf · status 200.0
+
+### [rigo.nl](https://www.rigo.nl/wp-content/uploads/2022/06/Evaluatie-jongerencontract_20220330.pdf)
+- **Link:** https://www.rigo.nl/wp-content/uploads/2022/06/Evaluatie-jongerencontract_20220330.pdf
+- **About:** **Evaluatie jongerencontract Amsterdam** — RIGO Research en Advies Woon - werk - en leef omgeving www.rigo.nl Evaluatie jongerencontract Amsterdam Onderzoek naar de werking en beleving De verantwoordelijkheid voor de inhoud berust bij RIGO. Het gebruik van cijfers en/of tek- sten al
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[aggregate/StatLine]_
+- **How used:** The publication uses GBA/BRP population data to analyze the demographic context of young people in Amsterdam.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9097**
+- **Type:** pdf · status 200.0
+
+### [rigo.nl](https://www.rigo.nl/wp-content/uploads/2023/01/Na-de-instroom.pdf)
+- **Link:** https://www.rigo.nl/wp-content/uploads/2023/01/Na-de-instroom.pdf
+- **About:** **Komen, gaan en blijven in corporatiewoningen** — RIGO Research en Advies Woon - werk - en leef omgeving www.rigo.nl Komen, gaan en blijven in corporatiewoningen Over de levensloop en wooncarrière van huurders De verantwoordelijkheid voor de inhoud berust bij RIGO. Het gebruik van cijfers 
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The research used CBS Microdata, specifically GBA/BRP, to analyze the living cycle and housing career of tenants in corporate housing.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9212**
+- **Type:** pdf · status 200.0
+
+### [vogon.nl](https://www.vogon.nl/wp-content/uploads/2024/10/RERQ2024-1.pdf)
+- **Link:** https://www.vogon.nl/wp-content/uploads/2024/10/RERQ2024-1.pdf
+- **About:** Real Estate Research Quarterly is een onafhankelijke uitgave van de Vereniging van Onroerend Goed Onderzoekers Nederland (VOGON) www.vogon.nl Real Estate Research Quarterly Deze uitgave wordt mede mogelijk gemaakt door: Oktober 2024Oktober 
+- **CBS datasets used (LLM):** GBA/BRP (population)  _[microdata]_
+- **How used:** The publication uses GBA/BRP microdata to analyze discrepancies between CBS and NVM housing price indices.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9171**
+- **Type:** pdf · status 200.0
+
+### [zestor.nl](https://zestor.nl/media/publicaties/arbeidsmarktmonitor_hbo_2023.pdf)
+- **Link:** https://zestor.nl/media/publicaties/arbeidsmarktmonitor_hbo_2023.pdf
+- **About:** RAPPORT ARBEIDSMARKTMONITOR VOOR PERSONEEL IN HET HBO 2023 Colofon Het onderzoek voor de arbeidsmarktmonitor 2023 is in opdracht van Zestor uitgevoerd door ABF Research. Het is toegestaan om (delen van) de informatie te vermenigvuldigen voo
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8667**
+- **Type:** pdf · status 200.0
+
+### [zoetermeer.bestuurlijkeinformatie.nl](https://zoetermeer.bestuurlijkeinformatie.nl/Document/View/a2045803-996f-4584-826d-c804b895d8dc#:~:text=De%20woningvoorraad%20van%20Zoetermeer%20bestaat,Een%20thuis%20voor%20iedereen').)
+- **Link:** https://zoetermeer.bestuurlijkeinformatie.nl/Document/View/a2045803-996f-4584-826d-c804b895d8dc#:~:text=De%20woningvoorraad%20van%20Zoetermeer%20bestaat,Een%20thuis%20voor%20iedereen').
+- **About:** Woningbehoefte- onderzoek gemeente Zoetermeer Stec Groep aan gemeente Zoetermeer 23 augustus 2024 Woningbehoefte-onderzoek gemeente Zoetermeer 1 Inhoudsopgave 1. Inleiding 3 1.1 Uw situatie 3 1.2 Uw vragen en te boeken resultaten 4 2. Concl
+- **CBS datasets used (LLM):** GBA/BRP (population), INHATAB (income)  _[microdata | aggregate/StatLine]_
+- **How used:** The research used CBS microdata on population and income to analyze the current housing supply and future housing needs in Zoetermeer.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9584**
+- **Type:** html · status 200.0
+
+### [regioplan.nl](https://www.regioplan.nl/wp-content/uploads/2022/07/18128-Eindrapport-EenNieuwBestaanEenNieuweBaan-Regioplan-7juli22.pdf)
+- **Link:** https://www.regioplan.nl/wp-content/uploads/2022/07/18128-Eindrapport-EenNieuwBestaanEenNieuweBaan-Regioplan-7juli22.pdf
+- **About:** **Eindrapport - Programma Een nieuw bestaan, een nieuwe baan** — Eindrapport programma Een nieuw bestaan, een nieuwe baan - EINDRAPPORT - Auteurs Laura Buimer Jeanine Klaver Adriaan Oostveen Wiebe Korf Amsterdam, 7 juli 2022 Publicatienr. 18128 © 2022 Regioplan, gefinancierd door Instituut Gak Het gebrui
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of CBS data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9191**
+- **Type:** pdf · status 200.0
+
+### [regioplan.nl](https://www.regioplan.nl/wp-content/uploads/2023/07/22092-Eindrapport-Doelgroeponderzoek-kwetsbare-werkenden-Almere-Regioplan-07juni23.pdf)
+- **Link:** https://www.regioplan.nl/wp-content/uploads/2023/07/22092-Eindrapport-Doelgroeponderzoek-kwetsbare-werkenden-Almere-Regioplan-07juni23.pdf
+- **About:** **22092-Eindrapport-Doelgroeponderzoek kwetsbare werkenden Almere-Regioplan-07juni23** — Doelgroeponderzoek kwetsbare werkenden in Almere - EINDRAPPORT - Auteurs Rosanne Schaap Job Velseboer Bob van Waveren Amsterdam, 7 juni 2023 Publicatienr. 22092 © 2023 Regioplan, in opdracht van de gemeente Almere Het gebruik van cijfers en
+- **CBS datasets used (LLM):** GBA/BRP (population), POLIS/SPOLIS (jobs & wages)  _[microdata]_
+- **How used:** The research used GBA/BRP and POLIS/SPOLIS microdata to analyze the characteristics and size of vulnerable workers in Almere.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **9372**
 - **Type:** pdf · status 200.0
 
 ### [ftp.iza.org](https://docs.iza.org/dp12516.pdf)
@@ -62,11 +1196,13 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7904**
 - **Type:** pdf · status 200.0
 
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-420-Home-Ownership-and-Home-Equity-Promote-Entrepreneurial-Activity.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-420-Home-Ownership-and-Home-Equity-Promote-Entrepreneurial-Activity.pdf
-- **About:** **Home Ownership and Home Equity Promote Entrepreneurial Activity** — Home Ownership and Home Equity Promote Entrepreneurial Activity We study the effects of private real estate collateral on entrepreneurial lending and entrepreneurial activity in the Netherlands. Home ownership and positive home equity impro
-- **Signals:** StatLine table ids detected: `1000AB,2511CW,2594AV,3508TC` · CBS project **7859**
-- **Type:** pdf · status 200.0
+### [wrr.nl](https://www.wrr.nl/documenten/2020/12/14/samenleven-in-verscheidenheid)
+- **Link:** https://www.wrr.nl/publicaties/rapporten/2020/12/14/samenleven-in-verscheidenheid
+- **About:** **Samenleven in verscheidenheid. Beleid voor de migratiesamenleving | WRR** — Samenleven in verscheidenheid. Beleid voor de migratiesamenleving | WRR Het is belangrijk dat iedereen - nieuwkomers en gevestigde inwoners - zich thuis kan voelen in Nederland. Dat vraagt een actiever overheidsbeleid om alle nieuwe migrant
+- **CBS datasets used (LLM):** _none identified_  _[unclear]_
+- **How used:** The publication does not explicitly mention the use of Statistics Netherlands (CBS) data.
+- **Signals:** mentions microdata / StatLine / CBS · CBS project **8475**
+- **Type:** html · status 200.0
 
 ### [link.springer.com](https://link.springer.com/article/10.1007/s10549-016-3878-9)
 - **Link:** https://link.springer.com/article/10.1007/s10549-016-3878-9
@@ -80,18 +1216,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** StatLine table ids detected: `82016NED,83483NED` · mentions microdata / StatLine / CBS · CBS project **8352**
 - **Type:** html · status 200.0
 
-### [voion.nl](https://www.voion.nl/media/tvajv2kb/rapportage-regionale-spreiding-startende-leraren-in-het-voortgezet-onderwijs_def.pdf)
-- **Link:** https://www.voion.nl/media/tvajv2kb/rapportage-regionale-spreiding-startende-leraren-in-het-voortgezet-onderwijs_def.pdf
-- **About:** **Rapport** — ……………………………………………………………………………………………………………………………………………………………. | 1 Regionale spreiding van startende leraren in het vo: Onderzoek naar de opleidings- en werklocatie ……………………………………………………………………………………………………………………………………………………………. …………………………………………
-- **Signals:** StatLine table ids detected: `84929NED` · mentions microdata / StatLine / CBS · CBS project **9823**
-- **Type:** pdf · status 200.0
-
-### [trudo.nl](https://www.trudo.nl/files/shares/trudo/220714_ABF_Rapport_definitief.pdf)
-- **Link:** https://www.trudo.nl/files/shares/trudo/220714_ABF_Rapport_definitief.pdf
-- **About:** **Onderzoek naar Slimmer Kopen** — Onderzoek naar Slimmer Kopen® Onderzoek naar Slimmer Kopen® Uitgevoerd in opdracht van Trudo Berry Blijie, Dennis Bogers, Ruud Steijvers (ABF Research) & Johan Conijn (Finance Ideas) juli 2022 | r2021-0056DB | 20319-WRG ABF Research | Verwe
-- **Signals:** StatLine table ids detected: `0056DB` · mentions microdata / StatLine / CBS · CBS project **8530**
-- **Type:** pdf · status 200.0
-
 ### [magontslag.nl](https://www.magontslag.nl/content/toelichtingseo.pdf)
 - **Link:** https://www.magontslag.nl/content/toelichtingseo.pdf
 - **About:** SEO Economisch Onderzoek - Roetersstraat 29 - 1018 WB Amsterdam - T (+31) 20 525 1630 - www.seo.nl - secretariaat@seo.nl ABN-AMRO IBAN: NL14ABNA0411744356 BIC: ABNANL2A - ING: IBAN: NL96INGB0004641100 BIC: INGBNL2A KvK Amsterdam 41197444 - 
@@ -104,41 +1228,11 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** StatLine table ids detected: `0073AEL` · mentions microdata / StatLine / CBS · CBS project **8720**
 - **Type:** pdf · status 200.0
 
-### [open.overheid.nl](https://open.overheid.nl/documenten/1cbf1e9e-1799-49ee-b368-b996e67023f3/file)
-- **Link:** https://open.overheid.nl/documenten/1cbf1e9e-1799-49ee-b368-b996e67023f3/file
-- **About:** **Woningdelers** — Woningdelers Een kwantitatieve analyse naar omvang, diversiteit en woonpaden ABF Research Verwersdijk 8, 2611 NH Delft +31 (0) 15 27 99 300 • info@abf.nl • www.abfresearch.nl Copyright ABF Research 2025 De informatie in dit rapport is met d
-- **Signals:** StatLine table ids detected: `0021TKL` · mentions microdata / StatLine / CBS · CBS project **7844**
-- **Type:** html · status 200.0
-
-### [panteia.nl](https://panteia.nl/bestanden/mdieu-sectoranalyse-groothandel-groenten-en-fruit-2021-pdf/)
-- **Link:** https://panteia.nl/bestanden/mdieu-sectoranalyse-groothandel-groenten-en-fruit-2021-pdf/
-- **About:** **Microsoft Word - MDIEU-sectoranalyse Groothandel Groenten en Fruit 2021** — MDIEU-sectoranalyse Sector Groothandel Groenten en Fruit Merle Bartsch; Koen Maas; Douwe Grijpstra Zoetermeer, juni 2021 De verantwoordelijkheid voor de inhoud berust bij Panteia. Het gebruik van cijfers en/of teksten als toelichting of ond
-- **Signals:** StatLine table ids detected: `82435NED` · mentions microdata / StatLine / CBS · CBS project **8706**
-- **Type:** html · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/7667.116-Aedes-en-Woonbond-Onderzoek-herijking-vergoedingentabel-ivm-NTA8800-Eindconcept.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/7667.116-Aedes-en-Woonbond-Onderzoek-herijking-vergoedingentabel-ivm-NTA8800-Eindconcept.pdf
-- **About:** **Onderzoek herijking tabellen vergoedingen bij labelstappen vanwege overgang naar NTA 8800** — Onderzoek herijking tabellen vergoedingen bij labelstappen vanwege overgang naar NTA 8800 Aedes en de Woonbond 23 november 2021 Eindconcept rapport DATUM 23 november 2021 TITEL Onderzoek herijking tabellen vergoedingen bij labelstappen vanw
-- **Signals:** StatLine table ids detected: `7120NV` · mentions microdata / StatLine / CBS · CBS project **8598**
-- **Type:** pdf · status 200.0
-
 ### [link.springer.com](https://link.springer.com/article/10.1007/s12453-020-00245-5)
 - **Link:** https://link.springer.com/article/10.1007/s12453-020-00245-5
 - **About:** **Vroegsignalering van het risico op intensieve jeugdhulp voor preventieve doeleinden | Kind en adolescent | Springer Nature Link** — Vroegsignalering van het risico op intensieve jeugdhulp voor preventieve doeleinden | Kind en adolescent | Springer Nature Link Skip to main content Vroegsignalering van het risico op intensieve jeugdhulp voor preventieve doeleinden Early i
 - **Signals:** StatLine table ids detected: `84134NED` · mentions microdata / StatLine / CBS · CBS project **8162**
 - **Type:** html · status 200.0
-
-### [open.overheid.nl](https://open.overheid.nl/documenten/ea262d88-ff78-47ee-8e22-c372494c188b/file)
-- **Link:** https://open.overheid.nl/documenten/ea262d88-ff78-47ee-8e22-c372494c188b/file
-- **About:** **Kwantitatieve nulmeting verduurzaming private verhuurders - ABF Research - juni 2024** — Kwantitatieve nulme- ting verduurzaming private verhuurders ABF Research Verwersdijk 8, 2611 NH Delft +31 (0) 15 27 99 300 • info@abf.nl • www.abfresearch.nl Copyright ABF Research 2024 De informatie in dit rapport is met de grootste zorg s
-- **Signals:** StatLine table ids detected: `0010RST` · mentions microdata / StatLine / CBS · CBS project **7844**
-- **Type:** html · status 200.0
-
-### [ftp.iza.org](https://docs.iza.org/dp5817.pdf)
-- **Link:** http://ftp.iza.org/dp5817.pdf
-- **About:** **Migrant Women on the Labour Market: On the Role of Home- and Host-Country Participation** — DISCUSSION PAPER SERIES Forschungsinstitut zur Zukunft der Arbeit Institute for the Study of Labor Migrant Women on the Labour Market: On the Role of Home- and Host-Country Participation IZA DP No. 5817 June 2011 Suzanne Kok Nicole Bosch An
-- **Signals:** StatLine table ids detected: `2508GM` · CBS project **6088**
-- **Type:** pdf · status 200.0
 
 ### [link.springer.com](https://link.springer.com/article/10.1007/s11205-021-02704-9)
 - **Link:** https://link.springer.com/article/10.1007/s11205-021-02704-9
@@ -159,65 +1253,16 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8533**
 - **Type:** html · status 200.0
 
-### [onderzoek010.nl](https://onderzoek010.nl/documents/Werk-en-inkomen)
-- **Link:** https://onderzoek010.nl/documents/Werk-en-inkomen
-- **About:** **Rapportages
- | Werk en inkomen | Onderzoek010** — Rapportages | Werk en inkomen | Onderzoek010 Een ogenblik geduld a.u.b. Zoeken Contact Inloggen Help Home Rapportages Werk en inkomen Rapportages Werk en inkomen Werk en inkomen Algemeen en overig onderzoek Ambtelijke organisatie Bevolking 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7682**
-- **Type:** html · status 200.0
-
 ### [nature.com](https://www.nature.com/articles/s41522-026-00952-6)
 - **Link:** https://www.nature.com/articles/s41522-026-00952-6
 - **About:** **Specific gut microbes are associated with the incidence of cardiometabolic disease in the HELIUS cohort | npj Biofilms and Microbiomes** — Specific gut microbes are associated with the incidence of cardiometabolic disease in the HELIUS cohort | npj Biofilms and Microbiomes Skip to main content Thank you for visiting nature.com. You are using a browser version with limited supp
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9639**
 - **Type:** html · status 200.0
 
-### [open.overheid.nl](https://open.overheid.nl/documenten/7ec58a02-d131-4b9b-a951-8de952647778/file)
-- **Link:** https://open.overheid.nl/documenten/7ec58a02-d131-4b9b-a951-8de952647778/file
-- **About:** Ontwikkeling in integratie De maatschappelijke positie van zeven groepen met een migratieachtergrond in kaart gebracht J. de Boom R. van Leeuwen N. Sam Y. Seidler P. van Wensveen Risbo, Erasmus Universiteit Mei 2023 Ontwikkeling in integrat
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9371**
-- **Type:** html · status 200.0
-
-### [open.overheid.nl](https://open.overheid.nl/documenten/40aeb730-c37c-4635-93d6-14b3f82a8c42/file)
-- **Link:** https://open.overheid.nl/documenten/40aeb730-c37c-4635-93d6-14b3f82a8c42/file
-- **About:** r Opdrachtgever Ministerie van Economische Zaken Datum 12-03-2025 Onderzoek voor onderbouwd beleid. Rapport Onderzoek stimulering risicodragend ka- pitaal voor het mkb en startups Auteurs Adriaan Smeitink Frank Bongers Reg Brennenraedts Pet
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9849**
-- **Type:** html · status 200.0
-
-### [open.overheid.nl](https://open.overheid.nl/documenten/dpc-f0826fed593efaaf38ba8d5cc20e4475a8e0a83a/pdf)
-- **Link:** https://open.overheid.nl/documenten/dpc-f0826fed593efaaf38ba8d5cc20e4475a8e0a83a/pdf
-- **About:** Dialogic innovatie & interactie 1 Een serieuze zaak De wereld van kansen ongelijkheid voor eerstegeneratiestudenten achter het halen van een diploma dr. Timon de Boer, ir. Evie Tossaint, ir. Sonja Kleter, José van der Geest MSc., ir. Wazir 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9727**
-- **Type:** pdf · status 200.0
-
-### [open.overheid.nl](https://open.overheid.nl/documenten/ronl-5232b5844b64d8b05dee4084203df1e0b7c1fd33/pdf)
-- **Link:** https://open.overheid.nl/documenten/ronl-5232b5844b64d8b05dee4084203df1e0b7c1fd33/pdf
-- **About:** Samen gezond, fit en veerkrachtig Het verschil in zorgkosten tussen zorg met en zonder verblijf in de Wlz Een vergelijkende studie naar de zorgkosten van ouderen met intramurale en extramurale Wlz-zorg na een ingrijpende gebeurtenis Inhouds
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9162**
-- **Type:** pdf · status 200.0
-
-### [open.overheid.nl](https://open.overheid.nl/documenten/c82b508c-6e93-4791-a895-93bb1957c49e/file)
-- **Link:** https://open.overheid.nl/documenten/c82b508c-6e93-4791-a895-93bb1957c49e/file
-- **About:** 1 De stapeling van sociale problematiek en de centrumfunctie gemeentefonds sociaal domein Gemeentefonds sociaal domein 2 Datum 21 augustus 2024 Opdrachtgever Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK) Onderzoeksteam Gill
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9558**
-- **Type:** html · status 200.0
-
-### [open.overheid.nl](https://open.overheid.nl/documenten/f6031eef-c3cf-4007-9520-916ae96af4c9/file)
-- **Link:** https://open.overheid.nl/documenten/f6031eef-c3cf-4007-9520-916ae96af4c9/file
-- **About:** **Van verdenking tot vrijheidsstraf** — Wetenschappelijk Onderzoek- en Datacentrum P .W. de Jong A. Leerkes D. Shchetinin m.m.v. W. Bezemer N. Ne/t_ten Cahier 2025-2 Cahier 2025-2 Van verdenking tot vrijheidsstraf Een statistisch onderzoek naar de invloed van migratieachtergrond 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9455**
-- **Type:** html · status 200.0
-
 ### [nature.com](https://www.nature.com/articles/s41467-025-65512-6)
 - **Link:** https://www.nature.com/articles/s41467-025-65512-6
 - **About:** **Harnessing registry data to identify socio-demographic and socio-economic gaps in HIV care in the Netherlands | Nature Communications** — Harnessing registry data to identify socio-demographic and socio-economic gaps in HIV care in the Netherlands | Nature Communications Skip to main content Thank you for visiting nature.com. You are using a browser version with limited suppo
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8944**
-- **Type:** html · status 200.0
-
-### [open.overheid.nl](https://open.overheid.nl/documenten/f9a8cfa5-5480-4117-a674-708b3f7628a8/file)
-- **Link:** https://open.overheid.nl/documenten/f9a8cfa5-5480-4117-a674-708b3f7628a8/file
-- **About:** 1 Ervaringen met het gebruik van voorzieningen bij meerdere loketten Kwantitatief en kwalitatief onderzoek onder gebruikers en uitvoerders SEPTEMBER 2023 2 Projectnummer P0286 Onderzoek in opdracht van het ministerie van Sociale Zaken en We
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9433**
 - **Type:** html · status 200.0
 
 ### [nber.org](https://www.nber.org/papers/w23229)
@@ -248,12 +1293,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Link:** https://onderzoek.amsterdam.nl/publicatie/instroom-en-uitstroom-zuidoost-periode-2017-2018
 - **About:** **Instroom en uitstroom Zuidoost 2017-2018 | Website Onderzoek en Statistiek** — Instroom en uitstroom Zuidoost 2017-2018 | Website Onderzoek en Statistiek Direct naar inhoud Direct naar contactgegevens Instroom en uitstroom Zuidoost 2017-2018 Publicatie 13 september 2021 Deze publicatie gaat over de samenstelling van d
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7550**
-- **Type:** html · status 200.0
-
-### [nijmegen.bestuurlijkeinformatie.nl](https://nijmegen.bestuurlijkeinformatie.nl/Document/View/b99b143f-5934-4594-aa7e-06aab06826d6)
-- **Link:** https://nijmegen.bestuurlijkeinformatie.nl/Document/View/b99b143f-5934-4594-aa7e-06aab06826d6
-- **About:** **Doelgroepenanalyse flexwonen Sliedrecht** — ECONOMISCH ONDERZOEK EN ADVIES Arbeidsmigranten in de Groene Metropoolregio Arnhem-Nijmegen Datum 20 februari 2024 Versie Eindrapport Projectteam Decisio Suzanne Steegman Simone Vos Projectteam Companen Bram Klouwen Iris Voncken In opdracht
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8315**
 - **Type:** html · status 200.0
 
 ### [nivel.nl](https://www.nivel.nl/nl/publicatie/leren-van-bestaande-data-over-palliatieve-zorg-kwaliteitsindicatoren-zorggebruik-en-een)
@@ -367,24 +1406,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9097**
 - **Type:** html · status 200.0
 
-### [open.overheid.nl](https://open.overheid.nl/documenten/ronl-a83e41b7-dc77-41a4-8c19-54b36fb118a5/pdf)
-- **Link:** https://open.overheid.nl/documenten/ronl-a83e41b7-dc77-41a4-8c19-54b36fb118a5/pdf
-- **About:** a. 63756 30 juli 2021 Meer dan alleen taal Eindrapportage Onderzoek naar de effecten en succesfactoren van Project JA+ voor uitkeringsgerechtigden met een taalachterstand 63756 2 Bram Berkhout Arend Odé Hedwig Rossing Jasper Varwijk 30 juli
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8979**
-- **Type:** pdf · status 200.0
-
-### [open.overheid.nl](https://open.overheid.nl/documenten/ronl-aa3fbd0d-5849-4589-b966-1e2156416862/pdf)
-- **Link:** https://open.overheid.nl/documenten/ronl-aa3fbd0d-5849-4589-b966-1e2156416862/pdf
-- **About:** **Het inkoopvolume van de Nederlandse overheid** — MONITOR AANBESTEDINGEN IN NEDERLAND 2017 - 2019 Onderzoek naar de waarde van, het aantal aanbestedingen en de mkb-deelname daarbinnen OPDRACHTGEVER KENMERK Ministerie van Economische Zaken en Klimaat FH/jve/002349 AUTEUR(S) Team Significant
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8881**
-- **Type:** pdf · status 200.0
-
-### [papers.tinbergen.nl](https://papers.tinbergen.nl/24047.pdf)
-- **Link:** https://papers.tinbergen.nl/24047.pdf
-- **About:** TI 2024-047/V Tinbergen Institute Discussion Paper The persistence and nature of the labor reallocation shock during the COVID-19 crisis Mathieu P.A. Steijn1 1 Vrije Universiteit Amsterdam & Tinbergen Institute Tinbergen Institute is the gr
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9644**
-- **Type:** pdf · status 200.0
-
 ### [panteia.nl](https://panteia.nl/bestanden/rapportage-monitor-kerndata-kappers-editie-2023-pdf/)
 - **Link:** https://panteia.nl/bestanden/rapportage-monitor-kerndata-kappers-editie-2023-pdf/
 - **About:** Nederlands Monitor Kerndata Kappers 2023 Rapportage 2 Monitor Kerndata Kappers 2023 Rapportage Auteur(s) Opdrachtgever Pieter Fris, Gratiëlla Schippers Brancheplatform Kappers Gepubliceerd Projectnummer Zoetermeer, 19-7-2023 10450 De verant
@@ -433,41 +1454,17 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8706**
 - **Type:** html · status 200.0
 
-### [open.overheid.nl](https://open.overheid.nl/documenten/ronl-e90619e3-4831-48ab-b58f-9fc99182088f/pdf)
-- **Link:** https://open.overheid.nl/documenten/ronl-e90619e3-4831-48ab-b58f-9fc99182088f/pdf
-- **About:** **Vaststellen van de bijstandsbudgetten 2022** — VASTSTELLEN VAN DE BIJ- STANDSBUDGETTEN 2022 HERSCHATTING EN VERDELING VAN DE BUDGETTEN RAPPORT AUTEURS WOUTER VERMEULEN, LENNART, KROON, TIM SCHWARTZ, MARTEN MIDDELDORP (ATLAS RESEARCH), FRAN- CINE BUREMA (ATLAS RESEARCH) IN OPDRACHT VAN M
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8496**
-- **Type:** pdf · status 200.0
-
 ### [openresearch.amsterdam](https://openresearch.amsterdam/nl/page/74273/arbeidsmigranten-in-west-friesland)
 - **Link:** https://openresearch.amsterdam/nl/page/74273/arbeidsmigranten-in-west-friesland
 - **About:** **Arbeidsmigranten in West-Friesland - openresearch.amsterdam** — Arbeidsmigranten in West-Friesland - openresearch.amsterdam Sla de navigatie over en ga direct naar de inhoud Artikel 22 maart 2020 Arbeidsmigranten in West-Friesland Mechteld Wisse Auteur Ontwikkelingsbedrijf Noord-Holland Noord heeft name
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8315**
 - **Type:** html · status 200.0
 
-### [panteia.nl](https://panteia.nl/sites/new-nl/assets/file/Definitief_technisch_rapport_monitor_niet-gebruik_toeslagen_Panteia_LU_deel_2.pdf)
-- **Link:** https://panteia.nl/sites/new-nl/assets/file/Definitief_technisch_rapport_monitor_niet-gebruik_toeslagen_Panteia_LU_deel_2.pdf
-- **About:** Nederlands Technische toelichting bij monitor niet-gebruik toeslagen Behorend bij de Monitor niet-gebruik 2021 2 Click here and insert picture via Insert|Picture Click here and insert picture via Insert|Picture Click here and insert picture
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9750**
-- **Type:** pdf · status 200.0
-
-### [papers.tinbergen.nl](https://papers.tinbergen.nl/24027.pdf)
-- **Link:** https://papers.tinbergen.nl/24027.pdf
-- **About:** TI 2024-027/V Tinbergen Institute Discussion Paper Estimating the Lifecycle Fertility Consequences of WWII Using Bunching Esmée Zwiers1 1 University of Amsterdam and Tinbergen Institute Tinbergen Institute is the graduate school and researc
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9432**
-- **Type:** pdf · status 200.0
-
 ### [mulierinstituut.nl](https://www.mulierinstituut.nl/publicaties/26568/zwemvaardigheid-2020/)
 - **Link:** https://www.mulierinstituut.nl/publicaties/26568/zwemvaardigheid-2020/
 - **About:** **Mulier Instituut** — Mulier Instituut Ga naar de inhoud Download publicatie , opent in een nieuw tabblad Samenvatting In 2020 heeft een groter deel van de kinderen onder de 17 jaar geen zwemdiploma en bezit een kleiner deel een A-, B- én C-diploma dan in de per
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
 - **Type:** html · status 200.0
-
-### [panteia.nl](https://panteia.nl/sites/new-nl/assets/file/Definitief_rapport_2_monitor_niet-gebruik_toeslagen_2021_Panteia_LU.pdf)
-- **Link:** https://panteia.nl/sites/new-nl/assets/file/Definitief_rapport_2_monitor_niet-gebruik_toeslagen_2021_Panteia_LU.pdf
-- **About:** Nederlands Monitor niet-gebruik toeslagen Rapportage niet-gebruik 2021 2 Click here and insert picture via Insert|Picture Click here and insert picture via Insert|Picture Click here and insert picture via Insert|Picture Click here and inser
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9750**
-- **Type:** pdf · status 200.0
 
 ### [mulierinstituut.nl](https://www.mulierinstituut.nl/publicaties/26577/deelname-aan-categorieen-van-sport-2001-2020/)
 - **Link:** https://www.mulierinstituut.nl/publicaties/26577/deelname-aan-categorieen-van-sport-2001-2020/
@@ -517,12 +1514,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8706**
 - **Type:** html · status 200.0
 
-### [open.overheid.nl](https://open.overheid.nl/documenten/8dda65b3-1cda-43d3-bf4f-211d3dc9336b/file)
-- **Link:** https://open.overheid.nl/documenten/8dda65b3-1cda-43d3-bf4f-211d3dc9336b/file
-- **About:** **Monitor van gelijkwaardige kansen en evenredige posities op de arbeidsmarkt, ongeacht migratieachtergrond** — MONITOR VAN GELIJKWAARDIGE KANSEN EN EVENREDIGE POSITIES OP DE ARBEIDSMARKT, ONGEACHT MIGRATIEACHTERGROND DERDE METING KLANT Ministerie van Sociale Zaken en Werkgelegenheid AUTEUR(S) Michiel Bosma, Maartje Gielen, Victor Hoornweg, Lisa Geer
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9292**
-- **Type:** html · status 200.0
-
 ### [nivel.nl](https://www.nivel.nl/sites/default/files/bestanden/1003895.pdf)
 - **Link:** https://www.nivel.nl/sites/default/files/bestanden/1003895.pdf
 - **About:** P A L L I A T I E V E Z O R G I N N E D E R L A N D: F E I T E N E N C I J F E R S Factsheet 4: IC opnamen en andere potentieel niet- passende behandelingen in het ziekenhuis Mariska Oosterveld, An Reyners, Marianne Heins, Manon Boddaert, Y
@@ -553,22 +1544,10 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
 - **Type:** html · status 200.0
 
-### [open.overheid.nl](https://open.overheid.nl/documenten/ronl-f2bf26b4-a21e-4004-b19a-030638fdfd77/pdf)
-- **Link:** https://open.overheid.nl/documenten/ronl-f2bf26b4-a21e-4004-b19a-030638fdfd77/pdf
-- **About:** **Verdeelmodel beschut werk** — VERDEELMODEL BESCHUT WERK NIEUWE VERDELING KLANT Ministerie van Sociale Zaken en Werkgelegenheid AUTEUR(S) Lisette Swart, Maartje Gielen, Tom Boersma en Leo Aarts DATUM 31 maart 2021 INHOUDSOPGAVE Inhoudsopgave Samenvatting 3 1 Achtergrond 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8864**
-- **Type:** pdf · status 200.0
-
 ### [palliaweb.nl](https://palliaweb.nl/onderzoek/kerncijfers-palliatieve-zorg/kerncijfers-behoefte-aan-palliatieve-zorg)
 - **Link:** https://palliaweb.nl/publicaties/kerncijfers-behoefte-aan-palliatieve-zorg
 - **About:** **Kerncijfers behoefte aan palliatieve zorg - Palliaweb** — Kerncijfers behoefte aan palliatieve zorg - Palliaweb Kerncijfers behoefte aan palliatieve zorg Kerncijfers behoefte aan palliatieve zorg Verwachte update cijfers: vierde kwartaal 2026 Jaarlijks sterven in Nederland ongeveer 170.000 mensen.
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9053**
-- **Type:** html · status 200.0
-
-### [panteia.nl](https://panteia.nl/bestanden/arbeidsmarktonderzoek-sector-groothandels-in-groenten-en-fruit-pdf/)
-- **Link:** https://panteia.nl/bestanden/arbeidsmarktonderzoek-sector-groothandels-in-groenten-en-fruit-pdf/
-- **About:** Arbeidsmarktonderzoek Sector Groothandel in Groenten en Fruit Douwe Grijpstra; Koen Maas; Merle Bartsch; Liset van Oeveren; Eelco Tammens Zoetermeer , 4 oktober 2021 De verantwoordelijkheid voor de inhoud berust bij Panteia. Het gebruik van
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8706**
 - **Type:** html · status 200.0
 
 ### [panteia.nl](https://panteia.nl/bestanden/arbeidsaanbod-in-2022-pdf/)
@@ -580,12 +1559,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 ### [panteia.nl](https://panteia.nl/bestanden/2024-rapportage-monitor-kerndata-kappers-editie-2024-v1807-pdf/)
 - **Link:** https://panteia.nl/bestanden/2024-rapportage-monitor-kerndata-kappers-editie-2024-v1807-pdf/
 - **About:** Nederlands Monitor Kerndata Kappers 2024 Rapportage 2 Monitor Kerndata Kappers 2024 Rapportage Auteur(s) Opdrachtgever Pieter Fris, Gratiëlla Schippers en Marijke Beulen Brancheplatform Kappers Gepubliceerd Projectnummer Zoetermeer, 16-7-20
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8706**
-- **Type:** html · status 200.0
-
-### [panteia.nl](https://panteia.nl/bestanden/mdieu-sectoranalyse-gehandicaptenzorg-2022-pdf/)
-- **Link:** https://panteia.nl/bestanden/mdieu-sectoranalyse-gehandicaptenzorg-2022-pdf
-- **About:** Sectoranalyse Gehandicaptenzorg MDIEU Zoetermeer , juli 2021 De verantwoordelijkheid voor de inhoud berust bij Panteia. Het gebruik van cijfers en/of teksten als toelichting of ondersteuning in artikelen, scripties en boeken is toegestaan m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8706**
 - **Type:** html · status 200.0
 
@@ -604,12 +1577,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 ### [panteia.nl](https://panteia.nl/bestanden/monitor-bakkersbranche-2022-pdf/)
 - **Link:** https://panteia.nl/bestanden/monitor-bakkersbranche-2022-pdf/
 - **About:** + Monitor Bakkersbranche editie 2022 Zoetermeer , 8 september 2022 De verantwoordelijkheid voor de inhoud berust bij Panteia. Het gebruik van cijfers en/of teksten als toelichting of ondersteuning in artikelen, scripties en boeken is toeges
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8706**
-- **Type:** html · status 200.0
-
-### [panteia.nl](https://panteia.nl/bestanden/doorrekening-kostenstijgingen-in-de-detailhandel-pdf/)
-- **Link:** https://panteia.nl/bestanden/doorrekening-kostenstijgingen-in-de-detailhandel-pdf/
-- **About:** Nederlands 10807 Effecten van kostenstijgingen voor de Detailhandel 1 2 Effecten van kostenstijgingen voor de Detailhandel Auteur(s) Opdrachtgever(s) Pieter Fris, René Vogels, Melanie de Ruiter-Groenewegen, Gratiella Schippers, Loïs Verhuls
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8706**
 - **Type:** html · status 200.0
 
@@ -793,24 +1760,12 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8574**
 - **Type:** html · status 200.0
 
-### [regioplan.nl](https://www.regioplan.nl/wp-content/uploads/2021/11/Rapport-Arbeidsmarktonderzoek-Woningcorporaties.pdf)
-- **Link:** https://www.regioplan.nl/wp-content/uploads/2021/11/Rapport-Arbeidsmarktonderzoek-Woningcorporaties.pdf
-- **About:** **Arbeidsmarktonderzoek Woningcorporaties 2021** — Arbeidsmarktonderzoek Woningcorporaties 2021 Onderzoek onder werkgevers & werknemers naar ontwikkelingen op de sectorale arbeidsmarkt FLOW maakt werk van morgen Arbeidsmarktonderzoek Woningcorporaties 2021 - EINDRAPPORT - Auteurs Stef Molle
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9022**
-- **Type:** pdf · status 200.0
-
 ### [hdl.handle.net](https://research.rug.nl/en/publications/twee-decennia-internationaal-geori%C3%ABnteerde-studenten-in-de-studie/)
 - **Link:** https://hdl.handle.net/11370/07e37211-5ac5-45f8-9f75-2a2716e7181f
 - **About:** **Two decades of internationally oriented students in Medicine: developments in in-and outflow in the Netherlands: Report on a pilot on Statistics Netherlands data
       -  the University of Groningen research portal** — Two decades of internationally oriented students in Medicine: developments in in-and outflow in the Netherlands: Report on a pilot on Statistics Netherlands data - the University of Groningen research portal Skip to main navigation Skip to 
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7824**
 - **Type:** html · status 200.0
-
-### [pbl.nl](https://www.pbl.nl/system/files/document/2025-04/pbl-2025-de-spoorweg-naar-werk-5282.pdf)
-- **Link:** https://www.pbl.nl/system/files/document/2025-04/pbl-2025-de-spoorweg-naar-werk-5282.pdf
-- **About:** **De (spoor)weg naar werk? Arbeidsmarkteffecten van de opening van een nieuw treinstation** — DE (SPOOR)WEG NAAR WERK? Arbeidsmarkteffecten van de opening van een nieuw treinstation Anet Weterings en Jeroen Bastiaanssen 7 april 2025 Colofon DE (SPOOR)WEG NAAR WERK? Arbeidsmarkteffecten van de opening van een nieuw treinstation © PB 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **3017**
-- **Type:** pdf · status 200.0
 
 ### [ij-healthgeographics.biomedcentral.com](https://link.springer.com/article/10.1186/s12942-017-0097-5)
 - **Link:** https://ij-healthgeographics.biomedcentral.com/articles/10.1186/s12942-017-0097-5
@@ -836,46 +1791,16 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7812**
 - **Type:** pdf · status 200.0
 
-### [rechtspraak.nl](https://www.rechtspraak.nl/binaries/_rts_1768906541279/content/assets/rvdr/rm/2016/rvdr-rm-2016-research-memoranda-2016-02.pdf)
-- **Link:** https://www.rechtspraak.nl/SiteCollectionDocuments/research-memoranda-2016-02.pdf
-- **About:** **Research Memoranda Nummer 2 2016** — Raad voor de rechtspraak Research Memoranda Nummer 2 / 2016 Jaargang 11 Sigrid van Wingerden & Hilde Wermink Zwaarder gestraft?Research Memoranda2016 - nr 2 Zwaarder gestraft? Verder onderzoek naar etnisch gerelateerde straf - toemeting: ve
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7621**
-- **Type:** pdf · status 200.0
-
-### [pascalachard.com](https://www.pascalachard.com/uploads/1/2/0/0/120084194/achard_3g.pdf)
-- **Link:** https://www.pascalachard.com/uploads/1/2/0/0/120084194/achard_3g.pdf
-- **About:** The long-term integration of non-Western immigrants in Europe: Evidence from the third generation Pascal Achard∗ May 13, 2025 Abstract This paper studies the long-term integration of non-Western immigrants in Eu- rope by focusing on their g
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9676**
-- **Type:** pdf · status 200.0
-
 ### [jongpit.nl](https://jongpit.nl/wp-content/uploads/2022/02/Significant-APE-Eindrapport-Jongeren-Inclusief-microdata-DEF.pdf)
 - **Link:** https://jongpit.nl/wp-content/uploads/2022/02/Significant-APE-Eindrapport-Jongeren-Inclusief-microdata-DEF.pdf
 - **About:** **Tussenraport Jongeren Inlusief** — JONGEREN INCLUSIEF MICRODATA-ONDERZOEK NAAR PARTICIPATIEACHTERSTANDEN VAN JONGEREN MET EEN CHRONISCHE AANDOENING AUTEUR(S) Maartje Gielen, Wijnand Plaggenhoef, Joeri Athmer, Leo Aarts en Ilse Kalisvaart DATUM 1 augustus 2021 VERSIE Definiti
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8684**
 - **Type:** pdf · status 200.0
 
-### [ossokina.com](https://www.ossokina.com/pdf/2023/insulation_paper.pdf)
-- **Link:** https://www.ossokina.com/pdf/2023/insulation_paper.pdf
-- **About:** Welfare trade-oﬀs of energy-eﬃcient homes: poverty, environment and comfort∗ Vincent P. Roberdel, # Ioulia V. Ossokina, # Vladimir A. Karamychev, ## Theo A. Arentze # # Eindhoven University of Technology, ## Erasmus University Rotterdam Jul
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8729**
-- **Type:** pdf · status 200.0
-
 ### [platform-investico.nl](https://www.platform-investico.nl/media/pages/onderzoeken/2-miljoen-ouderen-in-woning-met-risico-op-oververhitting/2851277ed2-1720512693/onderzoeksverantwoording-hittestress.pdf)
 - **Link:** https://www.platform-investico.nl/media/pages/onderzoeken/2-miljoen-ouderen-in-woning-met-risico-op-oververhitting/2851277ed2-1720512693/onderzoeksverantwoording-hittestress.pdf
 - **About:** **Onderzoeksverantwoording Hittestress** — VerantwoordingonderzoekHittestress Dehittegolvenvandetoekomst wordenheter, durenlanger, enkomenvaker voor.Nederlandsehuizenzijndaar niet opgebouwd, ener isnauwelijkspubliekbewustzijnoverderisico’svanhitte, met namevoor kwetsbaregroepenalsou
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8582**
-- **Type:** pdf · status 200.0
-
-### [pbl.nl](https://www.pbl.nl/uploads/default/downloads/PBL_2013_A-hedonic-price-analysis-of-the-value-of-industrial-sites_.pdf)
-- **Link:** https://www.pbl.nl/uploads/default/downloads/PBL_2013_A-hedonic-price-analysis-of-the-value-of-industrial-sites_.pdf
-- **About:** 1 PBL WORKING PAPER 10 MARCH 2013 A hedonic price analysis of the value of industrial sites Jasper Beekmans, Institute for Management Research, Radboud University Nijmegen, The Netherlands1 Pascal Beckers, PBL Netherlands Environmental Asse
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7134**
-- **Type:** pdf · status 200.0
-
-### [oranjefonds.nl](https://www.oranjefonds.nl/sites/default/files/atoms/files/NJi%20Vooronderzoek%20Meer%20Kansen%20voor%20Jongeren.pdf)
-- **Link:** https://www.oranjefonds.nl/sites/default/files/atoms/files/NJi%20Vooronderzoek%20Meer%20Kansen%20voor%20Jongeren.pdf
-- **About:** **Offerte** — Kansen voor jongeren in kwetsbare posities Vooronderzoek programmering Kansen voor jongeren II 2 © 2017 Nederlands Jeugdinstituut Niets uit deze uitgave mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie, micr
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8125**
 - **Type:** pdf · status 200.0
 
 ### [link.springer.com](https://link.springer.com/article/10.1007/s10433-025-00859-9)
@@ -1022,12 +1947,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9424**
 - **Type:** html · status 200.0
 
-### [link.springer.com](https://link.springer.com/content/pdf/10.1007/s10508-024-02902-9.pdf)
-- **Link:** https://link.springer.com/content/pdf/10.1007/s10508-024-02902-9.pdf
-- **About:** **Same-Sex Relationships and Criminal Behavior: A Total Population Study in The Netherlands** — Vol.:(0123456789)1 3 Archives of Sexual Behavior (2024) 53:2923–2938 https://doi.org/10.1007/s10508-024-02902-9 ORIGINAL PAPER Same‑Sex Relationships and Criminal Behavior: A Total Population Study in The Netherlands Steve G. A. van de Weij
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8714**
-- **Type:** pdf · status 200.0
-
 ### [nji.nl](https://www.nji.nl/kennis/impact-maken-met-jeugdbeleid/gezinnen-met-meervoudige-en-complexe-problemen)
 - **Link:** https://www.nji.nl/Multiprobleemgezinnen-per-provincie-en-gemeente
 - **About:** **Gezinnen met meervoudige en complexe problemen | Nederlands Jeugdinstituut** — Gezinnen met meervoudige en complexe problemen | Nederlands Jeugdinstituut Overslaan en naar de inhoud gaan Gezinnen met meervoudige en complexe problemen Het Nederlands Jeugdinstituut heeft een voorspellingsmodel ontwikkeld dat gemeenten h
@@ -1124,12 +2043,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9666**
 - **Type:** pdf · status 200.0
 
-### [link.springer.com](https://link.springer.com/article/10.1186/s12939-025-02518-y)
-- **Link:** https://link.springer.com/article/10.1186/s12939-025-02518-y
-- **About:** **Decomposing socioeconomic differences in self-rated health and healthcare expenditure by chronic conditions and social determinants | International Journal for Equity in Health | Springer Nature Link** — Decomposing socioeconomic differences in self-rated health and healthcare expenditure by chronic conditions and social determinants | International Journal for Equity in Health | Springer Nature Link Skip to main content Advertisement BMC j
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7765**
-- **Type:** html · status 200.0
-
 ### [link.springer.com](https://link.springer.com/article/10.1186/s12889-024-21032-4)
 - **Link:** https://link.springer.com/article/10.1186/s12889-024-21032-4
 - **About:** **Differential effects of air pollution on ischemic stroke and ischemic heart disease by ethnicity in a nationwide cohort in the Netherlands | BMC Public Health | Springer Nature Link** — Differential effects of air pollution on ischemic stroke and ischemic heart disease by ethnicity in a nationwide cohort in the Netherlands | BMC Public Health | Springer Nature Link Skip to main content Advertisement BMC journals have moved
@@ -1160,41 +2073,11 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8720**
 - **Type:** html · status 200.0
 
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/08/342.107-Woningmarktonderzoek-Soest-definitief.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2025/08/342.107-Woningmarktonderzoek-Soest-definitief.pdf
-- **About:** Woningmarktonderzoek 2023-2040 Gemeente Soest 26 september 2023 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM 26 sep
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
-- **Type:** pdf · status 200.0
-
 ### [corpovenista.nl](https://corpovenista.nl/kennisbank/publicaties/de-sociale-huurwoning-biedt-niet-altijd-ruimte-voor-groei/)
 - **Link:** https://www.corpovenista.nl/nieuws/uitgelicht/de-sociale-huurwoning-biedt-niet-altijd-ruimte-voor-groei/
 - **About:** **De sociale huurwoning biedt niet altijd ruimte voor groei | Kennisplatform Corpovenista** — De sociale huurwoning biedt niet altijd ruimte voor groei | Kennisplatform Corpovenista Kennisbank De sociale huurwoning biedt niet altijd ruimte voor groei 19 januari 2023 De eerste vijf jaar na instroom in een sociale huurwoning groeien h
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9212**
 - **Type:** html · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/01/Provincie-Gelderland-Onderzoek-kleine-woningen-definitief.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2025/01/Provincie-Gelderland-Onderzoek-kleine-woningen-definitief.pdf
-- **About:** Onderzoek kleine woningen Gelderland Provincie Gelderland 15 januari 2025 Definitief 3000.124/G | Onderzoek kleine woningen Gelderland 2 Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 3
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9811**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/02/168.107-Woningbehoefteonderzoek-Gemeente-Losser-2024-definitief.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2025/02/168.107-Woningbehoefteonderzoek-Gemeente-Losser-2024-definitief.pdf
-- **About:** Woningbehoefteonderzoek Losser 2024 Gemeente Losser 4 oktober 2024 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM 4 o
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/02/1955.108-Woningmarktonderzoek-Montferland-2024-def.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2025/02/1955.108-Woningmarktonderzoek-Montferland-2024-def.pdf
-- **About:** Woningmarktonderzoek Montferland 2024 Behoefte in de kernen Gemeente Montferland en Plavei 3 september 2024 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 0903
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2025/01/Woon-welzijn-zorgvisie-Deurne-vastgesteld-10-december-2024.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2025/01/Woon-welzijn-zorgvisie-Deurne-vastgesteld-10-december-2024.pdf
-- **About:** Vastgesteld gemeenteraad 10 december 2024 2 Inhoudsopgave Voorwoord ............................................................................................................ 4 1. Inleiding ................................................
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
-- **Type:** pdf · status 200.0
 
 ### [swov.nl](https://swov.nl/nl/publicatie/ernstig-verkeersgewonden-2017)
 - **Link:** https://swov.nl/nl/publicatie/ernstig-verkeersgewonden-2017
@@ -1202,40 +2085,10 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7894**
 - **Type:** html · status 200.0
 
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/11/Kempische-visie-op-wonen-2024-2028-Volkshuisvestingsprogramma.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/11/Kempische-visie-op-wonen-2024-2028-Volkshuisvestingsprogramma.pdf
-- **About:** Kempische visie op wonen 2024-2028 Volkshuisvestingsprogramma Kempengemeenten 7 mei 2024 Versie 3.2 - Eindconcept Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/09/Woonzorgvisie-Lopik-2024-2029.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/09/Woonzorgvisie-Lopik-2024-2029.pdf
-- **About:** Woonzorgvisie Lopik 2024 - 2029 Onderdeel van het Volkshuisvestingsprogramma Lopik Maart 2024 Woonzorgvisie Lopik 2024 - 2029 Voorwoord In onze gemeente is het fijn wonen. Dat is de grote rode lijn die we het afgelopen jaar in voorbereiding
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
-- **Type:** pdf · status 200.0
-
-### [afm.nl](https://www.afm.nl/~/profmedia/files/doelgroepen/pensioenuitvoerders/2023/pensioenopbouw-derde-pijler.pdf)
-- **Link:** https://www.afm.nl/~/profmedia/files/doelgroepen/pensioenuitvoerders/2023/pensioenopbouw-derde-pijler.pdf
-- **About:** **Fiscaal gefaciliteerde opbouw van individueel pensioenvermogen in de derde pijler** — Fiscaal-gefaciliteerde opbouw van individueel pensioenvermogen in de derde pijler Een analyse van de afnemerskant op basis van CBS-microdata Lees verder ONDER EMBARGO 2 Inhoud Inhoud Samenvatting 3 01 Introductie 6 02 Data 7 03 Werkenden me
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9290**
-- **Type:** pdf · status 200.0
-
 ### [argumentenfabriek.nl](https://www.argumentenfabriek.nl/media/3761/onderwijsstromen-in-beeld-tabletboek.pdf)
 - **Link:** https://www.argumentenfabriek.nl/media/3761/onderwijsstromen-in-beeld-tabletboek.pdf
 - **About:** **Onderwijsstromen in beeld** — Onderwijsstromen in beeld Sanne Roessingh Daniël van Vuuren Colofon Onderwijsstromen in beeld Auteurs Sanne Roessingh Daniël van Vuuren Ontwerp Willem van den Goorbergh Leonie Lous De Argumentenfabriek 2020 www.argumentenfabriek.nl In opdra
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8629**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/09/Woningmarktonderzoek-Leusden-020224.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/09/Woningmarktonderzoek-Leusden-020224.pdf
-- **About:** Woningmarktonderzoek Gemeente Leusden Gemeente Leusden 2 februari 2024 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/06/301.103-Gemeente-Zutphen-Woningmarktanalyse-2023-definitief.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/06/301.103-Gemeente-Zutphen-Woningmarktanalyse-2023-definitief.pdf
-- **About:** 301.103/G | Woningmarktanalyse Zutphen 1 Woningmarktanalyse Zutphen Wonen in sterke wijken en dorpen Gemeente Zutphen 22 december 2023 Definitief 301.103/G | Woningmarktanalyse Zutphen 2 Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Ar
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
 - **Type:** pdf · status 200.0
 
 ### [bedrijvenbeleidinbeeld.nl](https://www.bedrijvenbeleidinbeeld.nl/themas/beleidsthemas-verder-onder-de-loep/kennisspillovers-van-rd-in-nederland-een-eerste-stap-in-de-micro-analyse-van-het-publieke-rendement-van-rd)
@@ -1243,12 +2096,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **About:** **Kennisspillovers van R&D in Nederland: Een eerste stap in de micro-analyse van het publieke rendement van R&D | Bedrijvenbeleid in beeld** — Kennisspillovers van R&D in Nederland: Een eerste stap in de micro-analyse van het publieke rendement van R&D | Bedrijvenbeleid in beeld Investeringen in onderzoek en ontwikkeling (R&D) leveren in de regel geld op voor het investerende bedr
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9442**
 - **Type:** html · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/Woonzorgvisie-Oisterwijk-def.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/Woonzorgvisie-Oisterwijk-def.pdf
-- **About:** **Woonzorgvisie Gemeente Oisterwijk 2022 - 2027** — Woonzorgvisie Gemeente Oisterwijk 2022 - 2027 Een visie op wonen en leven in Oisterwijk, Moergestel, Haaren en Heukelom 21 april 2022 DATUM 21 april 2022 TITEL Woonzorgvisie Gemeente Oisterwijk 2022 - 2027 Een visie op wonen en leven in Ois
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8971**
-- **Type:** pdf · status 200.0
 
 ### [swov.nl](https://swov.nl/nl/publicatie/ernstig-verkeersgewonden-2023)
 - **Link:** https://swov.nl/nl/publicatie/ernstig-verkeersgewonden-2023
@@ -1312,28 +2159,10 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9764**
 - **Type:** html · status 200.0
 
-### [scherpenzeel.bestuurlijkeinformatie.nl](https://scherpenzeel.bestuurlijkeinformatie.nl/Document/View/d88c893b-c11b-4f03-8553-d1b07e6cda6e)
-- **Link:** https://scherpenzeel.bestuurlijkeinformatie.nl/Document/View/d88c893b-c11b-4f03-8553-d1b07e6cda6e
-- **About:** Woningbehoefte- onderzoek regio Foodvalley Stec Groep aan regio Foodvalley 15 oktober 2024 Woningbehoefte-onderzoek regio Foodvalley 1 Inhoudsopgave Management-samenvatting 2 1. Inleiding 9 1.1 Uw situatie 9 1.2 U vraagt: scherp inzicht in 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9584**
-- **Type:** html · status 200.0
-
 ### [sociaalplanbureaugroningen.nl](https://sociaalplanbureaugroningen.nl/wp-content/uploads/2018/11/feitenblad-armoede-van-generatie-op-generatie_oktober-2018.pdf)
 - **Link:** https://sociaalplanbureaugroningen.nl/wordpress/wp-content/uploads/2018/11/feitenblad-armoede-van-generatie-op-generatie_oktober-2018.pdf
 - **About:** Armoede van generatie op generatie in de Veenkoloniën In de Veenkoloniën wonen van oudsher veel gezinnen die leven van een laag inkomen. Het vermoeden is dat deze armoede vaak van generatie op generatie wordt doorgegeven. Zowel ouders als h
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8156**
-- **Type:** pdf · status 200.0
-
-### [swov.nl](https://swov.nl/sites/default/files/bestanden/downloads/R-2023-08.pdf)
-- **Link:** https://swov.nl/sites/default/files/bestanden/downloads/R-2023-08.pdf
-- **About:** Verkeersongevallen buiten zicht Door de politie geregistreerde verkeersongevallen die (nog) niet in BRON terechtkomen R-2023-8 Auteurs Ir. R.J. Decae Drs. N.M Bos Dr. L.T. Aarts Ongevallen voorkomen Letsel beperken Levens redden Documentbes
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8439**
-- **Type:** pdf · status 200.0
-
-### [significant.nl](https://significant.nl/wp-content/uploads/2023/09/Onderzoek-woonruimtedeler-bijstandsgerechtigden.pdf)
-- **Link:** https://significant.nl/wp-content/uploads/2023/09/Onderzoek-woonruimtedeler-bijstandsgerechtigden.pdf
-- **About:** **Belemmeringen woonruimte delen** — SAMEN ONDER DAK BELEMMERINGEN VOOR BIJSTANDSGERECHTIGDEN OM WOONRUIMTE TE DELEN KLANT Ministerie van Sociale Zaken en Werkgelegenheid AUTEUR(S) Michiel Blom, Sam Huberts, Marjolijn Zwanepol, Maartje Gielen, Ellen Westhoff, Joeri Athmer, Ils
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8750**
 - **Type:** pdf · status 200.0
 
 ### [st-raw.nl](https://st-raw.nl/wp-content/uploads/2022/03/Factsheet-jeugdhulpgebruik-in-wijken-2015-2018-versie-definitief.pdf)
@@ -1358,18 +2187,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Link:** https://st-raw.nl/wp-content/uploads/2023/09/Factsheet_bereikwijkteams_final-1.pdf
 - **About:** **PowerPoint-presentatie** — De betrouwbaarheid van de gegevens over wijkteamhulp in CBS Microdata Een analyse van regio Rijnmond en regio Haaglanden INLEIDING Sinds de decentralisatie van jeugdzorg in 2015 hebben veel gemeenten wijkteams opgericht. In sommige gemeente
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8170**
-- **Type:** pdf · status 200.0
-
-### [sociaalplanbureaugroningen.nl](https://sociaalplanbureaugroningen.nl/wp-content/uploads/2020/02/Eindrapport-De-rol-van-binnenlandse-verhuizingen-in-groeiende-inkomens....pdf)
-- **Link:** https://sociaalplanbureaugroningen.nl/wordpress/wp-content/uploads/2020/02/Eindrapport-De-rol-van-binnenlandse-verhuizingen-in-groeiende-inkomens....pdf
-- **About:** 1 Het proces om tot dit Regioplan te komen heeft niet alleen geleid tot een Werkagenda. Het inzicht in welke acties van iedere gemeente in de komende twee jaar nodig is, heeft ook geleid tot een actieve houding en inzet van iedere individue
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8226**
-- **Type:** pdf · status 200.0
-
-### [stecstat.nl](https://stecstat.nl/wp-content/uploads/2026/04/25.165-Rotterdam-zuid-publicatieversie.pdf)
-- **Link:** https://stecstat.nl/wp-content/uploads/2026/04/25.165-Rotterdam-zuid-publicatieversie.pdf
-- **About:** Pendelstromen Rotterdam-Zuid Analyse samenhang inwoners, werkenden en werklocaties 10 februari 2026 Pendelstromen Rotterdam-Zuid 2 Inhoudsopgave Samenvatting 3 1. Inleiding 4 1.1 Aanleiding 4 1.2 Gebiedsindeling 4 1.3 Onbekend opleidingsniv
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9757**
 - **Type:** pdf · status 200.0
 
 ### [cpb.nl](https://www.cpb.nl/en/inequality-and-redistribution-in-the-netherlands)
@@ -1474,12 +2291,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8577**
 - **Type:** html · status 200.0
 
-### [centerdata.nl](https://www.centerdata.nl/app/uploads/sites/2/2024/06/Evaluatie-heffingskortingen-en-tariefstructuur.pdf)
-- **Link:** https://www.centerdata.nl/app/uploads/sites/2/2024/06/Evaluatie-heffingskortingen-en-tariefstructuur.pdf
-- **About:** **Eindrapport Evaluatie heffingskortingen en tariefstructuur** — Evaluatie Heffingskortingen en Tariefstructuur Onderzoek in opdracht van Ministerie van Financiën Datum 10 april 2024 Auteurs drs. Boukje Cuelenaere dr. Roxanne van Giesen drs. Marcia den Uijl met medewerking van dr. Jan Dirk Vlasblom Versi
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9513**
-- **Type:** pdf · status 200.0
-
 ### [centerdata.nl](https://www.centerdata.nl/publicaties/huishoudkenmerken-van-leerlingen-in-het-speciaal-basisonderwijs-in-tilburg)
 - **Link:** https://www.centerdata.nl/publicaties/huishoudkenmerken-van-leerlingen-in-het-speciaal-basisonderwijs-in-tilburg
 - **About:** **Huishoudkenmerken van leerlingen in het (speciaal) basisonderwijs in Tilburg - Centerdata NL** — Huishoudkenmerken van leerlingen in het (speciaal) basisonderwijs in Tilburg - Centerdata NL Centerdata NL NL EN Terug Huishoudkenmerken van leerlingen in het (speciaal) basisonderwijs in Tilburg Centerdata NL Publicaties 2025 Huishoudkenme
@@ -1502,12 +2313,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Link:** https://www.companen.nl/wp-content/uploads/2022/01/Artikel-Woontoegankelijkheidsmonitor_bijlage.pdf
 - **About:** Woontoegankelijkheidsmonitor van BLG Wonen maakt toegang tot de woningmarkt inzichtelijk De urgentie van een toegankelijke woningmarkt Wonen is een primaire levensbehoefte, de basis van waaruit burgers hun leven kunnen vormgeven. Artikel 22
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8971**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/312.104-Gemeente-Bunnik-Woningbehoefteonderzoek-2023-Definitief-v1_2.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/312.104-Gemeente-Bunnik-Woningbehoefteonderzoek-2023-Definitief-v1_2.pdf
-- **About:** Woningbehoefteonderzoek Gemeente Bunnik 31 augustus 2023 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM 31 augustus 2
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
 - **Type:** pdf · status 200.0
 
 ### [cbs.nl](https://www.cbs.nl/nl-nl/maatwerk/2021/12/verdeelmodel-buig-budget)
@@ -1534,52 +2339,16 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8463**
 - **Type:** html · status 200.0
 
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/09/Onderzoek-woningbehoefte-Maarn-en-Maarsbergen-definitief.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/09/Onderzoek-woningbehoefte-Maarn-en-Maarsbergen-definitief.pdf
-- **About:** Onderzoek woningbehoefte Maarn en Maarsbergen Gemeente Utrechtse Heuvelrug 17 april 2024 x Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
-- **Type:** pdf · status 200.0
-
-### [biolink-nl.eu](https://www.biolink-nl.eu/public/2015_Biolink_white_paper_NKI.pdf)
-- **Link:** https://www.biolink-nl.eu/public/2015_Biolink_white_paper_NKI.pdf
-- **About:** **BBMRI NKI White paper revised 27082015** — 1 Using record linkage to construct a population-­‐based cancer patient cohort with multiple disease outcomes PART I Methods and experiences of the Netherlands Cancer Institute in the construction of a population-­‐based breast cancer survi
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7008**
-- **Type:** pdf · status 200.0
-
 ### [blackboxpublishers.com](https://www.blackboxpublishers.com/nl/assortiment/markt-trendrapporten/fitness-markt-trend-rapport-2020-2024)
 - **Link:** https://www.blackboxpublishers.com/nl/publications/fitness-markt-trend-rapport-2020-2024/
 - **About:** **Fitness Markt & trend rapport 2020 - 2024 - Blackbox Publishers** — Fitness Markt & trend rapport 2020 - 2024 - Blackbox Publishers Mijn account Fitness Markt & trend rapport 2020 - 2024 Paul Hover, Peter Wolfhagen, Eva Heijnen, Ronald Wouters, Jan Middelkamp € 67,50 Op voorraad Het nieuwste, meeste uitgebr
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9082**
 - **Type:** html · status 200.0
 
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2022/06/Rapportage-gemeente-Zwolle.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2022/06/Rapportage-gemeente-Zwolle.pdf
-- **About:** **Wonen in een 3e levensfase** — Wonen in een 3e levensfase Gemeente Zwolle Maart 2022 Eindrapportage DATUM Maart 2022 TITEL Wonen in een 3e levensfase OPDRACHTGEVER Gemeente Zwolle AUTEUR(S) Bas de Ruigh Wouter de Vries Arjan Rottier PROJECTNUMMER 193.111 STATUS Eindrappo
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8581**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/994.100-Gemeente-Valkenburg-aan-de-Geul-Onderzoek-woonbehoefte-kern-Valkenburg-def.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/994.100-Gemeente-Valkenburg-aan-de-Geul-Onderzoek-woonbehoefte-kern-Valkenburg-def.pdf
-- **About:** **Onderzoek woonbehoefte Stad Valkenburg** — Onderzoek woonbehoefte Stad Valkenburg Gemeente Valkenburg aan de Geul 17 januari 2022 x DATUM 17 januari 2022 TITEL Onderzoek woonbehoefte Stad Valkenburg OPDRACHTGEVER Gemeente Valkenburg aan de Geul AUTEUR(S) Jeroen Lijzenga Harrie Wilhe
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8581**
-- **Type:** pdf · status 200.0
-
 ### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/Woningmarktonderzoek-Terschelling-def.pdf)
 - **Link:** https://www.companen.nl/wp-content/uploads/2024/02/Woningmarktonderzoek-Terschelling-def.pdf
 - **About:** **Woningmarktonderzoek Terschelling** — Woningmarktonderzoek Terschelling Inleiding en onderzoeksopzet Aanleiding WoonFriesland heeft eind 2018 het woningbezit van De Veste overgenomen op Terschelling. Het gaat in totaal om 414 sociale huurwoningen en 204 studentenkamers. De kome
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8971**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/189.112-Rapportage-Woningbehoefteonderzoek-Wierden-2023-definitief.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/189.112-Rapportage-Woningbehoefteonderzoek-Wierden-2023-definitief.pdf
-- **About:** Woningbehoefteonderzoek 2023 Wierden Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL001826517B01 DATUM 24 januari 2024 TITEL Woningbehoefteonderzoe
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/766.106-Gemeente-Dongen-Woonwensen-en-woningbehoefteonderzoek.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/766.106-Gemeente-Dongen-Woonwensen-en-woningbehoefteonderzoek.pdf
-- **About:** **Woningbehoefteonderzoek 2021** — Woningbehoefteonderzoek 2021 Gemeente Dongen 7 januari 2022 Eindrapport DATUM 7 januari 2022 TITEL Woningbehoefteonderzoek 2021 OPDRACHTGEVER Gemeente Dongen AUTEUR(S) Mattijs Letteboer Valentine Reijers PROJECTNUMMER 766.106/G STATUS Eindr
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8581**
 - **Type:** pdf · status 200.0
 
 ### [cbs.nl](https://www.cbs.nl/nl-nl/achtergrond/2022/20/a-person-network-of-the-netherlands)
@@ -1599,18 +2368,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **About:** **Hét mkb bestaat niet | CBS** — Hét mkb bestaat niet | CBS Ga naar hoofdinhoud Meer dan 99 procent van alle bedrijven in Nederland behoort tot het mkb. Hét mkb bestaat niet, maar is een groep van uiteenlopende soorten bedrijven. Aanleiding voor dit onderzoek is de wens om
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8212**
 - **Type:** html · status 200.0
-
-### [caop.nl](https://www.caop.nl/app/uploads/2025/03/Voion-rapport-verschillen-in-de-omvang-van-de-werkweek.pdf)
-- **Link:** https://www.caop.nl/app/uploads/2025/03/Voion-rapport-verschillen-in-de-omvang-van-de-werkweek.pdf
-- **About:** **Rapport** — ……………………………………………………………………………………………………………………………………………………………. | 1 …… …………… …………………… ……… ………………………………………………………… ………… …………………… …………………………… ………………… ………………………. | 1 Verschillen in de omvang van de werkweek …………………………………………………………………………………………………………
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9559**
-- **Type:** pdf · status 200.0
-
-### [caop.nl](https://www.caop.nl/app/uploads/2026/02/Voion-schoolleiders-in-beweging.pdf)
-- **Link:** https://www.caop.nl/app/uploads/2026/02/Voion-schoolleiders-in-beweging.pdf
-- **About:** **Rapport** — ……………………………………………………………………………………………………………………………………………………………. | 1 Schoolleiders in beweging ……………………………………………………………………………………………………………………………………………………………. Arbeidsmarkt en loopbanen van schoolleiders nader onderzocht Arbeidsmarkt en loopbanen v
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **3144**
-- **Type:** pdf · status 200.0
 
 ### [cbs.nl](https://www.cbs.nl/nl-nl/maatwerk/2019/23/monitor-statushouders-groningen-2014-2017)
 - **Link:** https://www.cbs.nl/nl-nl/maatwerk/2019/23/monitor-statushouders-groningen-2014-2017
@@ -1654,27 +2411,9 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7439**
 - **Type:** html · status 200.0
 
-### [pdc.sudwestfryslan.nl](https://pdc.sudwestfryslan.nl/wp-content/uploads/2024/05/Woningmarktonderzoek-Sudwest-Fryslan-2024.pdf)
-- **Link:** https://pdc.sudwestfryslan.nl/wp-content/uploads/2024/05/Woningmarktonderzoek-Sudwest-Fryslan-2024.pdf
-- **About:** COMPANEN Woningmarktonderzoek 2024 Gemeente Súdwest-Fryslân 21 maart 2024 Definitief Kijk vooruit. 1900.108/G | Woningmarktonderzoek 2023 1 ADVIES VOOR WONINGMARKT EN LEEFOMGEVING DATUM 21 maart 2024 TITEL Woningmarktonderzoek 2024 OPDRACHT
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7791**
-- **Type:** pdf · status 200.0
-
 ### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=11592&m=1706623602&action=file.download)
 - **Link:** https://www.kennisbanksportenbewegen.nl/?file=11592&m=1706623602&action=file.download
 - **About:** **Sportfan via media en sportfan via bezoek 2012-2022** — Factsheet 2024/1 Neem voor meer informatie contact op met Eva Heijnen. Eva Heijnen In dit factsheet geven we de uitkomsten weer van de kernindicatoren ‘sportfan via media’ en ‘sportfan via bezoek’. Dit zijn twee van de twintig kernindicator
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
-- **Type:** html · status 200.0
-
-### [kbanijmegen.nl](https://www.kbanijmegen.nl/doc/pdf/Profiel_dienstverlening_en_producten_in_het_vmbo.pdf)
-- **Link:** https://www.kbanijmegen.nl/doc/pdf/Profiel_dienstverlening_en_producten_in_het_vmbo.pdf
-- **About:** **PROFIEL DIENSTVERLENING EN** — PROFIEL DIENSTVERLENING EN PRODUCTEN IN HET VMBO Wat is de toegevoegde waarde van het profiel Dienstverlening en Producten voor de oriëntatie op studiekeuze en de doorstroom naar het mbo? Martijn Peters en Tessa Jenniskens December 2021 PRO
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9155**
-- **Type:** pdf · status 200.0
-
-### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10475&m=1631798302&action=file.download)
-- **Link:** https://www.kennisbanksportenbewegen.nl/?file=10475&m=1631798302&action=file.download
-- **About:** Remko van den Dool Wesley van den Breul Sportdeelname in eigen huis of tuin Thuis, de vergeten sportaccommodatie Mulier Instituut sportonderzoek voor beleid en samenleving Postbus 85445 | 3508 AK Utrecht Herculesplein 269 | 3584 AA Utrecht 
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
 - **Type:** html · status 200.0
 
@@ -1689,18 +2428,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **About:** Zwemvaardigheid 2020 Zwemdiplomabezit van kinderen Factsheet 2022/5 Eef Hollander & Remco Hoekman Figuur 1. Zwemdiplomabezit van 6-16-jarigen, periode 2012-2020 (in procenten, n2012=529, n2014=464, n2016=476, n2018=559, n2020=428) Neem voor
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
 - **Type:** html · status 200.0
-
-### [ifn.se](https://www.ifn.se/media/nxdngkyd/wp1503.pdf)
-- **Link:** https://www.ifn.se/media/nxdngkyd/wp1503.pdf
-- **About:** Research Institute of Industrial Economics P.O. Box 55665 SE-102 15 Stockholm, Sweden info@ifn.se www.ifn.se IFN Working Paper No. 1503, 2024 Heterogeneity and Persistence in Tax Responsiveness: Evidence from Owner- Managed Companies Gabrie
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9485**
-- **Type:** pdf · status 200.0
-
-### [infoleek.nl](https://www.infoleek.nl/wp-content/uploads/2024/04/Rapport_woonlastenonderzoek_Westerkwartier_23.pdf)
-- **Link:** https://www.infoleek.nl/wp-content/uploads/2024/04/Rapport_woonlastenonderzoek_Westerkwartier_23.pdf
-- **About:** In samenwerking met: In opdracht van: Gemeente Westerkwartier Plaats, datum: Rotterdam, 25 januari 2024 Woonlastenonderzoek 2023 Woonlasten, betaalbaarheidsrisico en energiearmoede onder de bewoners van de gemeente Westerkwartier Woonlasten
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9561**
-- **Type:** pdf · status 200.0
 
 ### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10497&m=1634829118&action=file.download)
 - **Link:** https://www.kennisbanksportenbewegen.nl/?file=10497&m=1634829118&action=file.download
@@ -1726,23 +2453,11 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
 - **Type:** html · status 200.0
 
-### [ipsos-publiek.nl](https://www.ipsos-publiek.nl/wp-content/uploads/2026/05/Ipsos-IO-SEO-ex-post-evaluatie-kinderopvang-definitief-rapport.pdf)
-- **Link:** https://www.ipsos-publiek.nl/wp-content/uploads/2026/05/Ipsos-IO-SEO-ex-post-evaluatie-kinderopvang-definitief-rapport.pdf
-- **About:** Arbeidsmarkt-kraptebeleid Kinderopvang Arbeidsmarkt- kraptebeleid Kinderopvang Rapport Ipsos I&O en SEO Economisch Onderzoek www.ipsos-publiek.nl www.seo.nl Arbeidsmarkt-kraptebeleid Kinderopvang 2 van 78 Colofon Uitgave Ipsos I&O Amstelvee
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **10010**
-- **Type:** pdf · status 200.0
-
 ### [han.nl](https://www.han.nl/nieuws/2026/04/van-diploma-naar-werk-instroom-ervaringen-en-tevredenheid-van-startende-leraren-in-beeld/)
 - **Link:** https://www.han.nl/nieuws/2026/04/van-diploma-naar-werk-instroom-ervaringen-en-tevredenheid-van-startende-leraren-in-beeld/
 - **About:** **Van diploma naar werk: instroom, ervaringen en tevredenheid van startende leraren in beeld** — Van diploma naar werk: instroom, ervaringen en tevredenheid van startende leraren in beeld Direct naar de inhoud Mobiele navigatie openen Logo HAN Favorieten Zoekfunctie openen Van diploma naar werk Instroom, ervaringen en tevredenheid van 
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **3145**
 - **Type:** html · status 200.0
-
-### [haaksbergen.nl](https://www.haaksbergen.nl/Docs/bouwen/College%201-10-2024/Bijlage%205%20actualisatie%20woonbehoefteonderzoek%20Stec.pdf)
-- **Link:** https://www.haaksbergen.nl/Docs/bouwen/College 1-10-2024/Bijlage 5 actualisatie woonbehoefteonderzoek Stec.pdf
-- **About:** WBO Haaksbergen Actualisatie woningbehoefte & voorzieningenscan 26 september 2024 2 Inhoudsopgave 1. Inleiding 3 1.1 Aanleiding 3 1.2 Onze aanpak 3 2. Conclusies 4 2.1 Vergrijzing is ingezet, verjonging met name door migratie 4 2.2 Tot 2034
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9584**
-- **Type:** pdf · status 200.0
 
 ### [hybridedocent.nl](https://www.hybridedocent.nl/wp-content/uploads/sites/30/2021/12/HYBRIDE-DOCENTEN-IN-HET-TECHNISCH-BEROEPSONDERWIJS.pdf)
 - **Link:** https://www.hybridedocent.nl/wp-content/uploads/sites/30/2021/12/HYBRIDE-DOCENTEN-IN-HET-TECHNISCH-BEROEPSONDERWIJS.pdf
@@ -1767,36 +2482,6 @@ Each entry: **link** · what it is about · which CBS data it uses (table ids, m
 - **About:** **Goed geïsoleerd, maar bloedjeheet –  De Groene Amsterdammer** — Goed geïsoleerd, maar bloedjeheet – De Groene Amsterdammer Groene.nl gebruikt cookies om het websitegebruik geanonimiseerd te analyseren en noodzakelijke functionaliteiten zoals inloggen mogelijk te maken. Groene.nl gebruikt geen cookies vo
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8582**
 - **Type:** html · status 200.0
-
-### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10544&m=1637916150&action=file.download)
-- **Link:** https://www.kennisbanksportenbewegen.nl/?file=10544&m=1637916150&action=file.download
-- **About:** Jaarrapport Duurzame Sportinfrastructuur 2021 Remco Hoekman Daniëlle Ruikes Merle Schots Laura van der Meijde Nathan Geurink Jaarrapport Duurzame Sportinfrastructuur 2021 Remco Hoekman Daniëlle Ruikes Merle Schots Laura van der Meijde Natha
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
-- **Type:** html · status 200.0
-
-### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10607&m=1641999758&action=file.download)
-- **Link:** https://www.kennisbanksportenbewegen.nl/?file=10607&m=1641999758&action=file.download
-- **About:** Deelname sport en bewegen door mensen met een beperking Remko van den Dool, Caroline van Lindert, Saskia van den Berg, Wanda Wendel-Vos De stand van zaken eind 2019 Mulier Instituut sportonderzoek voor beleid en samenleving Postbus 85445 | 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9082**
-- **Type:** html · status 200.0
-
-### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=11678&m=1711723623&action=file.download)
-- **Link:** https://www.kennisbanksportenbewegen.nl/?file=11678&m=1711723623&action=file.download
-- **About:** **Mentale gezondheid en sport- en beweegdeelname** — Mulier Instituut | 2024 Wikke van Stam | Linda Ooms | Remko van den Dool Met steun van het ministerie van VWS Mulier Instituut Wikke van Stam Linda Ooms Remko van den Dool Voor meer informatie kunt u contact opnemen met het Mulier Instituut
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
-- **Type:** html · status 200.0
-
-### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10795&m=1652275811&action=file.download)
-- **Link:** https://www.kennisbanksportenbewegen.nl/?file=10795&m=1652275811&action=file.download
-- **About:** Deelname aan sport en bewegen door ouderen Remko van den Dool Eva Heijnen De stand van zaken eind 2020 Mulier Instituut sportonderzoek voor beleid en samenleving Postbus 85445 | 3508 AK Utrecht Herculesplein 269 | 3584 AA Utrecht T +31 (0)3
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9082**
-- **Type:** html · status 200.0
-
-### [regioplan.nl](https://www.regioplan.nl/wp-content/uploads/2021/02/20058-Eindrapport-Evaluatie-STiP-Regioplan-18nov2020.pdf)
-- **Link:** https://www.regioplan.nl/wp-content/uploads/2021/02/20058-Eindrapport-Evaluatie-STiP-Regioplan-18nov2020.pdf
-- **About:** **Eindrapport Evaluatie STiP** — Evaluatie STiP -regeli ng - EINDRAPPORT - Auteurs Vera Haanstra, MSc Adriaan Oostveen, MSc (projectleider) Joris Timmerman, MA MMC Drs. Hetty Visee Amsterdam, 18 november 2020 Publicatienr. 20058 © 2020 Regioplan, in opdracht van gemeente D
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8798**
-- **Type:** pdf · status 200.0
 
 ### [linkedin.com](https://www.linkedin.com/feed/update/urn:li:activity:7191078931087671296)
 - **Link:** https://www.linkedin.com/feed/update/urn:li:activity:7191078931087671296
@@ -1874,41 +2559,11 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
 - **Type:** html · status 200.0
 
-### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=12604&m=1770219137&action=file.download)
-- **Link:** https://www.kennisbanksportenbewegen.nl/?file=12604&m=1770219137&action=file.download
-- **About:** **Trendrapport arbeidsmarkt sport en bewegen 2025** — Mulier Instituut | 2026  Niels Meulenbroeks | Arnold Bronkhorst | Peter van Eldert Trendrapport arbeidsmarkt sport en bewegen 2025 Trendrapport arbeidsmarkt sport en bewegen 2025 Met ondersteuning van het Ministerie van Volksgezondheid, We
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9539**
-- **Type:** html · status 200.0
-
-### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=2679&m=1422883205&action=file.download)
-- **Link:** https://www.kennisbanksportenbewegen.nl/?file=2679&m=1422883205&action=file.download
-- **About:** RIGO Research en Advies BV Woon- werk- en leefomgeving www.rigo.nl Bewegen op het werk Een verkenning van kosten en baten De verantwoordelijkheid voor de inhoud berust bij RIGO. Het gebruik van cijfers en/of teksten als toe- lichting of ond
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7426**
-- **Type:** html · status 200.0
-
-### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=10948&m=1664347336&action=file.download)
-- **Link:** https://www.kennisbanksportenbewegen.nl/?file=10948&m=1664347336&action=file.download
-- **About:** 1 Vidar Stevens | Johan Steenbergen Samenwerking, dialoog en zelforganisatie als kiemen van een positieve sportcultuur 2 © Mulier Instituut | Utrecht, september 2022 Mulier Instituut sportonderzoek voor beleid en samenleving Postbus 85445 |
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
-- **Type:** html · status 200.0
-
-### [kennisbanksportenbewegen.nl](https://www.kennisbanksportenbewegen.nl/?file=11870&m=1725448057&action=file.download)
-- **Link:** https://www.kennisbanksportenbewegen.nl/?file=11870&m=1725448057&action=file.download
-- **About:** **Corona** — Mulier Instituut | 2024 Remko van den Dool met subsidie van het ministerie van VWS Mulier Instituut Remko van den Dool Voor meer informatie kunt u contact opnemen met het Mulier Instituut. © Mulier Instituut Utrecht, augustus 2024 www.mulie
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8479**
-- **Type:** html · status 200.0
-
 ### [groene.nl](https://www.groene.nl/artikel/twee-miljoen-ouderen-lopen-risico-op-oververhitting)
 - **Link:** https://www.groene.nl/artikel/twee-miljoen-ouderen-lopen-risico-op-oververhitting
 - **About:** **Twee miljoen ouderen lopen risico op oververhitting –  De Groene Amsterdammer** — Twee miljoen ouderen lopen risico op oververhitting – De Groene Amsterdammer Groene.nl gebruikt cookies om het websitegebruik geanonimiseerd te analyseren en noodzakelijke functionaliteiten zoals inloggen mogelijk te maken. Groene.nl gebrui
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8582**
 - **Type:** html · status 200.0
-
-### [ggdwb.nl](https://www.ggdwb.nl/app/uploads/sites/3/2025/09/Energiearmoede-binnenmilieu-en-gezondheid-bestaanszekerheid-en-woningisolatie-2025.pdf)
-- **Link:** https://www.ggdwb.nl/app/uploads/sites/3/2025/09/Energiearmoede-binnenmilieu-en-gezondheid-bestaanszekerheid-en-woningisolatie-2025.pdf
-- **About:** Energiearmoede, binnenmilieu en gezondheid bestaanszekerheid én woningisolatie Tess Christensen, Marjolein Stoopendaal, Leonard Vanbrabant en Ike Kroesbergen Dankwoord: De auteurs bedanken Karien van den Bergh GGD Hart voor Brabant, Lisa va
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9550**
-- **Type:** pdf · status 200.0
 
 ### [cpb.nl](https://www.cpb.nl/publicatie/kapitaalstructuur-en-aanpassingssnelheid-een-empirische-analyse-van-het-nederlandse-midden-en-kleinbedrijf)
 - **Link:** https://www.cpb.nl/publicatie/kapitaalstructuur-en-aanpassingssnelheid-een-empirische-analyse-van-het-nederlandse-midden-en-kleinbedrijf
@@ -1916,143 +2571,17 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7911**
 - **Type:** html · status 200.0
 
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-376-complexities-in-the-spatial-scope-of-agglomeration-economies.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-376-complexities-in-the-spatial-scope-of-agglomeration-economies.pdf
-- **About:** 1 Complexities in the spatial scope of agglomeration economies* Paul Verstraten, Gerard Verweij, and Peter Zwaneveld† February 2018 Abstract This article argues that the spatial scope of agglomeration economies is much more complex than is 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7853**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Notitie-feb2020-Een-nieuwe-kijk-op-de-Wet-Inburgering-2013.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Notitie-feb2020-Een-nieuwe-kijk-op-de-Wet-Inburgering-2013.pdf
-- **About:** **Een nieuwe kijk op de Wet Inburgering 2013** — Een nieuwe kijk op de Wet Inburgering 2013 De Wet Inburgering 2013 heeft ertoe geleid dat meer mensen hun inburgeringsexamen halen. Wel komen inburgeraars langzamer op gang dan voorheen. Een regierol voor gemeenten bij de start van de inbur
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8332**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Policy-Brief-2017-12-Fiscaliteit-en-de-rechtsvorm-van-ondernemingen.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Policy-Brief-2017-12-Fiscaliteit-en-de-rechtsvorm-van-ondernemingen.pdf
-- **About:** box 1 box 2 inkomsten- belasting (ib) inkomsten- belasting (ib) vennootschap- belasting (vpb) dividend- belasting aantal ondernemers % met personeel % mannen lee/f_tijd (gem.) sector winst aansprakelijkheid persoonlijkheid en type werk -60 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7907**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/DP%20Bosch%20et%20al%202019%20-reduced.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/DP%20Bosch%20et%20al%202019%20-reduced.pdf
-- **About:** Non-Bunching at Kinks and Notches in Cash Transfers We study the behavioural responses to kinks and notches in the Dutch system of cash transfers, using data on the universe of Dutch households for the period 2007-2014. We typically do not 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8074**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/cpb-discussion-paper-do-house-prices-matter-for-household-consumption.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/cpb-discussion-paper-do-house-prices-matter-for-household-consumption.pdf
-- **About:** Do house prices matter for household consumption? Real house prices in the Netherlands peaked in 2008 and have since then fallen by about 27% until the end of 2013. Aggregate household consumption dropped by 7% during 2008-2013. To what ext
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8056**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Notitie-Wijkteams-en-praktijkondersteuners-in-de-jeugdzorg.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Notitie-Wijkteams-en-praktijkondersteuners-in-de-jeugdzorg.pdf
-- **About:** **Wijkteams en praktijkondersteuners in de jeugdzorg** — Wijkteams en praktijkondersteuners in de jeugdzorg Een van de hoofddoelen van de decentralisatie van jeugdzorg naar gemeenten was om met de inzet van lichte hulp het gebruik van dure tweedelijnszorg zo veel als mogelijk te voorkomen. Dit zo
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8647**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-427-Contribution-of-business-dynamics-to-productivity-growth-Netherlands.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-427-Contribution-of-business-dynamics-to-productivity-growth-Netherlands.pdf
-- **About:** **Discussion Paper 427 'The contribution of business dynamics to productivity growth in the Netherlands'** — The contribution of business dynamics to productivity growth in the Netherlands Firm dynamism in the Netherlands has been steadily declining since at least 2006 and productivity growth rates have been sluggish at best. We find that in servi
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8066**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Notitie-Niet-gebruik-van-de-aanvullende-beurs.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Notitie-Niet-gebruik-van-de-aanvullende-beurs.pdf
-- **About:** **Notitie 'Niet-gebruik van de aanvullende beurs'** — Niet-gebruik van de aanvullende beurs 24% van de eerstejaars- studenten in het hoger onderwijs die recht hebben op een aanvullende beurs, maakt daar geen gebruik van. Deze studenten lopen naar schatting gemiddeld 175 euro aan maandelijkse a
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8478**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-433-Entries-and-Regional-Growth-The-Role-of-Relatedness.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-433-Entries-and-Regional-Growth-The-Role-of-Relatedness.pdf
-- **About:** **Discussion Paper 433 'Entries and Regional Growth: The Role of Relatedness'** — Entries and Regional Growth: The Role of Relatedness If new businesses and establishments are more closely related to existing economic activities in a region, is this associated with higher regional growth a few years later? We investigate
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8377**
-- **Type:** pdf · status 200.0
-
 ### [repository.tno.nl](https://repository.tno.nl/SingleDoc?find=UID%20457a44f9-e882-41d2-89f3-0a1b245a1e01)
 - **Link:** https://repository.tno.nl/SingleDoc?find=UID%20457a44f9-e882-41d2-89f3-0a1b245a1e01
 - **About:** **De zoektocht naar een gelijkwaardig alternatief op basis van het werkelijk energiegebruik, als equivalent voor de ‘BENG2 Eindnorm 2050’ binnen de utiliteitssector** — De zoektocht naar een gelijkwaardig alternatief op basis van het werkelijk energiegebruik, als equivalent voor de ‘BENG2 Eindnorm 2050’ binnen de utiliteitssector De zoektocht naar een gelijkwaardig alternatief op basis van het werkelijk en
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8792**
 - **Type:** html · status 200.0
 
-### [eur.nl](https://www.eur.nl/eshpm/media/132633)
-- **Link:** https://www.eur.nl/eshpm/media/132633
-- **About:** **Template** — Sociale Benadering Dementie in het zorgsysteem Een analyse van de impact van de SBD op de arbeidsmarkt, kosten en bekostiging ESHPM Juni 2025 Colophon Uitgever Erasmus School of Health Policy & Management (ESHPM) Erasmus Universiteit Rotter
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9846**
-- **Type:** html · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-381-The-scope-of-the-external-return-to-higher-education.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-381-The-scope-of-the-external-return-to-higher-education.pdf
-- **About:** **dp-381.indd** — The scope of the external return to higher education Paul Verstraten CPB Discussion Paper | 381 1 The scope of the external return to higher education Paul Verstraten* September 2018 Abstract This article examines whether the productivity s
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7853**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-377-why-do-wages-grow-faster-in-urban-areas.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-377-why-do-wages-grow-faster-in-urban-areas.pdf
-- **About:** 1 Why do wages grow faster in urban areas? Sorting of high potentials matters* Paul Verstraten, Gerard Verweij, and Peter Zwaneveld† February 2018 Abstract The existence of an urban wage growth premium is a well -established empirical fact.
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7853**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-368-Cheaper-and-more-haircuts-after-VAT-Cut.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-368-Cheaper-and-more-haircuts-after-VAT-Cut.pdf
-- **About:** Cheaper and More Haircuts After V AT Cut? Evidence From the Netherlands∗ Egbert Jongen† Arjan Lejour‡ Gabriella Massenz§ November 2017 Abstract We study the eﬀect of the reduction in the VAT rate on services by hair- dressers from 17.5 to 6
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7977**
-- **Type:** pdf · status 200.0
-
-### [pure.tue.nl](https://pure.tue.nl/ws/portalfiles/portal/381268711/Mohamed_Elsaady_EngD_Thesis.pdf)
-- **Link:** https://pure.tue.nl/ws/portalfiles/portal/381268711/Mohamed_Elsaady_EngD_Thesis.pdf
-- **About:** Predicting homeowner retrofit decisions using one-stop shop data Citation for published version (APA): Elsaady, M. (2026). Predicting homeowner retrofit decisions using one-stop shop data: analysis and tool. Technische Universiteit Eindhove
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9872**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Achtergronddocument-verscheidenheid-vermogens-Nederlandse-huishoudens-update.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Achtergronddocument-verscheidenheid-vermogens-Nederlandse-huishoudens-update.pdf
-- **About:** **De verscheidenheid van vermogens van Nederlandse huishoudens: update** — De verscheidenheid van vermogens van Nederlandse huishoudens: update Huishoudens met een eigen woning hebben hogere netto vermogens dan huurders, zelfs bij vergelijkbare inkomens en leeftijden. De balansen van huishoudens met een eigen woni
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7881**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-411-Cyber-incidents-security-measures-and-financial-returns.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-411-Cyber-incidents-security-measures-and-financial-returns.pdf
-- **About:** **Cyber incidents, security measures and financial returns: Empirical evidence from Dutch firms** — Cyber incidents, security measures and financial returns: Empirical evidence from Dutch firms In this paper we empirically study how cybersecurity investments relate to the probability of cyber incidents and firm profitability. For that pur
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8236**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-410-Markups-in-a-dual-labour-market-the-case-of-the-Netherlands.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/CPB-Discussion-Paper-410-Markups-in-a-dual-labour-market-the-case-of-the-Netherlands.pdf
-- **About:** **Markups in a dual labour market: the case of the Netherlands** — Markups in a dual labour market: the case of the Netherlands The choice of the free input may explain at least some of the discrepancies in the literature. Stable markups in the Netherlands 2006-2016. CPB Discussion Paper Gerrit Hugo van He
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8066**
-- **Type:** pdf · status 200.0
-
 ### [cpb.nl](https://www.cpb.nl/publicatie/selectiviteitsscan-veilige-toetsing-van-algoritmes)
 - **Link:** https://www.cpb.nl/publicatie/selectiviteitsscan-veilige-toetsing-van-algoritmes
 - **About:** **Selectiviteitsscan: veilige toetsing van algoritmes | CPB Website** — Selectiviteitsscan: veilige toetsing van algoritmes | CPB Website Overslaan en naar de inhoud gaan CPB | English Menu Sluiten Home Ramingen Publicaties + Thema's Thema's Arbeid Belastingen Brede welvaart Data science team Gebouwde omgeving 
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9714**
 - **Type:** html · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/cpb-discussion-paper-395-disentangling-the-effect-of-household-debt-on-consumption.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/cpb-discussion-paper-395-disentangling-the-effect-of-household-debt-on-consumption.pdf
-- **About:** Disentangling the effect of household debt on consumption We estimate the contemporaneous relationship between household debt and consumption during the crisis. We find that average consumption of households with high debt has decreased muc
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7881**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-Nr-460-The-Effect-Of-Adverse-Life-Events-On-Income-Trajectories.pdf)
-- **Link:** https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-Nr-460-The-Effect-Of-Adverse-Life-Events-On-Income-Trajectories.pdf
-- **About:** **The effect of adverse life-events on income trajectories** — The Effect of Adverse Life-Events on Income Trajectories This paper studies and compares the effect of different adverse life events on individuals’ income trajectories. We use a harmonized research design across events and assess the effec
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7716**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/CPB_discussion_paper-nr-467-lasting-impacts-covid-19-infections-and-their-effects-on-labor-supply-and-disability-insurance.pdf)
-- **Link:** https://www.cpb.nl/system/files/cpbmedia/CPB_discussion_paper-nr-467-lasting-impacts-covid-19-infections-and-their-effects-on-labor-supply-and-disability-insurance.pdf
-- **About:** **Lasting impacts: COVID-19 infections and their effects on labor supply and disability insurance** — Lasting Impacts: COVID-19 Infections and Their Effects on Labor Supply and Disability Insurance We estimate the causal effects of a COVID-19 infection on hours worked and disability insurance (DI) take-up. Linking Dutch administrative data 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9762**
-- **Type:** pdf · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/Kansrijk_integratiebeleid_op_de_arbeidsmarkt2.pdf)
-- **Link:** https://www.cpb.nl/sites/default/files/omnidownload/Kansrijk_integratiebeleid_op_de_arbeidsmarkt2.pdf
-- **About:** **Kansrijk integratiebeleid op de arbeidsmarkt** — integratiebeleid op de arbeidsmarkt Kansrijk oktober 2020 Centraal Planbureau Sociaal en Cultureel Planbureau Kansrijk integratiebeleid op de arbeidsmarkt Beleidsopties voor het verbeteren van de arbeidsmarktuitkomsten van personen met een 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8332**
-- **Type:** pdf · status 200.0
 
 ### [fme.nl](https://www.fme.nl/internationalisering-van-fme-leden-en-de-metalektro)
 - **Link:** https://www.fme.nl/internationalisering-van-fme-leden-en-de-metalektro
@@ -2066,22 +2595,10 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9237**
 - **Type:** pdf · status 200.0
 
-### [econtribute.de](https://www.econtribute.de/RePEc/ajk/ajkdps/ECONtribute_338_2024.pdf)
-- **Link:** https://www.econtribute.de/RePEc/ajk/ajkdps/ECONtribute_338_2024.pdf
-- **About:** **Worker Displacement and Labor Market Success: Evidence from Forced Labor Conscription during WWII** — ECONtribute Discussion Paper No. 338 October 2024 (updated version) www.econtribute.de Funding by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence Strategy – EXC 2126/1-390838866 is gratefully
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9557**
-- **Type:** pdf · status 200.0
-
 ### [eib.nl](https://www.eib.nl/publicaties/uittreders-in-de-bouw/)
 - **Link:** https://www.eib.nl/publicaties/uittreders-in-de-bouw/
 - **About:** **Uittreders in de bouw - EIB** — Uittreders in de bouw - EIB Skip to content Home Over ons Wat is het EIB? Medewerkers Raad van Toezicht Voor de media Congressen Thema’s Klimaat, Duurzaamheid en Circulariteit Infrastructuur Productie en Arbeid Wonen en Bouwen International
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9299**
-- **Type:** html · status 200.0
-
-### [eur.nl](https://www.eur.nl/eshpm/media/2026-02-eindrapportexterneevaluatie)
-- **Link:** https://www.eur.nl/eshpm/media/2026-02-eindrapportexterneevaluatie
-- **About:** Externe Evaluatie Social Trials Sociale Benadering Dementie Samenvatting en eindconclusie Colophon Titel rapport Externe Evaluatie Social Trials Sociale Benadering Dementie Samenvatting en eindconclusie Auteurs Isabelle Fabbricotti Warsha J
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9846**
 - **Type:** html · status 200.0
 
 ### [egms.de](https://www.egms.de/static/en/meetings/gmds2024/24gmds440.shtml)
@@ -2120,12 +2637,6 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8805**
 - **Type:** html · status 200.0
 
-### [eerstekamer.nl](https://www.eerstekamer.nl/overig/20140523/antilliaanse_nederlanders_2013_de/document)
-- **Link:** https://www.eerstekamer.nl/overig/20140523/antilliaanse_nederlanders_2013_de/document
-- **About:** **Eerste Kamer der Staten-Generaal** — Antilliaanse Nederlanders 2013 De positie op de terreinen van onderwijs, arbeid en uitkering en criminaliteit (meting 4) J. de Boom P . van Wensveen P . Hermus A. Weltevrede M. van San Antilliaanse Nederlanders 2013 De positie op de terrein
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7559**
-- **Type:** html · status 200.0
-
 ### [datafriesland.nl](https://www.datafriesland.nl/2022/09/09/earmoed-atlas-fryslan/)
 - **Link:** https://www.datafriesland.nl/2022/09/09/earmoed-atlas-fryslan/
 - **About:** **Earmoedatlas Fryslân | DataFryslân** — Earmoedatlas Fryslân | DataFryslân Earmoedatlas Fryslan Armoede of schaarste kent verschillende verschijningsvormen en is - afhankelijk van normen - specifiek te meten voor individuele inwoners of een regio. Voor de achttien gemeenten van F
@@ -2138,18 +2649,6 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **3074**
 - **Type:** pdf · status 200.0
 
-### [crctr224.de](https://www.crctr224.de/research/discussion-papers/archive/dp721)
-- **Link:** https://www.crctr224.de/research/discussion-papers/archive/dp721
-- **About:** **The Novel Vehicle Tax on Fine Particulate** — Collaborative Research Center Transregio 224 - www.crctr224.de Rheinische Friedrich-Wilhelms-Universität Bonn - Universität Mannheim Discussion Paper No. 721 Project B 07 The Novel Vehicle Tax on Fine Particulate Matter Emissions Nico Lukas
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8266**
-- **Type:** html · status 200.0
-
-### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-459-Cycling-cities-Mode-choice-car-congestion-and-urban-structure.pdf)
-- **Link:** https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Discussion-Paper-459-Cycling-cities-Mode-choice-car-congestion-and-urban-structure.pdf
-- **About:** **Cycling cities: Mode choice, car congestion, and urban structure** — Cycling cities: Mode choice, car congestion, and urban structure This study examines the impact of cycling on urban spatial structure and welfare through the development of a quantitative spatial model that incorporates mode choice and car 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9258**
-- **Type:** pdf · status 200.0
-
 ### [cpb.nl](https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Policy-Brief-Belastingontduiking-en-vermogensongelijkheid.pdf)
 - **Link:** https://www.cpb.nl/system/files/cpbmedia/omnidownload/CPB-Policy-Brief-Belastingontduiking-en-vermogensongelijkheid.pdf
 - **About:** **Belastingontduiking en vermogensongelijkheid** — Belastingontduiking en vermogensongelijkheid Analyse van de deelnemers aan de Nederlandse inkeerregeling Verlaagde boetes verleiden ontduikers tot inkeer Het aantal deelnemers varieert sterk van jaar tot jaar. Er zijn grote pieken vlak voor
@@ -2160,12 +2659,6 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Link:** https://gemeenteraad.weert.nl/Vergaderingen/College-van-B-W/2018/9-oktober/10:00/181009-07-Bijlage-bij-B-W-besluit-DJ-588440-1-Woningmarktonderzoek-regio-Midden-Limburg-2018-2030.pdf
 - **About:** 1 Woningmarkt- onderzoek regio Midden- Limburg 2018-2030 Woningmarktonderzoek regio Midden-Limburg 2018-2030 | Etil 2018 Woningmarktonderzoek regio Midden-Limburg 2018-2030 | Etil 2018 Woningmarkt- onderzoek regio Midden- Limburg 2018-2030 
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8269**
-- **Type:** pdf · status 200.0
-
-### [companen.nl](https://www.companen.nl/wp-content/uploads/2024/02/160.107-Gemeente-Hardenberg-woningbehoefte-DEF.pdf)
-- **Link:** https://www.companen.nl/wp-content/uploads/2024/02/160.107-Gemeente-Hardenberg-woningbehoefte-DEF.pdf
-- **About:** Woningbehoefteonderzoek gemeente Hardenberg 2022 Gemeente Hardenberg 30 mei 2022 Definitief Tivolilaan 205 6824 BV Arnhem Postbus 1174 6801 BD Arnhem www.companen.nl info@companen.nl 026 351 25 32 KvK-nummer: 09035291 BTW-nummer: NL00182651
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8581**
 - **Type:** pdf · status 200.0
 
 ### [feb.kuleuven.be](https://feb.kuleuven.be/research/economics/ces/documents/DPS/DPS2022/DPS%202206%20%28new%29.pdf)
@@ -2282,12 +2775,6 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8315**
 - **Type:** pdf · status 200.0
 
-### [seor.nl](https://www.seor.nl/wp-content/uploads/2025/03/S1509-Kenmerken-van-de-zzper.pdf)
-- **Link:** https://www.seor.nl/wp-content/uploads/2025/03/S1509-Kenmerken-van-de-zzper.pdf
-- **About:** KENMERKEN VAN DE ZZP’ER: FACTS & FIGURES EINDRAPPORT Mark den Hartog Yvonne Prince Rotterdam, 21 maart 2024 COLOFON DIT IS EEN UITGAVE VAN SEOR BV © SEOR BV / ROTTERDAM, 21 MAART 2024 Niets van deze uitgave mag op welke wijze dan ook worden
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9626**
-- **Type:** pdf · status 200.0
-
 ### [data.overheid.nl](https://data.overheid.nl/sites/default/files/uploaded_files/5%20Presentatie%20Referentieverbruik%20warmte%20woningen.pdf)
 - **Link:** https://data.overheid.nl/sites/default/files/uploaded_files/5%20Presentatie%20Referentieverbruik%20warmte%20woningen.pdf
 - **About:** **PowerPoint-presentatie** — Referentieverbruikwarmtebehoeftewoningen VIVIT-Netwerkbijeenkomst 28 maart 2022 Utrecht Ruud van den Wijngaart PBL PBL ism CBS, TNO en RVO 1 Inhoud 1. Gevraagd product 2. Geschiktheid 3. CBS data en kenmerken 4. Resultaten (indicatief) 5. V
@@ -2348,12 +2835,6 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8471**
 - **Type:** html · status 200.0
 
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2024/06/2024-78-Kunde-kosten-en-keuzes.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2024/06/2024-78-Kunde-kosten-en-keuzes.pdf
-- **About:** **kunde, kosten en keuzes** — KUNDE, KOSTEN EN KEUZES EVALUATIE 30%-REGELING, EXTRATERRITORIALE KOSTENREGELING & PARTIËLE BUITENLANDSE BELASTINGPLICHT 2016-2022 RAPPORT AUTEURS MICHIEL BIJLSMA, DERCK STÄBLER, NILS VERHEUVEL, STEF KONIJN, ASTRID LENSINK, ALBERT RUTTEN, W
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9695**
-- **Type:** pdf · status 200.0
-
 ### [ccv-secondant.nl](https://ccv-secondant.nl/platform/article/basisvoorwaarden-op-orde-minder-recidive-en-meer-kans-op-werk-1)
 - **Link:** https://ccv-secondant.nl/platform/article/basisvoorwaarden-op-orde-minder-recidive-en-meer-kans-op-werk-1
 - **About:** **Secondant: Basisvoorwaarden op orde? Minder recidive en meer kans op werk** — Secondant: Basisvoorwaarden op orde? Minder recidive en meer kans op werk THEMA'S RUBRIEKEN AUTEURS ABONNEMENT SECONDANT PLATFORM VOOR MAATSCHAPPELIJKE VEILIGHEID THEMA'S: delinquenten recidive resocialisatie RUBRIEK: Onderzoek & analyse Ba
@@ -2384,18 +2865,6 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9478**
 - **Type:** html · status 200.0
 
-### [rvo.nl](https://www.rvo.nl/sites/default/files/2021/02/Analyse-energiebesparende-maatregelen-Nationaal-Energiebespaarfonds-TNO-2020.pdf)
-- **Link:** https://www.rvo.nl/sites/default/files/2021/02/Analyse-energiebesparende-maatregelen-Nationaal-Energiebespaarfonds-TNO-2020.pdf
-- **About:** **Analyse energiebesparende maatregelen** — Analyse energiebesparende maatregelen Nationaal Energiebespaarfonds In opdracht van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties Radarweg 60 1043 NT Amsterdam www.tno.nl T +31 88 866 50 10 TNO-rapport TNO 2020 P11295 Analyse
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8682**
-- **Type:** pdf · status 200.0
-
-### [saxion.nl](https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport---eerste-raming-waarde-van-reclasseren.pdf#Reclasseren)
-- **Link:** https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport---eerste-raming-waarde-van-reclasseren.pdf#Reclasseren
-- **About:** **De waarde van reclasseren in Nederland** — De waarde van reclasseren in Nederland Eerste raming van maatschappelijke baten rond cliënten van de reclassering Datum 22 november 2022 Titel De waarde van reclasseren in Nederland Pagina 2 Colofon Datum 22 november 2022 Referentie Versie 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8471**
-- **Type:** html · status 200.0
-
 ### [tijdschriftdepsycholoog.nl](https://www.tijdschriftdepsycholoog.nl/wetenschap/wie-weet-het-beter-de-docent-of-de-centrale-eindtoets/)
 - **Link:** https://www.tijdschriftdepsycholoog.nl/wetenschap/wie-weet-het-beter-de-docent-of-de-centrale-eindtoets/
 - **About:** **Wie weet het beter, de docent of de centrale eindtoets? | De Psycholoog** — Wie weet het beter, de docent of de centrale eindtoets? | De Psycholoog Wie weet het beter, de docent of de centrale eindtoets? Overgang PO-VO 02/04/2019 Kimberley Lek , Rens van de Schoot Download Download Lek, K. & van de Schoot, R. (2019
@@ -2408,29 +2877,11 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8397**
 - **Type:** html · status 200.0
 
-### [stateninformatie.provincie-utrecht.nl](https://www.stateninformatie.provincie-utrecht.nl/documenten/Ingekomen-stukken-van-GS-naar-PS/1-Rapport-Arbeidsmigranten-in-de-Utrechtse-gemeenten-Companen-Decisio-april-2021.pdf)
-- **Link:** https://www.stateninformatie.provincie-utrecht.nl/documenten/Ingekomen-stukken-van-GS-naar-PS/1-Rapport-Arbeidsmigranten-in-de-Utrechtse-gemeenten-Companen-Decisio-april-2021.pdf
-- **About:** **Arbeidsmigranten in de Utrechtse gemeenten** — Arbeidsmigranten in de Utrechtse gemeenten Provincie Utrecht 26 april 2021 Definitief DATUM 26 april 2021 TITEL Arbeidsmigranten in de Utrechtse gemeenten OPDRACHTGEVER Provincie Utrecht AUTEUR(S) COMPANEN Bram Klouwen Koen Klouwen Valentin
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8315**
-- **Type:** pdf · status 200.0
-
 ### [seo.nl](https://www.seo.nl/publicaties/verschuivingen-concurrentie-en-verdringing/)
 - **Link:** http://www.seo.nl/pagina/article/verschuivingen-concurrentie-en-verdringing/
 - **About:** **Verschuivingen, concurrentie en verdringing - SEO Economisch Onderzoek** — Verschuivingen, concurrentie en verdringing - SEO Economisch Onderzoek Skip to content Publicatie Verschuivingen, concurrentie en verdringing Het is belangrijk om verdringing als gevolg van ongelijke concurrentie te onderscheiden van gezond
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7848**
 - **Type:** html · status 200.0
-
-### [saxion.nl](https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport-typologie.pdf#Reclasseren)
-- **Link:** https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport-typologie.pdf#Reclasseren
-- **About:** **Typologie reclassenten** — Typologie reclassenten ten behoeve van een MKBA Datum 22 november 2022 Titel Typologie reclassenten Pagina 2 / 39 Colofon Datum 22 november 2022 Referentie Versie 1.0 Afdeling Lectoraat Modelleren van Maatschappelijke Impact Auteur Anouk Vi
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8471**
-- **Type:** html · status 200.0
-
-### [saxion.nl](https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport---reclasseren-en-bestaanszekerheid.pdf)
-- **Link:** https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/rapport---reclasseren-en-bestaanszekerheid.pdf
-- **About:** **Reclasseren en bestaanszekerheid** — Reclasseren en bestaanszekerheid De impact van reclasseren op wonen, werk en financiën Datum Februari 2024 Titel Reclasseren en bestaanszekerheid Pagina 2 / 86 Colofon Datum Februari 2024 Status Afdeling Lectoraat Modelleren van Maatschappe
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8471**
-- **Type:** pdf · status 200.0
 
 ### [ahti.nl](https://ahti.nl/wp-content/uploads/2024/09/20240726-Eindrapport-GGZ-in-Amsterdam-in-beeld.pdf)
 - **Link:** https://ahti.nl/wp-content/uploads/2024/09/20240726-Eindrapport-GGZ-in-Amsterdam-in-beeld.pdf
@@ -2442,12 +2893,6 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Link:** https://www.scp.nl/documenten/2020/07/09/kwetsbare-groepen-op-de-arbeidsmarkt---beleidssignalement-maatschappelijke-gevolgen-coronamaatregelen
 - **About:** **Kwetsbare groepen op de arbeidsmarkt | Sociaal en Cultureel Planbureau** — Kwetsbare groepen op de arbeidsmarkt | Sociaal en Cultureel Planbureau Beleidssignalement maatschappelijke gevolgen coronamaatregelen Download: Beleidssignalement Publicatie 09-07-2020 PDF-document 1.44 MB 23 pagina's Download: Bijlage Publ
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8780**
-- **Type:** html · status 200.0
-
-### [staten-generaal.nl](https://www.eerstekamer.nl/9370000/1/j4nvgs5kjg27kof_j9vvkfvj6b325az/vjf5p44qk0zg)
-- **Link:** https://www.staten-generaal.nl/9370000/1/j4nvgs5kjg27kof_j9vvkfvj6b325az/vjf5p44qk0zg
-- **About:** **Eerste Kamer der Staten-Generaal** — 1 Voortgangsrapportage wijkaanpak 2013 Aanleiding Met deze Voortgangsrapportage wijkaanpak 2013 wordt u geïnformeerd over de voortgang van de inzet op leefbare buurten, wijken en steden. Hiermee wordt voldaan aan de wens van uw Kamer zoals 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7515**
 - **Type:** html · status 200.0
 
 ### [seo.nl](https://www.seo.nl/publicaties/werking-en-effectiviteit-van-de-nhg/)
@@ -2474,12 +2919,6 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9210**
 - **Type:** html · status 200.0
 
-### [seor.nl](https://www.seor.nl/wp-content/uploads/2025/04/Bijlage-SEOR-derde-tussenrapport-MDEIU.pdf)
-- **Link:** https://www.seor.nl/wp-content/uploads/2025/04/Bijlage-SEOR-derde-tussenrapport-MDEIU.pdf
-- **About:** VOORTGANG MDIEU-REGELING: BEREIK EN EERSTE EFFECTEN Derde tussenrapport monitoring en evaluatie MDIEU-regeling Mark den Hartog Arie Gelderblom Tim Koenders Elisa de Vleeschouwer M.m.v. Eveline Ruijters COLOFON DIT IS EEN UITGAVE VAN SEOR BV
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9503**
-- **Type:** pdf · status 200.0
-
 ### [socialevraagstukken.nl](https://www.socialevraagstukken.nl/waarom-is-een-uitkering-hebben-toch-zo-erfelijk/#:~:text=Door%20bijvoorbeeld%20regionale%20verschillen%20in,om%20een%20uitkering%20te%20ontvangen.)
 - **Link:** https://www.socialevraagstukken.nl/waarom-is-een-uitkering-hebben-toch-zo-erfelijk/#:~:text=Door%20bijvoorbeeld%20regionale%20verschillen%20in,om%20een%20uitkering%20te%20ontvangen.
 - **About:** **Waarom is een uitkering hebben toch zo erfelijk? – Sociale Vraagstukken** — Waarom is een uitkering hebben toch zo erfelijk? – Sociale Vraagstukken Direct naar de inhoud ‘De uitslag van mijn toets luidde ondubbelzinnig: vwo, maar de onderwijzeres was niet onder de indruk. “Het is een typisch mavo-klantje”, zei ze t
@@ -2504,29 +2943,11 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9550**
 - **Type:** doi · status 200.0
 
-### [seor.nl](https://www.seor.nl/wp-content/uploads/2026/01/Rapport-BUIG.pdf)
-- **Link:** https://www.seor.nl/wp-content/uploads/2026/01/Rapport-BUIG.pdf
-- **About:** HET VERDEELMODEL BUIG IN ROTTERDAMSE BUURTEN Eindrapport Paul de Hek Arie-Jan van der Toorn COLOFON DIT IS EEN UITGAVE VAN SEOR BV © SEOR BV / ROTTERDAM, OKTOBER 2023 Niets van deze uitgave mag op welke wijze dan ook worden verveelvoudigd z
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9466**
-- **Type:** pdf · status 200.0
-
-### [seor.nl](https://www.seor.nl/wp-content/uploads/2025/03/Tussenrapportage-Evaluatie-Monitoring-STAP-regeling_2024_definitief.pdf)
-- **Link:** https://www.seor.nl/wp-content/uploads/2025/03/Tussenrapportage-Evaluatie-Monitoring-STAP-regeling_2024_definitief.pdf
-- **About:** EVALUATIE EN MONITORING STAP-REGELING Doeltreffendheid en doelmatigheid STAP-regeling Tweede tussenrapportage, juli 2024 Bert-Jan Buiskool Paul de Hek Arie Gelderblom Mark den Hartog Elisa de Vleeschouwer Arie-Jan van der Toorn Daniël Bos A
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9546**
-- **Type:** pdf · status 200.0
-
 ### [doi.org](https://link.springer.com/article/10.1007/s40865-021-00183-7)
 - **Link:** https://doi.org/10.1007/s40865-021-00183-7
 - **About:** **Single-Parent Families and Adolescent Crime: Unpacking the Role of Parental Separation, Parental Decease, and Being Born to a Single-Parent Family | Journal of Developmental and Life-Course Criminology | Springer Nature Link** — Single-Parent Families and Adolescent Crime: Unpacking the Role of Parental Separation, Parental Decease, and Being Born to a Single-Parent Family | Journal of Developmental and Life-Course Criminology | Springer Nature Link Skip to main co
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8160**
 - **Type:** doi · status 200.0
-
-### [sociale-verloskunde.nl](https://www.sociale-verloskunde.nl/uploads/artikelen/Duiding-trends-in-perinatale-uitkomsten-tussen-2010-en-2021.pdf)
-- **Link:** https://www.sociale-verloskunde.nl/uploads/artikelen/Duiding-trends-in-perinatale-uitkomsten-tussen-2010-en-2021.pdf
-- **About:** Duiding trends in perinatale uitkomsten in Nederland en de vier grote steden tussen 2010 en 2021 Auteur: Dr. Loes C.M. Bertens (senior epidemioloog) Afdeling Verloskunde & Gynaecologie, Erasmus MC, Rotterdam Afdelingshoofd; Prof. dr. Eric A
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9675**
-- **Type:** pdf · status 200.0
 
 ### [seo.nl](https://www.seo.nl/publicaties/automatische-waardeoverdracht-kleine-pensioenen-waarom-lukt-het-niet-altijd/)
 - **Link:** https://www.seo.nl/publicaties/automatische-waardeoverdracht-kleine-pensioenen-waarom-lukt-het-niet-altijd/
@@ -2744,12 +3165,6 @@ Vandaag staat wereldwijd de spotlight op astma, een aandoening waar alleen al in
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9572**
 - **Type:** html · status 200.0
 
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2020/04/Notitie_Bijstandsduur_Syriers_en_Eritreeers_v2.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2020/04/Notitie_Bijstandsduur_Syriers_en_Eritreeers_v2.pdf
-- **About:** SEO ECONOMISCH ONDERZOEK 1 Notitie Bijstandsduur Syriërs en Eri- treeërs datum 14 maart 2018 aan Gemeenten Eindhoven, Valkenswaard en Veldhoven auteurs Sandra Vriend & Siemen van der Werff, SEO Economisch On- derzoek Rapportnummer 2016-106 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7972**
-- **Type:** pdf · status 200.0
-
 ### [seo.nl](https://www.seo.nl/publicaties/zorg-voor-de-leerling-kosten-en-baten-van-opleiding-in-de-wijkverpleging/)
 - **Link:** https://www.seo.nl/publicaties/zorg-voor-de-leerling-kosten-en-baten-van-opleiding-in-de-wijkverpleging/
 - **About:** **Zorg voor de leerling; Kosten en baten van opleiding in de wijkverpleging - SEO Economisch Onderzoek** — Zorg voor de leerling; Kosten en baten van opleiding in de wijkverpleging - SEO Economisch Onderzoek Skip to content Publicatie Zorg voor de leerling; Kosten en baten van opleiding in de wijkverpleging Aanleiding Om het personeelstekort in 
@@ -2763,12 +3178,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9096**
 - **Type:** html · status 200.0
 
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2020/04/2014-56_Beweging_in_cao_s.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2020/04/2014-56_Beweging_in_cao_s.pdf
-- **About:** Beweging in cao’s SEO Economisch Onderzoek - Roetersstraat 29 - 1018 WB Amsterdam - T (+31) 20 525 1630 - www.seo.nl - secretariaat@seo.nl ABN-AMRO IBAN: NL14ABNA0411744356 BIC: ABNANL2A - ING: IBAN: NL96INGB0004641100 BIC: INGBNL2A KvK Ams
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **7551**
-- **Type:** pdf · status 200.0
-
 ### [seo.nl](https://www.seo.nl/publicaties/zonder-diploma-de-arbeidsmarkt-op/)
 - **Link:** https://www.seo.nl/publicaties/zonder-diploma-de-arbeidsmarkt-op/
 - **About:** **Zonder diploma de arbeidsmarkt op? - SEO Economisch Onderzoek** — Zonder diploma de arbeidsmarkt op? - SEO Economisch Onderzoek Skip to content Publicatie Zonder diploma de arbeidsmarkt op? Resultaten Mbo-studenten die zonder startkwalificatie het onderwijs verlaten, gaan daarna relatief zelden bij hun st
@@ -2780,12 +3189,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **About:** **Leerkrachten in de Zaanstreek - SEO Economisch Onderzoek** — Leerkrachten in de Zaanstreek - SEO Economisch Onderzoek Skip to content Publicatie Leerkrachten in de Zaanstreek Resultaten Tussen de twee Zaanse besturen zijn enkele verschillen wat betreft de samenstelling van het onderwijspersoneel. De 
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9517**
 - **Type:** html · status 200.0
-
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2025/10/2025-161-Alternatief-voor-toeslagen.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2025/10/2025-161-Alternatief-voor-toeslagen.pdf
-- **About:** **alternatief voor toeslagen** — ALTERNATIEF VOOR TOESLAGEN EEN HOGE HEFFINGSKORTING VERDER UITGEWERKT RAPPORT AUTEURS KIM VAN BERKEL, JELLIEN KNOL, DANIËL VAN VUUREN MET MEDEWERKING VAN MIRIAM GIELEN IN OPDRACHT VAN STICHTING ICTU Hoge Heffingskorting doorgerekend Een een
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **3040**
-- **Type:** pdf · status 200.0
 
 ### [bmcgeriatr.biomedcentral.com](https://link.springer.com/article/10.1186/s12877-020-01526-7)
 - **Link:** https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-020-01526-7
@@ -2811,18 +3214,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9452**
 - **Type:** html · status 200.0
 
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2025/09/2025-82-Evaluatie-GO-GO-C-en-GO-ETFF-1.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2025/09/2025-82-Evaluatie-GO-GO-C-en-GO-ETFF-1.pdf
-- **About:** **Evaluatie Go, GO-C en go ETFF** — EVALUATIE GO, GO -C EN GO ETFF RAPPORT AUTEURS MICHIEL BIJLSMA (SEO), ADAM KUCZYNSKI (SEO), ASTRID LENSINK (SEO), ALBERT RUTTEN (SEO), REG BRENNENRAEDTS (DIALOGIC), VINCENT MOSMULLER (DIALOGIC), BRIGITTE VAN DER LUGT (DIALOGIC) IN OPDRACHT 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9858**
-- **Type:** pdf · status 200.0
-
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2025/07/2025-52-Evaluatie-btw-vrijstellingen.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2025/07/2025-52-Evaluatie-btw-vrijstellingen.pdf
-- **About:** **evaluatie btw-vrijstellingen** — EVALUATIE BTW- VRIJSTELLINGEN DIENSTEN VAN LIJKBEZORGERS, SCHRIJVERS JOURNALISTEN EN COMPONISTEN, VOORDRACHTEN EN FONDSWERVENDE ACTIVITEITEN RAPPORT AUTEURS MICHIEL BIJLSMA (SEO), WASSIM OURAK (SEO), BEREND HOLWERDA (DIALOGIC), REG BRENNENR
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9864**
-- **Type:** pdf · status 200.0
-
 ### [bureaubeke.nl](https://bureaubeke.nl/wp-content/uploads/2021/04/Downloadversie_Bekereeks_Werken_aan_werk.pdf)
 - **Link:** https://bureaubeke.nl/wp-content/uploads/2021/04/Downloadversie_Bekereeks_Werken_aan_werk.pdf
 - **About:** Jos Kuppens Juno van Esseveldt Anton van Wijk Een evaluatie van penitentiaire arbeid WERKEN AAN WERK ISBN 978-94-92255-43-3 bureaubeke.nl In de penitentiaire inrichtingen (PI’s) in Nederland wordt sinds 2013 arbeid aangeboden via penitentia
@@ -2834,12 +3225,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **About:** **In- en uitstroom WW 2016-2024 - SEO Economisch Onderzoek** — In- en uitstroom WW 2016-2024 - SEO Economisch Onderzoek Skip to content Publicatie In- en uitstroom WW 2016-2024 Het onderzoek De Stichting Private Aanvulling WW en WGA (SPAWW) verzorgt de private aanvulling van de WW-uitkering en heeft da
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9459**
 - **Type:** html · status 200.0
-
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2023/06/2023-48-Evaluatie-coronasteun-cultuursector-definitief.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2023/06/2023-48-Evaluatie-coronasteun-cultuursector-definitief.pdf
-- **About:** **Evaluatie coronasteun cultuursector** — EVALUATIE CORONASTEUN CULTUURSECTOR EEN SYNTHESESTUDIE RAPPORT AUTEURS MICHIEL BIJLSMA (SEO), THIJS BUSSCHOTS (SEO), ADAM KUCZYNSKI (SEO), SANDER GEURTS (AEF) , JIM ROMIJN (AEF), ANNABEL VAESSEN (KI), HAJO MEIJER (KI), MARIEKE BUISMAN (KI) 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9386**
-- **Type:** pdf · status 200.0
 
 ### [seo.nl](https://www.seo.nl/publicaties/in-uitstroom-ww-2016-2023-vaststelling-dynamiek-pa-ww-gerechtigden/)
 - **Link:** https://www.seo.nl/publicaties/in-uitstroom-ww-2016-2023-vaststelling-dynamiek-pa-ww-gerechtigden/
@@ -2863,12 +3248,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **Link:** https://www.seo.nl/wp-content/uploads/2025/12/2025-155-Synthesestudie-coronasteun.pdf
 - **About:** **Synthesestudie coronasteun** — SYNTHESESTUDIE CORONASTEUN HOOFDRAPPORT AUTEURS DERCK STABLER, KIM VAN BERKEL, HENRI BUSSINK, MICHIEL BIJLSMA, DANIËLLA VAN DE LANGENBERG IN OPDRACHT VAN MINISTERIES VAN FINANCIËN, EZ EN SZW AMSTERDAM, OKTOBER 2025 Synthesestudie coronasteu
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9888**
-- **Type:** pdf · status 200.0
-
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2025/05/2025-76-Draagt-de-DGA-zijn-steentje-bij.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2025/05/2025-76-Draagt-de-DGA-zijn-steentje-bij.pdf
-- **About:** **DRAAGT de DGa zijn steentje bij?** — DRAAGT DE DGA ZIJN STEENTJE BIJ? EVALUATIE GEBRUIKELIJKLOONREGELING RAPPORT AUTEURS TIM SCHWARTZ, DERCK STABLER, JELLIEN KNOL, WASSIM OURAK, ARJAN LEJOUR, MICHIEL B IJLSMA IN OPDRACHT VAN MINISTERIE VAN FINANCIEN AMSTERDAM, APRIL 2025 EVALU
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9874**
 - **Type:** pdf · status 200.0
 
 ### [ahti.nl](https://ahti.nl/2024/02/19/gelijkgezond/)
@@ -2913,22 +3292,10 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9715**
 - **Type:** pdf · status 200.0
 
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2024/06/2024-74-Evaluatie-fiscale-ondernemerschapsregelingen.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2024/06/2024-74-Evaluatie-fiscale-ondernemerschapsregelingen.pdf
-- **About:** **evaluatie Fiscale ondernemerschapsregelingen** — EVALUATIE FISCALE ONDERNEMERSCHAPSREGELINGEN RAPPORT AUTEURS TIM SCHWARTZ, DANIËL VAN VUUREN, REG BRENNENRAEDTS (DIALOGIC), JELLIEN KNOL, JOSÉ VAN DER GEEST (DIALOGIC), GERBEN DE JONG, BRIGITTE VAN DER LUGT (DIALOGIC) IN OPDRACHT VAN MINIST
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9618**
-- **Type:** pdf · status 200.0
-
 ### [awgl.nl](https://awgl.nl/images/projecten/2025/20250925-rapport-3-30-300-vuistregel-voor-groen-en-mentale-gezondheid.pdf)
 - **Link:** https://awgl.nl/images/projecten/2025/20250925-rapport-3-30-300-vuistregel-voor-groen-en-mentale-gezondheid.pdf
 - **About:** 3-30-300 vuistregel voor groen en mentale gezondheid 2 3-30-300 vuistregel voor groen en mentale gezondheid September 2025 Auteurs: Karien van den Bergh (GGD Hart voor Brabant) Sabine Denissen (GGD’en Noord-Brabant) Lisa van den Brekel (GGD
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9843**
-- **Type:** pdf · status 200.0
-
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2021/12/2022-101-Een-overwacht-valse-start-op-de-arbeidsmarkt.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2021/12/2022-101-Een-overwacht-valse-start-op-de-arbeidsmarkt.pdf
-- **About:** **Een onverwacht valse start op de arbeidsmarkt** — EEN ONVERWACHT VALSE START OP DE ARBEIDSMARKT DE IMPACT VAN DE CORONAPANDEMIE OP DE OVERGANG VAN HET ONDERWIJS NAAR DE ARBEIDSMARKT EINDRAPPORT AUTEURS HENRI BUSSINK, TOBIAS VERVLIET & BAS TER WEEL (SEO ECONOMISCH ONDERZOEK) SUZAN DE WINTER
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8848**
 - **Type:** pdf · status 200.0
 
 ### [atlasresearch.nl](https://atlasresearch.nl/werkend-nederland-2021/)
@@ -2967,12 +3334,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9080**
 - **Type:** html · status 200.0
 
-### [seo.nl](https://www.seo.nl/wp-content/uploads/2023/12/Derde-rapport-Macromonitor-NPO-mbo-ho_Koen-van-der-Ven.pdf)
-- **Link:** https://www.seo.nl/wp-content/uploads/2023/12/Derde-rapport-Macromonitor-NPO-mbo-ho_Koen-van-der-Ven.pdf
-- **About:** **Derde rapport Macromonitor NPO mbo-ho** — Macromonitor NPO mbo-ho Onderzoek in opdracht van het Ministerie van Onderwijs, Cultuur en Wetenschap Derde rapport November 2023 Derde rapport Macromonitor NPO mbo-ho | ii Derde rapport Macromonitor NPO mbo-ho Onderzoek in opdracht van het
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9283**
-- **Type:** pdf · status 200.0
-
 ### [saxion.nl](https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/sancties-2023-80---roeland-e.a.-de-maatschappelijke-meerwaarde-van-reclasseren---een-eerste-raming.pdf#Reclasseren)
 - **Link:** https://www.saxion.nl/binaries/content/assets/onderzoek/areas--living/waarde-van-reclasseren/sancties-2023-80---roeland-e.a.-de-maatschappelijke-meerwaarde-van-reclasseren---een-eerste-raming.pdf#Reclasseren
 - **About:** 315Afl. 6 - december 2023Sancties 2023/80 ArtikelenM.M. Roeland, A.A. Németh, J.H.M. Linnenbank & A. Visser 1 De maatschappelijke meerwaarde van reclasseren – een eerste raming Sancties 2023/80 1. Inleiding Om een grote investering in het p
@@ -2984,12 +3345,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **About:** **CBS microdata ter ondersteuning van Zorgzame Gemeenschappen – ahti** — CBS microdata ter ondersteuning van Zorgzame Gemeenschappen – ahti Ga naar de inhoud 6 september 2023 CBS microdata ter ondersteuning van Zorgzame Gemeenschappen Afgeronde projecten Health Insights Nieuws Projecten Vilans – Zorgzame Gemeens
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9096**
 - **Type:** html · status 200.0
-
-### [voion.nl](https://www.voion.nl/media/3mccnkbf/rapport-deeltijdwerken-vo_def3-docx.pdf)
-- **Link:** https://www.voion.nl/media/3mccnkbf/rapport-deeltijdwerken-vo_def3-docx.pdf
-- **About:** **Rapport** — ……………………………………………………………………………………………………………………………………………………………. | 1 …… …………… …………………… ……… ………………………………………………………… ………… …………………… …………………………… ………………… ………………………. | 1 Verschillen in de omvang van de werkweek …………………………………………………………………………………………………………
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9559**
-- **Type:** pdf · status 200.0
 
 ### [esb.nu](https://esb.nu/explosieve-stijging-in-huurtoeslaggebruik-uitgelicht/)
 - **Link:** https://esb.nu/esb/20022196/explosieve-stijging-in-huurtoeslaggebruik-uitgelicht
@@ -3008,12 +3363,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **About:** **Afgewezen voor een WIA-uitkering: tussen wal en schip? | UWV** — Afgewezen voor een WIA-uitkering: tussen wal en schip? | UWV Mensen met een (theoretisch) verlies aan verdiencapaciteit van minder dan 35% krijgen geen WIA-toekenning (of verlenging van hun Ziektewet-uitkering). Van hen wordt verwacht dat z
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9443**
 - **Type:** html · status 200.0
-
-### [provinciegroningen.nl](https://www.provinciegroningen.nl/fileadmin/user_upload/Documenten/Downloads/Downloads_2023/23.256_Stec_Groep_-_Onderzoeksrapport_Groningen.pdf)
-- **Link:** https://www.provinciegroningen.nl/fileadmin/user_upload/Documenten/Downloads/Downloads_2023/23.256_Stec_Groep_-_Onderzoeksrapport_Groningen.pdf
-- **About:** Woonzorgonderzoek provincie Groningen Resultaten analyses (fase 1) van regionaal traject wonen & zorg 29 mei 2024 Woonzorgonderzoek provincie Groningen 2 Inhoudsopgave 1. Inleiding 4 1.1 Aanleiding 4 1.2 Provinciale woon-zorgopgave in beeld
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9548**
-- **Type:** pdf · status 200.0
 
 ### [iva-onderwijs.nl](http://iva-onderwijs.nl/themas/braindrain/)
 - **Link:** http://www.iva-onderwijs.nl/themas/braindrain
@@ -3185,12 +3534,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **7592**
 - **Type:** html · status 200.0
 
-### [rigo.nl](https://www.rigo.nl/wp-content/uploads/2022/06/Evaluatie-jongerencontract_20220330.pdf)
-- **Link:** https://www.rigo.nl/wp-content/uploads/2022/06/Evaluatie-jongerencontract_20220330.pdf
-- **About:** **Evaluatie jongerencontract Amsterdam** — RIGO Research en Advies Woon - werk - en leef omgeving www.rigo.nl Evaluatie jongerencontract Amsterdam Onderzoek naar de werking en beleving De verantwoordelijkheid voor de inhoud berust bij RIGO. Het gebruik van cijfers en/of tek- sten al
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9097**
-- **Type:** pdf · status 200.0
-
 ### [esb.nu](https://esb.nu/babyboom-tijdens-coronapandemie-vooral-bij-vrouwen-met-vaste-baan/)
 - **Link:** https://esb.nu/babyboom-tijdens-coronapandemie-vooral-bij-vrouwen-met-vaste-baan/
 - **About:** **Babyboom tijdens coronapandemie vooral bij vrouwen met vaste baan - ESB** — Babyboom tijdens coronapandemie vooral bij vrouwen met vaste baan - ESB Babyboom tijdens coronapandemie vooral bij vrouwen met vaste baan Geplaatst als type: Artikel Geschreven door: Bram Wouterse , Nienke Dijkstra , Yasmine Idrissi , Woute
@@ -3239,23 +3582,11 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8729**
 - **Type:** html · status 200.0
 
-### [rigo.nl](https://www.rigo.nl/wp-content/uploads/2023/01/Na-de-instroom.pdf)
-- **Link:** https://www.rigo.nl/wp-content/uploads/2023/01/Na-de-instroom.pdf
-- **About:** **Komen, gaan en blijven in corporatiewoningen** — RIGO Research en Advies Woon - werk - en leef omgeving www.rigo.nl Komen, gaan en blijven in corporatiewoningen Over de levensloop en wooncarrière van huurders De verantwoordelijkheid voor de inhoud berust bij RIGO. Het gebruik van cijfers 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9212**
-- **Type:** pdf · status 200.0
-
 ### [vzinfo.nl](https://www.vzinfo.nl/sterfte-rond-de-geboorte/inkomen)
 - **Link:** https://www.vzinfo.nl/sterfte-rond-de-geboorte/inkomen
 - **About:** **Sterfte rond de geboorte | Inkomen | Volksgezondheid en Zorg** — Sterfte rond de geboorte | Inkomen | Volksgezondheid en Zorg Contact English Pagina's in dit onderwerp Wijzigingsdatum 13-11-2025 Foetale, neonatale en perinatale sterfte naar huishoudinkomen moeder Sla de grafiek 'Foetale, neonatale en per
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **3205**
 - **Type:** html · status 200.0
-
-### [vogon.nl](https://www.vogon.nl/wp-content/uploads/2024/10/RERQ2024-1.pdf)
-- **Link:** https://www.vogon.nl/wp-content/uploads/2024/10/RERQ2024-1.pdf
-- **About:** Real Estate Research Quarterly is een onafhankelijke uitgave van de Vereniging van Onroerend Goed Onderzoekers Nederland (VOGON) www.vogon.nl Real Estate Research Quarterly Deze uitgave wordt mede mogelijk gemaakt door: Oktober 2024Oktober 
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9171**
-- **Type:** pdf · status 200.0
 
 ### [esb.nu](https://esb.nu/coronasteun-compenseerde-flink-deel-reguliere-omzetverliezen/)
 - **Link:** https://esb.nu/coronasteun-compenseerde-flink-deel-reguliere-omzetverliezen/
@@ -3389,18 +3720,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8913**
 - **Type:** zenodo · status 200.0
 
-### [zestor.nl](https://zestor.nl/media/publicaties/arbeidsmarktmonitor_hbo_2023.pdf)
-- **Link:** https://zestor.nl/media/publicaties/arbeidsmarktmonitor_hbo_2023.pdf
-- **About:** RAPPORT ARBEIDSMARKTMONITOR VOOR PERSONEEL IN HET HBO 2023 Colofon Het onderzoek voor de arbeidsmarktmonitor 2023 is in opdracht van Zestor uitgevoerd door ABF Research. Het is toegestaan om (delen van) de informatie te vermenigvuldigen voo
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8667**
-- **Type:** pdf · status 200.0
-
-### [zoetermeer.bestuurlijkeinformatie.nl](https://zoetermeer.bestuurlijkeinformatie.nl/Document/View/a2045803-996f-4584-826d-c804b895d8dc#:~:text=De%20woningvoorraad%20van%20Zoetermeer%20bestaat,Een%20thuis%20voor%20iedereen').)
-- **Link:** https://zoetermeer.bestuurlijkeinformatie.nl/Document/View/a2045803-996f-4584-826d-c804b895d8dc#:~:text=De%20woningvoorraad%20van%20Zoetermeer%20bestaat,Een%20thuis%20voor%20iedereen').
-- **About:** Woningbehoefte- onderzoek gemeente Zoetermeer Stec Groep aan gemeente Zoetermeer 23 augustus 2024 Woningbehoefte-onderzoek gemeente Zoetermeer 1 Inhoudsopgave 1. Inleiding 3 1.1 Uw situatie 3 1.2 Uw vragen en te boeken resultaten 4 2. Concl
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9584**
-- **Type:** html · status 200.0
-
 ### [esb.nu](https://esb.nu/vrouwen-minder-vaak-economisch-zelfstandig-door-verdeling-zorgtaken/#:~:text=De%20resultaten%20laten%20zien%20dat,procentpunt%20minder%20vaak%20economisch%20zelfstandig.)
 - **Link:** https://esb.nu/vrouwen-minder-vaak-economisch-zelfstandig-door-verdeling-zorgtaken/#:~:text=De%20resultaten%20laten%20zien%20dat,procentpunt%20minder%20vaak%20economisch%20zelfstandig.
 - **About:** **Vrouwen minder vaak economisch zelfstandig door verdeling zorgtaken - ESB** — Vrouwen minder vaak economisch zelfstandig door verdeling zorgtaken - ESB Vrouwen minder vaak economisch zelfstandig door verdeling zorgtaken Geplaatst als type: Artikel Geschreven door: Alexandra de Pleijt , Jesper de Groote Gepubliceerd o
@@ -3413,23 +3732,11 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9894**
 - **Type:** html · status 200.0
 
-### [regioplan.nl](https://www.regioplan.nl/wp-content/uploads/2022/07/18128-Eindrapport-EenNieuwBestaanEenNieuweBaan-Regioplan-7juli22.pdf)
-- **Link:** https://www.regioplan.nl/wp-content/uploads/2022/07/18128-Eindrapport-EenNieuwBestaanEenNieuweBaan-Regioplan-7juli22.pdf
-- **About:** **Eindrapport - Programma Een nieuw bestaan, een nieuwe baan** — Eindrapport programma Een nieuw bestaan, een nieuwe baan - EINDRAPPORT - Auteurs Laura Buimer Jeanine Klaver Adriaan Oostveen Wiebe Korf Amsterdam, 7 juli 2022 Publicatienr. 18128 © 2022 Regioplan, gefinancierd door Instituut Gak Het gebrui
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9191**
-- **Type:** pdf · status 200.0
-
 ### [republiq.nl](https://www.republiq.nl/kennis/datagedreven-aanpak-voor-doorstroming)
 - **Link:** https://www.republiq.nl/kennis/datagedreven-aanpak-voor-doorstroming
 - **About:** **Republiq - Datagedreven aanpak voor doorstroming - CBS microdataonderzoek (september 2025)  — Republiq** — Republiq - Datagedreven aanpak voor doorstroming - CBS microdataonderzoek (september 2025) — Republiq Sectoren Woningcorporaties Gemeenten Overheden Onderwijs Producten Pien voor Woningcorporaties Pien Wijkvisies Pien Onderwijs Benchmark Ge
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **9722**
 - **Type:** html · status 200.0
-
-### [regioplan.nl](https://www.regioplan.nl/wp-content/uploads/2023/07/22092-Eindrapport-Doelgroeponderzoek-kwetsbare-werkenden-Almere-Regioplan-07juni23.pdf)
-- **Link:** https://www.regioplan.nl/wp-content/uploads/2023/07/22092-Eindrapport-Doelgroeponderzoek-kwetsbare-werkenden-Almere-Regioplan-07juni23.pdf
-- **About:** **22092-Eindrapport-Doelgroeponderzoek kwetsbare werkenden Almere-Regioplan-07juni23** — Doelgroeponderzoek kwetsbare werkenden in Almere - EINDRAPPORT - Auteurs Rosanne Schaap Job Velseboer Bob van Waveren Amsterdam, 7 juni 2023 Publicatienr. 22092 © 2023 Regioplan, in opdracht van de gemeente Almere Het gebruik van cijfers en
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **9372**
-- **Type:** pdf · status 200.0
 
 ### [zoek.officielebekendmakingen.nl](https://zoek.officielebekendmakingen.nl/kst-36600-XV-8.html)
 - **Link:** https://zoek.officielebekendmakingen.nl/kst-36600-XV-8.html
@@ -3447,12 +3754,6 @@ https://ahti.nl/incoda-nieuwsbericht/
 - **Link:** https://www.rigo.nl/dashboard-dynamiek-in-buurten/
 - **About:** **Dashboard dynamiek in buurten • RIGO** — Dashboard dynamiek in buurten • RIGO Gepubliceerd op: 8 november 2018 Eigen Haard bezit ruim 55.000 woningen in meer dan 80 buurten in de regio Amsterdam. Om de huurders van deze woningen goed van dienst te kunnen zijn, volgt Eigen Haard de
 - **Signals:** mentions microdata / StatLine / CBS · CBS project **8198**
-- **Type:** html · status 200.0
-
-### [wrr.nl](https://www.wrr.nl/documenten/2020/12/14/samenleven-in-verscheidenheid)
-- **Link:** https://www.wrr.nl/publicaties/rapporten/2020/12/14/samenleven-in-verscheidenheid
-- **About:** **Samenleven in verscheidenheid. Beleid voor de migratiesamenleving | WRR** — Samenleven in verscheidenheid. Beleid voor de migratiesamenleving | WRR Het is belangrijk dat iedereen - nieuwkomers en gevestigde inwoners - zich thuis kan voelen in Nederland. Dat vraagt een actiever overheidsbeleid om alle nieuwe migrant
-- **Signals:** mentions microdata / StatLine / CBS · CBS project **8475**
 - **Type:** html · status 200.0
 
 ### [esb.nu](https://esb.nu/innovatie-gebaat-bij-duurzame-investeringsrelaties/)
