@@ -101,6 +101,15 @@ Return JSON:
 def understand(q: str, model: str = MODEL) -> Dict[str, Any]:
     out = ollama_json(UNDERSTAND_SYS, UNDERSTAND_USER.format(q=q), model=model)
     out.setdefault("search_terms", q)
+    # The model sometimes returns search_terms as a list despite the prompt;
+    # coerce to a string so `search_terms + " " + q` can't blow up.
+    st = out.get("search_terms")
+    if isinstance(st, (list, tuple)):
+        out["search_terms"] = " ".join(str(x) for x in st)
+    elif not isinstance(st, str):
+        out["search_terms"] = str(st) if st is not None else q
+    if not isinstance(out.get("transform"), str):
+        out["transform"] = "level"
     out.setdefault("transform", "level")
     if out["transform"] not in ("yoy", "index100", "level"):
         out["transform"] = "level"
@@ -108,10 +117,12 @@ def understand(q: str, model: str = MODEL) -> Dict[str, Any]:
 
 
 # --------------------------------------------------------------------- 2. search
-def search_index(terms: str, k: int = 6, db_path: Path = DB_PATH) -> List[Dict[str, Any]]:
+def search_index(terms, k: int = 6, db_path: Path = DB_PATH) -> List[Dict[str, Any]]:
+    if isinstance(terms, (list, tuple)):
+        terms = " ".join(str(t) for t in terms)
     conn = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
     conn.row_factory = sqlite3.Row
-    toks = re.findall(r"[\w]+", terms, flags=re.UNICODE)
+    toks = re.findall(r"[\w]+", str(terms), flags=re.UNICODE)
     if not toks:
         return []
     match = " OR ".join(f'"{t}"' for t in toks)
