@@ -1,0 +1,538 @@
+[
+  {
+    "code": "ef_lu_ovcropesu",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_lu_ovcropesu?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_lu_ovcropaa",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_lu_ovcropaa?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_so_lfaa",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_so_lfaa?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_so_lfesu",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_so_lfesu?lastTimePeriod=1"
+  },
+  {
+    "code": "cens_11ao_r2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/cens_11ao_r2?lastTimePeriod=1"
+  },
+  {
+    "code": "cens_11aed_r2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/cens_11aed_r2?lastTimePeriod=1"
+  },
+  {
+    "code": "cens_11an_r2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/cens_11an_r2?lastTimePeriod=1"
+  },
+  {
+    "code": "cens_11empo_r2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/cens_11empo_r2?lastTimePeriod=1"
+  },
+  {
+    "code": "cens_11cobe_r2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/cens_11cobe_r2?lastTimePeriod=1"
+  },
+  {
+    "code": "hlth_cd_yro",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_cd_yro?lastTimePeriod=1"
+  },
+  {
+    "code": "hlth_rdc1_reg",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_rdc1_reg?lastTimePeriod=1"
+  },
+  {
+    "code": "hlth_rinpat1_reg",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_rinpat1_reg?lastTimePeriod=1"
+  },
+  {
+    "code": "hlth_rinpat2_reg",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_rinpat2_reg?lastTimePeriod=1"
+  },
+  {
+    "code": "hlth_rdc2_reg",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_rdc2_reg?lastTimePeriod=1"
+  },
+  {
+    "code": "hlth_rhosday1_reg",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_rhosday1_reg?lastTimePeriod=1"
+  },
+  {
+    "code": "hlth_ralos1_reg",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_ralos1_reg?lastTimePeriod=1"
+  },
+  {
+    "code": "tran_r_rago",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_r_rago?lastTimePeriod=1"
+  },
+  {
+    "code": "tran_r_rapa",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_r_rapa?lastTimePeriod=1"
+  },
+  {
+    "code": "nama_10_a64_p5",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64_p5?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_cp1610",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_cp1610?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_cp1700",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_cp1700?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_u1",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_u1?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_u3",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_u3?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_u2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_u2?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_ip2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ip2?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_ip1",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ip1?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_u4",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_u4?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_ip3",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ip3?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_ip4",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ip4?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_ii1",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ii1?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_ii2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ii2?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_ii4",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ii4?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fcp_ii3",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fcp_ii3?lastTimePeriod=1"
+  },
+  {
+    "code": "naio_10_fgfoem",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_fgfoem?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_fdi_flow_r2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_fdi_flow_r2?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_fdi_pos_r2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_fdi_pos_r2?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_fdi_inc_r2",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_fdi_inc_r2?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_eu6_q",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_eu6_q?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_c6_m",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_c6_m?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_c6_q",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_c6_q?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_c6_a",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_c6_a?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_iip6_q",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_iip6_q?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_its6_det",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_its6_det?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_fdi6_pos",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_fdi6_pos?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_fdi6_inc",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_fdi6_inc?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_fdi6_flow",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_fdi6_flow?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_euins6_a",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_euins6_a?lastTimePeriod=1"
+  },
+  {
+    "code": "bop_euins6_q",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/bop_euins6_q?lastTimePeriod=1"
+  },
+  {
+    "code": "cens_21ctz_r3",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/cens_21ctz_r3?lastTimePeriod=1"
+  },
+  {
+    "code": "cens_21ctzf_r3",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/cens_21ctzf_r3?lastTimePeriod=1"
+  },
+  {
+    "code": "cens_21cob_r3",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/cens_21cob_r3?lastTimePeriod=1"
+  },
+  {
+    "code": "cens_21cobhs_r3",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/cens_21cobhs_r3?lastTimePeriod=1"
+  },
+  {
+    "code": "migr_asyumdcfq",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_asyumdcfq?lastTimePeriod=1"
+  },
+  {
+    "code": "migr_asyrescra",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_asyrescra?lastTimePeriod=1"
+  },
+  {
+    "code": "migr_dubdi",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_dubdi?lastTimePeriod=1"
+  },
+  {
+    "code": "migr_dubdo",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_dubdo?lastTimePeriod=1"
+  },
+  {
+    "code": "migr_resbc11",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_resbc11?lastTimePeriod=1"
+  },
+  {
+    "code": "migr_resbc12",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_resbc12?lastTimePeriod=1"
+  },
+  {
+    "code": "migr_resbc41",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_resbc41?lastTimePeriod=1"
+  },
+  {
+    "code": "migr_resbc31",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_resbc31?lastTimePeriod=1"
+  },
+  {
+    "code": "migr_resbc13",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_resbc13?lastTimePeriod=1"
+  },
+  {
+    "code": "migr_resbc43",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/migr_resbc43?lastTimePeriod=1"
+  },
+  {
+    "code": "lfso_22wrkm03",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfso_22wrkm03?lastTimePeriod=1"
+  },
+  {
+    "code": "earn_ses_annual",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/earn_ses_annual?lastTimePeriod=1"
+  },
+  {
+    "code": "earn_ses_monthly",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/earn_ses_monthly?lastTimePeriod=1"
+  },
+  {
+    "code": "sbs_sc_ovw",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sbs_sc_ovw?lastTimePeriod=1"
+  },
+  {
+    "code": "sbs_ovw_act",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sbs_ovw_act?lastTimePeriod=1"
+  },
+  {
+    "code": "fats_g1a_08",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/fats_g1a_08?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_m_farmleg",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_m_farmleg?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_m_farmang",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_m_farmang?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_m_org",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_m_org?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_m_rd",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_m_rd?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_lus_allcrops",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_lus_allcrops?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_lsk_main",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_lsk_main?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_lsk_bovine",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_lsk_bovine?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_lus_main",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_lus_main?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_lsk_org",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_lsk_org?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_lf_main",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_lf_main?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_lf_fam",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_lf_fam?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_mp_manleg",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_mp_manleg?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_mp_tenure",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_mp_tenure?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_mp_training",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_mp_training?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_mp_prac",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_mp_prac?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_mp_soil",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_mp_soil?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_mp_voctraining",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_mp_voctraining?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_mp_manorg",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_mp_manorg?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_mp_mne",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_mp_mne?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_mp_ms",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_mp_ms?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_mp_mach",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_mp_mach?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_ah_bovine",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_ah_bovine?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_ah_pigs",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_ah_pigs?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_ah_poultry",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_ah_poultry?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_ah_pigt",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_ah_pigt?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_oga_main",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_oga_main?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_rd_man",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_rd_man?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_oga_type",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_oga_type?lastTimePeriod=1"
+  },
+  {
+    "code": "ef_rd_leg",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ef_rd_leg?lastTimePeriod=1"
+  },
+  {
+    "code": "fish_ld_main",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/fish_ld_main?lastTimePeriod=1"
+  },
+  {
+    "code": "fish_ld_es",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/fish_ld_es?lastTimePeriod=1"
+  },
+  {
+    "code": "fish_aq2a",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/fish_aq2a?lastTimePeriod=1"
+  },
+  {
+    "code": "avia_paexac",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/avia_paexac?lastTimePeriod=1"
+  },
+  {
+    "code": "avia_goexac",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/avia_goexac?lastTimePeriod=1"
+  },
+  {
+    "code": "avia_tf_aca",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/avia_tf_aca?lastTimePeriod=1"
+  },
+  {
+    "code": "iww_go_atygof07",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/iww_go_atygof07?lastTimePeriod=1"
+  },
+  {
+    "code": "iww_go_anavef06",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/iww_go_anavef06?lastTimePeriod=1"
+  },
+  {
+    "code": "iww_go_atycafl",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/iww_go_atycafl?lastTimePeriod=1"
+  },
+  {
+    "code": "iww_go_atygofl",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/iww_go_atygofl?lastTimePeriod=1"
+  },
+  {
+    "code": "iww_go_atyvefl",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/iww_go_atyvefl?lastTimePeriod=1"
+  },
+  {
+    "code": "iww_go_anavefl",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/iww_go_anavefl?lastTimePeriod=1"
+  },
+  {
+    "code": "iww_go_actygofl",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/iww_go_actygofl?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_pa_qm_it",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_pa_qm_it?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_be",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_be?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_de",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_de?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_dk",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_dk?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_es",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_es?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_el",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_el?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_ie",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_ie?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_fr",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_fr?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_it",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_it?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_nl",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_nl?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_pt",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_pt?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_ro",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_ro?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_fi",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_fi?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_se",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_se?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_uk",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_uk?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_no",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_no?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_am_tr",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_am_tr?lastTimePeriod=1"
+  },
+  {
+    "code": "mar_go_qm_pt",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/mar_go_qm_pt?lastTimePeriod=1"
+  },
+  {
+    "code": "road_go_cta7gtt",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/road_go_cta7gtt?lastTimePeriod=1"
+  },
+  {
+    "code": "road_go_cta_gtt",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/road_go_cta_gtt?lastTimePeriod=1"
+  },
+  {
+    "code": "env_egss_mon",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_egss_mon?lastTimePeriod=1"
+  },
+  {
+    "code": "nrg_ind_market",
+    "error": "HTTPError: 401 Client Error: Unauthorized for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_ind_market?lastTimePeriod=1"
+  },
+  {
+    "code": "ten00119",
+    "error": "HTTPError: 401 Client Error: Unauthorized for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ten00119?lastTimePeriod=1"
+  },
+  {
+    "code": "inn_cis8_prod",
+    "error": "HTTPError: 413 Client Error: Request Entity Too Large for url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/inn_cis8_prod?lastTimePeriod=1"
+  }
+]

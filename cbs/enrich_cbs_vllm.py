@@ -35,6 +35,7 @@ from cbs.enrich_cbs import (
     SYSTEM_PROMPT,
     USER_TEMPLATE,
     REQUIRED_KEYS,
+    TABLES_DIR,
     build_context,
     parse_json,
 )
@@ -53,9 +54,12 @@ JSON_SCHEMA = {
         "confidence": {
             "type": "object",
             "properties": {"desc": {"type": "number"}, "queries": {"type": "number"}},
+            "required": ["desc", "queries"],
+            "additionalProperties": False,
         },
     },
     "required": sorted(REQUIRED_KEYS),
+    "additionalProperties": False,
 }
 
 DEFAULT_MODEL = os.environ.get("MODEL", "Qwen/Qwen2.5-7B-Instruct")
@@ -79,40 +83,71 @@ def already_done(output: Path) -> set:
     return done
 
 
-def build_prompts(datasets, dims, meas, done: set, limit) -> List[dict]:
+def build_prompts(datasets, dims, meas, done: set, limit, tables_dir=TABLES_DIR) -> List[dict]:
     rows = datasets if not limit else datasets.head(limit)
     items = []
+    grounded = 0
     for _, r in rows.iterrows():
         tid = str(r["table_id"])
         if tid in done:
             continue
-        ctx = build_context(tid, dims, meas)
+        ctx = build_context(tid, dims, meas, tables_dir=tables_dir)
+        if not ctx["sample_values"].startswith("(observation data not pulled"):
+            grounded += 1
         user = USER_TEMPLATE.format(
             table_id=tid,
             title=r.get("title") or "",
             description=str(r.get("summary") or "")[:1500],
             dimensions=ctx["dimensions"],
             measures=ctx["measures"],
+            sample_values=ctx["sample_values"],
+            period_coverage=ctx["period_coverage"],
+            value_ranges=ctx["value_ranges"],
         )
         items.append({"table_id": tid, "title_nl": r.get("title"),
                       "source_url": r.get("source_url"), "user": user})
+    print(f"[INFO] {grounded}/{len(items)} prompts grounded in pulled observation data")
     return items
 
 
-def make_sampling_params(temperature: float, max_tokens: int):
+def make_sampling_params(temperature: float, max_tokens: int, require_schema: bool = True):
+    """SamplingParams with JSON-schema-constrained decoding.
+
+    The API was renamed twice: structured_outputs= (vLLM >= 0.11), guided_decoding=
+    (0.6-0.10), guided_json= (< 0.6). Try newest first. Unconstrained generation is a
+    real quality regression (the model free-forms and the regex fallback drops tables),
+    so it is opt-in via --allow-unconstrained rather than a silent fallback.
+    """
     from vllm import SamplingParams
-    # Try guided JSON decoding (API name varies across vLLM versions).
+
+    # vLLM >= 0.11
+    try:
+        from vllm.sampling_params import StructuredOutputsParams
+        so = StructuredOutputsParams(json=JSON_SCHEMA)
+        return SamplingParams(temperature=temperature, max_tokens=max_tokens,
+                              structured_outputs=so)
+    except Exception as exc:  # noqa: BLE001
+        last = exc
+    # vLLM 0.6 - 0.10
     try:
         from vllm.sampling_params import GuidedDecodingParams
         gd = GuidedDecodingParams(json=JSON_SCHEMA)
-        return SamplingParams(temperature=temperature, max_tokens=max_tokens, guided_decoding=gd)
-    except Exception:
-        try:
-            return SamplingParams(temperature=temperature, max_tokens=max_tokens,
-                                  guided_json=JSON_SCHEMA)  # older vLLM
-        except Exception:
-            print("[WARN] guided JSON unavailable; relying on prompt + regex parsing")
-            return SamplingParams(temperature=temperature, max_tokens=max_tokens)
+        return SamplingParams(temperature=temperature, max_tokens=max_tokens,
+                              guided_decoding=gd)
+    except Exception as exc:  # noqa: BLE001
+        last = exc
+    # vLLM < 0.6
+    try:
+        return SamplingParams(temperature=temperature, max_tokens=max_tokens,
+                              guided_json=JSON_SCHEMA)
+    except Exception as exc:  # noqa: BLE001
+        last = exc
+
+    msg = f"no JSON-schema decoding API found in this vLLM build (last error: {last})"
+    if require_schema:
+        raise RuntimeError(msg + " -- pass --allow-unconstrained to run anyway")
+    print(f"[WARN] {msg}; relying on prompt + regex parsing")
+    return SamplingParams(temperature=temperature, max_tokens=max_tokens)
 
 
 def main() -> None:
@@ -127,11 +162,18 @@ def main() -> None:
     ap.add_argument("--gpu-mem-util", type=float, default=0.90)
     ap.add_argument("--tensor-parallel-size", type=int, default=int(os.environ.get("TP_SIZE", "1")))
     ap.add_argument("--resume", action="store_true", help="Skip tables already in output")
+    ap.add_argument("--tables-dir", default=TABLES_DIR, type=Path,
+                    help="Pulled observation parquets used to ground the prompt")
+    ap.add_argument("--no-observations", action="store_true",
+                    help="Ignore pulled observation data; use metadata titles only")
+    ap.add_argument("--allow-unconstrained", action="store_true",
+                    help="Run even if this vLLM build exposes no JSON-schema decoding API")
     args = ap.parse_args()
+    tables_dir = None if args.no_observations else args.tables_dir
 
     datasets, dims, meas = load_metadata(args.meta_dir)
     done = already_done(args.output) if args.resume else set()
-    items = build_prompts(datasets, dims, meas, done, args.limit)
+    items = build_prompts(datasets, dims, meas, done, args.limit, tables_dir)
     print(f"[INFO] {len(items)} tables to enrich (skipped {len(done)} done) | model={args.model}")
     if not items:
         print("[DONE] nothing to do")
@@ -147,7 +189,8 @@ def main() -> None:
         tensor_parallel_size=args.tensor_parallel_size,
         trust_remote_code=True,
     )
-    sampling = make_sampling_params(args.temperature, args.max_tokens)
+    sampling = make_sampling_params(args.temperature, args.max_tokens,
+                                    require_schema=not args.allow_unconstrained)
 
     # One batched call — vLLM schedules all conversations across the GPU.
     conversations = [
@@ -161,20 +204,32 @@ def main() -> None:
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     mode = "a" if (args.resume and args.output.exists()) else "w"
-    ok = fail = 0
+    ok = 0
+    failures: List[dict] = []
     with args.output.open(mode, encoding="utf-8") as fout:
         for it, out in zip(items, outputs):
             text = out.outputs[0].text if out.outputs else ""
             obj = parse_json(text)
             if not obj or (REQUIRED_KEYS - set(obj.keys())):
-                fail += 1
+                reason = "unparseable" if not obj else \
+                    f"missing keys: {sorted(REQUIRED_KEYS - set(obj.keys()))}"
+                failures.append({"table_id": it["table_id"], "reason": reason,
+                                 "raw": text[:500]})
                 continue
             obj["code"] = it["table_id"]
             obj["title_nl"] = it["title_nl"]
             obj["source_url"] = it["source_url"]
             fout.write(json.dumps(obj, ensure_ascii=False) + "\n")
             ok += 1
-    print(f"[DONE] enriched ok={ok} fail={fail} -> {args.output}")
+    print(f"[DONE] enriched ok={ok} fail={len(failures)} -> {args.output}")
+    if failures:
+        # A dropped table is invisible in the JSONL, so record which ones and why;
+        # --resume will retry exactly these on the next run.
+        fpath = args.output.with_suffix(args.output.suffix + ".failures.json")
+        fpath.write_text(json.dumps(failures, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[WARN] {len(failures)} tables failed -> {fpath}")
+        print("       " + ", ".join(f["table_id"] for f in failures[:20])
+              + (" ..." if len(failures) > 20 else ""))
 
 
 if __name__ == "__main__":

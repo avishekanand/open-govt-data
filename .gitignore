@@ -198,3 +198,7 @@ ollama_cache.json
 .env.local
 secrets.json
 config.ini
+
+# SLURM job logs from enrichment runs
+slurm-*.out
+slurm-*.err

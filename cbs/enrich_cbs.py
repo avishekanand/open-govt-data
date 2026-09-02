@@ -34,6 +34,9 @@ import requests
 
 JSON_RE = re.compile(r"\{.*\}", re.DOTALL)
 
+# Pulled observation data (cbs.fetch_table_data), used to ground the prompt in real values.
+TABLES_DIR = Path("data/processed/tables")
+
 SYSTEM_PROMPT = (
     "You are a data librarian enriching metadata for Statistics Netherlands (CBS) "
     "StatLine tables so they are discoverable by English-speaking analysts. "
@@ -49,6 +52,18 @@ title (nl): {title}
 description (nl): {description}
 dimensions: {dimensions}
 key measures (sample): {measures}
+
+ACTUAL category values present in the data (sampled from the observations):
+{sample_values}
+
+Period coverage: {period_coverage}
+
+Observed measure value ranges:
+{value_ranges}
+
+IMPORTANT: base "example_queries" ONLY on categories, periods and measures that actually
+appear above. Do not invent breakdowns (e.g. an age band or sector) that is not listed.
+Where the real values are unavailable, keep the queries generic rather than guessing.
 
 Return a JSON object with EXACTLY these keys:
 {{
@@ -113,14 +128,71 @@ def parse_json(text: str) -> Optional[Dict[str, Any]]:
     return None
 
 
+NO_OBS = {
+    "sample_values": "(observation data not pulled for this table)",
+    "period_coverage": "(unknown)",
+    "value_ranges": "(observation data not pulled for this table)",
+}
+
+
+def build_observation_context(table_id: str, tables_dir: Path = TABLES_DIR,
+                              max_values: int = 10, max_measures: int = 8) -> Dict[str, str]:
+    """Real category labels / periods / value ranges from a pulled observation table.
+
+    The ingested metadata only stores dimension *titles* (the code lists live behind
+    a CodesUrl that is never fetched), so without this the model has to guess which
+    breakdowns exist. Reads data/processed/tables/<table_id>.parquet when present.
+    """
+    path = Path(tables_dir) / f"{table_id}.parquet"
+    if not path.exists():
+        return dict(NO_OBS)
+    try:
+        df = pd.read_parquet(path)
+    except Exception:  # noqa: BLE001 - a corrupt/partial pull must not kill enrichment
+        return dict(NO_OBS)
+
+    lines: List[str] = []
+    period = "(unknown)"
+    for col in [c for c in df.columns if c.endswith("_label")]:
+        dim = col[: -len("_label")]
+        vals = [str(v).strip() for v in pd.unique(df[col].dropna()) if str(v).strip()]
+        if not vals:
+            continue
+        shown = vals[:max_values]
+        more = f" ... (+{len(vals) - len(shown)} more)" if len(vals) > len(shown) else ""
+        lines.append(f"- {dim} ({len(vals)} categories): " + "; ".join(shown) + more)
+        if dim.lower().startswith("perioden"):
+            period = f"{vals[0]} ... {vals[-1]} ({len(vals)} periods)"
+
+    ranges: List[str] = []
+    if {"measure", "value"} <= set(df.columns):
+        numeric = df.dropna(subset=["value"])
+        for name, grp in list(numeric.groupby("measure", sort=False))[:max_measures]:
+            unit = ""
+            if "unit" in grp.columns:
+                units = grp["unit"].dropna()
+                if len(units):
+                    unit = f" {units.iloc[0]}"
+            ranges.append(f"- {name}: {grp['value'].min():.4g} to {grp['value'].max():.4g}{unit}")
+
+    return {
+        "sample_values": "\n".join(lines) if lines else NO_OBS["sample_values"],
+        "period_coverage": period,
+        "value_ranges": "\n".join(ranges) if ranges else "(no numeric values in this table)",
+    }
+
+
 def build_context(table_id: str, dims_df: pd.DataFrame, meas_df: pd.DataFrame,
-                  max_measures: int = 25) -> Dict[str, str]:
+                  max_measures: int = 25,
+                  tables_dir: Optional[Path] = TABLES_DIR) -> Dict[str, str]:
     dims = dims_df[dims_df.table_id == table_id]["dimension_title"].dropna().tolist()
     meas = meas_df[meas_df.table_id == table_id]["title"].dropna().tolist()
-    return {
+    ctx = {
         "dimensions": ", ".join(dims) if dims else "(none)",
         "measures": ", ".join(meas[:max_measures]) if meas else "(none)",
     }
+    ctx.update(build_observation_context(table_id, tables_dir) if tables_dir else dict(NO_OBS))
+    return ctx
 
 
 def main() -> None:
@@ -136,7 +208,14 @@ def main() -> None:
     ap.add_argument("--retries", type=int, default=3)
     ap.add_argument("--limit", type=int, default=None, help="Enrich at most N tables")
     ap.add_argument("--resume", action="store_true", help="Skip tables already in output")
+    ap.add_argument("--tables-dir", default=TABLES_DIR, type=Path,
+                    help="Pulled observation parquets used to ground the prompt "
+                         "(pass --no-observations to disable)")
+    ap.add_argument("--no-observations", action="store_true",
+                    help="Ignore pulled observation data; use metadata titles only")
     args = ap.parse_args()
+    if args.no_observations:
+        args.tables_dir = None
 
     datasets = pd.read_parquet(args.meta_dir / "statline_datasets.parquet")
     dims = pd.read_parquet(args.meta_dir / "statline_dimensions.parquet")
@@ -164,13 +243,16 @@ def main() -> None:
             if tid in done:
                 skip += 1
                 continue
-            ctx = build_context(tid, dims, meas)
+            ctx = build_context(tid, dims, meas, tables_dir=args.tables_dir)
             prompt = USER_TEMPLATE.format(
                 table_id=tid,
                 title=r.get("title") or "",
                 description=(str(r.get("summary") or "")[:1500]),
                 dimensions=ctx["dimensions"],
                 measures=ctx["measures"],
+                sample_values=ctx["sample_values"],
+                period_coverage=ctx["period_coverage"],
+                value_ranges=ctx["value_ranges"],
             )
             try:
                 raw = call_ollama(args.host, args.model, prompt, args.temperature,
