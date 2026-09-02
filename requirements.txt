@@ -42,3 +42,7 @@ pytest>=7.2.0
 black>=23.0.0
 flake8>=6.0.0
 mypy>=1.0.0
+
+# publication evidence layer (HTML/PDF text extraction)
+lxml>=5.0.0
+pypdf>=4.0.0

@@ -227,6 +227,29 @@ def render_card(r):
     st.divider()
 
 
+# Demo queries, each chosen to show a different capability against the CURRENT
+# index. They are verified to return hits; swap them when the index is rebuilt
+# on the unified Eurostat + CBS corpus.
+EXAMPLES = [
+    ("💶 inkomen huishoudens", "inkomen huishoudens",
+     "Dutch query over native StatLine titles and measure names"),
+    ("🌍 income", "income",
+     "Same topic in English - matches via the LLM enrichment layer"),
+    ("⚰️ overledenen leeftijd", "overledenen leeftijd",
+     "Multi-term query; open a result to plot the live series"),
+    ("☀️ zonnepanelen", "zonnepanelen",
+     "Narrow topical term across the catalogue"),
+    ("👥 bevolking prognose", "bevolking prognose",
+     "Projections and forecasts"),
+    ("💼 werkgelegenheid lonen", "werkgelegenheid lonen",
+     "Jobs and wages, spanning several tables"),
+]
+
+
+def _set_query(value: str) -> None:
+    st.session_state["q"] = value
+
+
 def main():
     if not DB_PATH.exists():
         st.error(f"Index not found at `{DB_PATH}`. Build it first:\n\n"
@@ -237,7 +260,8 @@ def main():
 
     st.title("🔎 CBS Metadata Search")
     st.caption("Term-matching search over StatLine table metadata — Dutch titles & "
-               "descriptions, gemma4 English enrichment, dimensions and measures.")
+               "descriptions, English LLM enrichment, dimensions and measures. "
+               "Click any result to plot its live data.")
 
     with st.sidebar:
         st.header("Filters")
@@ -250,7 +274,32 @@ def main():
         st.metric("With enrichment", f"{enr:,}")
         st.caption(f"DB: `{DB_PATH}`")
 
-    q = st.text_input("Search", placeholder="e.g. income neighbourhood · vakanties · werkgelegenheid lonen")
+    st.markdown("**Try an example**")
+    for row_start in (0, 3):
+        cols = st.columns(3)
+        for col, (label, query, why) in zip(cols, EXAMPLES[row_start:row_start + 3]):
+            col.button(label, help=why, use_container_width=True,
+                       on_click=_set_query, args=(query,), key=f"ex_{query}")
+
+    q = st.text_input("Search", key="q",
+                      placeholder="e.g. income neighbourhood · vakanties · werkgelegenheid lonen")
+
+    with st.expander("What this demo does"):
+        st.markdown(
+            f"""
+- **Term matching over table metadata** — Dutch titles, descriptions, dimensions
+  and measure names, plus English text from the LLM enrichment layer, so
+  `inkomen` and `income` can reach the same table.
+- **Filters** (sidebar): status, theme, observation count, enriched-only.
+- **Click a result** to fetch that table's observations *live* from the CBS
+  OData API and plot them — nothing is pre-downloaded.
+
+**Current index:** {total:,} tables, of which {enr:,} carry English enrichment.
+The remainder are searchable on their Dutch metadata only. This is a
+functionality demo — the index will be rebuilt on the unified
+Eurostat + CBS corpus (12,308 datasets), after which English search covers
+everything.
+""")
 
     if q.strip():
         rows = search(conn, q, status, only_enriched, min_obs, topic)

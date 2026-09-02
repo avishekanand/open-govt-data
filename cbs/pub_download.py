@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import io
+import os
 import re
 import warnings
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -35,6 +36,7 @@ PUB = Path("data/processed/pub")
 URLS = PUB / "publication_urls.parquet"
 DOCS = PUB / "documents.parquet"
 RAW = Path("data/raw/pub_docs")
+TEXTS = Path("data/raw/pub_text")   # full extracted text, one file per URL (git-ignored)
 
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -43,7 +45,15 @@ HEADERS = {
     "Accept": "text/html,application/pdf,application/xhtml+xml,*/*;q=0.8",
     "Accept-Language": "en,nl;q=0.8",
 }
-MAX_TEXT = 40000
+# 0 = keep the FULL text. The evidence layer runs an LLM over whole documents, so
+# truncating here silently caps what can ever be found: data-source and methods
+# sections routinely sit past a 40k-character or 40-page cut in a long report.
+MAX_TEXT = int(os.environ.get("PUB_MAX_TEXT", "0"))
+MAX_PDF_PAGES = int(os.environ.get("PUB_MAX_PDF_PAGES", "0"))
+
+
+def _clip(text: str) -> str:
+    return text[:MAX_TEXT] if MAX_TEXT > 0 else text
 CBS_TABLE_RE = re.compile(r"\b\d{4,5}[A-Z]{2,3}\b")          # e.g. 83765NED
 MICRODATA_RE = re.compile(r"microdata|micro-data|remote access|cbs\b|statline", re.I)
 
@@ -54,12 +64,15 @@ def _hash(url: str) -> str:
 
 def extract_html(content: bytes) -> Dict[str, str]:
     from bs4 import BeautifulSoup
-    soup = BeautifulSoup(content, "lxml")
+    try:
+        soup = BeautifulSoup(content, "lxml")
+    except Exception:  # lxml missing -> stdlib parser rather than failing every HTML doc
+        soup = BeautifulSoup(content, "html.parser")
     for tag in soup(["script", "style", "nav", "footer", "header", "noscript"]):
         tag.decompose()
     title = (soup.title.string.strip() if soup.title and soup.title.string else "")
     text = re.sub(r"\s+\n", "\n", soup.get_text("\n", strip=True))
-    return {"title": title, "text": text[:MAX_TEXT]}
+    return {"title": title, "text": _clip(text)}
 
 
 def extract_pdf(content: bytes, url: str) -> Dict[str, str]:
@@ -68,14 +81,14 @@ def extract_pdf(content: bytes, url: str) -> Dict[str, str]:
     path = RAW / f"{_hash(url)}.pdf"
     path.write_bytes(content)
     reader = PdfReader(io.BytesIO(content))
-    pages = reader.pages[:40]
+    pages = reader.pages if MAX_PDF_PAGES <= 0 else reader.pages[:MAX_PDF_PAGES]
     text = "\n".join((p.extract_text() or "") for p in pages)
     title = ""
     try:
         title = (reader.metadata or {}).get("/Title", "") or ""
     except Exception:
         pass
-    return {"title": str(title), "text": text[:MAX_TEXT], "path": str(path)}
+    return {"title": str(title), "text": _clip(text), "path": str(path)}
 
 
 def signals(text: str, project: str) -> Dict[str, Any]:
@@ -103,6 +116,7 @@ def fetch_one(row: Dict[str, Any], timeout: int) -> Dict[str, Any]:
         "project": _first_project(row),
         "final_url": None, "status_code": None, "content_type": None, "ok": False,
         "title": "", "text": "", "text_len": 0, "path": None, "error": None,
+        "text_path": None,
         "cbs_table_ids": [], "n_cbs_table_ids": 0,
         "mentions_microdata": False, "mentions_project": False,
     }
@@ -129,6 +143,14 @@ def fetch_one(row: Dict[str, Any], timeout: int) -> Dict[str, Any]:
         out["title"] = ex.get("title", "")
         out["text"] = ex.get("text", "")
         out["text_len"] = len(out["text"])
+        # Persist the FULL text as a standalone evidence file. The parquet keeps a
+        # copy for convenience, but downstream extraction reads these so it never
+        # has to load every document into memory at once.
+        if out["text"]:
+            TEXTS.mkdir(parents=True, exist_ok=True)
+            tp = TEXTS / f"{_hash(url)}.txt"
+            tp.write_text(out["text"], encoding="utf-8")
+            out["text_path"] = str(tp)
         out["ok"] = out["text_len"] > 0 or out["path"] is not None
         out.update(signals(out["text"], out["project"]))
     except Exception as exc:  # noqa: BLE001

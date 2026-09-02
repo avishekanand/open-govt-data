@@ -202,3 +202,6 @@ config.ini
 # SLURM job logs from enrichment runs
 slurm-*.out
 slurm-*.err
+
+# Full extracted publication text (evidence store; large, re-crawlable)
+data/raw/pub_text/
