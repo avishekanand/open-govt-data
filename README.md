@@ -1,298 +1,197 @@
-# OGD Data Analysis 🏛️📊
+# OGD — Open Government Data metadata engine 🏛️📊
 
-**Open Governmental Data Analysis** - A comprehensive toolkit for fetching, processing, and analyzing open government datasets from various statistical agencies.
+A searchable, LLM-enriched **metadata catalogue** over official statistics from
+**Eurostat** and **CBS Netherlands (StatLine)**.
 
-## 🎯 Overview
+The design principle: index the *metadata*, fetch the *observations* on demand.
+A dataset's full structure — every dimension and every category code→label — is
+available from a tiny API call, so 12,308 datasets are described in ~88 MB of
+metadata instead of the hundreds of GB their observations occupy (Eurostat's
+6.2 B values alone are ~207 GB; CBS adds another 13.4 B).
 
-This project provides tools to automatically fetch, enrich, and analyze open governmental datasets, with a focus on Eurostat data. It combines data collection, AI-powered metadata enrichment, and batch processing capabilities.
+## 📦 What's in the box
 
-## 🚀 Features
+| | datasets | category labels |
+|---|---|---|
+| 🇪🇺 Eurostat | 7,438 (of 7,572 live) | 1,026,725 |
+| 🇳🇱 CBS StatLine | 4,870 (all statuses) | 3,148,436 |
+| **enriched records** | **12,308** | **4,175,161** |
 
-- **📥 Automated Data Fetching**: Batch download datasets from Eurostat and other statistical agencies
-- **📊 Structured Processing**: Convert raw statistical data into analysis-ready formats
-- **🔍 Metadata Generation**: Create comprehensive dataset catalogs with searchable metadata
+Enrichment quality (Qwen3-32B via vLLM, one A100-80GB, 3h29 total):
 
-## 📁 Project Structure
+- **100%** of records grounded in real category values
+- **98.6%** unique `example_queries` (53,827 / 54,580)
+- 0 duplicate array entries · 0.09% invalid join ids · 0 generation failures
 
-```
-open-govt-data/
-├── eurostat_fetch_one.py           # main downloader + flattener
-├── batch_fetch_eurostat.py         # batch processing tool
-├── csv_to_ollama_jsonl_complete_only.py # AI enrichment pipeline
-├── cbs_tiny_agent.py               # CBS Netherlands data agent
-├── utils/
-│   ├── __init__.py                 # Python package init
-│   └── jsonl_to_csv.py             # JSONL to CSV converter
-├── data/
-│   ├── eurostat_base.csv           # original dataset catalog
-│   ├── eurostat_gemma3.jsonl       # AI-enriched metadata
-│   └── eurostat_gemma3_gpt5.jsonl  # refined metadata catalog
-├── downloads/                      # generated CSV outputs (gitignored)
-├── requirements.txt                # Python dependencies
-├── .gitignore                      # Git ignore rules
-├── LICENSE                         # MIT license
-└── README.md                       # this file
-```
-
-## ⚙️ Installation
-
-### Requirements
-
-- Python ≥ 3.9
-- Packages:
+## 🚀 Quick start
 
 ```bash
-pip install pandas requests tabulate numpy
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt          # CPU
+pip install -r requirements-gpu.txt      # GPU node only (vllm)
 ```
 
-### Clone and run
+Everything below is idempotent and resumable — re-running skips completed work.
+
+### 1. Harvest metadata (CPU, no model, ~15 min)
 
 ```bash
-git clone https://github.com/avishekanand/open-govt-data.git
-cd open-govt-data
-pip install -r requirements.txt
-```
+# Eurostat: live TOC + per-dataset SDMX structure (dimension names + codelists)
+python -m enrich.ingest_eurostat_meta --workers 8
 
-### Optional: Set up Ollama (for AI enrichment)
-
-```bash
-# Install Ollama
-curl -fsSL https://ollama.ai/install.sh | sh
-
-# Pull required models
-ollama pull gemma3:latest
-```
-
-## 🎮 Usage
-
-### Fetch Individual Datasets
-
-```bash
-# Download a single Eurostat dataset
-python eurostat_fetch_one.py --code TPS00001 --out population.csv
-
-# With filters
-python eurostat_fetch_one.py --code TRNG_LFS_22 --filter geo=NL time=2023 --out training.csv
-```
-
-### Batch Download Multiple Datasets
-
-```bash
-# Download first 10 datasets for testing
-python batch_fetch_eurostat.py --input data/eurostat_gemma3_gpt5.jsonl --output-dir downloads --max-datasets 10
-
-# Full batch download with progress tracking
-python batch_fetch_eurostat.py --input data/eurostat_gemma3_gpt5.jsonl --output-dir downloads --delay 2.0
-
-# Resume from a specific point
-python batch_fetch_eurostat.py --input data/eurostat_gemma3_gpt5.jsonl --output-dir downloads --start-from 100 --skip-existing
-```
-
-### AI-Powered Metadata Enrichment
-
-```bash
-# Enrich dataset metadata with AI-generated descriptions and queries
-python csv_to_ollama_jsonl_complete_only.py \
-    --input data/eurostat_enriched.csv \
-    --output eurostat_enriched_ai.jsonl \
-    --model gemma3:latest \
-    --prompt-mode json \
-    --temperature 0.2
-```
-
-### Convert JSONL to CSV for Excel
-
-```bash
-# Convert JSONL metadata to Excel-friendly CSV
-python utils/jsonl_to_csv.py data/eurostat_gemma3_gpt5.jsonl -o eurostat_data.csv
-
-# Convert any JSONL file
-python utils/jsonl_to_csv.py input.jsonl --output output.csv
-```
-
-## 🇳🇱 CBS StatLine — metadata search engine
-
-A "Dutch Public Data Intelligence Engine" over public CBS aggregate data (no
-confidential microdata). Lives in the `cbs/` package and uses the CBS OData v4
-API (`https://datasets.cbs.nl/odata/v1/CBS/{TABLE_ID}`).
-
-```bash
-# 1. Fetch the full table catalogue (4,857 tables -> Parquet)
+# CBS: catalogue + semantic layer + dimension code lists
 python -m cbs.catalog
-
-# 2. Ingest the semantic metadata for the active tables (Properties/Dimensions/Measures)
-python -m cbs.batch_ingest_statline --limit 700 --sample-data 5
-
-# 3. (optional) doc2query-enrich tables into English with a local LLM (gemma4 via Ollama)
-python -m cbs.enrich_cbs --limit 8 --model gemma4:latest
-
-# 4. Build the SQLite FTS5 term-matching index over all metadata text fields
-python -m cbs.build_search_index --selftest
-
-# 5. Launch the search web app  ->  http://localhost:8501
-streamlit run cbs/search_app.py
+python -m cbs.batch_ingest_statline --status Regulier         --limit 4000
+python -m cbs.batch_ingest_statline --status Gediscontinueerd --limit 4000
+python -m enrich.ingest_cbs_codes --workers 8
 ```
 
-Single-table deep ingest (with full code lists + sample observations):
+### 2. Enrich (GPU)
 
 ```bash
-python -m cbs.ingest_statline --table 83765NED --regions GM0363 GM0503
+# Always dry-run first: reports grounding coverage and validates the JSON schema
+# against BOTH structured-output backends (see "Gotchas").
+python -m enrich.run_vllm --source both --dry-run
+
+# Real run — on SLURM:
+sbatch scripts/enrich_unified.slurm
+# or directly:
+python -m enrich.run_vllm --source both --model Qwen/Qwen3-32B --resume
 ```
 
-The search indexes Dutch titles/descriptions, gemma4 English enrichment,
-dimensions and measures — so both `inkomen` and `income` find the same tables.
+Useful flags: `--limit N` (per source, for smoke tests), `--source cbs|eurostat|both`,
+`--chunk-size` (flush interval), `--include-ungrounded`.
 
-### Running on a server
-
-The whole pipeline is wrapped in idempotent, resumable scripts under `scripts/`:
+### 3. Fetch observations — on demand only
 
 ```bash
-# End-to-end (catalogue -> metadata -> enrich -> index), configurable via env vars
-LIMIT=700 MODEL=gemma4:latest ./scripts/run_pipeline.sh
-
-# Point enrichment at a remote/cluster Ollama
-OLLAMA_HOST=http://gpu-node:11434 ./scripts/run_pipeline.sh
-
-# Skip the slow LLM step (metadata + index only)
-SKIP_ENRICH=1 ./scripts/run_pipeline.sh
-
-# Serve the UI headless on a server, then SSH port-forward to view it
-PORT=8080 ./scripts/serve_app.sh
+python -m cbs.fetch_table_data --table 83765NED --max-obs 5000
+python eurostat_fetch_one.py --code TPS00001 --out population.csv
 ```
 
-On **TU Delft DAIC** (SLURM + GPU), enrichment runs **server-free**: vLLM loads a model
-straight from HuggingFace onto the GPU and batches every table prompt in one job (no Ollama
-daemon). The model is cached on the umbrella share (`HF_HOME`) so it downloads once.
+## 🗂️ The enriched record
 
-```bash
-sbatch scripts/enrich_daic.slurm                       # edit --partition first
-MODEL=google/gemma-2-9b-it HF_TOKEN=hf_xxx sbatch scripts/enrich_daic.slurm   # gated model
-LIMIT=200 TP_SIZE=2 sbatch scripts/enrich_daic.slurm   # subset + 2-GPU tensor parallel
-```
+One JSON object per line in `data/processed/enriched_unified_qwen3-32b.jsonl`,
+with `publisher` (`ESTAT` / `CBS`) discriminating the source. The schema splits
+in two halves on purpose:
 
-The job fetches the catalogue, ingests metadata (CPU), runs `cbs.enrich_cbs_vllm` (GPU,
-batched), and builds the FTS5 index. Default model `Qwen/Qwen2.5-7B-Instruct` is ungated and
-strong at JSON; gemma needs an `HF_TOKEN` and license acceptance. GPU extras:
-`pip install -r requirements-gpu.txt`. The local laptop path still uses Ollama
-(`cbs.enrich_cbs`); both write the same JSONL schema.
+**Deterministic** — computed from the data, never asked of the model:
 
-### Conversational data agent (chat)
-
-Beyond search, a chat UI answers questions with charts. The agent (local Ollama
-model) understands the question, searches the metadata, decides the chart's
-x/y/series from each table's real columns, computes transforms (e.g. year-over-year)
-and plots the answer.
-
-```bash
-streamlit run cbs/chat_app.py          # http://localhost:8502
-python -m cbs.agent "yoy values of dutch residents going for tourism"
-```
-
-A model picker lists installed Ollama models (switch when one is busy). One table
-per answer; cross-table joins are not yet supported.
-
-## 🇳🇱 CBS microdata-use — publication evidence layer
-
-Indexes **public evidence of how CBS microdata has been used** (not the confidential
-microdata itself). Parses the publications workbook, downloads each public document,
-and uses an LLM to extract which CBS datasets each publication used.
-
-```bash
-python -m cbs.pub_ingest      # workbook -> records + classified, deduped URLs
-python -m cbs.pub_download    # concurrent, polite, resumable crawl + text extraction
-python -m cbs.pub_extract     # LLM: which CBS datasets/registers each publication used
-python -m cbs.pub_report      # -> data/processed/pub/publication_findings.md
-```
-
-**What was downloadable** (workbook = `Publications_overview_internet_May_26.xlsx`):
-
-| | count |
-|---|---|
-| publication records | 3,106 |
-| unique URLs | 2,217 |
-| **downloaded OK** (text/PDF extracted) | **1,487** |
-| unreachable / blocked (404/403/dead) | 730 |
-| by type (OK) | html 1,193 · pdf 206 · doi 83 · github 3 · zenodo 2 |
-| mention microdata / StatLine / CBS | 570 |
-
-The findings file (`data/processed/pub/publication_findings.md`, kept in git) lists,
-per document: the **link**, **what it is about**, and **which CBS data it uses** —
-specific registers (GBA/BRP population, POLIS/SPOLIS jobs & wages, SECMBUS
-socio-economic status, HOOGSTEOPLTAB education, INPATAB/INHATAB income, …), the
-data kind (microdata vs aggregate/StatLine), a one-line *how-used* summary, and the
-CBS project number — plus an aggregate table of the most-used datasets. Raw
-downloads and scraped full text are git-ignored; only the findings MD + structured
-metadata are kept.
-
-## 📊 Dataset Sources
-
-- **🇪🇺 Eurostat**: European Union statistical data
-- **🇳🇱 CBS Netherlands**: Dutch national statistics
-- **🌍 More sources**: Extensible framework for additional agencies
-
-## 🔧 Key Components
-
-### `eurostat_fetch_one.py`
-- Fetches individual Eurostat datasets via SDMX API
-- Handles complex dimension structures and missing data
-- Provides detailed summaries and data previews
-- Robust error handling and retry logic
-
-### `batch_fetch_eurostat.py`
-- Processes hundreds of datasets automatically
-- Progress tracking with CSV logs
-- Configurable delays and timeouts
-- Resume capability for interrupted runs
-
-### `csv_to_ollama_jsonl_complete_only.py`
-- AI-powered metadata enrichment
-- Generates dataset descriptions and example queries
-- Multiple prompt modes (JSON, loose text)
-- Caching and batch processing support
-
-## 📈 Example Output
-
-### Dataset Summary
-```
-Dataset: TPS00001 - Population on 1 January
-→ Time coverage: 2014 … 2025 (total 12 years)
-→ Dimensions: freq, indic_de, geo, time
-→ Total observations: 580
-→ File size: 13.0 KB
-```
-
-### AI-Generated Metadata
 ```json
-{
-  "code": "TPS00001",
-  "title": "Population on 1 January",
-  "enriched_description": "Annual population counts for EU countries...",
-  "example_queries": [
-    "How has population changed across EU countries from 2014-2025?",
-    "Which countries show the fastest population growth?",
-    "What are the population trends in Nordic countries?"
-  ],
-  "potential_applications": [
-    "Demographic planning and forecasting",
-    "Resource allocation for public services",
-    "Economic analysis and policy development"
-  ]
-}
+"code": "nama_10r_3gdp", "publisher": "ESTAT",
+"title_native": "Gross domestic product (GDP) at current market prices by NUTS 3 region",
+"coverage": {"start": 2000, "end": 2024, "n_periods": 25},
+"dimensions": [{"id": "geo", "name": "Geopolitical entity (reporting)",
+                "n_categories": 1814, "sample": ["EU27_2020 (European Union - 27)", "..."]}],
+"n_observations": 296322, "grounded": true
 ```
 
-5. Open a Pull Request
+**Generative** — the doc2query fields, JSON-schema-constrained:
+
+```json
+"title_en", "enriched_description", "example_queries", "potential_applications",
+"key_dimensions", "topics", "join_keys", "confidence"
+```
+
+Earlier pipelines let the model restate coverage and dimensions, and it got them
+wrong — echoing a stale catalogue `dataend` when the data ran two years further.
+Now it can't: those fields never reach the model's output.
+
+## 📁 Where the data is
+
+```
+data/processed/
+├── enriched_unified_qwen3-32b.jsonl   ← the artifact: 12,308 enriched records
+├── eurostat_metadata.jsonl            7,438 datasets: dims + codelists
+├── eurostat_catalog.parquet           7,572 live TOC rows
+├── eurostat_metadata.failures.json    134 unreachable (132× HTTP 413, 2× 401)
+├── cbs_codelists.jsonl                4,870 tables: dimension code lists
+├── statline_catalog.parquet           4,868 CBS tables, all statuses
+└── catalog_meta/                      CBS semantic layer
+    ├── statline_datasets.parquet      4,870 tables
+    ├── statline_dimensions.parquet    13,507 dimensions
+    └── statline_measures.parquet      157,954 measures
+```
+
+Observation data (`downloads/`, `data/processed/tables/`) is **git-ignored** —
+it is not needed to build or search the index.
+
+## 🇳🇱 CBS apps — search, chat, publication evidence
+
+```bash
+python -m cbs.build_search_index --selftest        # SQLite FTS5 index
+streamlit run cbs/search_app.py --server.port 8501 # search UI
+OLLAMA_HOST=http://<host>:11434 streamlit run cbs/chat_app.py --server.port 8502
+```
+
+> ⚠️ **Not yet wired to the unified corpus.** `build_search_index` still globs
+> `data/processed/cbs_enriched_*.jsonl` and expects the older CBS-only field
+> names, so it indexes the superseded gemma4 / qwen2.5 runs and ignores
+> `enriched_unified_*.jsonl` — and Eurostat entirely. Porting it to the unified
+> schema is the next task.
+
+**Publication evidence layer** — indexes public evidence of how CBS microdata has
+been used (never the confidential microdata itself): 3,106 records → 2,217 URLs →
+1,487 downloaded → 573 LLM extractions.
+
+```bash
+python -m cbs.pub_ingest && python -m cbs.pub_download
+OLLAMA_HOST=http://<host>:11434 python -m cbs.pub_extract --model qwen2.5:7b
+python -m cbs.pub_report        # -> data/processed/pub/publication_findings.md
+```
+
+## ⚠️ Gotchas worth knowing
+
+- **Structured decoding across vLLM versions.** The API was renamed twice
+  (`structured_outputs=` ≥0.11, `guided_decoding=` 0.6–0.10, `guided_json=` <0.6).
+  `run_vllm` tries newest first and **aborts** rather than silently generating
+  unconstrained text (the old code fell through to a regex fallback and dropped
+  tables without recording which).
+- **Two backends, two schema subsets.** vLLM picks between xgrammar and
+  llguidance via `backend='auto'`. `uniqueItems` compiles under xgrammar and
+  hard-fails the whole job under llguidance. `--dry-run` validates against both;
+  uniqueness is enforced in `finalize_record()` instead.
+- **Category sampling is spread, not truncated.** Showing the first 12 of 1,814
+  alphabetical NUTS regions produced four example queries about Albanian
+  districts. `enrich.sampling.spread_sample` samples across the codelist.
+- **Eurostat catalogue titles lost every space** upstream
+  (`Long-termresidentsbycitizenshipon31December`). The SDMX `dataset_label` is
+  clean and is preferred; catalogue coverage is likewise stale (a dataset
+  declaring `dataend: 2023` had data through 2025).
+- **Qwen3 is a hybrid reasoning model** — enrichment sets
+  `enable_thinking=False`, or it burns the token budget on a `<think>` block.
+
+## 🔎 Coverage gaps (known, not silent)
+
+| gap | count | fix |
+|---|---|---|
+| Eurostat datasets too large for a 1-period slice (HTTP 413) | 132 | re-fetch sliced by `geo` |
+| in the SDMX dataflow registry but absent from the TOC | 32 | ingest directly |
+| unauthorized (401) | 2 | likely genuinely restricted |
+| invalid join ids (model paraphrased a dimension name) | 65 | fuzzy-match post-pass |
+
+**Checking for completeness:** cross-reference the two independent Eurostat
+catalogues. Every servable dataset has a dataflow, so
+`sdmx/2.1/dataflow/ESTAT/all/latest` (8,152 entries) is authoritative; the TOC
+(7,572) is a strict subset, and 548 of the difference are `$DV_` derived views
+of datasets already listed.
+
+## 📚 Legacy Eurostat pipeline (superseded)
+
+`csv_to_ollama_jsonl_complete_only.py` + `data/eurostat_gemma3*.jsonl` predate
+this work and are kept for provenance only. They covered 698 of ~7,600 datasets,
+and the `_gpt5` variant is a template rather than a refinement — 96 unique
+queries across 3,540 (2.7%), the same string repeated 590 times. Use
+`enrich.run_vllm` instead.
+
+`batch_fetch_eurostat.py` remains useful for bulk observation downloads, but it
+is no longer part of the index pipeline.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT — see [LICENSE](LICENSE). Reproduction steps: [RUNBOOK.md](RUNBOOK.md).
 
 ## 🙏 Acknowledgments
 
-- **Eurostat** for providing comprehensive open data APIs
-- **CBS Netherlands** for accessible statistical data
-- **Ollama** for local LLM capabilities
-- **OpenAI** for AI-powered enrichment
-
----
-
-*Making governmental data accessible, analyzable, and actionable* 🚀
+**Eurostat** and **CBS Netherlands** for open data APIs · **vLLM** and **Qwen**
+for local batched inference · **Ollama** for the interactive agent path.
