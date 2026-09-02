@@ -69,7 +69,10 @@ def build() -> str:
     A("occur in the source text and flagged if it does not. Dataset mentions are")
     A("resolved against the 12,308-dataset catalogue by `enrich.pub_link`.")
     A("")
-    A("Questions appear in their original language (mostly Dutch).")
+    A("Questions are shown in English (machine-translated by the same model), with the")
+    A("original underneath. **Witness sentences are never translated** — they are")
+    A("evidence, verified by exact match against the source text, so a translated quote")
+    A("could not be checked.")
     A("")
     A("| | |")
     A("|---|---|")
@@ -103,7 +106,10 @@ def build() -> str:
         A(f"*Source:* <{url}>")
         A("")
         for x in qs[:3]:
-            A(f"- **Q:** {clip(x['question'], 180)}")
+            en = x.get("question_en")
+            A(f"- **Q:** {clip(en or x['question'], 180)}")
+            if en and en.strip() != x["question"].strip():
+                A(f"  - *original:* {clip(x['question'], 180)}")
             if x["witness"]:
                 flag = "" if x["witness_verified"] else "  ⚠️ not verified in source"
                 A(f"  - *witness:* “{clip(x['witness'], 200)}”{flag}")
@@ -141,7 +147,7 @@ def build() -> str:
                 if key in used:
                     continue
                 used.add(key)
-                rows.append((x["question"], title, url))
+                rows.append((x.get("question_en") or x["question"], x["question"], title, url))
                 break
             if len(rows) >= 5:
                 break
@@ -149,8 +155,10 @@ def build() -> str:
             continue
         A(f"### {name}")
         A("")
-        for qq, title, url in rows:
-            A(f"- {clip(qq, 190)}")
+        for qq_en, qq_nl, title, url in rows:
+            A(f"- {clip(qq_en, 190)}")
+            if qq_en.strip() != qq_nl.strip():
+                A(f"  <br/><sub>*{clip(qq_nl, 150)}*</sub>")
             A(f"  <br/><sub>— [{clip(title, 72)}]({url})</sub>")
         A("")
 
