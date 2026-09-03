@@ -66,14 +66,24 @@ Measures:
 {measures}
 
 Can this table answer the question?
-  yes    - the needed breakdown, period and measure are all present
-  partly - the subject matches but something is missing (a period, a breakdown)
-  no     - it cannot answer it
+  yes    - the subject, the needed breakdown and the measure are present
+  partly - the subject matches but a breakdown or the measure is missing
+  no     - it cannot answer it at all
+
+PERIOD RULE - important. Official tables are living: coverage shifts, and a
+question taken from a 2019 report often names a year the current table no longer
+carries. Judge the SUBJECT, the BREAKDOWN and the MEASURE strictly, but treat the
+period as a PREFERENCE, not a requirement:
+  * if the table has a time dimension and the measure and breakdown fit, answer
+    "yes" even when the requested year is absent, and say in "missing" which
+    period IS available (the question will be re-scoped to it);
+  * answer "no" on period grounds ONLY if the table has no usable time dimension.
 
 "dimensions_to_use" - the dimension ids you would filter or group by (exact ids
 from the list above; empty if "no").
 "measure_to_use"    - the measure that carries the answer ("" if "no").
-"missing"           - what is absent, if anything.
+"missing"           - what is absent, if anything. If the requested period is
+                      unavailable, state the period the table DOES cover.
 "why"               - one short sentence.
 """
 
