@@ -7,6 +7,17 @@ produced it so any figure can be re-derived or challenged.
 **Nothing here has been validated by a human domain expert yet.** All labels are
 model-assigned. Section 9 lists what that means for interpretation.
 
+### Review these
+
+| document | what to check |
+|---|---|
+| **[benchmark_items_review.md](benchmark_items_review.md)** | the cleaned question → dataset → SQL → **answer** pairs, end to end, plus the `gold_ready` candidates awaiting SQL and a spot-check of what was excluded |
+| [research_question_examples.md](../data/processed/pub/research_question_examples.md) | the extracted questions themselves, with the verbatim witness sentence and source publication |
+| [question_analysis.md](question_analysis.md) | what kinds of answers the 3,276 questions admit, and why only a minority are verifiable |
+| [benchmark_design.md](benchmark_design.md) | related work and the intended multi-hop construction procedure |
+
+Benchmark work continues on the **`benchmark`** branch.
+
 ---
 
 ## 0. Data flow
@@ -220,6 +231,12 @@ supersedes it.
 ⚠️ The current seed files were built **before** the triage pass and therefore carry
 document-level `candidate_datasets`. They must be regenerated on
 `attributed_dataset` once triage completes; counts here will change.
+
+Authored items are rendered for human review by
+`scripts/make_benchmark_review.py` into
+[benchmark_items_review.md](benchmark_items_review.md) — question, clarified
+question, dataset, gold SQL, and the executed answer, so a reviewer can reject
+any link in the chain.
 
 `bench/` provides the executable layer:
 

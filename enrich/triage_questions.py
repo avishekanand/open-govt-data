@@ -29,13 +29,17 @@ from enrich.vllm_util import make_sampling_params, parse_json, validate_schema_b
 SRC = Path("data/processed/pub/pub_evidence.jsonl")
 DEFAULT_MODEL = os.environ.get("MODEL", "Qwen/Qwen3-32B")
 
+# Status is ONLY about which data could answer the question. Vagueness is a
+# SEPARATE axis (`specificity`) - conflating the two collapsed 73% of questions
+# into not_a_data_question in the first run, including "Which conditions lead to
+# the highest healthcare expenditures?", which is a data question that merely
+# needs a period pinned. `ambiguous` was removed because it duplicated
+# `specificity` and the model never selected it.
 STATUS = [
-    "gold_ready",           # open data + a specific dataset attributed + specific enough
-    "checkable_open_data",  # answerable from open data, but no dataset attributed yet
-    "microdata_deferred",   # needs record-level CBS data (Tier B)
-    "other_source",         # needs a survey/interviews/literature, not official statistics
-    "ambiguous",            # too underspecified to have a determinate answer
-    "not_a_data_question",  # mechanism, policy judgement, or about the study's own method
+    "open_data",            # published CBS/Eurostat aggregate tables could answer it
+    "microdata_deferred",   # needs record-level CBS data under a project licence
+    "other_source",         # needs surveys/interviews/literature, not official statistics
+    "not_a_data_question",  # asks WHY/mechanism, a policy judgement, or about the study's own method
 ]
 CONFIDENCE = ["high", "medium", "low", "none"]
 SPECIFICITY = ["specific", "underspecified", "vague"]
@@ -82,13 +86,19 @@ may also cite an income table.
 
 "missing_to_specify" - what would have to be pinned down. Empty if specific.
 
-"benchmark_status" - one of:
-  gold_ready           open aggregate data, a dataset attributed, specific
-  checkable_open_data  open aggregate data, but no dataset attributed yet
-  microdata_deferred   needs record-level CBS microdata
-  other_source         needs surveys/interviews/literature, not official statistics
-  not_a_data_question  a mechanism, a policy judgement, or about the study's method
-  ambiguous            too underspecified to score
+"benchmark_status" - WHICH DATA could answer it. Judge only this; ignore how
+vaguely it is phrased (that is "specificity", a separate field).
+  open_data            published CBS StatLine / Eurostat aggregate tables could
+                       answer it, even if a period or population must be pinned
+  microdata_deferred   needs record-level CBS data under a project licence
+  other_source         needs surveys, interviews or literature, not official statistics
+  not_a_data_question  asks WHY something happens (a mechanism), makes a policy
+                       judgement, or is about the study's own method or model
+
+IMPORTANT: a question that is merely vague or missing a period/population is
+STILL a data question. "Which conditions lead to the highest healthcare
+expenditures?" is open_data with specificity=underspecified - NOT
+not_a_data_question.
 
 "status_reason" - one short sentence.
 """
@@ -173,13 +183,18 @@ def main() -> None:
             invented += 1
             code = "none"
             obj["attribution_confidence"] = "none"
-            if obj.get("benchmark_status") == "gold_ready":
-                obj["benchmark_status"] = "checkable_open_data"
+
         obj["attributed_dataset"] = code if code.lower() != "none" else None
+        # gold-readiness is DERIVED, never taken from the model: open data, a
+        # dataset attributed to this question, and specific enough to score.
+        obj["gold_ready"] = bool(obj.get("benchmark_status") == "open_data"
+                                 and obj["attributed_dataset"]
+                                 and obj.get("specificity") == "specific")
         recs[ri]["research_questions"][qi].update(
             {k: obj[k] for k in ("benchmark_status", "attributed_dataset",
                                  "attribution_confidence", "specificity",
-                                 "missing_to_specify", "status_reason") if k in obj})
+                                 "missing_to_specify", "status_reason",
+                                 "gold_ready") if k in obj})
         ok += 1
 
     tmp = args.src.with_suffix(".jsonl.tmp")
