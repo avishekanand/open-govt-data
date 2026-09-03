@@ -162,12 +162,13 @@ def main() -> None:
 
     con = connect()
     prompts, ctx = [], []
-    for r in pairs:
+    for pi, r in enumerate(pairs, 1):
+        print(f"[{pi}/{len(pairs)}] preparing {r.get('verified_dataset')}", flush=True)
         code = r["verified_dataset"]
         try:
             vname = view(con, code)
         except Exception as exc:  # noqa: BLE001
-            print(f"[WARN] cannot materialise {code}: {type(exc).__name__}")
+            print(f"[WARN] skipping {code}: {exc}", flush=True)
             continue
         p = USER.format(
             q=r.get("question_selfcontained") or r.get("question"),

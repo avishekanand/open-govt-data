@@ -40,7 +40,10 @@ def table(cols, rows, limit=12):
 def build() -> str:
     L: list[str] = []
     A = L.append
-    items = [json.loads(l) for l in ITEMS.open(encoding="utf-8")] if ITEMS.exists() else []
+    import glob
+    items = []
+    for f in sorted(glob.glob("data/processed/benchmark/items*.jsonl")):
+        items += [json.loads(l) for l in open(f, encoding="utf-8")]
     recs = [json.loads(l) for l in EVID.open(encoding="utf-8")] if EVID.exists() else []
     qs = [q for r in recs for q in (r.get("research_questions") or [])]
 
@@ -53,7 +56,8 @@ def build() -> str:
     A("")
 
     # ---------------------------------------------------------- authored items
-    tierA = [i for i in items if i.get("executable")]
+    tierA = [i for i in items if i.get("executable") and i.get("qa", {}).get("passed", True)]
+    rejected = [i for i in items if i.get("executable") and not i.get("qa", {}).get("passed", True)]
     tierB = [i for i in items if not i.get("executable")]
     A(f"## 1. Verified items — Tier A ({len(tierA)})")
     A("")
@@ -97,6 +101,20 @@ def build() -> str:
           "does the SQL express the question? is the answer right?")
         A("")
         A("---")
+        A("")
+
+    A(f"## 1b. Rejected by automated QA ({len(rejected)})")
+    A("")
+    A("These queries ran and returned rows, but the result cannot be right: a")
+    A("dimension was left unfiltered, so each grouping key repeats with different")
+    A("values. Shown so the failure mode is visible rather than hidden.")
+    A("")
+    if rejected:
+        A("| id | question | why rejected |")
+        A("|---|---|---|")
+        for it in rejected:
+            A(f"| `{it['id']}` | {clip(it.get('question_en'), 80)} | "
+              f"{clip(it.get('qa', {}).get('reason'), 70)} |")
         A("")
 
     A(f"## 2. Deferred items — Tier B, microdata ({len(tierB)})")
