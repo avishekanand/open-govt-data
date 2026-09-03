@@ -25,7 +25,7 @@ from typing import Any, Dict, List
 
 CORPUS = Path("data/processed/enriched_unified_qwen3-32b.jsonl")
 SRC = Path("data/processed/pub/pub_evidence.jsonl")
-OUT = Path("data/processed/benchmark/question_dataset_candidates.jsonl")
+OUT_TMPL = "data/processed/benchmark/question_dataset_candidates_{pub}.jsonl"
 # bge-large-en-v1.5: CLS pooling, normalised; queries take an instruction prefix.
 MODEL = os.environ.get("EMBED_MODEL", "BAAI/bge-large-en-v1.5")
 QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
@@ -63,27 +63,41 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Embed questions and retrieve candidate datasets")
     ap.add_argument("--corpus", default=CORPUS, type=Path)
     ap.add_argument("--src", default=SRC, type=Path)
-    ap.add_argument("--out", default=OUT, type=Path)
+    ap.add_argument("--out", default=None, type=Path,
+                    help="default: question_dataset_candidates_<publisher>.jsonl")
     ap.add_argument("--model", default=MODEL)
-    ap.add_argument("--top-k", type=int, default=10)
+    ap.add_argument("--top-k", type=int, default=10, help="candidates kept after reranking")
+    ap.add_argument("--retrieve-k", type=int, default=50, help="bi-encoder depth before rerank")
+    ap.add_argument("--reranker", default=os.environ.get("RERANK_MODEL", "BAAI/bge-reranker-base"),
+                    help="cross-encoder for reranking; 'none' to skip")
     ap.add_argument("--batch-size", type=int, default=64)
     ap.add_argument("--only", default="public_aggregate",
                     help="restrict to a data_needed value; 'all' for everything")
-    ap.add_argument("--publisher", default=None, help="restrict corpus to CBS or ESTAT")
+    ap.add_argument("--publisher", default="CBS", choices=["CBS", "ESTAT"],
+                    help="Build ONE benchmark at a time. CBS and Eurostat are separate "
+                         "benchmarks with their own questions and their own catalogue; "
+                         "mixing them let Eurostat tables be returned for Dutch questions "
+                         "(10.2% of candidate slots in a mixed run).")
     args = ap.parse_args()
 
     import torch
     from transformers import AutoModel, AutoTokenizer
 
+    args.out = args.out or Path(OUT_TMPL.format(pub=args.publisher.lower()))
     corpus = [json.loads(l) for l in args.corpus.open(encoding="utf-8")]
-    if args.publisher:
-        corpus = [c for c in corpus if c.get("publisher") == args.publisher]
+    corpus = [c for c in corpus if c.get("publisher") == args.publisher]
     recs = [json.loads(l) for l in args.src.open(encoding="utf-8")]
 
     queries, meta = [], []
     for r in recs:
         for q in r.get("research_questions") or []:
             if args.only != "all" and q.get("data_needed") != args.only:
+                continue
+            # a question belongs to exactly one benchmark
+            hint = q.get("publisher_hint")
+            if args.publisher == "CBS" and hint not in ("CBS", "either"):
+                continue
+            if args.publisher == "ESTAT" and hint not in ("ESTAT", "either"):
                 continue
             text = q.get("question_selfcontained") or q.get("question_en") or q.get("question")
             if not text:
@@ -100,7 +114,8 @@ def main() -> None:
                 "source_url": r.get("final_url") or r.get("url"),
                 "source_title": r.get("title"),
             })
-    print(f"[INFO] {len(queries):,} questions x {len(corpus):,} datasets | model={args.model}")
+    print(f"[INFO] benchmark={args.publisher} | {len(queries):,} questions x "
+          f"{len(corpus):,} {args.publisher} datasets | model={args.model}")
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     tok = AutoTokenizer.from_pretrained(args.model)
@@ -112,7 +127,36 @@ def main() -> None:
     qemb = encode(queries, model, tok, device, args.batch_size, True)
 
     sims = qemb @ demb.T
-    topv, topi = sims.topk(args.top_k, dim=1)
+    depth = max(args.retrieve_k, args.top_k)
+    topv, topi = sims.topk(min(depth, len(corpus)), dim=1)
+
+    # Cross-encoder rerank. The bi-encoder alone put "ICT Usage in Small Businesses"
+    # first for two youth-employment questions; a cross-encoder sees the pair
+    # jointly and fixes that class of error.
+    if args.reranker and args.reranker.lower() != "none":
+        from transformers import AutoModelForSequenceClassification
+        print(f"[INFO] reranking with {args.reranker} ...")
+        rtok = AutoTokenizer.from_pretrained(args.reranker)
+        rmod = AutoModelForSequenceClassification.from_pretrained(args.reranker).to(device).eval()
+        new_v, new_i = [], []
+        for qi in range(len(queries)):
+            idxs = topi[qi].tolist()
+            pairs = [[queries[qi], dataset_text(corpus[j])[:512]] for j in idxs]
+            scores = []
+            for b in range(0, len(pairs), args.batch_size):
+                enc = rtok(pairs[b:b + args.batch_size], padding=True, truncation=True,
+                           max_length=512, return_tensors="pt").to(device)
+                with torch.no_grad():
+                    scores.extend(rmod(**enc).logits.view(-1).float().cpu().tolist())
+            order = sorted(range(len(idxs)), key=lambda k: -scores[k])[: args.top_k]
+            new_i.append([idxs[k] for k in order])
+            new_v.append([scores[k] for k in order])
+            if qi % 200 == 0:
+                print(f"  reranked {qi:,}/{len(queries):,}", flush=True)
+        topi = torch.tensor(new_i)
+        topv = torch.tensor(new_v)
+    else:
+        topv, topi = topv[:, : args.top_k], topi[:, : args.top_k]
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     hit_at_1 = hit_at_k = n_lex = 0
@@ -125,7 +169,10 @@ def main() -> None:
                               "code": c.get("code"), "publisher": c.get("publisher"),
                               "title_en": c.get("title_en"),
                               "title_native": c.get("title_native")})
-            # sanity signal: does retrieval recover the lexically-attributed dataset?
+            # Agreement with what the publication cited is a CONFIRMATION signal,
+            # not a target: a properly-attributed provenance table and the
+            # task-appropriate table should coincide, so when they do we can trust
+            # the pair more, and when they do not it is worth a human look.
             lex = m.get("lexically_attributed")
             if lex:
                 n_lex += 1
