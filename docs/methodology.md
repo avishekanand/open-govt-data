@@ -218,6 +218,42 @@ validation now runs in `--dry-run` on CPU in seconds.
 | 9 | weak fuzzy links kept | generic citation strings linked | manual review of the 14 candidates | `--min-link-score 0.7` |
 | 10 | first-*k* category sampling (catalogue side) | queries skewed to alphabetically first values (all-Albanian regions) | reviewing enrichment output | `enrich.sampling.spread_sample` |
 | 11 | case mismatch TOC vs vendored CSV | Eurostat yielded 0 items | dry run showed `{'CBS': 4870}` only | filter removed |
+| 12 | **triage `benchmark_status` miscalibrated, twice** | v1 put 73% of questions in `not_a_data_question` (incl. 545 the classifier called `public_aggregate`) and never once used `ambiguous`; v2, after the taxonomy was separated, was **worse** at 91.4% and 94.7% `vague` | cross-tabulating the triage labels against the classifier labels | **field abandoned** — see below |
+
+### Defect 12 in detail: a label we decided not to trust
+
+The triage pass was meant to assign a benchmark status per question. Two runs
+disagreed with the classifier pass on the same underlying property, in the same
+direction, and got worse rather than better after a fix:
+
+| | v1 | v2 (after taxonomy fix) |
+|---|---:|---:|
+| `not_a_data_question` | 73.0% | **91.4%** |
+| `vague` | 74.9% | **94.7%** |
+| classifier `public_aggregate` routed to `not_a_data_question` | 545 | **867** |
+
+Two failures of the same design are a signal about the design, not the prompt.
+The rubric asked whether a question has an explicit population, period and
+measure — a bar real research questions almost never meet, since *"Which
+conditions lead to the highest healthcare expenditures?"* is a perfectly ordinary
+data question that simply needs a period pinned.
+
+**Decision: the `benchmark_status` and `specificity` fields are not used
+anywhere downstream.** Data availability is taken from the classifier pass
+(`data_needed`), whose distribution — microdata 1,202 / other_source 1,054 /
+public_aggregate 1,008 — is at least facially plausible.
+
+What *did* survive from triage is the part it was built for: **per-question
+dataset attribution**. Across 147 questions carrying candidates it attributed 21,
+**invented zero codes**, and 8 of those are high-confidence. Requiring three
+independent signals to agree — classifier says `public_aggregate`, classifier
+says `verifiable_now`, triage attributes a dataset to *this* question — yields
+**5 candidates**, listed for review in
+[benchmark_items_review.md](benchmark_items_review.md) §3a.
+
+This is the honest replacement for the "14 ready pairs" figure: **5**, each
+resting on agreement between two independently-prompted passes, awaiting human
+confirmation.
 
 Defect 8 is the reason the "14 ready pairs" figure quoted earlier is wrong; §10
 supersedes it.

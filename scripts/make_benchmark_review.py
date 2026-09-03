@@ -118,25 +118,33 @@ def build() -> str:
         A("")
 
     # ------------------------------------------------------- triage candidates
-    triaged = [q for q in qs if q.get("benchmark_status")]
+    # NOTE: the triage `benchmark_status` field is NOT used. Two runs of it were
+    # miscalibrated (73% then 91% of questions dumped into not_a_data_question,
+    # including 867 the classifier had called public_aggregate). What survived
+    # review is the per-question dataset ATTRIBUTION, which invented no codes.
+    # Data availability therefore comes from the classifier pass instead.
+    triaged = [q for q in qs if q.get("attributed_dataset") or q.get("data_needed")]
     if triaged:
         A("## 3. Candidate pool from triage")
         A("")
-        A("| status | n |")
+        A("Data availability is taken from the **classifier** pass (`data_needed`).")
+        A("The triage `benchmark_status` field is deliberately ignored — see")
+        A("[methodology §9](methodology.md#9-known-defects-and-how-they-were-caught).")
+        A("")
+        A("| data needed (classifier) | n |")
         A("|---|---:|")
-        for k, v in Counter(q.get("benchmark_status") for q in triaged).most_common():
+        for k, v in Counter(q.get("data_needed") for q in triaged).most_common():
             A(f"| `{k}` | {v:,} |")
         A("")
-        A("| specificity | n |")
-        A("|---|---:|")
-        for k, v in Counter(q.get("specificity") for q in triaged).most_common():
-            A(f"| `{k}` | {v:,} |")
+        gold = [q for q in triaged
+                if q.get("attributed_dataset") and q.get("data_needed") == "public_aggregate"
+                and q.get("verifiable_now")]
+        A(f"### 3a. Candidates awaiting gold SQL ({len(gold)})")
         A("")
-        gold = [q for q in triaged if q.get("gold_ready")]
-        A(f"### 3a. `gold_ready` candidates awaiting gold SQL ({len(gold)})")
-        A("")
-        A("Open data **and** a dataset attributed to this specific question **and**")
-        A("specific enough to have one answer. These are next in line to be authored.")
+        A("Three independent signals agree: the classifier called it answerable from")
+        A("public aggregates, it marked it verifiable, and triage attributed a specific")
+        A("dataset **to this question** (not merely to its publication). These are next")
+        A("in line to be authored — and the first thing worth a human check.")
         A("")
         if gold:
             A("| question | dataset | confidence |")
@@ -149,28 +157,31 @@ def build() -> str:
             A("*(none yet)*")
         A("")
         under = [q for q in triaged
-                 if q.get("benchmark_status") == "open_data"
-                 and q.get("specificity") == "underspecified"][:25]
-        A(f"### 3b. Open data but underspecified — need a decision ({len(under)} shown)")
+                 if q.get("data_needed") == "public_aggregate"
+                 and not q.get("attributed_dataset")
+                 and q.get("verifiable_now")][:25]
+        A(f"### 3b. Answerable from open data but no dataset attributed ({len(under)} shown)")
         A("")
-        A("Answerable in principle, but a period, population or measure must be")
-        A("pinned first. The `missing` column is what a reviewer would have to fix.")
+        A("The classifier judged these answerable from published tables, but no")
+        A("dataset could be attributed — because the source publication cited none")
+        A("that we could link. Retrieval, not question quality, is the blocker.")
         A("")
-        A("| question | missing |")
+        A("| question | what would have to be pinned |")
         A("|---|---|")
         for q in under:
             A(f"| {clip(q.get('question_en'), 100)} | {clip(q.get('missing_to_specify'), 80)} |")
         A("")
-        excl = [q for q in triaged if q.get("benchmark_status") == "not_a_data_question"][:15]
-        A("### 3c. Excluded as not-a-data-question — spot-check the exclusions")
+        excl = [q for q in triaged if q.get("data_needed") == "microdata"][:15]
+        A("### 3c. Microdata questions — the Tier B pool")
         A("")
-        A("Listed so over-exclusion is visible. An earlier version of this pass")
-        A("mislabelled vague-but-answerable questions here; see methodology §9.")
+        A("The largest single bucket (1,202). Not answerable from public tables;")
+        A("candidates for gold SQL authored against register schemas and validated")
+        A("later with CBS.")
         A("")
-        A("| question | reason |")
+        A("| question | classifier reason |")
         A("|---|---|")
         for q in excl:
-            A(f"| {clip(q.get('question_en'), 100)} | {clip(q.get('status_reason'), 80)} |")
+            A(f"| {clip(q.get('question_en'), 100)} | {clip(q.get('reason'), 80)} |")
         A("")
     else:
         A("## 3. Candidate pool from triage")
