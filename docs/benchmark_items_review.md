@@ -160,6 +160,168 @@ later with CBS.
 | Is there a change in criminal behavior of offenders in the 3 years before and after the start of re… | The question requires comparing individual-level criminal behavior data before … |
 | What is the change in criminal behavior of offenders, translated into safety care costs, in the 3 y… | The question requires comparing safety care costs before and after rehabilitati… |
 
+## 4. Two candidate sources disagree — please adjudicate
+
+Two independent ways of finding a dataset for a question:
+
+- **cited** — the dataset the *publication itself named*, resolved lexically.
+  Provenance-faithful: right if the task is *recompute the paper's number*.
+- **retrieved** — nearest datasets by embedding over all 12,308 enriched
+  catalogue entries. Task-faithful: right if the task is *find the data that
+  answers this question*.
+
+They agree on **none** of the cases below. That is not a retrieval failure:
+papers cite reference tables (region definitions, classifications) alongside
+the table carrying the measure, so 'what the paper cited' and 'what answers
+the question' genuinely differ. **Which one is gold is a decision, not a
+computation** — hence this section.
+
+**Q:** Which areas in the Netherlands have a structural pressure on their livability, and are there more or fewer of them compared to the previous measurement?
+
+<sub>scope: period=2020-2022 · geography=Netherlands · measure=areas with structural pressure on livability</sub>
+
+| source | dataset | title |
+|---|---|---|
+| **cited** | [`85067NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85067NED/table) | *(named in the publication)* |
+| retrieved #1 (0.6745) | [`71137NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/71137NED/table) | Census; Morally Unfavorable Housing Situations, 1930 |
+| retrieved #2 (0.673) | [`81924NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81924NED/table) | Liveability and Nuisance in Neighborhoods; Region (2012-201… |
+| retrieved #3 (0.6587) | [`80168ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80168ned/table) | Neighbourhood Livability by Police Region (IVM), 2008-2011 |
+
+*Pick one, both, or neither.*
+
+**Q:** To what extent have the employment prospects of youth been restored after the coronavirus pandemic in the Netherlands?
+
+<sub>scope: period=2020-2021 · geography=Netherlands · population=youth entering the labor market · measure=employment prospects, measured as the chance of obtaining a substantial job (minimum three days per week)</sub>
+
+| source | dataset | title |
+|---|---|---|
+| **cited** | [`83031NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83031NED/table) | *(named in the publication)* |
+| retrieved #1 (0.668) | [`85178NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85178NED/table) | ICT Usage in Small Businesses by Company Size, 2021 |
+| retrieved #2 (0.6561) | [`86087NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86087NED/table) | Youth Labour Market Situation (15-27 years); Region 2024, 2… |
+| retrieved #3 (0.6557) | [`82915NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/82915NED/table) | Youth Labor Participation, 2003-2022 |
+
+*Pick one, both, or neither.*
+
+**Q:** What is the impact of the coronavirus pandemic on the transition of young people from education to the labor market in the Netherlands between 2018 and 2021?
+
+<sub>scope: period=2018-2021 · geography=Netherlands · population=young people · measure=transition from education to the labor market</sub>
+
+| source | dataset | title |
+|---|---|---|
+| **cited** | [`83031NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83031NED/table) | *(named in the publication)* |
+| retrieved #1 (0.686) | [`85178NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85178NED/table) | ICT Usage in Small Businesses by Company Size, 2021 |
+| retrieved #2 (0.6805) | [`80220ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80220ned/table) | Labour Market Mobility: Changes in Labour Market Position (… |
+| retrieved #3 (0.6794) | [`iss_21covt`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/iss_21covt/table) | Enterprises by Impact of COVID-19 on Turnover and NACE Acti… |
+
+*Pick one, both, or neither.*
+
+**Q:** Which groups of young people have been more affected by the coronavirus pandemic in the labor market, specifically those without a starting qualification, with at most an mbo-2 education, w…
+
+<sub>scope: population=young people · measure=labor market chances</sub>
+
+| source | dataset | title |
+|---|---|---|
+| **cited** | [`83031NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83031NED/table) | *(named in the publication)* |
+| retrieved #1 (0.6326) | [`85696NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85696NED/table) | MBO Graduates: Labour Market Position After Leaving Educati… |
+| retrieved #2 (0.6317) | [`71827ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/71827ned/table) | MBO Graduates by Origin Group and Cohort (1990/91-2015/16) |
+| retrieved #3 (0.631) | [`iss_21covb`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/iss_21covb/table) | Enterprises affected by trade barriers due to COVID-19 by b… |
+
+*Pick one, both, or neither.*
+
+**Q:** Did the post-WWII baby boom in the Netherlands compensate for the births that did not occur during WWII and the interwar period?
+
+<sub>scope: period=post-WWII · geography=Netherlands · measure=fertility rates</sub>
+
+| source | dataset | title |
+|---|---|---|
+| **cited** | [`85524NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85524NED/table) | *(named in the publication)* |
+| retrieved #1 (0.6638) | [`80749ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80749ned/table) | Fertility Rates by Women's Birth Cohorts, 1935-2020 |
+| retrieved #2 (0.6513) | [`37422ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/37422ned/table) | Birth Statistics, Key Figures, 1950-2022 |
+| retrieved #3 (0.651) | [`37520`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/37520/table) | Births and Mother's Exact Age (1950-2014) |
+
+*Pick one, both, or neither.*
+
+**Q:** What is the development of the total estimated procurement volume of the Dutch governments in the years 2017, 2018, and 2019?
+
+<sub>scope: period=2017-2019 · geography=Netherlands · measure=total estimated procurement volume</sub>
+
+| source | dataset | title |
+|---|---|---|
+| **cited** | [`84122NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84122NED/table) | *(named in the publication)* |
+| retrieved #1 (0.7117) | [`60050`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/60050/table) | Netherlands Government Expenditures and Revenues by Budget … |
+| retrieved #2 (0.6991) | [`84089NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84089NED/table) | Contribution to GDP Volume Growth; National Accounts, 2016-… |
+| retrieved #3 (0.692) | [`84114NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84114NED/table) | Government Finances; Key Figures 1995-2023 |
+
+*Pick one, both, or neither.*
+
+**Q:** What is the development of the procurement volume of awarded contracts below and above the threshold in the years 2017, 2018, and 2019 in the Netherlands for the Dutch government?
+
+<sub>scope: period=2017-2019 · geography=Netherlands · population=Dutch government · measure=procurement volume of awarded contracts below and above the threshold</sub>
+
+| source | dataset | title |
+|---|---|---|
+| **cited** | [`84122NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84122NED/table) | *(named in the publication)* |
+| retrieved #1 (0.6775) | [`60050`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/60050/table) | Netherlands Government Expenditures and Revenues by Budget … |
+| retrieved #2 (0.6564) | [`60012`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/60012/table) | Netherlands Government Sector ESR 95 Transactions, 1996-2010 |
+| retrieved #3 (0.6525) | [`82605NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/82605NED/table) | Imports and Exports by Property Transfer; Volume Developmen… |
+
+*Pick one, both, or neither.*
+
+**Q:** What is the procurement volume of the Dutch government in the period 2017–2019?
+
+<sub>scope: period=2017-2019 · geography=Netherlands · measure=procurement volume</sub>
+
+| source | dataset | title |
+|---|---|---|
+| **cited** | [`84122NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84122NED/table) | *(named in the publication)* |
+| retrieved #1 (0.7182) | [`60050`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/60050/table) | Netherlands Government Expenditures and Revenues by Budget … |
+| retrieved #2 (0.7026) | [`84114NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84114NED/table) | Government Finances; Key Figures 1995-2023 |
+| retrieved #3 (0.7022) | [`81242ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81242ned/table) | Government Finances; Key Figures 1987 - 2013 |
+
+*Pick one, both, or neither.*
+
+**Q:** Does the duration of social benefits differ among specific subgroups (based on gender and/or age) among Syrian and Eritrean status holders in the Netherlands?
+
+<sub>scope: geography=Netherlands · population=Syrian and Eritrean status holders · measure=duration of social benefits</sub>
+
+| source | dataset | title |
+|---|---|---|
+| **cited** | [`83102NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83102NED/table) | *(named in the publication)* |
+| retrieved #1 (0.7512) | [`81368ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81368ned/table) | People Receiving Social Assistance (Bijstandsuitkering); Du… |
+| retrieved #2 (0.7469) | [`81367ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81367ned/table) | People Receiving Social Security Benefits: Duration and Cha… |
+| retrieved #3 (0.7468) | [`85585NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85585NED/table) | People on Social Assistance by Duration of Benefit Situation |
+
+*Pick one, both, or neither.*
+
+### 4a. Retrieval-only candidates — sample of 20
+
+Questions whose publication cited nothing we could link. These are the
+~1,000 that lexical matching lost entirely; retrieval gives them a
+candidate for the first time. Judge whether the top hit is usable.
+
+| question | top retrieved | score |
+|---|---|---|
+| How visible is aging in health care expenditures in the Netherlands in 2019? | [`83075NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83075NED/table) Health Care Expenditure and Funding in … | 0.758 |
+| Which conditions lead to the highest healthcare expenditures in the Netherlands in 2019? | [`84047NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84047NED/table) Health and Welfare Expenditure Key Figu… | 0.6958 |
+| What is the extent of non-use of the supplementary allowance among students in higher educatio… | [`ilc_ats11`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/ilc_ats11/table) Non-participation in Professional Train… | 0.5988 |
+| How will the quantitative and qualitative housing needs develop in Zutphen until 2030, with a … | [`37127ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/37127ned/table) Household Projections: Key Figures, 200… | 0.6833 |
+| How does the demand for residential care develop for different target groups in Zutphen in the… | [`81645NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81645NED/table) Household Projections by Type, Age, and… | 0.7225 |
+| What is the additional housing need in Zutphen until 2030 and 2040? | [`86054NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86054NED/table) Housing Stock: Additional Additions and… | 0.6598 |
+| How does the demand for social rental housing develop until 2030, with a look ahead to 2040? W… | [`84823NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84823NED/table) Rental Development of Dwellings by Type… | 0.6861 |
+| What is the sports participation of Dutch people aged 6 years or older since 2012? | [`80909ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80909ned/table) Active and Passive Sports Participation… | 0.7434 |
+| What is the percentage of Dutch people aged 6 years or older who are members of a sports club? | [`82869NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/82869NED/table) Caribbean Netherlands: Vacation and Spo… | 0.719 |
+| How has the corona pandemic influenced sports participation among people aged 6 years or older… | [`82869NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/82869NED/table) Caribbean Netherlands: Vacation and Spo… | 0.6692 |
+| What are the differences in sports participation between age groups in the Netherlands based o… | [`7082SPBE`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/7082SPBE/table) Sports Participation by Type of Sport | 0.7335 |
+| What is the development of membership in sports associations among the Dutch population aged 6… | [`84109NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84109NED/table) Water Sports Clubs: Membership and Acti… | 0.7435 |
+| What is the number of employers that fall directly under the scope of the collective labor agr… | [`tour_lfsq4r2`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/tour_lfsq4r2/table) Employed persons in tourism industries … | 0.6522 |
+| What is the total number of employers that fall within the scope of the collective labor agree… | [`tour_lfsq4r2`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/tour_lfsq4r2/table) Employed persons in tourism industries … | 0.6579 |
+| What is the total number of employers that fall within the scope of the collective labor agree… | [`tour_lfsq4r2`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/tour_lfsq4r2/table) Employed persons in tourism industries … | 0.6579 |
+| How many persons are directly or on the basis of article 14 of the Cao Act bound to the Cao as… | [`83862NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83862NED/table) Hospitality Sector Turnover Development… | 0.6179 |
+| What is the situation of holders of status who have established themselves in the municipality… | [`71191ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/71191ned/table) Persons with Employment or Benefits; Du… | 0.6405 |
+| What is the household situation, socio-economic position, education participation, integration… | [`37670WON`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/37670WON/table) Housing situation of private households… | 0.6626 |
+| How do the numbers of status holders in Groningen compare to those in The Hague and the rest o… | [`70147ned`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/70147ned/table) Household Income in Neighborhoods of th… | 0.6723 |
+| What is the expected growing demand for cybersecurity personnel in the Netherlands? | [`85409NED`](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85409NED/table) Business ICT Usage by Company Size, 2022 | 0.6679 |
+
 ## How to review
 
 1. **Section 1** — check each verified item end to end. A wrong dataset or a
@@ -167,5 +329,8 @@ later with CBS.
 2. **Section 3a** — check the question↔dataset pairing before SQL is written;
    this is where the earlier document-level attribution bug did its damage.
 3. **Section 3c** — check we are not throwing away good questions.
+4. **Section 4** — decide which notion of gold we want: the dataset the paper
+   cited, or the dataset that best answers the question. This choice shapes the
+   whole benchmark and cannot be settled automatically.
 
 *Regenerate:* `python scripts/make_benchmark_review.py`

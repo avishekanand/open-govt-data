@@ -16,6 +16,7 @@ from collections import Counter
 from pathlib import Path
 
 ITEMS = Path("data/processed/benchmark/items_v0.jsonl")
+CANDS = Path("data/processed/benchmark/question_dataset_candidates.jsonl")
 EVID = Path("data/processed/pub/pub_evidence.jsonl")
 OUT = Path("docs/benchmark_items_review.md")
 STATLINE = "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/{code}/table"
@@ -189,6 +190,60 @@ def build() -> str:
         A("*Triage has not been run against the current corpus.*")
         A("")
 
+    # ------------------------------------------------- retrieval adjudication
+    if CANDS.exists():
+        rows = [json.loads(l) for l in CANDS.open(encoding="utf-8")]
+        both = [r for r in rows if r.get("lexically_attributed")]
+        A("## 4. Two candidate sources disagree — please adjudicate")
+        A("")
+        A("Two independent ways of finding a dataset for a question:")
+        A("")
+        A("- **cited** — the dataset the *publication itself named*, resolved lexically.")
+        A("  Provenance-faithful: right if the task is *recompute the paper's number*.")
+        A("- **retrieved** — nearest datasets by embedding over all 12,308 enriched")
+        A("  catalogue entries. Task-faithful: right if the task is *find the data that")
+        A("  answers this question*.")
+        A("")
+        A("They agree on **none** of the cases below. That is not a retrieval failure:")
+        A("papers cite reference tables (region definitions, classifications) alongside")
+        A("the table carrying the measure, so 'what the paper cited' and 'what answers")
+        A("the question' genuinely differ. **Which one is gold is a decision, not a")
+        A("computation** — hence this section.")
+        A("")
+        for r in both:
+            A(f"**Q:** {clip(r.get('question_selfcontained') or r.get('question'), 190)}")
+            A("")
+            sc = r.get("scope") or {}
+            if any(sc.values()):
+                A("<sub>scope: " + " · ".join(f"{k}={v}" for k, v in sc.items() if v) + "</sub>")
+                A("")
+            A("| source | dataset | title |")
+            A("|---|---|---|")
+            lex = r["lexically_attributed"]
+            A(f"| **cited** | [`{lex}`]({STATLINE.format(code=lex)}) | *(named in the publication)* |")
+            for c in (r.get("candidates") or [])[:3]:
+                A(f"| retrieved #{c['rank']} ({c['score']}) | [`{c['code']}`]"
+                  f"({STATLINE.format(code=c['code'])}) | {clip(c.get('title_en'), 60)} |")
+            A("")
+            A("*Pick one, both, or neither.*")
+            A("")
+        sample = [r for r in rows if not r.get("lexically_attributed")][:20]
+        A(f"### 4a. Retrieval-only candidates — sample of {len(sample)}")
+        A("")
+        A("Questions whose publication cited nothing we could link. These are the")
+        A("~1,000 that lexical matching lost entirely; retrieval gives them a")
+        A("candidate for the first time. Judge whether the top hit is usable.")
+        A("")
+        A("| question | top retrieved | score |")
+        A("|---|---|---|")
+        for r in sample:
+            c = (r.get("candidates") or [{}])[0]
+            code = c.get("code")
+            link = f"[`{code}`]({STATLINE.format(code=code)})" if code else "—"
+            A(f"| {clip(r.get('question_selfcontained') or r.get('question'), 95)} | "
+              f"{link} {clip(c.get('title_en'), 40)} | {c.get('score')} |")
+        A("")
+
     A("## How to review")
     A("")
     A("1. **Section 1** — check each verified item end to end. A wrong dataset or a")
@@ -196,6 +251,9 @@ def build() -> str:
     A("2. **Section 3a** — check the question↔dataset pairing before SQL is written;")
     A("   this is where the earlier document-level attribution bug did its damage.")
     A("3. **Section 3c** — check we are not throwing away good questions.")
+    A("4. **Section 4** — decide which notion of gold we want: the dataset the paper")
+    A("   cited, or the dataset that best answers the question. This choice shapes the")
+    A("   whole benchmark and cannot be settled automatically.")
     A("")
     A("*Regenerate:* `python scripts/make_benchmark_review.py`")
     return "\n".join(L) + "\n"

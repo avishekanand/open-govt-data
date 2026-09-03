@@ -296,6 +296,65 @@ Item tiers:
 Tier B exists so the 1,202 microdata questions — the largest single bucket —
 remain in the benchmark as a "write the query you would run" task.
 
+## 10b. Contextualisation and embedding retrieval (iteration 2)
+
+Two passes built to attack the 628 -> 21 collapse, where 607 usable questions
+were lost not because they were bad but because their publication cited no
+dataset we could link.
+
+**`enrich.contextualize_questions`** rewrites each question into a self-contained
+form using the document window around its own witness sentence. The verbatim
+original is never overwritten. 3,276/3,276, no failures.
+
+| scope field recovered | share |
+|---|---:|
+| measure | 98% |
+| geography | 83% |
+| population | 83% |
+| period | 47% |
+
+Confidence high 2,371 / medium 737 / low 168. This confirmed that the "94.7%
+vague" verdict of defect 12 was largely an artefact of our own extraction:
+*"Which conditions lead to the highest healthcare expenditures?"* becomes
+*"...in the Netherlands in 2019?"* once its own paragraph is restored.
+
+Two weaknesses to watch: `period` is the least recoverable field (47%) and is
+precisely what gold SQL must pin; and one rewrite appended a data-source name
+("based on data from the Mulier Instituut"), which would leak provenance into
+the question text if it happened at scale.
+
+**`enrich.embed_link`** embeds every question against all 12,308 enriched
+datasets (`bge-large-en-v1.5`, CLS pooling, query-instruction prefix; dataset
+text = `title_en | title_native | topics | description | dimension names`). This
+removes the requirement that the publication cited anything.
+
+The built-in sanity check reported **hit@1 0/9, hit@10 0/9** against the
+lexically-attributed pairs. On inspection this is **not** a retrieval failure —
+it is a disagreement about what gold means:
+
+| | cited (lexical) | retrieved (embedding) |
+|---|---|---|
+| liveability pressure | `85067NED` *Regions in the Netherlands* — a geography reference table | `81924NED` *Liveability and Nuisance in Neighborhoods* |
+| youth employment after covid | `83031NED` *Labour Participation by Education Level* | `86087NED` *Youth Labour Market Situation (15-27)* |
+
+Publications cite reference tables (region definitions, classifications)
+alongside the table that carries the measure. So:
+
+- **provenance-faithful gold** = what the study used → right for *recompute the
+  paper's number*
+- **task-faithful gold** = what best answers the question → right for a
+  *retrieval/discovery* benchmark
+
+`hit@k` against lexical attribution measures agreement between two different
+targets and should not be read as retrieval quality. Both candidate sets are put
+side by side for human adjudication in
+[benchmark_items_review.md](benchmark_items_review.md) §4; **which notion is gold
+is a decision, not a computation.**
+
+Known defect in retrieval: *"ICT Usage in Small Businesses by Company Size"*
+ranked first for two youth-employment questions, so top-1 auto-accept would be
+wrong. Candidates are evidence for review, never gold.
+
 ## 11. Threats to validity
 
 - **No human validation.** Every label is model-assigned. Temperature 0 makes them
