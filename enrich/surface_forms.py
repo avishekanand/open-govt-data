@@ -31,7 +31,7 @@ import time
 from pathlib import Path
 from typing import Any, Dict, List
 
-from enrich.vllm_util import make_sampling_params, parse_json, validate_schema_both_backends
+from enrich.vllm_util import make_sampling_params, parse_json, validate_schema_both_backends, llm_kwargs
 
 PROFILES = "data/processed/field_profiles_{pub}.jsonl"
 CORPUS = Path("data/processed/enriched_unified_qwen3-32b.jsonl")
@@ -162,7 +162,7 @@ def main() -> None:
     from vllm import LLM
     llm = LLM(model=args.model, dtype="bfloat16", max_model_len=args.max_model_len,
               gpu_memory_utilization=args.gpu_mem_util,
-              tensor_parallel_size=args.tensor_parallel_size, trust_remote_code=True)
+              tensor_parallel_size=args.tensor_parallel_size, trust_remote_code=True, **llm_kwargs())
     sampling = make_sampling_params(SCHEMA, args.temperature, args.max_tokens,
                                     require_schema=not args.allow_unconstrained)
     convs = [[{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt(j)}]

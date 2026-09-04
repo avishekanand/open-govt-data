@@ -30,6 +30,26 @@ def parse_json(text: str) -> Optional[Dict[str, Any]]:
     return None
 
 
+def llm_kwargs() -> Dict[str, Any]:
+    """Engine settings every LLM() in this project must use.
+
+    `disable_any_whitespace` is ENGINE level (StructuredOutputsConfig), not a
+    per-request sampling param. Set only on the request it is silently ignored,
+    and the grammar then constrains structure and values but not whitespace: the
+    model writes correct fields, then an unbounded run of "\n\t" instead of
+    closing the object, and hits the token limit with unparseable JSON.
+    Measured on the ablation pass: 153 of 218 generations lost this way, every
+    one with finish_reason='length'. The loss is silent - a dropped verdict
+    reads as a passing item.
+    """
+    # The backend must be pinned: vLLM rejects disable_any_whitespace under
+    # backend='auto' ("only supported for xgrammar and guidance backends").
+    # xgrammar is chosen because every schema in this project is validated
+    # against it before a job is submitted.
+    return {"structured_outputs_config": {"backend": "xgrammar",
+                                          "disable_any_whitespace": True}}
+
+
 def make_sampling_params(schema: Dict[str, Any], temperature: float, max_tokens: int,
                          require_schema: bool = True):
     """SamplingParams with JSON-schema-constrained decoding, across vLLM versions.
@@ -42,6 +62,12 @@ def make_sampling_params(schema: Dict[str, Any], temperature: float, max_tokens:
     last: Any = None
     try:  # vLLM >= 0.11
         from vllm.sampling_params import StructuredOutputsParams
+        # disable_any_whitespace is not cosmetic. Without it the grammar
+        # constrains structure and values but NOT whitespace, so the model can
+        # emit correct fields and then an unbounded run of "\n\t" instead of
+        # closing the object, hitting the token limit with unparseable JSON.
+        # Measured: 147 of 218 ablation verdicts lost this way, and the loss is
+        # silent - a dropped verdict looks like a passing item.
         return SamplingParams(temperature=temperature, max_tokens=max_tokens,
                               structured_outputs=StructuredOutputsParams(json=schema))
     except Exception as exc:  # noqa: BLE001

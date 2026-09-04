@@ -24,7 +24,7 @@ import time
 from pathlib import Path
 from typing import Any, Dict, List
 
-from enrich.vllm_util import make_sampling_params, parse_json, validate_schema_both_backends
+from enrich.vllm_util import make_sampling_params, parse_json, validate_schema_both_backends, llm_kwargs
 
 PAIRS = Path("data/processed/benchmark/hop_pairs.jsonl")
 PROFILES = Path("data/processed/field_profiles_estat.jsonl")
@@ -42,10 +42,14 @@ SCHEMA = {
         "join_on": {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 4},
         "period_used": {"type": "string"},
         "economic_concept": {"type": "string"},
+        "answer_shape": {"type": "string",
+                         "enum": ["single_value", "series_over_time",
+                                  "series_over_countries", "comparison_of_two"]},
         "single_table_answerable": {"type": "boolean"},
     },
     "required": ["question", "hop_1", "hop_2", "why_both_needed", "join_on",
-                 "period_used", "economic_concept", "single_table_answerable"],
+                 "period_used", "economic_concept", "answer_shape",
+                 "single_table_answerable"],
     "additionalProperties": False,
 }
 
@@ -72,7 +76,12 @@ Write ONE question that a researcher would actually ask, which:
   1. needs a value from TABLE A **and** a value from TABLE B - a ratio, a
      comparison, a per-capita or per-GDP normalisation, a share, a correlation
      across countries or years;
-  2. names a period both tables cover, and categories that exist;
+  2. names a period both tables cover, and categories that exist. The answer does
+     NOT have to be one number - a question whose answer is a SERIES is often the
+     more natural one to ask, e.g. "how did the value per tonne of potatoes move
+     between 2021 and 2024" (a line per year), or "how does the organic share
+     differ across member states in 2024" (a value per country). Prefer a series
+     when that is how the relationship would actually be examined;
   3. is about a real economic or social relationship - not a puzzle. Avoid
      constructions like "what is X in the country with the highest Y" unless
      that is genuinely how the relationship is studied;
@@ -87,6 +96,7 @@ Return JSON:
   "join_on": ["<the dimensions the two are matched on>"],
   "period_used": "<a period both cover>",
   "economic_concept": "<the relationship being examined, in a few words>",
+  "answer_shape": "single_value | series_over_time | series_over_countries | comparison_of_two",
   "single_table_answerable": false
 }}
 
@@ -156,7 +166,7 @@ def main() -> None:
     from vllm import LLM
     llm = LLM(model=args.model, dtype="bfloat16", max_model_len=args.max_model_len,
               gpu_memory_utilization=args.gpu_mem_util,
-              tensor_parallel_size=args.tensor_parallel_size, trust_remote_code=True)
+              tensor_parallel_size=args.tensor_parallel_size, trust_remote_code=True, **llm_kwargs())
     sampling = make_sampling_params(SCHEMA, args.temperature, args.max_tokens,
                                     require_schema=not args.allow_unconstrained)
     convs = [[{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt(p)}]
@@ -180,6 +190,7 @@ def main() -> None:
                 continue
             ok += 1
             fh.write(json.dumps({**obj, "tier": p["tier"], "evidence": p["evidence"],
+                                 "answer_is_plot": obj.get("answer_shape", "").startswith("series"),
                                  "datasets": [{"code": p["a"], "title_en": p["title_a"],
                                                "domain": p["domain_a"]},
                                               {"code": p["b"], "title_en": p["title_b"],
