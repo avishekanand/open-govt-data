@@ -7,11 +7,18 @@ produced it so any figure can be re-derived or challenged.
 **Nothing here has been validated by a human domain expert yet.** All labels are
 model-assigned. Section 9 lists what that means for interpretation.
 
+> **Start at [README.md](README.md)** — the master index, regenerated from the data
+> by `scripts/build_docs.py`, with live counts and links to every generated
+> question. This page explains *how* the artefacts were produced.
+
 ### Review these
 
 | document | what to check |
 |---|---|
-| **[benchmark_items_review.md](benchmark_items_review.md)** | the cleaned question → dataset → SQL → **answer** pairs, end to end, plus the `gold_ready` candidates awaiting SQL and a spot-check of what was excluded |
+| **[README.md](README.md)** | the master index: what exists, how many, and where |
+| **[questions_eurostat.md](questions_eurostat.md)** | the constructed Eurostat questions |
+| **[questions_cbs.md](questions_cbs.md)** | CBS questions with their executed answers |
+| [benchmark_items_review.md](benchmark_items_review.md) | the cleaned question → dataset → SQL → **answer** pairs, end to end, plus the `gold_ready` candidates awaiting SQL and a spot-check of what was excluded |
 | [research_question_examples.md](../data/processed/pub/research_question_examples.md) | the extracted questions themselves, with the verbatim witness sentence and source publication |
 | [question_analysis.md](question_analysis.md) | what kinds of answers the 3,276 questions admit, and why only a minority are verifiable |
 | [benchmark_design.md](benchmark_design.md) | related work and the intended multi-hop construction procedure |
@@ -354,6 +361,48 @@ is a decision, not a computation.**
 Known defect in retrieval: *"ICT Usage in Small Businesses by Company Size"*
 ranked first for two youth-employment questions, so top-1 auto-accept would be
 wrong. Candidates are evidence for review, never gold.
+
+## 10c. Superseded: the retrieval-first route
+
+The first construction route is **no longer the main path**, and is kept here
+because its failure is the reason for the current one.
+
+    attested question -> embed over the catalogue -> verify -> author SQL
+
+It loses almost everything at verification: 1,001 CBS questions -> 136 with an
+answerable dataset -> 26 with an executed answer. The loss is structural, not a
+tuning problem: it takes a question written for one purpose and hunts for a table
+that happens to match every constraint it carries.
+
+**The current route inverts it.** The article already names the table it used, so
+the question is written *from* that table's real schema:
+
+    article thesis + evidence line + the cited table's schema -> question
+
+Constraints are satisfied by construction rather than checked and rejected. On
+Eurostat this produced **1,646 questions from 677 articles**, against 136 from
+1,176 CBS publications by the old route.
+
+Two supporting layers make it work:
+
+* `enrich.field_profiles` - exact per-field facts for all 12,308 tables (period
+  first/last/granularity/gaps, geography split into EU aggregates vs countries vs
+  sub-national, cardinality per dimension, measures, value ranges where cached).
+  These are computed from code lists, not sampled, so a generated question can
+  respect them by construction.
+* `enrich.surface_forms` - a register ladder per table (formal / plain /
+  conversational / idiomatic / action-oriented) plus `avoid_words`, the table's
+  own title words. Used to phrase questions that do not simply restate their
+  table, and as a paraphrase-robustness axis for evaluation.
+
+**Leakage is measured, not assumed.** Questions written from a schema tend to
+reuse its vocabulary: the constructed Eurostat set had median 0.40 token overlap
+with its own gold title against a 0.18 baseline from attested questions, and 27%
+exceeded 0.5 - "What was the circular material use rate in the EU in 2024?"
+against a table called *Circular Material Use Rate*. `enrich.deleak_questions`
+rewrites those with the title words forbidden, and `scripts/check_leakage.py`
+re-measures. Questions that cannot be rephrased without changing meaning are kept
+as *answering* items but excluded from *discovery*.
 
 ## 11. Threats to validity
 
