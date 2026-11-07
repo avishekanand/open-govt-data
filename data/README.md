@@ -11,13 +11,18 @@ catalogue and the benchmark without needing a GPU (see [RUNBOOK](../RUNBOOK.md))
 That only works while the data stays small enough to clone comfortably, so the
 rule is a size budget rather than a file-type rule.
 
+**This policy is forward-looking.** It governs artefacts added from 7 November
+2026 onward. Nothing already committed is removed, resampled, or rewritten —
+the existing corpus stays exactly as it is, including the files listed under
+[Grandfathered](#grandfathered) below.
+
 | rule | limit |
 |---|---|
 | any single committed file under `data/` | **≤ 20 MB** |
 | all tracked files under `data/`, together | **≤ 300 MB** (currently 247 MB across 46 files) |
 
-**Never committed, whatever the size** — anything a script rebuilds from what is
-already here:
+**Not added from here on, whatever the size** — anything a script rebuilds from
+what is already here:
 
 - `data/processed/*.db`, `data/processed/*.duckdb` — rebuilt by
   `cbs.build_search_index` and `scripts/build_duckdb.py`
@@ -45,19 +50,22 @@ from one** — every number in the docs comes from the full artefact.
 
 ### Grandfathered
 
-Three committed files already exceed the 20 MB cap and predate this policy. They
-stay as they are, since removing them would mean rewriting pushed history — but
-nothing new joins them:
+These files predate the policy and do not comply with it. They **stay committed
+and tracked, exactly as they are** — the rules above apply to what gets added
+next, not retroactively:
 
-| file | size |
-|---|---|
-| `data/processed/eurostat_metadata.jsonl` | 40.0 MB |
-| `data/processed/enriched_unified_qwen3-32b.jsonl` | 37.5 MB |
-| `data/processed/estat/se_articles.jsonl` | 27.3 MB |
+| file | size | why it does not comply |
+|---|---|---|
+| `data/processed/eurostat_metadata.jsonl` | 40.0 MB | over the 20 MB per-file cap |
+| `data/processed/enriched_unified_qwen3-32b.jsonl` | 37.5 MB | over the cap; also the repo's advertised deliverable |
+| `data/processed/estat/se_articles.jsonl` | 27.3 MB | over the cap; a hard dependency of `bench/hop_pairs.py` |
+| `data/processed/cbs.duckdb` | 11.8 MB | rebuildable by `scripts/build_duckdb.py` |
 
-`data/processed/cbs.duckdb` (11.8 MB) was committed on 12 September against the
-rebuildable rule above and has since been untracked. It is rebuilt in seconds by
-`scripts/build_duckdb.py`.
+The `data/processed/*.duckdb` line in `.gitignore` exists to stop a *new* local
+database from being committed by accident, which is how `cbs.duckdb` got in on
+12 September — the older `*.db` glob was meant to catch it but did not match the
+extension. The already-tracked file is unaffected: git ignores `.gitignore` for
+files it is already tracking.
 
 ---
 
