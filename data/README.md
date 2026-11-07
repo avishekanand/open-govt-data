@@ -2,6 +2,68 @@
 
 This directory contains the core datasets and metadata for the Open Government Data Explorer project.
 
+---
+
+## 📦 What goes in git, and what stays on the server
+
+This repository commits **derived** data on purpose: a clone gives you the enriched
+catalogue and the benchmark without needing a GPU (see [RUNBOOK](../RUNBOOK.md)).
+That only works while the data stays small enough to clone comfortably, so the
+rule is a size budget rather than a file-type rule.
+
+| rule | limit |
+|---|---|
+| any single committed file under `data/` | **≤ 20 MB** |
+| all tracked files under `data/`, together | **≤ 300 MB** (currently 247 MB across 46 files) |
+
+**Never committed, whatever the size** — anything a script rebuilds from what is
+already here:
+
+- `data/processed/*.db`, `data/processed/*.duckdb` — rebuilt by
+  `cbs.build_search_index` and `scripts/build_duckdb.py`
+- `data/processed/tables/`, `downloads/` — observation data, refetched by
+  `cbs.fetch_table_data`
+- `data/raw/cbs/`, `data/raw/pub_docs/`, `data/raw/pub_text/` — raw dumps and
+  scraped text, re-crawlable with `cbs.pub_download`
+
+### Over the per-file cap? Keep a taste, not the whole thing
+
+1. Leave the full artefact on the server (`neumann.kbs.uni-hannover.de`) and add
+   it to `.gitignore`.
+2. Commit a sample at `data/samples/<name>.sample.jsonl` — the first 200 records
+   or 1 MB, whichever is smaller. Enough to read the schema and see real values.
+3. Record it in the table below, so nobody has to guess where the real one is.
+
+A sample exists to show the shape of the data. **Never compute a reported figure
+from one** — every number in the docs comes from the full artefact.
+
+### Where the full artefacts live
+
+| artefact | full location | size | sample in repo | rebuild with |
+|---|---|---|---|---|
+| *(none migrated yet)* | | | | |
+
+### Grandfathered
+
+Three committed files already exceed the 20 MB cap and predate this policy. They
+stay as they are, since removing them would mean rewriting pushed history — but
+nothing new joins them:
+
+| file | size |
+|---|---|
+| `data/processed/eurostat_metadata.jsonl` | 40.0 MB |
+| `data/processed/enriched_unified_qwen3-32b.jsonl` | 37.5 MB |
+| `data/processed/estat/se_articles.jsonl` | 27.3 MB |
+
+`data/processed/cbs.duckdb` (11.8 MB) was committed on 12 September against the
+rebuildable rule above and has since been untracked. It is rebuilt in seconds by
+`scripts/build_duckdb.py`.
+
+---
+
+> ⚠️ The file overview below covers only the superseded gemma3 Eurostat pipeline.
+> For the current corpus see the [main README](../README.md).
+
 ## 📁 Files Overview
 
 | File | Description | Size | Records | Format |

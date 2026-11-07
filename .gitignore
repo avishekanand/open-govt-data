@@ -6,8 +6,10 @@ downloads/
 # Local virtualenv
 .venv/
 
-# SQLite search index (rebuildable from parquet)
+# Local databases — rebuildable from the committed parquet/jsonl, so never committed.
+# SQLite search index (cbs.build_search_index); DuckDB (scripts/build_duckdb.py).
 data/processed/*.db
+data/processed/*.duckdb
 
 # CBS raw API dumps (rebuildable)
 data/raw/cbs/
