@@ -14,6 +14,9 @@ data/processed/*.duckdb
 # CBS raw API dumps (rebuildable)
 data/raw/cbs/
 
+# PhonePe Pulse raw JSON mirror, 11,184 files / 13 MB (re-mirror: india.pulse_fetch)
+data/raw/india/
+
 # Fetched per-table observation data + generated plots (rebuildable via cbs.fetch_table_data)
 data/processed/tables/
 

@@ -1,0 +1,34 @@
+{
+  "source": "PhonePe Pulse",
+  "source_url": "https://github.com/PhonePe/pulse",
+  "branch": "main",
+  "commit_sha": "257bf38e3095020f9f516c4c72c10bdc348781b1",
+  "licence": "CDLA-Permissive-2.0",
+  "licence_url": "https://cdla.dev/permissive-2-0/",
+  "attribution": "PhonePe Pulse (https://www.phonepe.com/pulse/), CDLA-Permissive-2.0",
+  "pulled_at": "2026-11-07",
+  "files_seen": 11184,
+  "files_parsed": 11184,
+  "files_skipped": 0,
+  "skip_reasons": {},
+  "period": {
+    "from": "2018Q1",
+    "to": "2026Q2"
+  },
+  "rows": {
+    "fact_transactions": 31613,
+    "fact_users": 27880,
+    "fact_merchants": 25949,
+    "fact_top": 32173,
+    "dim_geo": 820,
+    "dim_time": 34,
+    "dim_category": 4
+  },
+  "caveats": [
+    "PhonePe only - roughly half of UPI, not the whole market.",
+    "District rows are TOTAL only; the P2P/Retail/Utility split exists at state and country level.",
+    "Rupee amounts come from the map/hover view; aggregated/* carries counts with no amount at this commit.",
+    "usersByDevice and appOpens are absent from every file at this commit.",
+    "No pincode level - removed in the repo restructure."
+  ]
+}

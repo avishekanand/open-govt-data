@@ -1,0 +1,4896 @@
+state_name,year,quarter,category,txn_count,txn_amount_inr
+andaman & nicobar islands,2018,1,P2P,2297,
+andaman & nicobar islands,2018,1,Retail,6656,
+andaman & nicobar islands,2018,1,TOTAL,9089,18569126.204451818
+andaman & nicobar islands,2018,1,Utility,136,
+andaman & nicobar islands,2018,2,P2P,4383,
+andaman & nicobar islands,2018,2,Retail,10462,
+andaman & nicobar islands,2018,2,TOTAL,15062,35517275.86434877
+andaman & nicobar islands,2018,2,Utility,217,
+andaman & nicobar islands,2018,3,P2P,7608,
+andaman & nicobar islands,2018,3,Retail,13138,
+andaman & nicobar islands,2018,3,TOTAL,21154,67343424.71247172
+andaman & nicobar islands,2018,3,Utility,408,
+andaman & nicobar islands,2018,4,P2P,12260,
+andaman & nicobar islands,2018,4,Retail,18359,
+andaman & nicobar islands,2018,4,TOTAL,31139,107983057.52065912
+andaman & nicobar islands,2018,4,Utility,520,
+andaman & nicobar islands,2019,1,P2P,15423,
+andaman & nicobar islands,2019,1,Retail,24638,
+andaman & nicobar islands,2019,1,TOTAL,40726,126352730.02408026
+andaman & nicobar islands,2019,1,Utility,665,
+andaman & nicobar islands,2019,2,P2P,18528,
+andaman & nicobar islands,2019,2,Retail,27418,
+andaman & nicobar islands,2019,2,TOTAL,46764,163354796.04235423
+andaman & nicobar islands,2019,2,Utility,818,
+andaman & nicobar islands,2019,3,P2P,17346,
+andaman & nicobar islands,2019,3,Retail,21707,
+andaman & nicobar islands,2019,3,TOTAL,40623,151428296.95221972
+andaman & nicobar islands,2019,3,Utility,1570,
+andaman & nicobar islands,2019,4,P2P,19490,
+andaman & nicobar islands,2019,4,Retail,18325,
+andaman & nicobar islands,2019,4,TOTAL,41665,170840663.89588845
+andaman & nicobar islands,2019,4,Utility,3850,
+andaman & nicobar islands,2020,1,P2P,19682,
+andaman & nicobar islands,2020,1,Retail,23473,
+andaman & nicobar islands,2020,1,TOTAL,49104,181027348.6617951
+andaman & nicobar islands,2020,1,Utility,5949,
+andaman & nicobar islands,2020,2,P2P,23455,
+andaman & nicobar islands,2020,2,Retail,43610,
+andaman & nicobar islands,2020,2,TOTAL,78685,197252557.32084328
+andaman & nicobar islands,2020,2,Utility,11620,
+andaman & nicobar islands,2020,3,P2P,48650,
+andaman & nicobar islands,2020,3,Retail,76639,
+andaman & nicobar islands,2020,3,TOTAL,143989,392083841.7156626
+andaman & nicobar islands,2020,3,Utility,18700,
+andaman & nicobar islands,2020,4,P2P,95937,
+andaman & nicobar islands,2020,4,Retail,132834,
+andaman & nicobar islands,2020,4,TOTAL,272005,732159322.5032427
+andaman & nicobar islands,2020,4,Utility,43234,
+andaman & nicobar islands,2021,1,P2P,130833,
+andaman & nicobar islands,2021,1,Retail,86168,
+andaman & nicobar islands,2021,1,TOTAL,316270,962447873.368161
+andaman & nicobar islands,2021,1,Utility,99269,
+andaman & nicobar islands,2021,2,P2P,167435,
+andaman & nicobar islands,2021,2,Retail,123565,
+andaman & nicobar islands,2021,2,TOTAL,457972,1105731027.1761088
+andaman & nicobar islands,2021,2,Utility,166972,
+andaman & nicobar islands,2021,3,P2P,231422,
+andaman & nicobar islands,2021,3,Retail,169369,
+andaman & nicobar islands,2021,3,TOTAL,587428,1530805193.8545938
+andaman & nicobar islands,2021,3,Utility,186637,
+andaman & nicobar islands,2021,4,P2P,300209,
+andaman & nicobar islands,2021,4,Retail,259587,
+andaman & nicobar islands,2021,4,TOTAL,722741,2012194678.690066
+andaman & nicobar islands,2021,4,Utility,162945,
+andaman & nicobar islands,2022,1,P2P,397423,
+andaman & nicobar islands,2022,1,Retail,396140,
+andaman & nicobar islands,2022,1,TOTAL,998495,2453419279.5854826
+andaman & nicobar islands,2022,1,Utility,204932,
+andaman & nicobar islands,2022,2,P2P,537340,
+andaman & nicobar islands,2022,2,Retail,629016,
+andaman & nicobar islands,2022,2,TOTAL,1419556,3229468164.9089017
+andaman & nicobar islands,2022,2,Utility,253200,
+andaman & nicobar islands,2022,3,P2P,698789,
+andaman & nicobar islands,2022,3,Retail,866124,
+andaman & nicobar islands,2022,3,TOTAL,1876971,3727232315.104086
+andaman & nicobar islands,2022,3,Utility,312058,
+andaman & nicobar islands,2022,4,P2P,822471,
+andaman & nicobar islands,2022,4,Retail,1130336,
+andaman & nicobar islands,2022,4,TOTAL,2263155,4313612056.401077
+andaman & nicobar islands,2022,4,Utility,310348,
+andaman & nicobar islands,2023,1,P2P,882980,
+andaman & nicobar islands,2023,1,Retail,1254352,
+andaman & nicobar islands,2023,1,TOTAL,2449897,4656305779.671389
+andaman & nicobar islands,2023,1,Utility,312565,
+andaman & nicobar islands,2023,2,P2P,997058,
+andaman & nicobar islands,2023,2,Retail,1593082,
+andaman & nicobar islands,2023,2,TOTAL,2939168,5236683780.982016
+andaman & nicobar islands,2023,2,Utility,349028,
+andaman & nicobar islands,2023,3,P2P,1138133,
+andaman & nicobar islands,2023,3,Retail,1795799,
+andaman & nicobar islands,2023,3,TOTAL,3294013,5429583227.211581
+andaman & nicobar islands,2023,3,Utility,360081,
+andaman & nicobar islands,2023,4,P2P,1353803,
+andaman & nicobar islands,2023,4,Retail,2204624,
+andaman & nicobar islands,2023,4,TOTAL,3921213,6538722461.517704
+andaman & nicobar islands,2023,4,Utility,362786,
+andaman & nicobar islands,2024,1,P2P,1467728,
+andaman & nicobar islands,2024,1,Retail,2483253,
+andaman & nicobar islands,2024,1,TOTAL,4328346,7073085032.739111
+andaman & nicobar islands,2024,1,Utility,377365,
+andaman & nicobar islands,2024,2,P2P,1548283,
+andaman & nicobar islands,2024,2,Retail,2830230,
+andaman & nicobar islands,2024,2,TOTAL,4795590,7495263210.120073
+andaman & nicobar islands,2024,2,Utility,417077,
+andaman & nicobar islands,2024,3,P2P,1730844,
+andaman & nicobar islands,2024,3,Retail,3128743,
+andaman & nicobar islands,2024,3,TOTAL,5294506,7666206641.658037
+andaman & nicobar islands,2024,3,Utility,434919,
+andaman & nicobar islands,2024,4,P2P,1988874,
+andaman & nicobar islands,2024,4,Retail,3637868,
+andaman & nicobar islands,2024,4,TOTAL,6079801,8934732725.344223
+andaman & nicobar islands,2024,4,Utility,453059,
+andaman & nicobar islands,2025,1,P2P,2042168,
+andaman & nicobar islands,2025,1,Retail,3813109,
+andaman & nicobar islands,2025,1,TOTAL,6332082,9162142602.949232
+andaman & nicobar islands,2025,1,Utility,476805,
+andaman & nicobar islands,2025,2,P2P,1943344,
+andaman & nicobar islands,2025,2,Retail,3953793,
+andaman & nicobar islands,2025,2,TOTAL,6375269,8893455438.409813
+andaman & nicobar islands,2025,2,Utility,478132,
+andaman & nicobar islands,2025,3,P2P,2062721,
+andaman & nicobar islands,2025,3,Retail,4184644,
+andaman & nicobar islands,2025,3,TOTAL,6731822,8790337988.9711
+andaman & nicobar islands,2025,3,Utility,484457,
+andaman & nicobar islands,2025,4,P2P,2368365,
+andaman & nicobar islands,2025,4,Retail,4719538,
+andaman & nicobar islands,2025,4,TOTAL,7609535,10377697808.657213
+andaman & nicobar islands,2025,4,Utility,521632,
+andaman & nicobar islands,2026,1,P2P,2444181,
+andaman & nicobar islands,2026,1,Retail,4993199,
+andaman & nicobar islands,2026,1,TOTAL,7964501,10927506389.645979
+andaman & nicobar islands,2026,1,Utility,527121,
+andaman & nicobar islands,2026,2,P2P,2318395,
+andaman & nicobar islands,2026,2,Retail,4915599,
+andaman & nicobar islands,2026,2,TOTAL,7753095,10442295042.827309
+andaman & nicobar islands,2026,2,Utility,519101,
+andhra pradesh,2018,1,P2P,3470494,
+andhra pradesh,2018,1,Retail,6888562,
+andhra pradesh,2018,1,TOTAL,10862829,14001071206.72507
+andhra pradesh,2018,1,Utility,503773,
+andhra pradesh,2018,2,P2P,5367902,
+andhra pradesh,2018,2,Retail,8191674,
+andhra pradesh,2018,2,TOTAL,14697368,26355488600.117676
+andhra pradesh,2018,2,Utility,1137792,
+andhra pradesh,2018,3,P2P,17848404,
+andhra pradesh,2018,3,Retail,9823208,
+andhra pradesh,2018,3,TOTAL,29262730,40288693498.011696
+andhra pradesh,2018,3,Utility,1591118,
+andhra pradesh,2018,4,P2P,19562957,
+andhra pradesh,2018,4,Retail,14242724,
+andhra pradesh,2018,4,TOTAL,35722329,57943164106.786865
+andhra pradesh,2018,4,Utility,1916648,
+andhra pradesh,2019,1,P2P,43527491,
+andhra pradesh,2019,1,Retail,21565529,
+andhra pradesh,2019,1,TOTAL,67981444,98042197867.21909
+andhra pradesh,2019,1,Utility,2888424,
+andhra pradesh,2019,2,P2P,41431019,
+andhra pradesh,2019,2,Retail,29006645,
+andhra pradesh,2019,2,TOTAL,73241659,144859083315.21857
+andhra pradesh,2019,2,Utility,2803995,
+andhra pradesh,2019,3,P2P,49997866,
+andhra pradesh,2019,3,Retail,38574125,
+andhra pradesh,2019,3,TOTAL,93033155,177040315932.09756
+andhra pradesh,2019,3,Utility,4461164,
+andhra pradesh,2019,4,P2P,73565940,
+andhra pradesh,2019,4,Retail,48905204,
+andhra pradesh,2019,4,TOTAL,130762980,254283893858.3307
+andhra pradesh,2019,4,Utility,8291836,
+andhra pradesh,2020,1,P2P,86063489,
+andhra pradesh,2020,1,Retail,58613484,
+andhra pradesh,2020,1,TOTAL,159186574,328528062231.59393
+andhra pradesh,2020,1,Utility,14509601,
+andhra pradesh,2020,2,P2P,94711506,
+andhra pradesh,2020,2,Retail,58995509,
+andhra pradesh,2020,2,TOTAL,176284886,380612306331.30676
+andhra pradesh,2020,2,Utility,22577871,
+andhra pradesh,2020,3,P2P,136309737,
+andhra pradesh,2020,3,Retail,90557252,
+andhra pradesh,2020,3,TOTAL,251377109,585395478652.1339
+andhra pradesh,2020,3,Utility,24510120,
+andhra pradesh,2020,4,P2P,178466683,
+andhra pradesh,2020,4,Retail,118472460,
+andhra pradesh,2020,4,TOTAL,326093276,760638671029.0725
+andhra pradesh,2020,4,Utility,29154133,
+andhra pradesh,2021,1,P2P,187035752,
+andhra pradesh,2021,1,Retail,122228605,
+andhra pradesh,2021,1,TOTAL,360571899,827396576580.57
+andhra pradesh,2021,1,Utility,51307542,
+andhra pradesh,2021,2,P2P,244005532,
+andhra pradesh,2021,2,Retail,137701586,
+andhra pradesh,2021,2,TOTAL,450715706,1067722803488.4009
+andhra pradesh,2021,2,Utility,69008588,
+andhra pradesh,2021,3,P2P,283896229,
+andhra pradesh,2021,3,Retail,195005296,
+andhra pradesh,2021,3,TOTAL,552469257,1229581784431.981
+andhra pradesh,2021,3,Utility,73567732,
+andhra pradesh,2021,4,P2P,288996866,
+andhra pradesh,2021,4,Retail,223299270,
+andhra pradesh,2021,4,TOTAL,576560191,1241105876775.0784
+andhra pradesh,2021,4,Utility,64264055,
+andhra pradesh,2022,1,P2P,359825164,
+andhra pradesh,2022,1,Retail,295596425,
+andhra pradesh,2022,1,TOTAL,725554627,1565634867542.4126
+andhra pradesh,2022,1,Utility,70133038,
+andhra pradesh,2022,2,P2P,402016237,
+andhra pradesh,2022,2,Retail,357185042,
+andhra pradesh,2022,2,TOTAL,840332341,1793485874297.8623
+andhra pradesh,2022,2,Utility,81131062,
+andhra pradesh,2022,3,P2P,442266221,
+andhra pradesh,2022,3,Retail,425082142,
+andhra pradesh,2022,3,TOTAL,956418056,1959402519798.4548
+andhra pradesh,2022,3,Utility,89069693,
+andhra pradesh,2022,4,P2P,470505491,
+andhra pradesh,2022,4,Retail,468020065,
+andhra pradesh,2022,4,TOTAL,1030438279,2028666459424.0625
+andhra pradesh,2022,4,Utility,91912723,
+andhra pradesh,2023,1,P2P,515228601,
+andhra pradesh,2023,1,Retail,526737073,
+andhra pradesh,2023,1,TOTAL,1138724913,2251807395014.746
+andhra pradesh,2023,1,Utility,96759239,
+andhra pradesh,2023,2,P2P,573773696,
+andhra pradesh,2023,2,Retail,613447829,
+andhra pradesh,2023,2,TOTAL,1295037315,2509703988271.9307
+andhra pradesh,2023,2,Utility,107815790,
+andhra pradesh,2023,3,P2P,623522468,
+andhra pradesh,2023,3,Retail,730559498,
+andhra pradesh,2023,3,TOTAL,1467644978,2654560419251.27
+andhra pradesh,2023,3,Utility,113563012,
+andhra pradesh,2023,4,P2P,673686762,
+andhra pradesh,2023,4,Retail,800499764,
+andhra pradesh,2023,4,TOTAL,1588297806,2811855025318.7295
+andhra pradesh,2023,4,Utility,114111280,
+andhra pradesh,2024,1,P2P,722183330,
+andhra pradesh,2024,1,Retail,907194749,
+andhra pradesh,2024,1,TOTAL,1749727590,3018505887112.872
+andhra pradesh,2024,1,Utility,120349511,
+andhra pradesh,2024,2,P2P,748936609,
+andhra pradesh,2024,2,Retail,1043588059,
+andhra pradesh,2024,2,TOTAL,1920885662,3185673985146.1885
+andhra pradesh,2024,2,Utility,128360994,
+andhra pradesh,2024,3,P2P,803007628,
+andhra pradesh,2024,3,Retail,1154960340,
+andhra pradesh,2024,3,TOTAL,2086058265,3227507134129.8457
+andhra pradesh,2024,3,Utility,128090297,
+andhra pradesh,2024,4,P2P,872939105,
+andhra pradesh,2024,4,Retail,1284541504,
+andhra pradesh,2024,4,TOTAL,2292770050,3454536571052.4014
+andhra pradesh,2024,4,Utility,135289441,
+andhra pradesh,2025,1,P2P,926759367,
+andhra pradesh,2025,1,Retail,1349213113,
+andhra pradesh,2025,1,TOTAL,2422886250,3666795723272.4346
+andhra pradesh,2025,1,Utility,146913770,
+andhra pradesh,2025,2,P2P,935539501,
+andhra pradesh,2025,2,Retail,1445602514,
+andhra pradesh,2025,2,TOTAL,2530918973,3781520939571.639
+andhra pradesh,2025,2,Utility,149776958,
+andhra pradesh,2025,3,P2P,979073292,
+andhra pradesh,2025,3,Retail,1575163628,
+andhra pradesh,2025,3,TOTAL,2700328888,3814695548343.5576
+andhra pradesh,2025,3,Utility,146091968,
+andhra pradesh,2025,4,P2P,1018086782,
+andhra pradesh,2025,4,Retail,1696774348,
+andhra pradesh,2025,4,TOTAL,2862709581,4000106326747.966
+andhra pradesh,2025,4,Utility,147848451,
+andhra pradesh,2026,1,P2P,1077713980,
+andhra pradesh,2026,1,Retail,1812911085,
+andhra pradesh,2026,1,TOTAL,3047429835,4349723573013.5205
+andhra pradesh,2026,1,Utility,156804770,
+andhra pradesh,2026,2,P2P,1109707075,
+andhra pradesh,2026,2,Retail,1978617733,
+andhra pradesh,2026,2,TOTAL,3245956863,4623697374921.988
+andhra pradesh,2026,2,Utility,157632055,
+arunachal pradesh,2018,1,P2P,15540,
+arunachal pradesh,2018,1,Retail,40846,
+arunachal pradesh,2018,1,TOTAL,56572,112009706.82247925
+arunachal pradesh,2018,1,Utility,186,
+arunachal pradesh,2018,2,P2P,30899,
+arunachal pradesh,2018,2,Retail,69003,
+arunachal pradesh,2018,2,TOTAL,100858,239594007.44920862
+arunachal pradesh,2018,2,Utility,956,
+arunachal pradesh,2018,3,P2P,56490,
+arunachal pradesh,2018,3,Retail,102215,
+arunachal pradesh,2018,3,TOTAL,160327,390349037.86985934
+arunachal pradesh,2018,3,Utility,1622,
+arunachal pradesh,2018,4,P2P,78292,
+arunachal pradesh,2018,4,Retail,141727,
+arunachal pradesh,2018,4,TOTAL,222216,597276469.6237385
+arunachal pradesh,2018,4,Utility,2197,
+arunachal pradesh,2019,1,P2P,114051,
+arunachal pradesh,2019,1,Retail,175799,
+arunachal pradesh,2019,1,TOTAL,293223,762934389.2826967
+arunachal pradesh,2019,1,Utility,3373,
+arunachal pradesh,2019,2,P2P,148005,
+arunachal pradesh,2019,2,Retail,235969,
+arunachal pradesh,2019,2,TOTAL,387295,1070406251.3836615
+arunachal pradesh,2019,2,Utility,3321,
+arunachal pradesh,2019,3,P2P,187127,
+arunachal pradesh,2019,3,Retail,246085,
+arunachal pradesh,2019,3,TOTAL,456122,1290611112.9316866
+arunachal pradesh,2019,3,Utility,22910,
+arunachal pradesh,2019,4,P2P,248720,
+arunachal pradesh,2019,4,Retail,245850,
+arunachal pradesh,2019,4,TOTAL,570808,1664821348.2619624
+arunachal pradesh,2019,4,Utility,76238,
+arunachal pradesh,2020,1,P2P,282980,
+arunachal pradesh,2020,1,Retail,284879,
+arunachal pradesh,2020,1,TOTAL,696142,1928569155.032096
+arunachal pradesh,2020,1,Utility,128283,
+arunachal pradesh,2020,2,P2P,340273,
+arunachal pradesh,2020,2,Retail,407472,
+arunachal pradesh,2020,2,TOTAL,972129,2479742352.6607533
+arunachal pradesh,2020,2,Utility,224384,
+arunachal pradesh,2020,3,P2P,475422,
+arunachal pradesh,2020,3,Retail,466194,
+arunachal pradesh,2020,3,TOTAL,1160082,3346055621.9050674
+arunachal pradesh,2020,3,Utility,218466,
+arunachal pradesh,2020,4,P2P,611037,
+arunachal pradesh,2020,4,Retail,498430,
+arunachal pradesh,2020,4,TOTAL,1393785,4195981781.202884
+arunachal pradesh,2020,4,Utility,284318,
+arunachal pradesh,2021,1,P2P,717820,
+arunachal pradesh,2021,1,Retail,268630,
+arunachal pradesh,2021,1,TOTAL,1511740,4824985661.331147
+arunachal pradesh,2021,1,Utility,525290,
+arunachal pradesh,2021,2,P2P,1019755,
+arunachal pradesh,2021,2,Retail,357066,
+arunachal pradesh,2021,2,TOTAL,2126788,5874285594.840509
+arunachal pradesh,2021,2,Utility,749967,
+arunachal pradesh,2021,3,P2P,1295459,
+arunachal pradesh,2021,3,Retail,445416,
+arunachal pradesh,2021,3,TOTAL,2552879,7358989851.156297
+arunachal pradesh,2021,3,Utility,812004,
+arunachal pradesh,2021,4,P2P,1394700,
+arunachal pradesh,2021,4,Retail,624665,
+arunachal pradesh,2021,4,TOTAL,2781103,7765536383.489752
+arunachal pradesh,2021,4,Utility,761738,
+arunachal pradesh,2022,1,P2P,1814764,
+arunachal pradesh,2022,1,Retail,974159,
+arunachal pradesh,2022,1,TOTAL,3643158,9915850686.493687
+arunachal pradesh,2022,1,Utility,854235,
+arunachal pradesh,2022,2,P2P,2362702,
+arunachal pradesh,2022,2,Retail,1560097,
+arunachal pradesh,2022,2,TOTAL,4904907,12095132402.063713
+arunachal pradesh,2022,2,Utility,982108,
+arunachal pradesh,2022,3,P2P,3089113,
+arunachal pradesh,2022,3,Retail,2127733,
+arunachal pradesh,2022,3,TOTAL,6325455,13636396793.285019
+arunachal pradesh,2022,3,Utility,1108609,
+arunachal pradesh,2022,4,P2P,3542488,
+arunachal pradesh,2022,4,Retail,2753357,
+arunachal pradesh,2022,4,TOTAL,7474281,14697638125.945652
+arunachal pradesh,2022,4,Utility,1178436,
+arunachal pradesh,2023,1,P2P,3962069,
+arunachal pradesh,2023,1,Retail,3193883,
+arunachal pradesh,2023,1,TOTAL,8416665,16792360774.756207
+arunachal pradesh,2023,1,Utility,1260713,
+arunachal pradesh,2023,2,P2P,4985211,
+arunachal pradesh,2023,2,Retail,4518172,
+arunachal pradesh,2023,2,TOTAL,10917104,20359353648.82662
+arunachal pradesh,2023,2,Utility,1413721,
+arunachal pradesh,2023,3,P2P,6019719,
+arunachal pradesh,2023,3,Retail,5692334,
+arunachal pradesh,2023,3,TOTAL,13227332,21637138207.620934
+arunachal pradesh,2023,3,Utility,1515279,
+arunachal pradesh,2023,4,P2P,6810909,
+arunachal pradesh,2023,4,Retail,6707771,
+arunachal pradesh,2023,4,TOTAL,15084363,24771952971.461708
+arunachal pradesh,2023,4,Utility,1565683,
+arunachal pradesh,2024,1,P2P,7377899,
+arunachal pradesh,2024,1,Retail,7729487,
+arunachal pradesh,2024,1,TOTAL,16868525,26693314814.200375
+arunachal pradesh,2024,1,Utility,1761139,
+arunachal pradesh,2024,2,P2P,8264639,
+arunachal pradesh,2024,2,Retail,9939346,
+arunachal pradesh,2024,2,TOTAL,20110193,30367049709.014652
+arunachal pradesh,2024,2,Utility,1906208,
+arunachal pradesh,2024,3,P2P,10063903,
+arunachal pradesh,2024,3,Retail,12397130,
+arunachal pradesh,2024,3,TOTAL,24519045,31440191935.077065
+arunachal pradesh,2024,3,Utility,2058012,
+arunachal pradesh,2024,4,P2P,10737577,
+arunachal pradesh,2024,4,Retail,13968413,
+arunachal pradesh,2024,4,TOTAL,26790106,34929686801.95984
+arunachal pradesh,2024,4,Utility,2084116,
+arunachal pradesh,2025,1,P2P,10857782,
+arunachal pradesh,2025,1,Retail,15250004,
+arunachal pradesh,2025,1,TOTAL,28407442,36223848602.66401
+arunachal pradesh,2025,1,Utility,2299656,
+arunachal pradesh,2025,2,P2P,11005299,
+arunachal pradesh,2025,2,Retail,17910730,
+arunachal pradesh,2025,2,TOTAL,31151454,38572901830.24858
+arunachal pradesh,2025,2,Utility,2235425,
+arunachal pradesh,2025,3,P2P,12684279,
+arunachal pradesh,2025,3,Retail,21332176,
+arunachal pradesh,2025,3,TOTAL,36334234,42295740825.88502
+arunachal pradesh,2025,3,Utility,2317779,
+arunachal pradesh,2025,4,P2P,12859718,
+arunachal pradesh,2025,4,Retail,20914837,
+arunachal pradesh,2025,4,TOTAL,36103054,43631000044.51788
+arunachal pradesh,2025,4,Utility,2328499,
+arunachal pradesh,2026,1,P2P,12775009,
+arunachal pradesh,2026,1,Retail,20987088,
+arunachal pradesh,2026,1,TOTAL,36174886,43929133553.19525
+arunachal pradesh,2026,1,Utility,2412789,
+arunachal pradesh,2026,2,P2P,13494356,
+arunachal pradesh,2026,2,Retail,24690742,
+arunachal pradesh,2026,2,TOTAL,40632514,47494947481.35698
+arunachal pradesh,2026,2,Utility,2447416,
+assam,2018,1,P2P,367018,
+assam,2018,1,Retail,917663,
+assam,2018,1,TOTAL,1295882,1391575090.9188318
+assam,2018,1,Utility,11201,
+assam,2018,2,P2P,602513,
+assam,2018,2,Retail,1336377,
+assam,2018,2,TOTAL,1996901,2752709124.016653
+assam,2018,2,Utility,58011,
+assam,2018,3,P2P,907160,
+assam,2018,3,Retail,1729859,
+assam,2018,3,TOTAL,2726534,4337172377.059211
+assam,2018,3,Utility,89515,
+assam,2018,4,P2P,1425542,
+assam,2018,4,Retail,2764241,
+assam,2018,4,TOTAL,4296227,6693717176.148428
+assam,2018,4,Utility,106444,
+assam,2019,1,P2P,2043007,
+assam,2019,1,Retail,2757939,
+assam,2019,1,TOTAL,4947555,8430938338.259106
+assam,2019,1,Utility,146609,
+assam,2019,2,P2P,2242546,
+assam,2019,2,Retail,3193461,
+assam,2019,2,TOTAL,5585407,10669441203.404137
+assam,2019,2,Utility,149400,
+assam,2019,3,P2P,2646141,
+assam,2019,3,Retail,3051698,
+assam,2019,3,TOTAL,6054473,12546298666.063118
+assam,2019,3,Utility,356634,
+assam,2019,4,P2P,3109608,
+assam,2019,4,Retail,2890501,
+assam,2019,4,TOTAL,6891858,14599084294.48947
+assam,2019,4,Utility,891749,
+assam,2020,1,P2P,3723043,
+assam,2020,1,Retail,3406812,
+assam,2020,1,TOTAL,8674891,18864649389.34545
+assam,2020,1,Utility,1545036,
+assam,2020,2,P2P,3693429,
+assam,2020,2,Retail,4571702,
+assam,2020,2,TOTAL,11026960,19908371407.600346
+assam,2020,2,Utility,2761829,
+assam,2020,3,P2P,4865545,
+assam,2020,3,Retail,4773287,
+assam,2020,3,TOTAL,11961802,26368491655.51855
+assam,2020,3,Utility,2322970,
+assam,2020,4,P2P,6673162,
+assam,2020,4,Retail,5154466,
+assam,2020,4,TOTAL,14784484,36013810212.345345
+assam,2020,4,Utility,2956856,
+assam,2021,1,P2P,8037741,
+assam,2021,1,Retail,3579513,
+assam,2021,1,TOTAL,17317732,44333318961.29296
+assam,2021,1,Utility,5700478,
+assam,2021,2,P2P,9999466,
+assam,2021,2,Retail,4119253,
+assam,2021,2,TOTAL,22621193,51853860554.972015
+assam,2021,2,Utility,8502474,
+assam,2021,3,P2P,12915370,
+assam,2021,3,Retail,6486596,
+assam,2021,3,TOTAL,28693230,64005741457.90784
+assam,2021,3,Utility,9291264,
+assam,2021,4,P2P,15760519,
+assam,2021,4,Retail,10034417,
+assam,2021,4,TOTAL,35028733,77820924721.56917
+assam,2021,4,Utility,9233797,
+assam,2022,1,P2P,22622208,
+assam,2022,1,Retail,16994856,
+assam,2022,1,TOTAL,50025695,110373718442.02957
+assam,2022,1,Utility,10408631,
+assam,2022,2,P2P,28055767,
+assam,2022,2,Retail,24578300,
+assam,2022,2,TOTAL,64800277,127094723035.47563
+assam,2022,2,Utility,12166210,
+assam,2022,3,P2P,35183163,
+assam,2022,3,Retail,34972826,
+assam,2022,3,TOTAL,84341513,150673177993.96173
+assam,2022,3,Utility,14185524,
+assam,2022,4,P2P,40692233,
+assam,2022,4,Retail,41152378,
+assam,2022,4,TOTAL,97084626,172386294490.2151
+assam,2022,4,Utility,15240015,
+assam,2023,1,P2P,48450507,
+assam,2023,1,Retail,49721049,
+assam,2023,1,TOTAL,115216347,212425494987.1329
+assam,2023,1,Utility,17044791,
+assam,2023,2,P2P,57867509,
+assam,2023,2,Retail,62198937,
+assam,2023,2,TOTAL,139599202,235261543203.49353
+assam,2023,2,Utility,19532756,
+assam,2023,3,P2P,66738687,
+assam,2023,3,Retail,80789947,
+assam,2023,3,TOTAL,168278113,243468041626.96988
+assam,2023,3,Utility,20749479,
+assam,2023,4,P2P,79931097,
+assam,2023,4,Retail,93896583,
+assam,2023,4,TOTAL,194352109,285818446041.6975
+assam,2023,4,Utility,20524429,
+assam,2024,1,P2P,91156112,
+assam,2024,1,Retail,108690485,
+assam,2024,1,TOTAL,222628994,321206875230.3624
+assam,2024,1,Utility,22782397,
+assam,2024,2,P2P,105567953,
+assam,2024,2,Retail,143706811,
+assam,2024,2,TOTAL,274589008,345236981886.75684
+assam,2024,2,Utility,25314244,
+assam,2024,3,P2P,112086581,
+assam,2024,3,Retail,159283968,
+assam,2024,3,TOTAL,297749691,333320132729.0125
+assam,2024,3,Utility,26379142,
+assam,2024,4,P2P,129253234,
+assam,2024,4,Retail,178000773,
+assam,2024,4,TOTAL,333086043,382282177286.4366
+assam,2024,4,Utility,25832036,
+assam,2025,1,P2P,148257710,
+assam,2025,1,Retail,202129241,
+assam,2025,1,TOTAL,381449165,449262511160.80133
+assam,2025,1,Utility,31062214,
+assam,2025,2,P2P,152460784,
+assam,2025,2,Retail,228314633,
+assam,2025,2,TOTAL,412522853,444019860093.2911
+assam,2025,2,Utility,31747436,
+assam,2025,3,P2P,163168524,
+assam,2025,3,Retail,257785154,
+assam,2025,3,TOTAL,454562374,444477731627.2193
+assam,2025,3,Utility,33608696,
+assam,2025,4,P2P,173912850,
+assam,2025,4,Retail,262799498,
+assam,2025,4,TOTAL,468795161,468243373408.78876
+assam,2025,4,Utility,32082813,
+assam,2026,1,P2P,187964652,
+assam,2026,1,Retail,280234793,
+assam,2026,1,TOTAL,503481347,522964731937.307
+assam,2026,1,Utility,35281902,
+assam,2026,2,P2P,196477566,
+assam,2026,2,Retail,314710936,
+assam,2026,2,TOTAL,549125066,519696079352.86957
+assam,2026,2,Utility,37936564,
+bihar,2018,1,P2P,2402724,
+bihar,2018,1,Retail,4816218,
+bihar,2018,1,TOTAL,7267806,7318769108.557262
+bihar,2018,1,Utility,48864,
+bihar,2018,2,P2P,3988478,
+bihar,2018,2,Retail,6197442,
+bihar,2018,2,TOTAL,10434579,15988264138.119148
+bihar,2018,2,Utility,248659,
+bihar,2018,3,P2P,9964049,
+bihar,2018,3,Retail,6195903,
+bihar,2018,3,TOTAL,16507213,23175783209.3531
+bihar,2018,3,Utility,347261,
+bihar,2018,4,P2P,9133500,
+bihar,2018,4,Retail,8778363,
+bihar,2018,4,TOTAL,18324599,32563096733.8254
+bihar,2018,4,Utility,412736,
+bihar,2019,1,P2P,17822554,
+bihar,2019,1,Retail,10134940,
+bihar,2019,1,TOTAL,28578223,44383537984.84218
+bihar,2019,1,Utility,620729,
+bihar,2019,2,P2P,15127981,
+bihar,2019,2,Retail,13444865,
+bihar,2019,2,TOTAL,29212818,61070184415.5835
+bihar,2019,2,Utility,639972,
+bihar,2019,3,P2P,14075183,
+bihar,2019,3,Retail,14352593,
+bihar,2019,3,TOTAL,29692696,64038814257.19348
+bihar,2019,3,Utility,1264920,
+bihar,2019,4,P2P,23834576,
+bihar,2019,4,Retail,13833728,
+bihar,2019,4,TOTAL,40967886,89108176121.19955
+bihar,2019,4,Utility,3299582,
+bihar,2020,1,P2P,22185121,
+bihar,2020,1,Retail,16415988,
+bihar,2020,1,TOTAL,44056833,106616037981.9359
+bihar,2020,1,Utility,5455724,
+bihar,2020,2,P2P,26487666,
+bihar,2020,2,Retail,18443012,
+bihar,2020,2,TOTAL,53954783,130329505836.33133
+bihar,2020,2,Utility,9024105,
+bihar,2020,3,P2P,37372584,
+bihar,2020,3,Retail,26489558,
+bihar,2020,3,TOTAL,72779613,175427345182.79007
+bihar,2020,3,Utility,8917471,
+bihar,2020,4,P2P,49315343,
+bihar,2020,4,Retail,37187582,
+bihar,2020,4,TOTAL,97696608,239429081339.50946
+bihar,2020,4,Utility,11193683,
+bihar,2021,1,P2P,57601479,
+bihar,2021,1,Retail,33189718,
+bihar,2021,1,TOTAL,111690707,277382314169.3477
+bihar,2021,1,Utility,20899510,
+bihar,2021,2,P2P,78237915,
+bihar,2021,2,Retail,42188486,
+bihar,2021,2,TOTAL,152928387,374306226227.0451
+bihar,2021,2,Utility,32501986,
+bihar,2021,3,P2P,92724849,
+bihar,2021,3,Retail,60516429,
+bihar,2021,3,TOTAL,184812122,398169200251.47766
+bihar,2021,3,Utility,31570844,
+bihar,2021,4,P2P,102626865,
+bihar,2021,4,Retail,80117478,
+bihar,2021,4,TOTAL,211595139,455873110665.51166
+bihar,2021,4,Utility,28850796,
+bihar,2022,1,P2P,137367506,
+bihar,2022,1,Retail,110204201,
+bihar,2022,1,TOTAL,279365074,607780285452.8403
+bihar,2022,1,Utility,31793367,
+bihar,2022,2,P2P,161392512,
+bihar,2022,2,Retail,149362668,
+bihar,2022,2,TOTAL,350987405,741819444963.2347
+bihar,2022,2,Utility,40232225,
+bihar,2022,3,P2P,180096829,
+bihar,2022,3,Retail,172516214,
+bihar,2022,3,TOTAL,398081452,747732795859.8962
+bihar,2022,3,Utility,45468409,
+bihar,2022,4,P2P,211334089,
+bihar,2022,4,Retail,219181745,
+bihar,2022,4,TOTAL,478561642,881147256455.3129
+bihar,2022,4,Utility,48045808,
+bihar,2023,1,P2P,245637029,
+bihar,2023,1,Retail,256728191,
+bihar,2023,1,TOTAL,557298485,1037888852800.0654
+bihar,2023,1,Utility,54933265,
+bihar,2023,2,P2P,293573878,
+bihar,2023,2,Retail,339365938,
+bihar,2023,2,TOTAL,698546493,1224912261750.1792
+bihar,2023,2,Utility,65606677,
+bihar,2023,3,P2P,311733910,
+bihar,2023,3,Retail,364225692,
+bihar,2023,3,TOTAL,743992914,1148004167584.6228
+bihar,2023,3,Utility,68033312,
+bihar,2023,4,P2P,394950650,
+bihar,2023,4,Retail,471333078,
+bihar,2023,4,TOTAL,939309620,1436863360578.1116
+bihar,2023,4,Utility,73025892,
+bihar,2024,1,P2P,455919236,
+bihar,2024,1,Retail,544022949,
+bihar,2024,1,TOTAL,1086107837,1633842288997.5242
+bihar,2024,1,Utility,86165652,
+bihar,2024,2,P2P,529175031,
+bihar,2024,2,Retail,693433446,
+bihar,2024,2,TOTAL,1321734729,1878213500138.2026
+bihar,2024,2,Utility,99126252,
+bihar,2024,3,P2P,547856063,
+bihar,2024,3,Retail,710563604,
+bihar,2024,3,TOTAL,1354611186,1774925561306.6208
+bihar,2024,3,Utility,96191519,
+bihar,2024,4,P2P,641897466,
+bihar,2024,4,Retail,820470734,
+bihar,2024,4,TOTAL,1559808519,2092918508999.367
+bihar,2024,4,Utility,97440319,
+bihar,2025,1,P2P,629038929,
+bihar,2025,1,Retail,800286778,
+bihar,2025,1,TOTAL,1530666231,2084046921423.7925
+bihar,2025,1,Utility,101340524,
+bihar,2025,2,P2P,703844449,
+bihar,2025,2,Retail,980327979,
+bihar,2025,2,TOTAL,1793785807,2356277702190.085
+bihar,2025,2,Utility,109613379,
+bihar,2025,3,P2P,695549121,
+bihar,2025,3,Retail,1002602349,
+bihar,2025,3,TOTAL,1804002017,2130102112192.274
+bihar,2025,3,Utility,105850547,
+bihar,2025,4,P2P,793555664,
+bihar,2025,4,Retail,1119034346,
+bihar,2025,4,TOTAL,2022586363,2442715459709.96
+bihar,2025,4,Utility,109996353,
+bihar,2026,1,P2P,833487914,
+bihar,2026,1,Retail,1152850594,
+bihar,2026,1,TOTAL,2098602814,2537338892793.637
+bihar,2026,1,Utility,112264306,
+bihar,2026,2,P2P,879874401,
+bihar,2026,2,Retail,1295213536,
+bihar,2026,2,TOTAL,2289051873,2678141315406.1562
+bihar,2026,2,Utility,113963936,
+chandigarh,2018,1,P2P,86598,
+chandigarh,2018,1,Retail,135274,
+chandigarh,2018,1,TOTAL,223975,393507115.84811443
+chandigarh,2018,1,Utility,2103,
+chandigarh,2018,2,P2P,139093,
+chandigarh,2018,2,Retail,171635,
+chandigarh,2018,2,TOTAL,319560,664062457.5527933
+chandigarh,2018,2,Utility,8832,
+chandigarh,2018,3,P2P,205970,
+chandigarh,2018,3,Retail,197262,
+chandigarh,2018,3,TOTAL,417919,971597704.0881219
+chandigarh,2018,3,Utility,14687,
+chandigarh,2018,4,P2P,304514,
+chandigarh,2018,4,Retail,279421,
+chandigarh,2018,4,TOTAL,603259,1354040230.1718202
+chandigarh,2018,4,Utility,19324,
+chandigarh,2019,1,P2P,485410,
+chandigarh,2019,1,Retail,360000,
+chandigarh,2019,1,TOTAL,876820,1678862941.0300002
+chandigarh,2019,1,Utility,31410,
+chandigarh,2019,2,P2P,506704,
+chandigarh,2019,2,Retail,534131,
+chandigarh,2019,2,TOTAL,1081281,2214484682.804943
+chandigarh,2019,2,Utility,40446,
+chandigarh,2019,3,P2P,607651,
+chandigarh,2019,3,Retail,746995,
+chandigarh,2019,3,TOTAL,1428205,2696336857.265588
+chandigarh,2019,3,Utility,73559,
+chandigarh,2019,4,P2P,722134,
+chandigarh,2019,4,Retail,812438,
+chandigarh,2019,4,TOTAL,1663318,3246646185.7316084
+chandigarh,2019,4,Utility,128746,
+chandigarh,2020,1,P2P,707916,
+chandigarh,2020,1,Retail,890041,
+chandigarh,2020,1,TOTAL,1776530,3334833902.532528
+chandigarh,2020,1,Utility,178573,
+chandigarh,2020,2,P2P,425584,
+chandigarh,2020,2,Retail,500782,
+chandigarh,2020,2,TOTAL,1098495,2233114743.327046
+chandigarh,2020,2,Utility,172129,
+chandigarh,2020,3,P2P,675369,
+chandigarh,2020,3,Retail,925689,
+chandigarh,2020,3,TOTAL,1787111,3631987949.8054485
+chandigarh,2020,3,Utility,186053,
+chandigarh,2020,4,P2P,902711,
+chandigarh,2020,4,Retail,1450083,
+chandigarh,2020,4,TOTAL,2610842,4860838678.860598
+chandigarh,2020,4,Utility,258048,
+chandigarh,2021,1,P2P,1088211,
+chandigarh,2021,1,Retail,1728889,
+chandigarh,2021,1,TOTAL,3291014,5639239470.444478
+chandigarh,2021,1,Utility,473914,
+chandigarh,2021,2,P2P,1110497,
+chandigarh,2021,2,Retail,1673769,
+chandigarh,2021,2,TOTAL,3336924,5688419002.539844
+chandigarh,2021,2,Utility,552658,
+chandigarh,2021,3,P2P,1505884,
+chandigarh,2021,3,Retail,2650201,
+chandigarh,2021,3,TOTAL,4795459,7498822383.4005165
+chandigarh,2021,3,Utility,639374,
+chandigarh,2021,4,P2P,1508876,
+chandigarh,2021,4,Retail,2956450,
+chandigarh,2021,4,TOTAL,5012587,7760737879.59054
+chandigarh,2021,4,Utility,547261,
+chandigarh,2022,1,P2P,1784924,
+chandigarh,2022,1,Retail,3654287,
+chandigarh,2022,1,TOTAL,6026078,9061038154.153315
+chandigarh,2022,1,Utility,586867,
+chandigarh,2022,2,P2P,2128206,
+chandigarh,2022,2,Retail,4970069,
+chandigarh,2022,2,TOTAL,7761882,10624481178.149662
+chandigarh,2022,2,Utility,663607,
+chandigarh,2022,3,P2P,2527240,
+chandigarh,2022,3,Retail,5882444,
+chandigarh,2022,3,TOTAL,9175146,12189515329.976696
+chandigarh,2022,3,Utility,765462,
+chandigarh,2022,4,P2P,2607319,
+chandigarh,2022,4,Retail,6381514,
+chandigarh,2022,4,TOTAL,9744704,12720512772.5428
+chandigarh,2022,4,Utility,755871,
+chandigarh,2023,1,P2P,2723528,
+chandigarh,2023,1,Retail,6679868,
+chandigarh,2023,1,TOTAL,10182795,13320740709.154438
+chandigarh,2023,1,Utility,779399,
+chandigarh,2023,2,P2P,3155761,
+chandigarh,2023,2,Retail,8001836,
+chandigarh,2023,2,TOTAL,12002645,15001734621.098116
+chandigarh,2023,2,Utility,845048,
+chandigarh,2023,3,P2P,3525766,
+chandigarh,2023,3,Retail,9100188,
+chandigarh,2023,3,TOTAL,13514642,15978579212.550114
+chandigarh,2023,3,Utility,888688,
+chandigarh,2023,4,P2P,3600977,
+chandigarh,2023,4,Retail,9344696,
+chandigarh,2023,4,TOTAL,13784981,16915170140.23735
+chandigarh,2023,4,Utility,839308,
+chandigarh,2024,1,P2P,3544955,
+chandigarh,2024,1,Retail,9276490,
+chandigarh,2024,1,TOTAL,13667061,16541090390.048546
+chandigarh,2024,1,Utility,845616,
+chandigarh,2024,2,P2P,4105222,
+chandigarh,2024,2,Retail,11519996,
+chandigarh,2024,2,TOTAL,16570280,18298504093.428207
+chandigarh,2024,2,Utility,945062,
+chandigarh,2024,3,P2P,4542561,
+chandigarh,2024,3,Retail,12269851,
+chandigarh,2024,3,TOTAL,17830482,19398464952.299725
+chandigarh,2024,3,Utility,1018070,
+chandigarh,2024,4,P2P,4741956,
+chandigarh,2024,4,Retail,12890043,
+chandigarh,2024,4,TOTAL,18645893,20631840726.069115
+chandigarh,2024,4,Utility,1013894,
+chandigarh,2025,1,P2P,5030048,
+chandigarh,2025,1,Retail,13786138,
+chandigarh,2025,1,TOTAL,19931215,21239542165.21637
+chandigarh,2025,1,Utility,1115029,
+chandigarh,2025,2,P2P,4978557,
+chandigarh,2025,2,Retail,14246760,
+chandigarh,2025,2,TOTAL,20255468,21185658828.05371
+chandigarh,2025,2,Utility,1030151,
+chandigarh,2025,3,P2P,5537474,
+chandigarh,2025,3,Retail,15506364,
+chandigarh,2025,3,TOTAL,22149566,22397711070.192337
+chandigarh,2025,3,Utility,1105728,
+chandigarh,2025,4,P2P,5748592,
+chandigarh,2025,4,Retail,15785608,
+chandigarh,2025,4,TOTAL,22627910,23861736668.233253
+chandigarh,2025,4,Utility,1093710,
+chandigarh,2026,1,P2P,5753972,
+chandigarh,2026,1,Retail,15927532,
+chandigarh,2026,1,TOTAL,22820289,23784456763.001396
+chandigarh,2026,1,Utility,1138785,
+chandigarh,2026,2,P2P,6189470,
+chandigarh,2026,2,Retail,17838348,
+chandigarh,2026,2,TOTAL,25137055,25233291728.69225
+chandigarh,2026,2,Utility,1109237,
+chhattisgarh,2018,1,P2P,639043,
+chhattisgarh,2018,1,Retail,1589599,
+chhattisgarh,2018,1,TOTAL,2308574,2600414470.835706
+chhattisgarh,2018,1,Utility,79932,
+chhattisgarh,2018,2,P2P,1072278,
+chhattisgarh,2018,2,Retail,2124217,
+chhattisgarh,2018,2,TOTAL,3380470,5020388075.196792
+chhattisgarh,2018,2,Utility,183975,
+chhattisgarh,2018,3,P2P,1798955,
+chhattisgarh,2018,3,Retail,2435063,
+chhattisgarh,2018,3,TOTAL,4512546,7219788715.082321
+chhattisgarh,2018,3,Utility,278528,
+chhattisgarh,2018,4,P2P,2623941,
+chhattisgarh,2018,4,Retail,3372461,
+chhattisgarh,2018,4,TOTAL,6353226,10755271064.359688
+chhattisgarh,2018,4,Utility,356824,
+chhattisgarh,2019,1,P2P,4296607,
+chhattisgarh,2019,1,Retail,4062272,
+chhattisgarh,2019,1,TOTAL,8806110,13924157587.499626
+chhattisgarh,2019,1,Utility,447231,
+chhattisgarh,2019,2,P2P,4418365,
+chhattisgarh,2019,2,Retail,5256226,
+chhattisgarh,2019,2,TOTAL,10141906,18246258174.340855
+chhattisgarh,2019,2,Utility,467315,
+chhattisgarh,2019,3,P2P,5228457,
+chhattisgarh,2019,3,Retail,6394057,
+chhattisgarh,2019,3,TOTAL,12460140,21416627955.839325
+chhattisgarh,2019,3,Utility,837626,
+chhattisgarh,2019,4,P2P,7300968,
+chhattisgarh,2019,4,Retail,7244686,
+chhattisgarh,2019,4,TOTAL,16357293,28463127103.098198
+chhattisgarh,2019,4,Utility,1811639,
+chhattisgarh,2020,1,P2P,7781097,
+chhattisgarh,2020,1,Retail,8600738,
+chhattisgarh,2020,1,TOTAL,19093394,32590895619.612717
+chhattisgarh,2020,1,Utility,2711559,
+chhattisgarh,2020,2,P2P,8442089,
+chhattisgarh,2020,2,Retail,8614241,
+chhattisgarh,2020,2,TOTAL,21009112,37624391296.12829
+chhattisgarh,2020,2,Utility,3952782,
+chhattisgarh,2020,3,P2P,12041208,
+chhattisgarh,2020,3,Retail,12030721,
+chhattisgarh,2020,3,TOTAL,28282693,50717527358.68874
+chhattisgarh,2020,3,Utility,4210764,
+chhattisgarh,2020,4,P2P,16417563,
+chhattisgarh,2020,4,Retail,18163320,
+chhattisgarh,2020,4,TOTAL,39804658,71088111288.6268
+chhattisgarh,2020,4,Utility,5223775,
+chhattisgarh,2021,1,P2P,19316584,
+chhattisgarh,2021,1,Retail,19091610,
+chhattisgarh,2021,1,TOTAL,48630460,85037921799.0683
+chhattisgarh,2021,1,Utility,10222266,
+chhattisgarh,2021,2,P2P,23437224,
+chhattisgarh,2021,2,Retail,19178737,
+chhattisgarh,2021,2,TOTAL,57474912,98787017765.85956
+chhattisgarh,2021,2,Utility,14858951,
+chhattisgarh,2021,3,P2P,31909232,
+chhattisgarh,2021,3,Retail,33321770,
+chhattisgarh,2021,3,TOTAL,80717872,128856725337.29623
+chhattisgarh,2021,3,Utility,15486870,
+chhattisgarh,2021,4,P2P,35131434,
+chhattisgarh,2021,4,Retail,42220296,
+chhattisgarh,2021,4,TOTAL,90986070,142897547581.29657
+chhattisgarh,2021,4,Utility,13634340,
+chhattisgarh,2022,1,P2P,45584964,
+chhattisgarh,2022,1,Retail,57726019,
+chhattisgarh,2022,1,TOTAL,118651612,188186021689.86618
+chhattisgarh,2022,1,Utility,15340629,
+chhattisgarh,2022,2,P2P,52204431,
+chhattisgarh,2022,2,Retail,73440835,
+chhattisgarh,2022,2,TOTAL,143649650,217141086234.92676
+chhattisgarh,2022,2,Utility,18004384,
+chhattisgarh,2022,3,P2P,61107108,
+chhattisgarh,2022,3,Retail,87352711,
+chhattisgarh,2022,3,TOTAL,168777635,232335130975.735
+chhattisgarh,2022,3,Utility,20317816,
+chhattisgarh,2022,4,P2P,69413479,
+chhattisgarh,2022,4,Retail,102175844,
+chhattisgarh,2022,4,TOTAL,192641774,267162792319.1936
+chhattisgarh,2022,4,Utility,21052451,
+chhattisgarh,2023,1,P2P,76789266,
+chhattisgarh,2023,1,Retail,113977816,
+chhattisgarh,2023,1,TOTAL,214685457,299544060546.12585
+chhattisgarh,2023,1,Utility,23918375,
+chhattisgarh,2023,2,P2P,86943045,
+chhattisgarh,2023,2,Retail,136171929,
+chhattisgarh,2023,2,TOTAL,250168113,331458751118.9755
+chhattisgarh,2023,2,Utility,27053139,
+chhattisgarh,2023,3,P2P,97126941,
+chhattisgarh,2023,3,Retail,158512662,
+chhattisgarh,2023,3,TOTAL,283570782,349234131102.0796
+chhattisgarh,2023,3,Utility,27931179,
+chhattisgarh,2023,4,P2P,110933299,
+chhattisgarh,2023,4,Retail,183166600,
+chhattisgarh,2023,4,TOTAL,322561838,404263598492.0149
+chhattisgarh,2023,4,Utility,28461939,
+chhattisgarh,2024,1,P2P,124650369,
+chhattisgarh,2024,1,Retail,209330663,
+chhattisgarh,2024,1,TOTAL,366651062,463030150974.65735
+chhattisgarh,2024,1,Utility,32670030,
+chhattisgarh,2024,2,P2P,134770237,
+chhattisgarh,2024,2,Retail,241644172,
+chhattisgarh,2024,2,TOTAL,412497773,495339525982.10114
+chhattisgarh,2024,2,Utility,36083364,
+chhattisgarh,2024,3,P2P,146277797,
+chhattisgarh,2024,3,Retail,260777393,
+chhattisgarh,2024,3,TOTAL,443141845,495927695118.55237
+chhattisgarh,2024,3,Utility,36086655,
+chhattisgarh,2024,4,P2P,166440802,
+chhattisgarh,2024,4,Retail,296276945,
+chhattisgarh,2024,4,TOTAL,500033921,575372077008.4672
+chhattisgarh,2024,4,Utility,37316174,
+chhattisgarh,2025,1,P2P,164285124,
+chhattisgarh,2025,1,Retail,292745236,
+chhattisgarh,2025,1,TOTAL,498714795,585636844581.983
+chhattisgarh,2025,1,Utility,41684435,
+chhattisgarh,2025,2,P2P,166802677,
+chhattisgarh,2025,2,Retail,320942200,
+chhattisgarh,2025,2,TOTAL,530238048,584957150370.3911
+chhattisgarh,2025,2,Utility,42493171,
+chhattisgarh,2025,3,P2P,179010025,
+chhattisgarh,2025,3,Retail,346929895,
+chhattisgarh,2025,3,TOTAL,567750078,579430366109.4929
+chhattisgarh,2025,3,Utility,41810158,
+chhattisgarh,2025,4,P2P,194816642,
+chhattisgarh,2025,4,Retail,369466099,
+chhattisgarh,2025,4,TOTAL,605701118,639303988608.5961
+chhattisgarh,2025,4,Utility,41418377,
+chhattisgarh,2026,1,P2P,199909355,
+chhattisgarh,2026,1,Retail,381331900,
+chhattisgarh,2026,1,TOTAL,625441700,681983078745.7452
+chhattisgarh,2026,1,Utility,44200445,
+chhattisgarh,2026,2,P2P,199041865,
+chhattisgarh,2026,2,Retail,402505854,
+chhattisgarh,2026,2,TOTAL,646201571,678401352461.2666
+chhattisgarh,2026,2,Utility,44653852,
+dadra & nagar haveli & daman & diu,2018,1,P2P,48727,
+dadra & nagar haveli & daman & diu,2018,1,Retail,124310,
+dadra & nagar haveli & daman & diu,2018,1,TOTAL,175749,203738508.32623297
+dadra & nagar haveli & daman & diu,2018,1,Utility,2712,
+dadra & nagar haveli & daman & diu,2018,2,P2P,75693,
+dadra & nagar haveli & daman & diu,2018,2,Retail,150355,
+dadra & nagar haveli & daman & diu,2018,2,TOTAL,233330,339720413.4266238
+dadra & nagar haveli & daman & diu,2018,2,Utility,7282,
+dadra & nagar haveli & daman & diu,2018,3,P2P,125652,
+dadra & nagar haveli & daman & diu,2018,3,Retail,190778,
+dadra & nagar haveli & daman & diu,2018,3,TOTAL,327117,494728286.08063436
+dadra & nagar haveli & daman & diu,2018,3,Utility,10687,
+dadra & nagar haveli & daman & diu,2018,4,P2P,207646,
+dadra & nagar haveli & daman & diu,2018,4,Retail,240461,
+dadra & nagar haveli & daman & diu,2018,4,TOTAL,460719,718948346.7433174
+dadra & nagar haveli & daman & diu,2018,4,Utility,12612,
+dadra & nagar haveli & daman & diu,2019,1,P2P,463399,
+dadra & nagar haveli & daman & diu,2019,1,Retail,285372,
+dadra & nagar haveli & daman & diu,2019,1,TOTAL,765460,972578611.6164718
+dadra & nagar haveli & daman & diu,2019,1,Utility,16689,
+dadra & nagar haveli & daman & diu,2019,2,P2P,320409,
+dadra & nagar haveli & daman & diu,2019,2,Retail,324440,
+dadra & nagar haveli & daman & diu,2019,2,TOTAL,660479,1087297036.7210982
+dadra & nagar haveli & daman & diu,2019,2,Utility,15630,
+dadra & nagar haveli & daman & diu,2019,3,P2P,340048,
+dadra & nagar haveli & daman & diu,2019,3,Retail,371757,
+dadra & nagar haveli & daman & diu,2019,3,TOTAL,754087,1278812027.1439939
+dadra & nagar haveli & daman & diu,2019,3,Utility,42282,
+dadra & nagar haveli & daman & diu,2019,4,P2P,439004,
+dadra & nagar haveli & daman & diu,2019,4,Retail,375567,
+dadra & nagar haveli & daman & diu,2019,4,TOTAL,916877,1615369595.516838
+dadra & nagar haveli & daman & diu,2019,4,Utility,102306,
+dadra & nagar haveli & daman & diu,2020,1,P2P,449715,
+dadra & nagar haveli & daman & diu,2020,1,Retail,459843,
+dadra & nagar haveli & daman & diu,2020,1,TOTAL,1059367,1783068099.6136131
+dadra & nagar haveli & daman & diu,2020,1,Utility,149809,
+dadra & nagar haveli & daman & diu,2020,2,P2P,427476,
+dadra & nagar haveli & daman & diu,2020,2,Retail,483124,
+dadra & nagar haveli & daman & diu,2020,2,TOTAL,1128692,1665874471.905149
+dadra & nagar haveli & daman & diu,2020,2,Utility,218092,
+dadra & nagar haveli & daman & diu,2020,3,P2P,553718,
+dadra & nagar haveli & daman & diu,2020,3,Retail,633739,
+dadra & nagar haveli & daman & diu,2020,3,TOTAL,1381590,2246553945.8118267
+dadra & nagar haveli & daman & diu,2020,3,Utility,194133,
+dadra & nagar haveli & daman & diu,2020,4,P2P,780882,
+dadra & nagar haveli & daman & diu,2020,4,Retail,1023837,
+dadra & nagar haveli & daman & diu,2020,4,TOTAL,2074476,3117756826.203451
+dadra & nagar haveli & daman & diu,2020,4,Utility,269757,
+dadra & nagar haveli & daman & diu,2021,1,P2P,981563,
+dadra & nagar haveli & daman & diu,2021,1,Retail,969125,
+dadra & nagar haveli & daman & diu,2021,1,TOTAL,2468208,3719731952.6275053
+dadra & nagar haveli & daman & diu,2021,1,Utility,517520,
+dadra & nagar haveli & daman & diu,2021,2,P2P,1108625,
+dadra & nagar haveli & daman & diu,2021,2,Retail,1065450,
+dadra & nagar haveli & daman & diu,2021,2,TOTAL,2814882,4058213192.3616095
+dadra & nagar haveli & daman & diu,2021,2,Utility,640807,
+dadra & nagar haveli & daman & diu,2021,3,P2P,1642468,
+dadra & nagar haveli & daman & diu,2021,3,Retail,1727177,
+dadra & nagar haveli & daman & diu,2021,3,TOTAL,4130800,5487801996.985148
+dadra & nagar haveli & daman & diu,2021,3,Utility,761155,
+dadra & nagar haveli & daman & diu,2021,4,P2P,1752030,
+dadra & nagar haveli & daman & diu,2021,4,Retail,2297983,
+dadra & nagar haveli & daman & diu,2021,4,TOTAL,4718714,6073199177.991066
+dadra & nagar haveli & daman & diu,2021,4,Utility,668701,
+dadra & nagar haveli & daman & diu,2022,1,P2P,2194931,
+dadra & nagar haveli & daman & diu,2022,1,Retail,3219540,
+dadra & nagar haveli & daman & diu,2022,1,TOTAL,6099780,7630083652.340666
+dadra & nagar haveli & daman & diu,2022,1,Utility,685309,
+dadra & nagar haveli & daman & diu,2022,2,P2P,2354655,
+dadra & nagar haveli & daman & diu,2022,2,Retail,4326687,
+dadra & nagar haveli & daman & diu,2022,2,TOTAL,7431344,8548899697.35703
+dadra & nagar haveli & daman & diu,2022,2,Utility,750002,
+dadra & nagar haveli & daman & diu,2022,3,P2P,2905787,
+dadra & nagar haveli & daman & diu,2022,3,Retail,5333300,
+dadra & nagar haveli & daman & diu,2022,3,TOTAL,9167713,10016928620.567108
+dadra & nagar haveli & daman & diu,2022,3,Utility,928626,
+dadra & nagar haveli & daman & diu,2022,4,P2P,3196176,
+dadra & nagar haveli & daman & diu,2022,4,Retail,6545310,
+dadra & nagar haveli & daman & diu,2022,4,TOTAL,10667542,11210383267.660694
+dadra & nagar haveli & daman & diu,2022,4,Utility,926056,
+dadra & nagar haveli & daman & diu,2023,1,P2P,3455321,
+dadra & nagar haveli & daman & diu,2023,1,Retail,7186722,
+dadra & nagar haveli & daman & diu,2023,1,TOTAL,11627938,12184562485.612377
+dadra & nagar haveli & daman & diu,2023,1,Utility,985895,
+dadra & nagar haveli & daman & diu,2023,2,P2P,3776627,
+dadra & nagar haveli & daman & diu,2023,2,Retail,8303022,
+dadra & nagar haveli & daman & diu,2023,2,TOTAL,13139339,13293978308.32088
+dadra & nagar haveli & daman & diu,2023,2,Utility,1059690,
+dadra & nagar haveli & daman & diu,2023,3,P2P,4410140,
+dadra & nagar haveli & daman & diu,2023,3,Retail,9373489,
+dadra & nagar haveli & daman & diu,2023,3,TOTAL,14946369,14582297017.60117
+dadra & nagar haveli & daman & diu,2023,3,Utility,1162740,
+dadra & nagar haveli & daman & diu,2023,4,P2P,5097316,
+dadra & nagar haveli & daman & diu,2023,4,Retail,11546558,
+dadra & nagar haveli & daman & diu,2023,4,TOTAL,17850712,16983535180.430668
+dadra & nagar haveli & daman & diu,2023,4,Utility,1206838,
+dadra & nagar haveli & daman & diu,2024,1,P2P,5816338,
+dadra & nagar haveli & daman & diu,2024,1,Retail,13145056,
+dadra & nagar haveli & daman & diu,2024,1,TOTAL,20353556,18765466590.83841
+dadra & nagar haveli & daman & diu,2024,1,Utility,1392162,
+dadra & nagar haveli & daman & diu,2024,2,P2P,6167656,
+dadra & nagar haveli & daman & diu,2024,2,Retail,14877323,
+dadra & nagar haveli & daman & diu,2024,2,TOTAL,22527545,19470526075.93761
+dadra & nagar haveli & daman & diu,2024,2,Utility,1482566,
+dadra & nagar haveli & daman & diu,2024,3,P2P,6931855,
+dadra & nagar haveli & daman & diu,2024,3,Retail,15976900,
+dadra & nagar haveli & daman & diu,2024,3,TOTAL,24452181,20598707213.18743
+dadra & nagar haveli & daman & diu,2024,3,Utility,1543426,
+dadra & nagar haveli & daman & diu,2024,4,P2P,7537976,
+dadra & nagar haveli & daman & diu,2024,4,Retail,18263646,
+dadra & nagar haveli & daman & diu,2024,4,TOTAL,27354023,22905248328.83792
+dadra & nagar haveli & daman & diu,2024,4,Utility,1552401,
+dadra & nagar haveli & daman & diu,2025,1,P2P,7221487,
+dadra & nagar haveli & daman & diu,2025,1,Retail,18323342,
+dadra & nagar haveli & daman & diu,2025,1,TOTAL,27107809,22346971352.215958
+dadra & nagar haveli & daman & diu,2025,1,Utility,1562980,
+dadra & nagar haveli & daman & diu,2025,2,P2P,7216216,
+dadra & nagar haveli & daman & diu,2025,2,Retail,19481392,
+dadra & nagar haveli & daman & diu,2025,2,TOTAL,28225351,23146137014.55257
+dadra & nagar haveli & daman & diu,2025,2,Utility,1527743,
+dadra & nagar haveli & daman & diu,2025,3,P2P,8208256,
+dadra & nagar haveli & daman & diu,2025,3,Retail,21544940,
+dadra & nagar haveli & daman & diu,2025,3,TOTAL,31444001,24673354040.591118
+dadra & nagar haveli & daman & diu,2025,3,Utility,1690805,
+dadra & nagar haveli & daman & diu,2025,4,P2P,8706241,
+dadra & nagar haveli & daman & diu,2025,4,Retail,22194792,
+dadra & nagar haveli & daman & diu,2025,4,TOTAL,32546677,26195111187.06368
+dadra & nagar haveli & daman & diu,2025,4,Utility,1645644,
+dadra & nagar haveli & daman & diu,2026,1,P2P,9026170,
+dadra & nagar haveli & daman & diu,2026,1,Retail,23012051,
+dadra & nagar haveli & daman & diu,2026,1,TOTAL,33719156,26943767275.15291
+dadra & nagar haveli & daman & diu,2026,1,Utility,1680935,
+dadra & nagar haveli & daman & diu,2026,2,P2P,8616843,
+dadra & nagar haveli & daman & diu,2026,2,Retail,22891864,
+dadra & nagar haveli & daman & diu,2026,2,TOTAL,33036223,26552512651.741745
+dadra & nagar haveli & daman & diu,2026,2,Utility,1527516,
+delhi,2018,1,P2P,1615875,
+delhi,2018,1,Retail,2985448,
+delhi,2018,1,TOTAL,4861388,8271371793.392628
+delhi,2018,1,Utility,260065,
+delhi,2018,2,P2P,2449953,
+delhi,2018,2,Retail,3933398,
+delhi,2018,2,TOTAL,6889986,13364589444.285055
+delhi,2018,2,Utility,506635,
+delhi,2018,3,P2P,3857294,
+delhi,2018,3,Retail,7857195,
+delhi,2018,3,TOTAL,12574966,19957898704.19008
+delhi,2018,3,Utility,860477,
+delhi,2018,4,P2P,6896926,
+delhi,2018,4,Retail,16093319,
+delhi,2018,4,TOTAL,24850974,31024643827.81318
+delhi,2018,4,Utility,1860729,
+delhi,2019,1,P2P,13271887,
+delhi,2019,1,Retail,20659076,
+delhi,2019,1,TOTAL,36894345,44300658315.162735
+delhi,2019,1,Utility,2963382,
+delhi,2019,2,P2P,14006642,
+delhi,2019,2,Retail,25329627,
+delhi,2019,2,TOTAL,43013774,58968863487.081665
+delhi,2019,2,Utility,3677505,
+delhi,2019,3,P2P,17777669,
+delhi,2019,3,Retail,32091616,
+delhi,2019,3,TOTAL,55742193,76468995159.52313
+delhi,2019,3,Utility,5872908,
+delhi,2019,4,P2P,22990805,
+delhi,2019,4,Retail,31670633,
+delhi,2019,4,TOTAL,62548835,93652030961.80515
+delhi,2019,4,Utility,7887397,
+delhi,2020,1,P2P,23652153,
+delhi,2020,1,Retail,33050230,
+delhi,2020,1,TOTAL,64918068,101297919304.47128
+delhi,2020,1,Utility,8215685,
+delhi,2020,2,P2P,19831287,
+delhi,2020,2,Retail,25679771,
+delhi,2020,2,TOTAL,52441310,81000333616.01228
+delhi,2020,2,Utility,6930252,
+delhi,2020,3,P2P,29703975,
+delhi,2020,3,Retail,36733987,
+delhi,2020,3,TOTAL,73862510,129779470523.62761
+delhi,2020,3,Utility,7424548,
+delhi,2020,4,P2P,39937336,
+delhi,2020,4,Retail,50818263,
+delhi,2020,4,TOTAL,101260942,177739597368.565
+delhi,2020,4,Utility,10505343,
+delhi,2021,1,P2P,46702955,
+delhi,2021,1,Retail,56615267,
+delhi,2021,1,TOTAL,120153276,205668430518.44977
+delhi,2021,1,Utility,16835054,
+delhi,2021,2,P2P,48255308,
+delhi,2021,2,Retail,54742475,
+delhi,2021,2,TOTAL,121471283,202501475643.4478
+delhi,2021,2,Utility,18473500,
+delhi,2021,3,P2P,67534917,
+delhi,2021,3,Retail,82693069,
+delhi,2021,3,TOTAL,172751582,288115773262.44116
+delhi,2021,3,Utility,22523596,
+delhi,2021,4,P2P,69394557,
+delhi,2021,4,Retail,91396064,
+delhi,2021,4,TOTAL,180172118,312145482478.9022
+delhi,2021,4,Utility,19381497,
+delhi,2022,1,P2P,84352873,
+delhi,2022,1,Retail,118196322,
+delhi,2022,1,TOTAL,223152158,376375724015.03375
+delhi,2022,1,Utility,20602963,
+delhi,2022,2,P2P,97270927,
+delhi,2022,2,Retail,159256415,
+delhi,2022,2,TOTAL,280662698,443015534922.1724
+delhi,2022,2,Utility,24135356,
+delhi,2022,3,P2P,114108021,
+delhi,2022,3,Retail,193226144,
+delhi,2022,3,TOTAL,336144494,507114703182.28174
+delhi,2022,3,Utility,28810329,
+delhi,2022,4,P2P,121689844,
+delhi,2022,4,Retail,213906227,
+delhi,2022,4,TOTAL,365023307,556037697335.6055
+delhi,2022,4,Utility,29427236,
+delhi,2023,1,P2P,134544771,
+delhi,2023,1,Retail,241528649,
+delhi,2023,1,TOTAL,408284405,611515329918.7366
+delhi,2023,1,Utility,32210985,
+delhi,2023,2,P2P,150932258,
+delhi,2023,2,Retail,293401714,
+delhi,2023,2,TOTAL,479877785,661524275756.0029
+delhi,2023,2,Utility,35543813,
+delhi,2023,3,P2P,166704530,
+delhi,2023,3,Retail,339588954,
+delhi,2023,3,TOTAL,544463265,707384902988.8572
+delhi,2023,3,Utility,38169781,
+delhi,2023,4,P2P,184185421,
+delhi,2023,4,Retail,373762989,
+delhi,2023,4,TOTAL,595978737,800033234390.3937
+delhi,2023,4,Utility,38030327,
+delhi,2024,1,P2P,196018058,
+delhi,2024,1,Retail,411667423,
+delhi,2024,1,TOTAL,648689028,833026878275.8525
+delhi,2024,1,Utility,41003547,
+delhi,2024,2,P2P,219740879,
+delhi,2024,2,Retail,509081017,
+delhi,2024,2,TOTAL,774314356,895745968493.4221
+delhi,2024,2,Utility,45492460,
+delhi,2024,3,P2P,242375284,
+delhi,2024,3,Retail,552938672,
+delhi,2024,3,TOTAL,844711512,960894810351.4745
+delhi,2024,3,Utility,49397556,
+delhi,2024,4,P2P,261111396,
+delhi,2024,4,Retail,597843647,
+delhi,2024,4,TOTAL,910091437,1058824541586.6793
+delhi,2024,4,Utility,51136394,
+delhi,2025,1,P2P,270766003,
+delhi,2025,1,Retail,618162326,
+delhi,2025,1,TOTAL,946994561,1075695710049.5652
+delhi,2025,1,Utility,58066232,
+delhi,2025,2,P2P,270015501,
+delhi,2025,2,Retail,662259192,
+delhi,2025,2,TOTAL,988353361,1059397596251.9786
+delhi,2025,2,Utility,56078668,
+delhi,2025,3,P2P,293655235,
+delhi,2025,3,Retail,714113988,
+delhi,2025,3,TOTAL,1069317276,1110313539978.9946
+delhi,2025,3,Utility,61548053,
+delhi,2025,4,P2P,299388404,
+delhi,2025,4,Retail,727159498,
+delhi,2025,4,TOTAL,1087983371,1170618652301.9897
+delhi,2025,4,Utility,61435469,
+delhi,2026,1,P2P,296399539,
+delhi,2026,1,Retail,729639080,
+delhi,2026,1,TOTAL,1087780733,1157725625834.733
+delhi,2026,1,Utility,61742114,
+delhi,2026,2,P2P,306838191,
+delhi,2026,2,Retail,802878308,
+delhi,2026,2,TOTAL,1171904826,1176560966476.9006
+delhi,2026,2,Utility,62188327,
+goa,2018,1,P2P,66717,
+goa,2018,1,Retail,115688,
+goa,2018,1,TOTAL,183383,349066357.90028584
+goa,2018,1,Utility,978,
+goa,2018,2,P2P,96965,
+goa,2018,2,Retail,155786,
+goa,2018,2,TOTAL,257510,535602446.42051774
+goa,2018,2,Utility,4759,
+goa,2018,3,P2P,161853,
+goa,2018,3,Retail,206471,
+goa,2018,3,TOTAL,376513,784750606.0741248
+goa,2018,3,Utility,8189,
+goa,2018,4,P2P,268194,
+goa,2018,4,Retail,301078,
+goa,2018,4,TOTAL,579647,1267443769.8483543
+goa,2018,4,Utility,10375,
+goa,2019,1,P2P,442149,
+goa,2019,1,Retail,405891,
+goa,2019,1,TOTAL,869079,1729283766.1123345
+goa,2019,1,Utility,21039,
+goa,2019,2,P2P,510080,
+goa,2019,2,Retail,527008,
+goa,2019,2,TOTAL,1066466,2165028896.673666
+goa,2019,2,Utility,29378,
+goa,2019,3,P2P,649002,
+goa,2019,3,Retail,625843,
+goa,2019,3,TOTAL,1351959,2683370624.34643
+goa,2019,3,Utility,77114,
+goa,2019,4,P2P,959581,
+goa,2019,4,Retail,742233,
+goa,2019,4,TOTAL,1901461,3915138021.176736
+goa,2019,4,Utility,199647,
+goa,2020,1,P2P,1095516,
+goa,2020,1,Retail,920792,
+goa,2020,1,TOTAL,2308644,4491991521.593598
+goa,2020,1,Utility,292336,
+goa,2020,2,P2P,629488,
+goa,2020,2,Retail,763049,
+goa,2020,2,TOTAL,1740286,2715145069.5507383
+goa,2020,2,Utility,347749,
+goa,2020,3,P2P,847145,
+goa,2020,3,Retail,966368,
+goa,2020,3,TOTAL,2133105,3765761100.712038
+goa,2020,3,Utility,319592,
+goa,2020,4,P2P,1695904,
+goa,2020,4,Retail,1953066,
+goa,2020,4,TOTAL,4146283,7565195670.719751
+goa,2020,4,Utility,497313,
+goa,2021,1,P2P,2574988,
+goa,2021,1,Retail,2615744,
+goa,2021,1,TOTAL,6169621,11178477599.490131
+goa,2021,1,Utility,978889,
+goa,2021,2,P2P,2032902,
+goa,2021,2,Retail,2174178,
+goa,2021,2,TOTAL,5343431,8784725625.06963
+goa,2021,2,Utility,1136351,
+goa,2021,3,P2P,2861832,
+goa,2021,3,Retail,3288618,
+goa,2021,3,TOTAL,7417529,11618809271.817026
+goa,2021,3,Utility,1267079,
+goa,2021,4,P2P,4502621,
+goa,2021,4,Retail,5639629,
+goa,2021,4,TOTAL,11465988,18743523947.17128
+goa,2021,4,Utility,1323738,
+goa,2022,1,P2P,5223491,
+goa,2022,1,Retail,7310623,
+goa,2022,1,TOTAL,13928876,21935946828.799046
+goa,2022,1,Utility,1394762,
+goa,2022,2,P2P,5658819,
+goa,2022,2,Retail,8797632,
+goa,2022,2,TOTAL,16022094,24878187518.779408
+goa,2022,2,Utility,1565643,
+goa,2022,3,P2P,6030389,
+goa,2022,3,Retail,10069731,
+goa,2022,3,TOTAL,17781281,25811794705.68304
+goa,2022,3,Utility,1681161,
+goa,2022,4,P2P,7786510,
+goa,2022,4,Retail,13577360,
+goa,2022,4,TOTAL,23220664,33502458362.18222
+goa,2022,4,Utility,1856794,
+goa,2023,1,P2P,8076526,
+goa,2023,1,Retail,14541027,
+goa,2023,1,TOTAL,24526280,35270734819.251785
+goa,2023,1,Utility,1908727,
+goa,2023,2,P2P,8592814,
+goa,2023,2,Retail,16228200,
+goa,2023,2,TOTAL,26864800,38615163972.77406
+goa,2023,2,Utility,2043786,
+goa,2023,3,P2P,8489626,
+goa,2023,3,Retail,16701945,
+goa,2023,3,TOTAL,27248674,37450380521.6337
+goa,2023,3,Utility,2057103,
+goa,2023,4,P2P,10436608,
+goa,2023,4,Retail,21043935,
+goa,2023,4,TOTAL,33643920,44395207299.52843
+goa,2023,4,Utility,2163377,
+goa,2024,1,P2P,10733878,
+goa,2024,1,Retail,22126561,
+goa,2024,1,TOTAL,35146111,45445685425.66287
+goa,2024,1,Utility,2285672,
+goa,2024,2,P2P,10934962,
+goa,2024,2,Retail,23876060,
+goa,2024,2,TOTAL,37182439,47519409391.04823
+goa,2024,2,Utility,2371417,
+goa,2024,3,P2P,10857503,
+goa,2024,3,Retail,23713527,
+goa,2024,3,TOTAL,36966358,45991002795.0858
+goa,2024,3,Utility,2395328,
+goa,2024,4,P2P,13498885,
+goa,2024,4,Retail,30230530,
+goa,2024,4,TOTAL,46318894,56637741193.07748
+goa,2024,4,Utility,2589479,
+goa,2025,1,P2P,14131627,
+goa,2025,1,Retail,32194383,
+goa,2025,1,TOTAL,49193973,58807211950.65007
+goa,2025,1,Utility,2867963,
+goa,2025,2,P2P,12632826,
+goa,2025,2,Retail,30469355,
+goa,2025,2,TOTAL,45771675,55369449580.35414
+goa,2025,2,Utility,2669494,
+goa,2025,3,P2P,12865476,
+goa,2025,3,Retail,30620188,
+goa,2025,3,TOTAL,46150727,54338864093.71546
+goa,2025,3,Utility,2665063,
+goa,2025,4,P2P,14936827,
+goa,2025,4,Retail,35239184,
+goa,2025,4,TOTAL,52951592,63813316867.88237
+goa,2025,4,Utility,2775581,
+goa,2026,1,P2P,15481410,
+goa,2026,1,Retail,36831929,
+goa,2026,1,TOTAL,55169116,67324007480.50716
+goa,2026,1,Utility,2855777,
+goa,2026,2,P2P,14983673,
+goa,2026,2,Retail,37488228,
+goa,2026,2,TOTAL,55208797,69089808304.2454
+goa,2026,2,Utility,2736896,
+gujarat,2018,1,P2P,1830544,
+gujarat,2018,1,Retail,4636584,
+gujarat,2018,1,TOTAL,6635512,8197590210.3636875
+gujarat,2018,1,Utility,168384,
+gujarat,2018,2,P2P,2611334,
+gujarat,2018,2,Retail,5503458,
+gujarat,2018,2,TOTAL,8576111,13039616415.945614
+gujarat,2018,2,Utility,461319,
+gujarat,2018,3,P2P,5489933,
+gujarat,2018,3,Retail,6110333,
+gujarat,2018,3,TOTAL,12242103,18865469253.16249
+gujarat,2018,3,Utility,641837,
+gujarat,2018,4,P2P,6833499,
+gujarat,2018,4,Retail,8704983,
+gujarat,2018,4,TOTAL,16308079,26472137603.705414
+gujarat,2018,4,Utility,769597,
+gujarat,2019,1,P2P,13774066,
+gujarat,2019,1,Retail,11548425,
+gujarat,2019,1,TOTAL,26455226,36847763352.85492
+gujarat,2019,1,Utility,1132735,
+gujarat,2019,2,P2P,11595434,
+gujarat,2019,2,Retail,15025058,
+gujarat,2019,2,TOTAL,27791578,46130544795.746445
+gujarat,2019,2,Utility,1171086,
+gujarat,2019,3,P2P,13435353,
+gujarat,2019,3,Retail,21282425,
+gujarat,2019,3,TOTAL,36868399,55866174464.90448
+gujarat,2019,3,Utility,2150621,
+gujarat,2019,4,P2P,17984643,
+gujarat,2019,4,Retail,18884739,
+gujarat,2019,4,TOTAL,41410517,73077071811.67056
+gujarat,2019,4,Utility,4541135,
+gujarat,2020,1,P2P,18268400,
+gujarat,2020,1,Retail,22371270,
+gujarat,2020,1,TOTAL,47012185,84177281289.14142
+gujarat,2020,1,Utility,6372515,
+gujarat,2020,2,P2P,15009269,
+gujarat,2020,2,Retail,21301458,
+gujarat,2020,2,TOTAL,44779825,70966369720.57262
+gujarat,2020,2,Utility,8469098,
+gujarat,2020,3,P2P,22093055,
+gujarat,2020,3,Retail,28750957,
+gujarat,2020,3,TOTAL,58773255,107948689525.47961
+gujarat,2020,3,Utility,7929243,
+gujarat,2020,4,P2P,28915624,
+gujarat,2020,4,Retail,37351915,
+gujarat,2020,4,TOTAL,77350802,145043226247.8315
+gujarat,2020,4,Utility,11083263,
+gujarat,2021,1,P2P,35155051,
+gujarat,2021,1,Retail,36594813,
+gujarat,2021,1,TOTAL,92994867,178693454967.36502
+gujarat,2021,1,Utility,21245003,
+gujarat,2021,2,P2P,39949396,
+gujarat,2021,2,Retail,41144828,
+gujarat,2021,2,TOTAL,108741359,203060508004.0047
+gujarat,2021,2,Utility,27647135,
+gujarat,2021,3,P2P,54390293,
+gujarat,2021,3,Retail,61450401,
+gujarat,2021,3,TOTAL,146565806,266874951666.12268
+gujarat,2021,3,Utility,30725112,
+gujarat,2021,4,P2P,56399845,
+gujarat,2021,4,Retail,71950994,
+gujarat,2021,4,TOTAL,155616570,290763968555.83673
+gujarat,2021,4,Utility,27265731,
+gujarat,2022,1,P2P,74150580,
+gujarat,2022,1,Retail,98716618,
+gujarat,2022,1,TOTAL,202167410,375175981366.9569
+gujarat,2022,1,Utility,29300212,
+gujarat,2022,2,P2P,82061815,
+gujarat,2022,2,Retail,126999953,
+gujarat,2022,2,TOTAL,242865983,425192027731.0801
+gujarat,2022,2,Utility,33804215,
+gujarat,2022,3,P2P,100513268,
+gujarat,2022,3,Retail,157589389,
+gujarat,2022,3,TOTAL,298170347,492460968385.96
+gujarat,2022,3,Utility,40067690,
+gujarat,2022,4,P2P,108856133,
+gujarat,2022,4,Retail,179290320,
+gujarat,2022,4,TOTAL,329074518,548039488289.37463
+gujarat,2022,4,Utility,40928065,
+gujarat,2023,1,P2P,121055664,
+gujarat,2023,1,Retail,204120466,
+gujarat,2023,1,TOTAL,369002002,602862655965.1804
+gujarat,2023,1,Utility,43825872,
+gujarat,2023,2,P2P,132213776,
+gujarat,2023,2,Retail,245264196,
+gujarat,2023,2,TOTAL,425451706,650588973801.5613
+gujarat,2023,2,Utility,47973734,
+gujarat,2023,3,P2P,151993907,
+gujarat,2023,3,Retail,282686065,
+gujarat,2023,3,TOTAL,485612014,713336692583.1819
+gujarat,2023,3,Utility,50932042,
+gujarat,2023,4,P2P,167346113,
+gujarat,2023,4,Retail,323807182,
+gujarat,2023,4,TOTAL,542379120,803395243183.7517
+gujarat,2023,4,Utility,51225825,
+gujarat,2024,1,P2P,188201304,
+gujarat,2024,1,Retail,369258483,
+gujarat,2024,1,TOTAL,614098314,881020106441.8213
+gujarat,2024,1,Utility,56638527,
+gujarat,2024,2,P2P,199975569,
+gujarat,2024,2,Retail,441428904,
+gujarat,2024,2,TOTAL,701921455,919028632147.8857
+gujarat,2024,2,Utility,60516982,
+gujarat,2024,3,P2P,225932859,
+gujarat,2024,3,Retail,473594132,
+gujarat,2024,3,TOTAL,763687586,970256325961.4185
+gujarat,2024,3,Utility,64160595,
+gujarat,2024,4,P2P,244412869,
+gujarat,2024,4,Retail,522588190,
+gujarat,2024,4,TOTAL,831355510,1082230469473.0231
+gujarat,2024,4,Utility,64354451,
+gujarat,2025,1,P2P,261049938,
+gujarat,2025,1,Retail,569309965,
+gujarat,2025,1,TOTAL,902261206,1110857728436.5906
+gujarat,2025,1,Utility,71901303,
+gujarat,2025,2,P2P,251082446,
+gujarat,2025,2,Retail,602292300,
+gujarat,2025,2,TOTAL,919508876,1074252324352.9222
+gujarat,2025,2,Utility,66134130,
+gujarat,2025,3,P2P,289978000,
+gujarat,2025,3,Retail,684049224,
+gujarat,2025,3,TOTAL,1045353791,1155632518250.8823
+gujarat,2025,3,Utility,71326567,
+gujarat,2025,4,P2P,305349338,
+gujarat,2025,4,Retail,672395110,
+gujarat,2025,4,TOTAL,1048194862,1234864382391.2158
+gujarat,2025,4,Utility,70450414,
+gujarat,2026,1,P2P,333335610,
+gujarat,2026,1,Retail,720203459,
+gujarat,2026,1,TOTAL,1127537297,1294388577019.7559
+gujarat,2026,1,Utility,73998228,
+gujarat,2026,2,P2P,330324037,
+gujarat,2026,2,Retail,757197417,
+gujarat,2026,2,TOTAL,1157902686,1297688887688.3652
+gujarat,2026,2,Utility,70381232,
+haryana,2018,1,P2P,1735441,
+haryana,2018,1,Retail,3258301,
+haryana,2018,1,TOTAL,5044397,7580699902.527901
+haryana,2018,1,Utility,50655,
+haryana,2018,2,P2P,2579978,
+haryana,2018,2,Retail,4054740,
+haryana,2018,2,TOTAL,6867153,12521529537.944519
+haryana,2018,2,Utility,232435,
+haryana,2018,3,P2P,3891786,
+haryana,2018,3,Retail,4806047,
+haryana,2018,3,TOTAL,9035319,17864845143.183334
+haryana,2018,3,Utility,337486,
+haryana,2018,4,P2P,6368684,
+haryana,2018,4,Retail,7602117,
+haryana,2018,4,TOTAL,14526062,27650255494.451317
+haryana,2018,4,Utility,555261,
+haryana,2019,1,P2P,14454322,
+haryana,2019,1,Retail,10298565,
+haryana,2019,1,TOTAL,25636840,38591994904.580345
+haryana,2019,1,Utility,883953,
+haryana,2019,2,P2P,12805219,
+haryana,2019,2,Retail,14367720,
+haryana,2019,2,TOTAL,28298601,51094727148.558624
+haryana,2019,2,Utility,1125662,
+haryana,2019,3,P2P,14597118,
+haryana,2019,3,Retail,19464332,
+haryana,2019,3,TOTAL,36134187,62880149756.33475
+haryana,2019,3,Utility,2072737,
+haryana,2019,4,P2P,19453976,
+haryana,2019,4,Retail,21364196,
+haryana,2019,4,TOTAL,44740993,82429204420.11588
+haryana,2019,4,Utility,3922821,
+haryana,2020,1,P2P,21051976,
+haryana,2020,1,Retail,25036070,
+haryana,2020,1,TOTAL,51339201,94252119542.41226
+haryana,2020,1,Utility,5251155,
+haryana,2020,2,P2P,19749837,
+haryana,2020,2,Retail,20771849,
+haryana,2020,2,TOTAL,46499694,89232924843.01035
+haryana,2020,2,Utility,5978008,
+haryana,2020,3,P2P,29036906,
+haryana,2020,3,Retail,32099499,
+haryana,2020,3,TOTAL,67366856,128348575809.31851
+haryana,2020,3,Utility,6230451,
+haryana,2020,4,P2P,37925384,
+haryana,2020,4,Retail,44510568,
+haryana,2020,4,TOTAL,91338622,176138927815.97955
+haryana,2020,4,Utility,8902670,
+haryana,2021,1,P2P,43022006,
+haryana,2021,1,Retail,46819759,
+haryana,2021,1,TOTAL,105784676,194682830151.4549
+haryana,2021,1,Utility,15942911,
+haryana,2021,2,P2P,51942602,
+haryana,2021,2,Retail,52047541,
+haryana,2021,2,TOTAL,124382433,232312577411.7166
+haryana,2021,2,Utility,20392290,
+haryana,2021,3,P2P,66050125,
+haryana,2021,3,Retail,77143949,
+haryana,2021,3,TOTAL,165765789,279337569622.5245
+haryana,2021,3,Utility,22571715,
+haryana,2021,4,P2P,67543542,
+haryana,2021,4,Retail,85064659,
+haryana,2021,4,TOTAL,172725358,309594718962.4182
+haryana,2021,4,Utility,20117157,
+haryana,2022,1,P2P,85153388,
+haryana,2022,1,Retail,112255341,
+haryana,2022,1,TOTAL,220541832,382682595071.275
+haryana,2022,1,Utility,23133103,
+haryana,2022,2,P2P,96613876,
+haryana,2022,2,Retail,148317828,
+haryana,2022,2,TOTAL,271267385,444207427107.7095
+haryana,2022,2,Utility,26335681,
+haryana,2022,3,P2P,113184007,
+haryana,2022,3,Retail,182189584,
+haryana,2022,3,TOTAL,325918974,499123302373.1108
+haryana,2022,3,Utility,30545383,
+haryana,2022,4,P2P,117778439,
+haryana,2022,4,Retail,197287674,
+haryana,2022,4,TOTAL,346421564,550189071738.4247
+haryana,2022,4,Utility,31355451,
+haryana,2023,1,P2P,128988482,
+haryana,2023,1,Retail,219069526,
+haryana,2023,1,TOTAL,382428292,593038018688.3391
+haryana,2023,1,Utility,34370284,
+haryana,2023,2,P2P,147501959,
+haryana,2023,2,Retail,273061935,
+haryana,2023,2,TOTAL,458437725,663139120171.8699
+haryana,2023,2,Utility,37873831,
+haryana,2023,3,P2P,156895804,
+haryana,2023,3,Retail,306428250,
+haryana,2023,3,TOTAL,502016327,679488272348.9021
+haryana,2023,3,Utility,38692273,
+haryana,2023,4,P2P,175660164,
+haryana,2023,4,Retail,339854772,
+haryana,2023,4,TOTAL,555795275,786452421039.6418
+haryana,2023,4,Utility,40280339,
+haryana,2024,1,P2P,188138732,
+haryana,2024,1,Retail,373122494,
+haryana,2024,1,TOTAL,606097991,811854562422.356
+haryana,2024,1,Utility,44836765,
+haryana,2024,2,P2P,214631303,
+haryana,2024,2,Retail,476635703,
+haryana,2024,2,TOTAL,740372930,909199344753.5066
+haryana,2024,2,Utility,49105924,
+haryana,2024,3,P2P,231883044,
+haryana,2024,3,Retail,513982387,
+haryana,2024,3,TOTAL,797331124,927213659244.7268
+haryana,2024,3,Utility,51465693,
+haryana,2024,4,P2P,245119637,
+haryana,2024,4,Retail,546237947,
+haryana,2024,4,TOTAL,844101306,1035939449839.3926
+haryana,2024,4,Utility,52743722,
+haryana,2025,1,P2P,248265982,
+haryana,2025,1,Retail,552381807,
+haryana,2025,1,TOTAL,857633744,1042384562755.8115
+haryana,2025,1,Utility,56985955,
+haryana,2025,2,P2P,259001315,
+haryana,2025,2,Retail,627408882,
+haryana,2025,2,TOTAL,941499109,1093601683082.2201
+haryana,2025,2,Utility,55088912,
+haryana,2025,3,P2P,276948829,
+haryana,2025,3,Retail,676587870,
+haryana,2025,3,TOTAL,1011816347,1098443930838.6355
+haryana,2025,3,Utility,58279648,
+haryana,2025,4,P2P,286824452,
+haryana,2025,4,Retail,679431344,
+haryana,2025,4,TOTAL,1025189236,1197344182785.4304
+haryana,2025,4,Utility,58933440,
+haryana,2026,1,P2P,288242452,
+haryana,2026,1,Retail,682240539,
+haryana,2026,1,TOTAL,1030869286,1183521834050.4062
+haryana,2026,1,Utility,60386295,
+haryana,2026,2,P2P,302949383,
+haryana,2026,2,Retail,768184781,
+haryana,2026,2,TOTAL,1130714938,1263508678455.987
+haryana,2026,2,Utility,59580774,
+himachal pradesh,2018,1,P2P,155307,
+himachal pradesh,2018,1,Retail,374817,
+himachal pradesh,2018,1,TOTAL,532148,653574896.6591835
+himachal pradesh,2018,1,Utility,2024,
+himachal pradesh,2018,2,P2P,244789,
+himachal pradesh,2018,2,Retail,495410,
+himachal pradesh,2018,2,TOTAL,752625,1221455463.8391795
+himachal pradesh,2018,2,Utility,12426,
+himachal pradesh,2018,3,P2P,359835,
+himachal pradesh,2018,3,Retail,591381,
+himachal pradesh,2018,3,TOTAL,983069,1754538049.2417238
+himachal pradesh,2018,3,Utility,31853,
+himachal pradesh,2018,4,P2P,614646,
+himachal pradesh,2018,4,Retail,826781,
+himachal pradesh,2018,4,TOTAL,1486465,2782592809.741012
+himachal pradesh,2018,4,Utility,45038,
+himachal pradesh,2019,1,P2P,1174821,
+himachal pradesh,2019,1,Retail,1063259,
+himachal pradesh,2019,1,TOTAL,2315161,3423445243.3702383
+himachal pradesh,2019,1,Utility,77081,
+himachal pradesh,2019,2,P2P,1109932,
+himachal pradesh,2019,2,Retail,1399651,
+himachal pradesh,2019,2,TOTAL,2594858,4771816578.540387
+himachal pradesh,2019,2,Utility,85275,
+himachal pradesh,2019,3,P2P,1136295,
+himachal pradesh,2019,3,Retail,1483897,
+himachal pradesh,2019,3,TOTAL,2800215,5428453807.341392
+himachal pradesh,2019,3,Utility,180023,
+himachal pradesh,2019,4,P2P,1525082,
+himachal pradesh,2019,4,Retail,1623659,
+himachal pradesh,2019,4,TOTAL,3593015,6985396691.332533
+himachal pradesh,2019,4,Utility,444274,
+himachal pradesh,2020,1,P2P,1548749,
+himachal pradesh,2020,1,Retail,1973218,
+himachal pradesh,2020,1,TOTAL,4235511,7195985019.600036
+himachal pradesh,2020,1,Utility,713544,
+himachal pradesh,2020,2,P2P,1491543,
+himachal pradesh,2020,2,Retail,2214649,
+himachal pradesh,2020,2,TOTAL,4848448,7841832501.0697975
+himachal pradesh,2020,2,Utility,1142256,
+himachal pradesh,2020,3,P2P,2021110,
+himachal pradesh,2020,3,Retail,2795882,
+himachal pradesh,2020,3,TOTAL,5877958,10905705832.23328
+himachal pradesh,2020,3,Utility,1060966,
+himachal pradesh,2020,4,P2P,2642942,
+himachal pradesh,2020,4,Retail,3543029,
+himachal pradesh,2020,4,TOTAL,7648490,14312857828.542429
+himachal pradesh,2020,4,Utility,1462519,
+himachal pradesh,2021,1,P2P,3080132,
+himachal pradesh,2021,1,Retail,2729674,
+himachal pradesh,2021,1,TOTAL,8416756,15284058641.692795
+himachal pradesh,2021,1,Utility,2606950,
+himachal pradesh,2021,2,P2P,3654848,
+himachal pradesh,2021,2,Retail,3324890,
+himachal pradesh,2021,2,TOTAL,10673405,18003833831.481735
+himachal pradesh,2021,2,Utility,3693667,
+himachal pradesh,2021,3,P2P,4692458,
+himachal pradesh,2021,3,Retail,4599348,
+himachal pradesh,2021,3,TOTAL,12997641,22459107257.73033
+himachal pradesh,2021,3,Utility,3705835,
+himachal pradesh,2021,4,P2P,4865930,
+himachal pradesh,2021,4,Retail,5779795,
+himachal pradesh,2021,4,TOTAL,13750261,23742042055.622837
+himachal pradesh,2021,4,Utility,3104536,
+himachal pradesh,2022,1,P2P,5795846,
+himachal pradesh,2022,1,Retail,7493598,
+himachal pradesh,2022,1,TOTAL,16563694,26739954514.571903
+himachal pradesh,2022,1,Utility,3274250,
+himachal pradesh,2022,2,P2P,7197331,
+himachal pradesh,2022,2,Retail,11288487,
+himachal pradesh,2022,2,TOTAL,22234130,33881003865.982437
+himachal pradesh,2022,2,Utility,3748312,
+himachal pradesh,2022,3,P2P,7859922,
+himachal pradesh,2022,3,Retail,12331466,
+himachal pradesh,2022,3,TOTAL,24383236,35641730907.87379
+himachal pradesh,2022,3,Utility,4191848,
+himachal pradesh,2022,4,P2P,8530434,
+himachal pradesh,2022,4,Retail,15080061,
+himachal pradesh,2022,4,TOTAL,27607097,38681552816.71495
+himachal pradesh,2022,4,Utility,3996602,
+himachal pradesh,2023,1,P2P,8712826,
+himachal pradesh,2023,1,Retail,15826198,
+himachal pradesh,2023,1,TOTAL,28591197,38288728154.99783
+himachal pradesh,2023,1,Utility,4052173,
+himachal pradesh,2023,2,P2P,10883052,
+himachal pradesh,2023,2,Retail,21622495,
+himachal pradesh,2023,2,TOTAL,36965811,47592612549.69776
+himachal pradesh,2023,2,Utility,4460264,
+himachal pradesh,2023,3,P2P,10089367,
+himachal pradesh,2023,3,Retail,20360373,
+himachal pradesh,2023,3,TOTAL,34725152,42559427469.09868
+himachal pradesh,2023,3,Utility,4275412,
+himachal pradesh,2023,4,P2P,11483554,
+himachal pradesh,2023,4,Retail,25051506,
+himachal pradesh,2023,4,TOTAL,40615274,49155662459.05554
+himachal pradesh,2023,4,Utility,4080214,
+himachal pradesh,2024,1,P2P,11816852,
+himachal pradesh,2024,1,Retail,24834607,
+himachal pradesh,2024,1,TOTAL,40811785,48667221254.53458
+himachal pradesh,2024,1,Utility,4160326,
+himachal pradesh,2024,2,P2P,14982368,
+himachal pradesh,2024,2,Retail,34599835,
+himachal pradesh,2024,2,TOTAL,54506909,60644407062.34276
+himachal pradesh,2024,2,Utility,4924706,
+himachal pradesh,2024,3,P2P,14456119,
+himachal pradesh,2024,3,Retail,31103167,
+himachal pradesh,2024,3,TOTAL,50250250,56752036636.12981
+himachal pradesh,2024,3,Utility,4690964,
+himachal pradesh,2024,4,P2P,15664730,
+himachal pradesh,2024,4,Retail,33892927,
+himachal pradesh,2024,4,TOTAL,54095801,63783710820.24858
+himachal pradesh,2024,4,Utility,4538144,
+himachal pradesh,2025,1,P2P,16289890,
+himachal pradesh,2025,1,Retail,36211260,
+himachal pradesh,2025,1,TOTAL,57676428,63527597457.03926
+himachal pradesh,2025,1,Utility,5175278,
+himachal pradesh,2025,2,P2P,17252603,
+himachal pradesh,2025,2,Retail,41619250,
+himachal pradesh,2025,2,TOTAL,63902910,68743474561.78065
+himachal pradesh,2025,2,Utility,5031057,
+himachal pradesh,2025,3,P2P,16586359,
+himachal pradesh,2025,3,Retail,38757665,
+himachal pradesh,2025,3,TOTAL,60321591,63475574844.56685
+himachal pradesh,2025,3,Utility,4977567,
+himachal pradesh,2025,4,P2P,18434338,
+himachal pradesh,2025,4,Retail,39612159,
+himachal pradesh,2025,4,TOTAL,62902497,71816498201.72183
+himachal pradesh,2025,4,Utility,4856000,
+himachal pradesh,2026,1,P2P,18652821,
+himachal pradesh,2026,1,Retail,39046196,
+himachal pradesh,2026,1,TOTAL,62733321,69091806359.40977
+himachal pradesh,2026,1,Utility,5034304,
+himachal pradesh,2026,2,P2P,21564394,
+himachal pradesh,2026,2,Retail,47984389,
+himachal pradesh,2026,2,TOTAL,74853009,82068147069.82556
+himachal pradesh,2026,2,Utility,5304226,
+jammu & kashmir,2018,1,P2P,265236,
+jammu & kashmir,2018,1,Retail,389224,
+jammu & kashmir,2018,1,TOTAL,656163,592623090.2033798
+jammu & kashmir,2018,1,Utility,1703,
+jammu & kashmir,2018,2,P2P,495778,
+jammu & kashmir,2018,2,Retail,571507,
+jammu & kashmir,2018,2,TOTAL,1086777,1213266618.9379668
+jammu & kashmir,2018,2,Utility,19492,
+jammu & kashmir,2018,3,P2P,757932,
+jammu & kashmir,2018,3,Retail,484480,
+jammu & kashmir,2018,3,TOTAL,1277209,2141341083.7828207
+jammu & kashmir,2018,3,Utility,34797,
+jammu & kashmir,2018,4,P2P,548498,
+jammu & kashmir,2018,4,Retail,673367,
+jammu & kashmir,2018,4,TOTAL,1268516,3101815416.7378845
+jammu & kashmir,2018,4,Utility,46651,
+jammu & kashmir,2019,1,P2P,969595,
+jammu & kashmir,2019,1,Retail,772422,
+jammu & kashmir,2019,1,TOTAL,1828165,3498272585.7855463
+jammu & kashmir,2019,1,Utility,86148,
+jammu & kashmir,2019,2,P2P,1056876,
+jammu & kashmir,2019,2,Retail,989235,
+jammu & kashmir,2019,2,TOTAL,2119162,5403213176.7618475
+jammu & kashmir,2019,2,Utility,73051,
+jammu & kashmir,2019,3,P2P,476173,
+jammu & kashmir,2019,3,Retail,432043,
+jammu & kashmir,2019,3,TOTAL,947784,3026506976.758377
+jammu & kashmir,2019,3,Utility,39568,
+jammu & kashmir,2019,4,P2P,152003,
+jammu & kashmir,2019,4,Retail,75857,
+jammu & kashmir,2019,4,TOTAL,272081,1153430776.5641694
+jammu & kashmir,2019,4,Utility,44221,
+jammu & kashmir,2020,1,P2P,392979,
+jammu & kashmir,2020,1,Retail,285108,
+jammu & kashmir,2020,1,TOTAL,852425,2717731573.0984516
+jammu & kashmir,2020,1,Utility,174338,
+jammu & kashmir,2020,2,P2P,1113996,
+jammu & kashmir,2020,2,Retail,830419,
+jammu & kashmir,2020,2,TOTAL,2478234,7385817104.091432
+jammu & kashmir,2020,2,Utility,533819,
+jammu & kashmir,2020,3,P2P,1579112,
+jammu & kashmir,2020,3,Retail,1130325,
+jammu & kashmir,2020,3,TOTAL,3263787,10448451928.001057
+jammu & kashmir,2020,3,Utility,554350,
+jammu & kashmir,2020,4,P2P,2151666,
+jammu & kashmir,2020,4,Retail,2498216,
+jammu & kashmir,2020,4,TOTAL,5697218,13861828201.924194
+jammu & kashmir,2020,4,Utility,1047336,
+jammu & kashmir,2021,1,P2P,2422378,
+jammu & kashmir,2021,1,Retail,1821330,
+jammu & kashmir,2021,1,TOTAL,6819001,14689457308.71754
+jammu & kashmir,2021,1,Utility,2575293,
+jammu & kashmir,2021,2,P2P,3376159,
+jammu & kashmir,2021,2,Retail,2461450,
+jammu & kashmir,2021,2,TOTAL,9759120,19030309332.015205
+jammu & kashmir,2021,2,Utility,3921511,
+jammu & kashmir,2021,3,P2P,4549759,
+jammu & kashmir,2021,3,Retail,3104332,
+jammu & kashmir,2021,3,TOTAL,12146768,25141751151.745125
+jammu & kashmir,2021,3,Utility,4492677,
+jammu & kashmir,2021,4,P2P,4805709,
+jammu & kashmir,2021,4,Retail,4460916,
+jammu & kashmir,2021,4,TOTAL,13451800,27038608302.84806
+jammu & kashmir,2021,4,Utility,4185175,
+jammu & kashmir,2022,1,P2P,6090704,
+jammu & kashmir,2022,1,Retail,6333871,
+jammu & kashmir,2022,1,TOTAL,16932419,31916535500.418865
+jammu & kashmir,2022,1,Utility,4507844,
+jammu & kashmir,2022,2,P2P,8551984,
+jammu & kashmir,2022,2,Retail,10304279,
+jammu & kashmir,2022,2,TOTAL,24566238,43852978538.412926
+jammu & kashmir,2022,2,Utility,5709975,
+jammu & kashmir,2022,3,P2P,10903528,
+jammu & kashmir,2022,3,Retail,13247341,
+jammu & kashmir,2022,3,TOTAL,30956037,52238599727.460464
+jammu & kashmir,2022,3,Utility,6805168,
+jammu & kashmir,2022,4,P2P,11572484,
+jammu & kashmir,2022,4,Retail,18526673,
+jammu & kashmir,2022,4,TOTAL,37429141,54950573837.60637
+jammu & kashmir,2022,4,Utility,7329984,
+jammu & kashmir,2023,1,P2P,12550695,
+jammu & kashmir,2023,1,Retail,21801222,
+jammu & kashmir,2023,1,TOTAL,42238384,56989379844.37264
+jammu & kashmir,2023,1,Utility,7886467,
+jammu & kashmir,2023,2,P2P,18040047,
+jammu & kashmir,2023,2,Retail,31290114,
+jammu & kashmir,2023,2,TOTAL,59065448,77930824657.73734
+jammu & kashmir,2023,2,Utility,9735287,
+jammu & kashmir,2023,3,P2P,20679778,
+jammu & kashmir,2023,3,Retail,35773150,
+jammu & kashmir,2023,3,TOTAL,67501820,87600579308.04288
+jammu & kashmir,2023,3,Utility,11048892,
+jammu & kashmir,2023,4,P2P,21009113,
+jammu & kashmir,2023,4,Retail,41933534,
+jammu & kashmir,2023,4,TOTAL,73674593,94888368455.39261
+jammu & kashmir,2023,4,Utility,10731946,
+jammu & kashmir,2024,1,P2P,21727328,
+jammu & kashmir,2024,1,Retail,45932216,
+jammu & kashmir,2024,1,TOTAL,77789259,94972171992.32114
+jammu & kashmir,2024,1,Utility,10129715,
+jammu & kashmir,2024,2,P2P,30644374,
+jammu & kashmir,2024,2,Retail,68626394,
+jammu & kashmir,2024,2,TOTAL,112089466,130230163165.34396
+jammu & kashmir,2024,2,Utility,12818698,
+jammu & kashmir,2024,3,P2P,35392152,
+jammu & kashmir,2024,3,Retail,72576759,
+jammu & kashmir,2024,3,TOTAL,121217339,144846888446.57068
+jammu & kashmir,2024,3,Utility,13248428,
+jammu & kashmir,2024,4,P2P,37298358,
+jammu & kashmir,2024,4,Retail,77050079,
+jammu & kashmir,2024,4,TOTAL,127341972,160964790491.79785
+jammu & kashmir,2024,4,Utility,12993535,
+jammu & kashmir,2025,1,P2P,37620630,
+jammu & kashmir,2025,1,Retail,80196524,
+jammu & kashmir,2025,1,TOTAL,132457102,150194823534.5383
+jammu & kashmir,2025,1,Utility,14639948,
+jammu & kashmir,2025,2,P2P,42511800,
+jammu & kashmir,2025,2,Retail,98320985,
+jammu & kashmir,2025,2,TOTAL,155749073,166352644525.11493
+jammu & kashmir,2025,2,Utility,14916288,
+jammu & kashmir,2025,3,P2P,46404338,
+jammu & kashmir,2025,3,Retail,101539363,
+jammu & kashmir,2025,3,TOTAL,163198940,177365135331.55194
+jammu & kashmir,2025,3,Utility,15255239,
+jammu & kashmir,2025,4,P2P,47917355,
+jammu & kashmir,2025,4,Retail,98610091,
+jammu & kashmir,2025,4,TOTAL,161467965,188185882406.2973
+jammu & kashmir,2025,4,Utility,14940519,
+jammu & kashmir,2026,1,P2P,46503195,
+jammu & kashmir,2026,1,Retail,93587796,
+jammu & kashmir,2026,1,TOTAL,154466958,172634617938.55566
+jammu & kashmir,2026,1,Utility,14375967,
+jammu & kashmir,2026,2,P2P,55206052,
+jammu & kashmir,2026,2,Retail,117475120,
+jammu & kashmir,2026,2,TOTAL,187742125,203028380125.5166
+jammu & kashmir,2026,2,Utility,15060953,
+jharkhand,2018,1,P2P,947125,
+jharkhand,2018,1,Retail,1726726,
+jharkhand,2018,1,TOTAL,2678000,2859566816.5828524
+jharkhand,2018,1,Utility,4149,
+jharkhand,2018,2,P2P,1593567,
+jharkhand,2018,2,Retail,2116672,
+jharkhand,2018,2,TOTAL,3756004,5562125948.332726
+jharkhand,2018,2,Utility,45765,
+jharkhand,2018,3,P2P,6756488,
+jharkhand,2018,3,Retail,2349945,
+jharkhand,2018,3,TOTAL,9200318,9973432389.379925
+jharkhand,2018,3,Utility,93885,
+jharkhand,2018,4,P2P,3755791,
+jharkhand,2018,4,Retail,3314423,
+jharkhand,2018,4,TOTAL,7195365,11735730521.996979
+jharkhand,2018,4,Utility,125151,
+jharkhand,2019,1,P2P,6717237,
+jharkhand,2019,1,Retail,3804061,
+jharkhand,2019,1,TOTAL,10723720,15422660565.0615
+jharkhand,2019,1,Utility,202422,
+jharkhand,2019,2,P2P,5913940,
+jharkhand,2019,2,Retail,5681873,
+jharkhand,2019,2,TOTAL,11813006,21079454312.56851
+jharkhand,2019,2,Utility,217193,
+jharkhand,2019,3,P2P,6510320,
+jharkhand,2019,3,Retail,8952523,
+jharkhand,2019,3,TOTAL,15944483,23997376549.448486
+jharkhand,2019,3,Utility,481640,
+jharkhand,2019,4,P2P,11836414,
+jharkhand,2019,4,Retail,7431278,
+jharkhand,2019,4,TOTAL,20545968,31768782167.634148
+jharkhand,2019,4,Utility,1278276,
+jharkhand,2020,1,P2P,9481346,
+jharkhand,2020,1,Retail,9031137,
+jharkhand,2020,1,TOTAL,20690673,38005984652.31631
+jharkhand,2020,1,Utility,2178190,
+jharkhand,2020,2,P2P,9797276,
+jharkhand,2020,2,Retail,8793799,
+jharkhand,2020,2,TOTAL,22126359,41175811278.05409
+jharkhand,2020,2,Utility,3535284,
+jharkhand,2020,3,P2P,14261806,
+jharkhand,2020,3,Retail,13724440,
+jharkhand,2020,3,TOTAL,31367125,59164756770.200226
+jharkhand,2020,3,Utility,3380879,
+jharkhand,2020,4,P2P,19241235,
+jharkhand,2020,4,Retail,20202143,
+jharkhand,2020,4,TOTAL,43790272,80715425964.23326
+jharkhand,2020,4,Utility,4346894,
+jharkhand,2021,1,P2P,22330559,
+jharkhand,2021,1,Retail,21235684,
+jharkhand,2021,1,TOTAL,52349920,96054296641.15721
+jharkhand,2021,1,Utility,8783677,
+jharkhand,2021,2,P2P,28958156,
+jharkhand,2021,2,Retail,22645520,
+jharkhand,2021,2,TOTAL,65088355,122250011704.13626
+jharkhand,2021,2,Utility,13484679,
+jharkhand,2021,3,P2P,36049192,
+jharkhand,2021,3,Retail,35362822,
+jharkhand,2021,3,TOTAL,85440030,143139149140.78366
+jharkhand,2021,3,Utility,14028016,
+jharkhand,2021,4,P2P,40807294,
+jharkhand,2021,4,Retail,46792105,
+jharkhand,2021,4,TOTAL,100429690,168572076881.3144
+jharkhand,2021,4,Utility,12830291,
+jharkhand,2022,1,P2P,53521439,
+jharkhand,2022,1,Retail,62624486,
+jharkhand,2022,1,TOTAL,130487443,222356236530.36456
+jharkhand,2022,1,Utility,14341518,
+jharkhand,2022,2,P2P,61327193,
+jharkhand,2022,2,Retail,79513404,
+jharkhand,2022,2,TOTAL,158327616,259653640097.40186
+jharkhand,2022,2,Utility,17487019,
+jharkhand,2022,3,P2P,70952996,
+jharkhand,2022,3,Retail,93843062,
+jharkhand,2022,3,TOTAL,184873084,273793546041.3701
+jharkhand,2022,3,Utility,20077026,
+jharkhand,2022,4,P2P,80680000,
+jharkhand,2022,4,Retail,112033002,
+jharkhand,2022,4,TOTAL,213455622,317476716109.8493
+jharkhand,2022,4,Utility,20742620,
+jharkhand,2023,1,P2P,92176742,
+jharkhand,2023,1,Retail,127450739,
+jharkhand,2023,1,TOTAL,242977596,367883618513.0067
+jharkhand,2023,1,Utility,23350115,
+jharkhand,2023,2,P2P,107804978,
+jharkhand,2023,2,Retail,157909691,
+jharkhand,2023,2,TOTAL,292499192,422886248541.147
+jharkhand,2023,2,Utility,26784523,
+jharkhand,2023,3,P2P,116600180,
+jharkhand,2023,3,Retail,177337898,
+jharkhand,2023,3,TOTAL,321102668,419546015678.4694
+jharkhand,2023,3,Utility,27164590,
+jharkhand,2023,4,P2P,139481501,
+jharkhand,2023,4,Retail,211872201,
+jharkhand,2023,4,TOTAL,379383888,501952800000.8065
+jharkhand,2023,4,Utility,28030186,
+jharkhand,2024,1,P2P,157990766,
+jharkhand,2024,1,Retail,240172406,
+jharkhand,2024,1,TOTAL,429954770,561811929005.2913
+jharkhand,2024,1,Utility,31791598,
+jharkhand,2024,2,P2P,176556980,
+jharkhand,2024,2,Retail,290437854,
+jharkhand,2024,2,TOTAL,502445409,621011595298.2496
+jharkhand,2024,2,Utility,35450575,
+jharkhand,2024,3,P2P,185937852,
+jharkhand,2024,3,Retail,302180456,
+jharkhand,2024,3,TOTAL,522434285,608392838021.0088
+jharkhand,2024,3,Utility,34315977,
+jharkhand,2024,4,P2P,211112198,
+jharkhand,2024,4,Retail,339852753,
+jharkhand,2024,4,TOTAL,586522767,702617568253.4089
+jharkhand,2024,4,Utility,35557816,
+jharkhand,2025,1,P2P,216904868,
+jharkhand,2025,1,Retail,343440347,
+jharkhand,2025,1,TOTAL,599394968,738251651951.271
+jharkhand,2025,1,Utility,39049753,
+jharkhand,2025,2,P2P,231273756,
+jharkhand,2025,2,Retail,394139963,
+jharkhand,2025,2,TOTAL,665832499,788657303063.193
+jharkhand,2025,2,Utility,40418780,
+jharkhand,2025,3,P2P,239848372,
+jharkhand,2025,3,Retail,415102736,
+jharkhand,2025,3,TOTAL,695043900,751683222013.4165
+jharkhand,2025,3,Utility,40092792,
+jharkhand,2025,4,P2P,257280435,
+jharkhand,2025,4,Retail,441921141,
+jharkhand,2025,4,TOTAL,739371210,826388939131.4963
+jharkhand,2025,4,Utility,40169634,
+jharkhand,2026,1,P2P,266563753,
+jharkhand,2026,1,Retail,455474383,
+jharkhand,2026,1,TOTAL,764591317,875924845949.5278
+jharkhand,2026,1,Utility,42553181,
+jharkhand,2026,2,P2P,274010191,
+jharkhand,2026,2,Retail,498662306,
+jharkhand,2026,2,TOTAL,815309961,908972692433.1243
+jharkhand,2026,2,Utility,42637464,
+karnataka,2018,1,P2P,4019765,
+karnataka,2018,1,Retail,6950094,
+karnataka,2018,1,TOTAL,11259403,17637623160.251854
+karnataka,2018,1,Utility,289544,
+karnataka,2018,2,P2P,6502018,
+karnataka,2018,2,Retail,8777546,
+karnataka,2018,2,TOTAL,16008698,30747418632.821686
+karnataka,2018,2,Utility,729134,
+karnataka,2018,3,P2P,10890904,
+karnataka,2018,3,Retail,11393430,
+karnataka,2018,3,TOTAL,23401492,43888971406.79382
+karnataka,2018,3,Utility,1117158,
+karnataka,2018,4,P2P,18845529,
+karnataka,2018,4,Retail,22411453,
+karnataka,2018,4,TOTAL,42808188,67783584568.181816
+karnataka,2018,4,Utility,1551206,
+karnataka,2019,1,P2P,42558665,
+karnataka,2019,1,Retail,39499009,
+karnataka,2019,1,TOTAL,84657050,114709621136.2433
+karnataka,2019,1,Utility,2599376,
+karnataka,2019,2,P2P,51792667,
+karnataka,2019,2,Retail,64951290,
+karnataka,2019,2,TOTAL,119618345,168764960519.15936
+karnataka,2019,2,Utility,2874388,
+karnataka,2019,3,P2P,70653459,
+karnataka,2019,3,Retail,103434009,
+karnataka,2019,3,TOTAL,179767497,222928023150.4122
+karnataka,2019,3,Utility,5680029,
+karnataka,2019,4,P2P,97978867,
+karnataka,2019,4,Retail,136538824,
+karnataka,2019,4,TOTAL,246189422,306446917780.66754
+karnataka,2019,4,Utility,11671731,
+karnataka,2020,1,P2P,104854727,
+karnataka,2020,1,Retail,155213652,
+karnataka,2020,1,TOTAL,278198437,365544124508.5454
+karnataka,2020,1,Utility,18130058,
+karnataka,2020,2,P2P,83140160,
+karnataka,2020,2,Retail,106019637,
+karnataka,2020,2,TOTAL,212551929,323323995220.1348
+karnataka,2020,2,Utility,23392132,
+karnataka,2020,3,P2P,121005509,
+karnataka,2020,3,Retail,155688887,
+karnataka,2020,3,TOTAL,300996207,475946166041.82654
+karnataka,2020,3,Utility,24301811,
+karnataka,2020,4,P2P,166354896,
+karnataka,2020,4,Retail,232139007,
+karnataka,2020,4,TOTAL,428937584,656829679389.3723
+karnataka,2020,4,Utility,30443681,
+karnataka,2021,1,P2P,189767892,
+karnataka,2021,1,Retail,278444938,
+karnataka,2021,1,TOTAL,521967299,752831794629.573
+karnataka,2021,1,Utility,53754469,
+karnataka,2021,2,P2P,213932224,
+karnataka,2021,2,Retail,240282738,
+karnataka,2021,2,TOTAL,527810680,831158630288.7233
+karnataka,2021,2,Utility,73595718,
+karnataka,2021,3,P2P,284775729,
+karnataka,2021,3,Retail,382783587,
+karnataka,2021,3,TOTAL,746649773,1121937537110.1548
+karnataka,2021,3,Utility,79090457,
+karnataka,2021,4,P2P,299544336,
+karnataka,2021,4,Retail,428409513,
+karnataka,2021,4,TOTAL,801331486,1182460315270.1006
+karnataka,2021,4,Utility,73377637,
+karnataka,2022,1,P2P,378524434,
+karnataka,2022,1,Retail,573122892,
+karnataka,2022,1,TOTAL,1035726006,1526632375838.833
+karnataka,2022,1,Utility,84078680,
+karnataka,2022,2,P2P,438454375,
+karnataka,2022,2,Retail,722776073,
+karnataka,2022,2,TOTAL,1261631220,1828098602933.223
+karnataka,2022,2,Utility,100400772,
+karnataka,2022,3,P2P,506236100,
+karnataka,2022,3,Retail,878792459,
+karnataka,2022,3,TOTAL,1499846853,2033196715924.187
+karnataka,2022,3,Utility,114818294,
+karnataka,2022,4,P2P,542356761,
+karnataka,2022,4,Retail,973811552,
+karnataka,2022,4,TOTAL,1636914664,2207804195613.2246
+karnataka,2022,4,Utility,120746351,
+karnataka,2023,1,P2P,596684637,
+karnataka,2023,1,Retail,1108594530,
+karnataka,2023,1,TOTAL,1832273719,2470385672596.304
+karnataka,2023,1,Utility,126994552,
+karnataka,2023,2,P2P,655266669,
+karnataka,2023,2,Retail,1254350536,
+karnataka,2023,2,TOTAL,2052780671,2779793686048.242
+karnataka,2023,2,Utility,143163466,
+karnataka,2023,3,P2P,733654998,
+karnataka,2023,3,Retail,1474542255,
+karnataka,2023,3,TOTAL,2357608666,2985013622701.8813
+karnataka,2023,3,Utility,149411413,
+karnataka,2023,4,P2P,796720335,
+karnataka,2023,4,Retail,1599837426,
+karnataka,2023,4,TOTAL,2550471370,3249475283077.739
+karnataka,2023,4,Utility,153913609,
+karnataka,2024,1,P2P,854741628,
+karnataka,2024,1,Retail,1769743226,
+karnataka,2024,1,TOTAL,2786714019,3491284543661.434
+karnataka,2024,1,Utility,162229165,
+karnataka,2024,2,P2P,911025984,
+karnataka,2024,2,Retail,1944859250,
+karnataka,2024,2,TOTAL,3029221824,3786672027453.246
+karnataka,2024,2,Utility,173336590,
+karnataka,2024,3,P2P,985650830,
+karnataka,2024,3,Retail,2093950803,
+karnataka,2024,3,TOTAL,3259303462,3911831838299.791
+karnataka,2024,3,Utility,179701829,
+karnataka,2024,4,P2P,1039717182,
+karnataka,2024,4,Retail,2233293582,
+karnataka,2024,4,TOTAL,3457573836,4158667439552.8296
+karnataka,2024,4,Utility,184563072,
+karnataka,2025,1,P2P,1107610457,
+karnataka,2025,1,Retail,2427111761,
+karnataka,2025,1,TOTAL,3729923285,4428287746523.693
+karnataka,2025,1,Utility,195201067,
+karnataka,2025,2,P2P,1080287597,
+karnataka,2025,2,Retail,2452632899,
+karnataka,2025,2,TOTAL,3730080830,4479122979444.309
+karnataka,2025,2,Utility,197160334,
+karnataka,2025,3,P2P,1116255213,
+karnataka,2025,3,Retail,2545361507,
+karnataka,2025,3,TOTAL,3852915704,4385483377903.0444
+karnataka,2025,3,Utility,191298984,
+karnataka,2025,4,P2P,1167109048,
+karnataka,2025,4,Retail,2703392355,
+karnataka,2025,4,TOTAL,4064289183,4658806848239.615
+karnataka,2025,4,Utility,193787780,
+karnataka,2026,1,P2P,1205710715,
+karnataka,2026,1,Retail,2825330293,
+karnataka,2026,1,TOTAL,4228148988,4953796605453.972
+karnataka,2026,1,Utility,197107980,
+karnataka,2026,2,P2P,1250633746,
+karnataka,2026,2,Retail,3033113369,
+karnataka,2026,2,TOTAL,4491711923,5292341222754.296
+karnataka,2026,2,Utility,207964808,
+kerala,2018,1,P2P,598075,
+kerala,2018,1,Retail,1222873,
+kerala,2018,1,TOTAL,1825372,2419982815.1613374
+kerala,2018,1,Utility,4424,
+kerala,2018,2,P2P,828394,
+kerala,2018,2,Retail,1454296,
+kerala,2018,2,TOTAL,2318135,3784132744.6722517
+kerala,2018,2,Utility,35445,
+kerala,2018,3,P2P,1314738,
+kerala,2018,3,Retail,1718134,
+kerala,2018,3,TOTAL,3089723,5223931290.203843
+kerala,2018,3,Utility,56851,
+kerala,2018,4,P2P,2056759,
+kerala,2018,4,Retail,2322398,
+kerala,2018,4,TOTAL,4444604,7775997131.858362
+kerala,2018,4,Utility,65447,
+kerala,2019,1,P2P,3583016,
+kerala,2019,1,Retail,2906623,
+kerala,2019,1,TOTAL,6612793,10360769392.460655
+kerala,2019,1,Utility,123154,
+kerala,2019,2,P2P,3576434,
+kerala,2019,2,Retail,3887749,
+kerala,2019,2,TOTAL,7662538,13417623455.490543
+kerala,2019,2,Utility,198355,
+kerala,2019,3,P2P,4285730,
+kerala,2019,3,Retail,4827707,
+kerala,2019,3,TOTAL,9633567,17115421520.797838
+kerala,2019,3,Utility,520130,
+kerala,2019,4,P2P,6073579,
+kerala,2019,4,Retail,5655198,
+kerala,2019,4,TOTAL,12974136,22014232923.56272
+kerala,2019,4,Utility,1245359,
+kerala,2020,1,P2P,6285143,
+kerala,2020,1,Retail,7087979,
+kerala,2020,1,TOTAL,15435048,25568200637.84075
+kerala,2020,1,Utility,2061926,
+kerala,2020,2,P2P,4835285,
+kerala,2020,2,Retail,7591045,
+kerala,2020,2,TOTAL,15681152,22928754785.609818
+kerala,2020,2,Utility,3254822,
+kerala,2020,3,P2P,8342008,
+kerala,2020,3,Retail,10639866,
+kerala,2020,3,TOTAL,22302087,39547903350.2505
+kerala,2020,3,Utility,3320213,
+kerala,2020,4,P2P,12960136,
+kerala,2020,4,Retail,16554145,
+kerala,2020,4,TOTAL,34407413,57569923779.03198
+kerala,2020,4,Utility,4893132,
+kerala,2021,1,P2P,16497214,
+kerala,2021,1,Retail,17500843,
+kerala,2021,1,TOTAL,43831729,71423214754.64795
+kerala,2021,1,Utility,9833672,
+kerala,2021,2,P2P,17410034,
+kerala,2021,2,Retail,16995197,
+kerala,2021,2,TOTAL,49530478,76654377740.94525
+kerala,2021,2,Utility,15125247,
+kerala,2021,3,P2P,24038832,
+kerala,2021,3,Retail,26792845,
+kerala,2021,3,TOTAL,66171196,105680340079.37677
+kerala,2021,3,Utility,15339519,
+kerala,2021,4,P2P,25988637,
+kerala,2021,4,Retail,35632663,
+kerala,2021,4,TOTAL,74793487,111505022241.01321
+kerala,2021,4,Utility,13172187,
+kerala,2022,1,P2P,32902484,
+kerala,2022,1,Retail,49169365,
+kerala,2022,1,TOTAL,96434007,139999474580.00208
+kerala,2022,1,Utility,14362158,
+kerala,2022,2,P2P,35607788,
+kerala,2022,2,Retail,57745367,
+kerala,2022,2,TOTAL,109257505,155452076681.6139
+kerala,2022,2,Utility,15904350,
+kerala,2022,3,P2P,42607631,
+kerala,2022,3,Retail,72429593,
+kerala,2022,3,TOTAL,133133217,179785817262.17734
+kerala,2022,3,Utility,18095993,
+kerala,2022,4,P2P,45561057,
+kerala,2022,4,Retail,81180394,
+kerala,2022,4,TOTAL,145153196,188993126385.9121
+kerala,2022,4,Utility,18411745,
+kerala,2023,1,P2P,46092010,
+kerala,2023,1,Retail,85084073,
+kerala,2023,1,TOTAL,148764769,194875581991.6593
+kerala,2023,1,Utility,17588686,
+kerala,2023,2,P2P,48079475,
+kerala,2023,2,Retail,90888495,
+kerala,2023,2,TOTAL,157861037,209357724479.30676
+kerala,2023,2,Utility,18893067,
+kerala,2023,3,P2P,51776040,
+kerala,2023,3,Retail,100655472,
+kerala,2023,3,TOTAL,171587063,220873954649.31503
+kerala,2023,3,Utility,19155551,
+kerala,2023,4,P2P,54727019,
+kerala,2023,4,Retail,108215077,
+kerala,2023,4,TOTAL,181170722,226951463919.4792
+kerala,2023,4,Utility,18228626,
+kerala,2024,1,P2P,54332511,
+kerala,2024,1,Retail,109820926,
+kerala,2024,1,TOTAL,182097703,228424493895.03046
+kerala,2024,1,Utility,17944266,
+kerala,2024,2,P2P,56637815,
+kerala,2024,2,Retail,120226924,
+kerala,2024,2,TOTAL,195529557,242690651335.99054
+kerala,2024,2,Utility,18664818,
+kerala,2024,3,P2P,64035147,
+kerala,2024,3,Retail,131732251,
+kerala,2024,3,TOTAL,215505960,258924474745.4031
+kerala,2024,3,Utility,19738562,
+kerala,2024,4,P2P,69835587,
+kerala,2024,4,Retail,143632641,
+kerala,2024,4,TOTAL,233271669,274488300829.11725
+kerala,2024,4,Utility,19803441,
+kerala,2025,1,P2P,73441722,
+kerala,2025,1,Retail,153309373,
+kerala,2025,1,TOTAL,247777357,291529845374.05835
+kerala,2025,1,Utility,21026262,
+kerala,2025,2,P2P,67677636,
+kerala,2025,2,Retail,150007968,
+kerala,2025,2,TOTAL,237505468,282921500230.21344
+kerala,2025,2,Utility,19819864,
+kerala,2025,3,P2P,75618258,
+kerala,2025,3,Retail,165209747,
+kerala,2025,3,TOTAL,260965876,301251443344.1678
+kerala,2025,3,Utility,20137871,
+kerala,2025,4,P2P,82739665,
+kerala,2025,4,Retail,177673616,
+kerala,2025,4,TOTAL,281159658,316856950664.97546
+kerala,2025,4,Utility,20746377,
+kerala,2026,1,P2P,83964124,
+kerala,2026,1,Retail,180100477,
+kerala,2026,1,TOTAL,284616383,327358436194.98
+kerala,2026,1,Utility,20551782,
+kerala,2026,2,P2P,82527448,
+kerala,2026,2,Retail,191946358,
+kerala,2026,2,TOTAL,294649816,335501492227.256
+kerala,2026,2,Utility,20176010,
+ladakh,2018,1,P2P,2100,
+ladakh,2018,1,Retail,5556,
+ladakh,2018,1,TOTAL,7733,15241000.350078736
+ladakh,2018,1,Utility,77,
+ladakh,2018,2,P2P,6677,
+ladakh,2018,2,Retail,11482,
+ladakh,2018,2,TOTAL,18412,56386931.460005626
+ladakh,2018,2,Utility,253,
+ladakh,2018,3,P2P,11465,
+ladakh,2018,3,Retail,18155,
+ladakh,2018,3,TOTAL,30349,97489777.85152242
+ladakh,2018,3,Utility,729,
+ladakh,2018,4,P2P,18127,
+ladakh,2018,4,Retail,25020,
+ladakh,2018,4,TOTAL,44498,157126695.5508374
+ladakh,2018,4,Utility,1351,
+ladakh,2019,1,P2P,26902,
+ladakh,2019,1,Retail,31236,
+ladakh,2019,1,TOTAL,60270,187343278.23590055
+ladakh,2019,1,Utility,2132,
+ladakh,2019,2,P2P,48630,
+ladakh,2019,2,Retail,52308,
+ladakh,2019,2,TOTAL,103394,370592586.9056551
+ladakh,2019,2,Utility,2456,
+ladakh,2019,3,P2P,62163,
+ladakh,2019,3,Retail,51154,
+ladakh,2019,3,TOTAL,121018,472038870.3422937
+ladakh,2019,3,Utility,7701,
+ladakh,2019,4,P2P,61312,
+ladakh,2019,4,Retail,35256,
+ladakh,2019,4,TOTAL,113210,464502753.7020103
+ladakh,2019,4,Utility,16642,
+ladakh,2020,1,P2P,72321,
+ladakh,2020,1,Retail,50689,
+ladakh,2020,1,TOTAL,149508,528768954.05518544
+ladakh,2020,1,Utility,26498,
+ladakh,2020,2,P2P,93537,
+ladakh,2020,2,Retail,62740,
+ladakh,2020,2,TOTAL,196402,704881827.1637564
+ladakh,2020,2,Utility,40125,
+ladakh,2020,3,P2P,148038,
+ladakh,2020,3,Retail,93272,
+ladakh,2020,3,TOTAL,291625,1137269183.6259084
+ladakh,2020,3,Utility,50315,
+ladakh,2020,4,P2P,184000,
+ladakh,2020,4,Retail,147929,
+ladakh,2020,4,TOTAL,400254,1364250617.5120263
+ladakh,2020,4,Utility,68325,
+ladakh,2021,1,P2P,194706,
+ladakh,2021,1,Retail,110768,
+ladakh,2021,1,TOTAL,400146,1350829015.2245107
+ladakh,2021,1,Utility,94672,
+ladakh,2021,2,P2P,313050,
+ladakh,2021,2,Retail,196095,
+ladakh,2021,2,TOTAL,650578,2108362311.0630236
+ladakh,2021,2,Utility,141433,
+ladakh,2021,3,P2P,479271,
+ladakh,2021,3,Retail,269662,
+ladakh,2021,3,TOTAL,929963,3194633089.416123
+ladakh,2021,3,Utility,181030,
+ladakh,2021,4,P2P,416036,
+ladakh,2021,4,Retail,285865,
+ladakh,2021,4,TOTAL,857639,2662955792.650712
+ladakh,2021,4,Utility,155738,
+ladakh,2022,1,P2P,490348,
+ladakh,2022,1,Retail,333285,
+ladakh,2022,1,TOTAL,991962,2920273909.8131056
+ladakh,2022,1,Utility,168329,
+ladakh,2022,2,P2P,847046,
+ladakh,2022,2,Retail,587810,
+ladakh,2022,2,TOTAL,1690971,4971962008.286831
+ladakh,2022,2,Utility,256115,
+ladakh,2022,3,P2P,1064875,
+ladakh,2022,3,Retail,710428,
+ladakh,2022,3,TOTAL,2078286,5792916606.523451
+ladakh,2022,3,Utility,302983,
+ladakh,2022,4,P2P,900940,
+ladakh,2022,4,Retail,773705,
+ladakh,2022,4,TOTAL,1936688,4657431512.900627
+ladakh,2022,4,Utility,262043,
+ladakh,2023,1,P2P,840723,
+ladakh,2023,1,Retail,794686,
+ladakh,2023,1,TOTAL,1882925,4287184387.0438447
+ladakh,2023,1,Utility,247516,
+ladakh,2023,2,P2P,1534520,
+ladakh,2023,2,Retail,1437079,
+ladakh,2023,2,TOTAL,3396028,7790389777.205618
+ladakh,2023,2,Utility,424429,
+ladakh,2023,3,P2P,1856334,
+ladakh,2023,3,Retail,1693969,
+ladakh,2023,3,TOTAL,4065626,8966210701.853298
+ladakh,2023,3,Utility,515323,
+ladakh,2023,4,P2P,1495868,
+ladakh,2023,4,Retail,1624260,
+ladakh,2023,4,TOTAL,3523487,7515335519.66155
+ladakh,2023,4,Utility,403359,
+ladakh,2024,1,P2P,1309880,
+ladakh,2024,1,Retail,1611509,
+ladakh,2024,1,TOTAL,3253441,6588273640.862362
+ladakh,2024,1,Utility,332052,
+ladakh,2024,2,P2P,2223303,
+ladakh,2024,2,Retail,2943855,
+ladakh,2024,2,TOTAL,5691939,10732962147.415825
+ladakh,2024,2,Utility,524781,
+ladakh,2024,3,P2P,2729278,
+ladakh,2024,3,Retail,3592229,
+ladakh,2024,3,TOTAL,6963228,12732979334.10912
+ladakh,2024,3,Utility,641721,
+ladakh,2024,4,P2P,2147484,
+ladakh,2024,4,Retail,3075686,
+ladakh,2024,4,TOTAL,5732422,10928747032.72503
+ladakh,2024,4,Utility,509252,
+ladakh,2025,1,P2P,1789370,
+ladakh,2025,1,Retail,2532508,
+ladakh,2025,1,TOTAL,4829929,8573236123.000704
+ladakh,2025,1,Utility,508051,
+ladakh,2025,2,P2P,2676016,
+ladakh,2025,2,Retail,4345406,
+ladakh,2025,2,TOTAL,7653712,12456512178.718197
+ladakh,2025,2,Utility,632290,
+ladakh,2025,3,P2P,3175450,
+ladakh,2025,3,Retail,4892557,
+ladakh,2025,3,TOTAL,8782266,14123088628.170713
+ladakh,2025,3,Utility,714259,
+ladakh,2025,4,P2P,2329612,
+ladakh,2025,4,Retail,3470604,
+ladakh,2025,4,TOTAL,6343728,11502761378.19001
+ladakh,2025,4,Utility,543512,
+ladakh,2026,1,P2P,2125414,
+ladakh,2026,1,Retail,3180624,
+ladakh,2026,1,TOTAL,5780356,9734397006.12715
+ladakh,2026,1,Utility,474318,
+ladakh,2026,2,P2P,3331223,
+ladakh,2026,2,Retail,5270609,
+ladakh,2026,2,TOTAL,9257425,15460287202.182652
+ladakh,2026,2,Utility,655593,
+lakshadweep,2018,1,P2P,576,
+lakshadweep,2018,1,Retail,548,
+lakshadweep,2018,1,TOTAL,1124,3053772.2105995324
+lakshadweep,2018,2,P2P,1665,
+lakshadweep,2018,2,Retail,1202,
+lakshadweep,2018,2,TOTAL,2875,8629831.452342758
+lakshadweep,2018,2,Utility,8,
+lakshadweep,2018,3,P2P,1177,
+lakshadweep,2018,3,Retail,1481,
+lakshadweep,2018,3,TOTAL,2676,7647500.449565986
+lakshadweep,2018,3,Utility,18,
+lakshadweep,2018,4,P2P,1178,
+lakshadweep,2018,4,Retail,1800,
+lakshadweep,2018,4,TOTAL,3019,9506907.55399945
+lakshadweep,2018,4,Utility,41,
+lakshadweep,2019,1,P2P,2117,
+lakshadweep,2019,1,Retail,2458,
+lakshadweep,2019,1,TOTAL,4622,15684901.402080331
+lakshadweep,2019,1,Utility,47,
+lakshadweep,2019,2,P2P,2342,
+lakshadweep,2019,2,Retail,3217,
+lakshadweep,2019,2,TOTAL,5608,16590874.568089645
+lakshadweep,2019,2,Utility,49,
+lakshadweep,2019,3,P2P,2600,
+lakshadweep,2019,3,Retail,2520,
+lakshadweep,2019,3,TOTAL,5310,16856067.000797197
+lakshadweep,2019,3,Utility,190,
+lakshadweep,2019,4,P2P,3137,
+lakshadweep,2019,4,Retail,2626,
+lakshadweep,2019,4,TOTAL,6097,19723480.776782963
+lakshadweep,2019,4,Utility,334,
+lakshadweep,2020,1,P2P,3906,
+lakshadweep,2020,1,Retail,4060,
+lakshadweep,2020,1,TOTAL,8729,26322589.50098286
+lakshadweep,2020,1,Utility,763,
+lakshadweep,2020,2,P2P,3849,
+lakshadweep,2020,2,Retail,6329,
+lakshadweep,2020,2,TOTAL,11502,30917214.412092242
+lakshadweep,2020,2,Utility,1324,
+lakshadweep,2020,3,P2P,5177,
+lakshadweep,2020,3,Retail,7289,
+lakshadweep,2020,3,TOTAL,13906,37809773.97093214
+lakshadweep,2020,3,Utility,1440,
+lakshadweep,2020,4,P2P,7324,
+lakshadweep,2020,4,Retail,7929,
+lakshadweep,2020,4,TOTAL,17672,47628614.570741504
+lakshadweep,2020,4,Utility,2419,
+lakshadweep,2021,1,P2P,6910,
+lakshadweep,2021,1,Retail,3956,
+lakshadweep,2021,1,TOTAL,16065,49159946.33657811
+lakshadweep,2021,1,Utility,5199,
+lakshadweep,2021,2,P2P,7419,
+lakshadweep,2021,2,Retail,3416,
+lakshadweep,2021,2,TOTAL,20788,49741657.90632099
+lakshadweep,2021,2,Utility,9953,
+lakshadweep,2021,3,P2P,10295,
+lakshadweep,2021,3,Retail,4919,
+lakshadweep,2021,3,TOTAL,24627,71786359.45006213
+lakshadweep,2021,3,Utility,9413,
+lakshadweep,2021,4,P2P,11408,
+lakshadweep,2021,4,Retail,5279,
+lakshadweep,2021,4,TOTAL,25317,80761077.71397853
+lakshadweep,2021,4,Utility,8630,
+lakshadweep,2022,1,P2P,14349,
+lakshadweep,2022,1,Retail,6831,
+lakshadweep,2022,1,TOTAL,30348,100573065.28366517
+lakshadweep,2022,1,Utility,9168,
+lakshadweep,2022,2,P2P,15622,
+lakshadweep,2022,2,Retail,7795,
+lakshadweep,2022,2,TOTAL,33079,98136938.13431954
+lakshadweep,2022,2,Utility,9662,
+lakshadweep,2022,3,P2P,16327,
+lakshadweep,2022,3,Retail,8822,
+lakshadweep,2022,3,TOTAL,34974,100075631.86162713
+lakshadweep,2022,3,Utility,9825,
+lakshadweep,2022,4,P2P,17973,
+lakshadweep,2022,4,Retail,8933,
+lakshadweep,2022,4,TOTAL,37014,107487767.57716052
+lakshadweep,2022,4,Utility,10108,
+lakshadweep,2023,1,P2P,20840,
+lakshadweep,2023,1,Retail,11319,
+lakshadweep,2023,1,TOTAL,43520,120064282.06789017
+lakshadweep,2023,1,Utility,11361,
+lakshadweep,2023,2,P2P,22867,
+lakshadweep,2023,2,Retail,15989,
+lakshadweep,2023,2,TOTAL,50557,135198933.54788214
+lakshadweep,2023,2,Utility,11701,
+lakshadweep,2023,3,P2P,26919,
+lakshadweep,2023,3,Retail,22701,
+lakshadweep,2023,3,TOTAL,61690,127653819.3961912
+lakshadweep,2023,3,Utility,12070,
+lakshadweep,2023,4,P2P,36239,
+lakshadweep,2023,4,Retail,46222,
+lakshadweep,2023,4,TOTAL,96514,176451021.5524603
+lakshadweep,2023,4,Utility,14053,
+lakshadweep,2024,1,P2P,40581,
+lakshadweep,2024,1,Retail,65567,
+lakshadweep,2024,1,TOTAL,120325,194003286.42437226
+lakshadweep,2024,1,Utility,14177,
+lakshadweep,2024,2,P2P,43383,
+lakshadweep,2024,2,Retail,103328,
+lakshadweep,2024,2,TOTAL,161844,213925009.20390275
+lakshadweep,2024,2,Utility,15133,
+lakshadweep,2024,3,P2P,48622,
+lakshadweep,2024,3,Retail,119755,
+lakshadweep,2024,3,TOTAL,183660,214944305.44486734
+lakshadweep,2024,3,Utility,15283,
+lakshadweep,2024,4,P2P,60510,
+lakshadweep,2024,4,Retail,151047,
+lakshadweep,2024,4,TOTAL,228820,279685503.6960153
+lakshadweep,2024,4,Utility,17263,
+lakshadweep,2025,1,P2P,76507,
+lakshadweep,2025,1,Retail,186433,
+lakshadweep,2025,1,TOTAL,286444,330371406.7975748
+lakshadweep,2025,1,Utility,23504,
+lakshadweep,2025,2,P2P,65743,
+lakshadweep,2025,2,Retail,197029,
+lakshadweep,2025,2,TOTAL,282186,285436602.3281379
+lakshadweep,2025,2,Utility,19414,
+lakshadweep,2025,3,P2P,66169,
+lakshadweep,2025,3,Retail,210108,
+lakshadweep,2025,3,TOTAL,295580,269362417.0022364
+lakshadweep,2025,3,Utility,19303,
+lakshadweep,2025,4,P2P,86831,
+lakshadweep,2025,4,Retail,219710,
+lakshadweep,2025,4,TOTAL,326937,328386753.1594286
+lakshadweep,2025,4,Utility,20396,
+lakshadweep,2026,1,P2P,100205,
+lakshadweep,2026,1,Retail,229831,
+lakshadweep,2026,1,TOTAL,351993,352164967.7721263
+lakshadweep,2026,1,Utility,21957,
+lakshadweep,2026,2,P2P,101796,
+lakshadweep,2026,2,Retail,248709,
+lakshadweep,2026,2,TOTAL,371196,370577513.7308949
+lakshadweep,2026,2,Utility,20691,
+madhya pradesh,2018,1,P2P,2982533,
+madhya pradesh,2018,1,Retail,5540953,
+madhya pradesh,2018,1,TOTAL,8614129,9240858109.528643
+madhya pradesh,2018,1,Utility,90643,
+madhya pradesh,2018,2,P2P,4456775,
+madhya pradesh,2018,2,Retail,6493926,
+madhya pradesh,2018,2,TOTAL,11249274,16791412396.439934
+madhya pradesh,2018,2,Utility,298573,
+madhya pradesh,2018,3,P2P,10456411,
+madhya pradesh,2018,3,Retail,7152252,
+madhya pradesh,2018,3,TOTAL,18062698,25331787718.834587
+madhya pradesh,2018,3,Utility,454035,
+madhya pradesh,2018,4,P2P,11980653,
+madhya pradesh,2018,4,Retail,10163524,
+madhya pradesh,2018,4,TOTAL,22807607,35619617648.65941
+madhya pradesh,2018,4,Utility,663430,
+madhya pradesh,2019,1,P2P,24432077,
+madhya pradesh,2019,1,Retail,13270690,
+madhya pradesh,2019,1,TOTAL,38928866,49298676966.62583
+madhya pradesh,2019,1,Utility,1226099,
+madhya pradesh,2019,2,P2P,20842891,
+madhya pradesh,2019,2,Retail,19025755,
+madhya pradesh,2019,2,TOTAL,41244464,67755802214.78655
+madhya pradesh,2019,2,Utility,1375818,
+madhya pradesh,2019,3,P2P,23192694,
+madhya pradesh,2019,3,Retail,29189777,
+madhya pradesh,2019,3,TOTAL,54896351,79071968085.57455
+madhya pradesh,2019,3,Utility,2513880,
+madhya pradesh,2019,4,P2P,33794899,
+madhya pradesh,2019,4,Retail,31573884,
+madhya pradesh,2019,4,TOTAL,71003068,108819575634.9737
+madhya pradesh,2019,4,Utility,5634285,
+madhya pradesh,2020,1,P2P,34929211,
+madhya pradesh,2020,1,Retail,36937883,
+madhya pradesh,2020,1,TOTAL,80393376,128103419316.96422
+madhya pradesh,2020,1,Utility,8526282,
+madhya pradesh,2020,2,P2P,33907763,
+madhya pradesh,2020,2,Retail,28763727,
+madhya pradesh,2020,2,TOTAL,75708003,145115611014.9742
+madhya pradesh,2020,2,Utility,13036513,
+madhya pradesh,2020,3,P2P,48783194,
+madhya pradesh,2020,3,Retail,44812503,
+madhya pradesh,2020,3,TOTAL,105895534,198051918982.3343
+madhya pradesh,2020,3,Utility,12299837,
+madhya pradesh,2020,4,P2P,64401144,
+madhya pradesh,2020,4,Retail,67928541,
+madhya pradesh,2020,4,TOTAL,147699496,269845055092.3077
+madhya pradesh,2020,4,Utility,15369811,
+madhya pradesh,2021,1,P2P,78279566,
+madhya pradesh,2021,1,Retail,79551215,
+madhya pradesh,2021,1,TOTAL,187447068,319696045419.14996
+madhya pradesh,2021,1,Utility,29616287,
+madhya pradesh,2021,2,P2P,91032253,
+madhya pradesh,2021,2,Retail,68475966,
+madhya pradesh,2021,2,TOTAL,203308974,393063852579.44696
+madhya pradesh,2021,2,Utility,43800755,
+madhya pradesh,2021,3,P2P,118679995,
+madhya pradesh,2021,3,Retail,124505570,
+madhya pradesh,2021,3,TOTAL,286544938,471043596822.1968
+madhya pradesh,2021,3,Utility,43359373,
+madhya pradesh,2021,4,P2P,127810835,
+madhya pradesh,2021,4,Retail,154372079,
+madhya pradesh,2021,4,TOTAL,321167679,527428491137.57495
+madhya pradesh,2021,4,Utility,38984765,
+madhya pradesh,2022,1,P2P,165503407,
+madhya pradesh,2022,1,Retail,208119201,
+madhya pradesh,2022,1,TOTAL,418657344,670680907516.0426
+madhya pradesh,2022,1,Utility,45034736,
+madhya pradesh,2022,2,P2P,183118953,
+madhya pradesh,2022,2,Retail,254146400,
+madhya pradesh,2022,2,TOTAL,490063972,789356451377.2751
+madhya pradesh,2022,2,Utility,52798619,
+madhya pradesh,2022,3,P2P,207152051,
+madhya pradesh,2022,3,Retail,298169767,
+madhya pradesh,2022,3,TOTAL,564992533,805308274469.1998
+madhya pradesh,2022,3,Utility,59670715,
+madhya pradesh,2022,4,P2P,232104827,
+madhya pradesh,2022,4,Retail,346579011,
+madhya pradesh,2022,4,TOTAL,640668697,939572408725.7617
+madhya pradesh,2022,4,Utility,61984859,
+madhya pradesh,2023,1,P2P,263468166,
+madhya pradesh,2023,1,Retail,395551751,
+madhya pradesh,2023,1,TOTAL,730638617,1058319171944.054
+madhya pradesh,2023,1,Utility,71618700,
+madhya pradesh,2023,2,P2P,294078080,
+madhya pradesh,2023,2,Retail,468684552,
+madhya pradesh,2023,2,TOTAL,843782510,1197411249860.0825
+madhya pradesh,2023,2,Utility,81019878,
+madhya pradesh,2023,3,P2P,333168847,
+madhya pradesh,2023,3,Retail,555828663,
+madhya pradesh,2023,3,TOTAL,974634662,1234399612492.1458
+madhya pradesh,2023,3,Utility,85637152,
+madhya pradesh,2023,4,P2P,373938153,
+madhya pradesh,2023,4,Retail,636732492,
+madhya pradesh,2023,4,TOTAL,1098779303,1426823070181.1738
+madhya pradesh,2023,4,Utility,88108658,
+madhya pradesh,2024,1,P2P,434331008,
+madhya pradesh,2024,1,Retail,747491424,
+madhya pradesh,2024,1,TOTAL,1283443129,1626171196855.5493
+madhya pradesh,2024,1,Utility,101620697,
+madhya pradesh,2024,2,P2P,462519489,
+madhya pradesh,2024,2,Retail,859901226,
+madhya pradesh,2024,2,TOTAL,1432136665,1777347668076.4536
+madhya pradesh,2024,2,Utility,109715950,
+madhya pradesh,2024,3,P2P,497539973,
+madhya pradesh,2024,3,Retail,926585300,
+madhya pradesh,2024,3,TOTAL,1534489500,1759428066717.689
+madhya pradesh,2024,3,Utility,110364227,
+madhya pradesh,2024,4,P2P,545431384,
+madhya pradesh,2024,4,Retail,1024836894,
+madhya pradesh,2024,4,TOTAL,1681877662,2001212724870.6377
+madhya pradesh,2024,4,Utility,111609384,
+madhya pradesh,2025,1,P2P,559249557,
+madhya pradesh,2025,1,Retail,1040983000,
+madhya pradesh,2025,1,TOTAL,1723435663,2033055917651.601
+madhya pradesh,2025,1,Utility,123203106,
+madhya pradesh,2025,2,P2P,568967572,
+madhya pradesh,2025,2,Retail,1143273346,
+madhya pradesh,2025,2,TOTAL,1837319230,2168370196643.178
+madhya pradesh,2025,2,Utility,125078312,
+madhya pradesh,2025,3,P2P,609772524,
+madhya pradesh,2025,3,Retail,1244302556,
+madhya pradesh,2025,3,TOTAL,1980337761,2098642107160.6836
+madhya pradesh,2025,3,Utility,126262681,
+madhya pradesh,2025,4,P2P,655981444,
+madhya pradesh,2025,4,Retail,1317761396,
+madhya pradesh,2025,4,TOTAL,2101082439,2331864870681.1763
+madhya pradesh,2025,4,Utility,127339599,
+madhya pradesh,2026,1,P2P,682818506,
+madhya pradesh,2026,1,Retail,1369000689,
+madhya pradesh,2026,1,TOTAL,2186611174,2424177486736.081
+madhya pradesh,2026,1,Utility,134791979,
+madhya pradesh,2026,2,P2P,692355802,
+madhya pradesh,2026,2,Retail,1456576342,
+madhya pradesh,2026,2,TOTAL,2283838085,2568376073176.965
+madhya pradesh,2026,2,Utility,134905941,
+maharashtra,2018,1,P2P,4904123,
+maharashtra,2018,1,Retail,10256681,
+maharashtra,2018,1,TOTAL,15771297,20616284599.60267
+maharashtra,2018,1,Utility,610493,
+maharashtra,2018,2,P2P,7296740,
+maharashtra,2018,2,Retail,13039678,
+maharashtra,2018,2,TOTAL,21707384,34569981679.03545
+maharashtra,2018,2,Utility,1370966,
+maharashtra,2018,3,P2P,12620224,
+maharashtra,2018,3,Retail,16189479,
+maharashtra,2018,3,TOTAL,30786153,50334957437.10378
+maharashtra,2018,3,Utility,1976450,
+maharashtra,2018,4,P2P,20039783,
+maharashtra,2018,4,Retail,23240057,
+maharashtra,2018,4,TOTAL,45715147,76570396171.72795
+maharashtra,2018,4,Utility,2435307,
+maharashtra,2019,1,P2P,35939138,
+maharashtra,2019,1,Retail,33977457,
+maharashtra,2019,1,TOTAL,73874732,107583453017.91046
+maharashtra,2019,1,Utility,3958137,
+maharashtra,2019,2,P2P,40939711,
+maharashtra,2019,2,Retail,54030628,
+maharashtra,2019,2,TOTAL,99331337,147421594256.61255
+maharashtra,2019,2,Utility,4360998,
+maharashtra,2019,3,P2P,56361577,
+maharashtra,2019,3,Retail,84053886,
+maharashtra,2019,3,TOTAL,148759948,194352348539.17316
+maharashtra,2019,3,Utility,8344485,
+maharashtra,2019,4,P2P,75832872,
+maharashtra,2019,4,Retail,103887387,
+maharashtra,2019,4,TOTAL,196478271,260156648249.87997
+maharashtra,2019,4,Utility,16758012,
+maharashtra,2020,1,P2P,84061718,
+maharashtra,2020,1,Retail,125734064,
+maharashtra,2020,1,TOTAL,233758463,308295755638.30304
+maharashtra,2020,1,Utility,23962681,
+maharashtra,2020,2,P2P,70384119,
+maharashtra,2020,2,Retail,80390030,
+maharashtra,2020,2,TOTAL,180429884,281354616792.98035
+maharashtra,2020,2,Utility,29655735,
+maharashtra,2020,3,P2P,102590461,
+maharashtra,2020,3,Retail,127581626,
+maharashtra,2020,3,TOTAL,259184002,417445438172.2079
+maharashtra,2020,3,Utility,29011915,
+maharashtra,2020,4,P2P,145871285,
+maharashtra,2020,4,Retail,211773187,
+maharashtra,2020,4,TOTAL,397059155,598117839589.4216
+maharashtra,2020,4,Utility,39414683,
+maharashtra,2021,1,P2P,173584645,
+maharashtra,2021,1,Retail,241600887,
+maharashtra,2021,1,TOTAL,488141386,712800108227.8447
+maharashtra,2021,1,Utility,72955854,
+maharashtra,2021,2,P2P,208494008,
+maharashtra,2021,2,Retail,229413959,
+maharashtra,2021,2,TOTAL,533231187,829232878614.5254
+maharashtra,2021,2,Utility,95323220,
+maharashtra,2021,3,P2P,268139750,
+maharashtra,2021,3,Retail,362427389,
+maharashtra,2021,3,TOTAL,734586580,1040338295534.0461
+maharashtra,2021,3,Utility,104019441,
+maharashtra,2021,4,P2P,286423482,
+maharashtra,2021,4,Retail,441281724,
+maharashtra,2021,4,TOTAL,821255563,1161752565942.6445
+maharashtra,2021,4,Utility,93550357,
+maharashtra,2022,1,P2P,367923036,
+maharashtra,2022,1,Retail,597190812,
+maharashtra,2022,1,TOTAL,1069812670,1484934108466.9033
+maharashtra,2022,1,Utility,104698822,
+maharashtra,2022,2,P2P,412391023,
+maharashtra,2022,2,Retail,739763476,
+maharashtra,2022,2,TOTAL,1272760072,1740994209212.3047
+maharashtra,2022,2,Utility,120605573,
+maharashtra,2022,3,P2P,478474346,
+maharashtra,2022,3,Retail,868371330,
+maharashtra,2022,3,TOTAL,1481906141,1915987311841.3394
+maharashtra,2022,3,Utility,135060465,
+maharashtra,2022,4,P2P,521994075,
+maharashtra,2022,4,Retail,998769959,
+maharashtra,2022,4,TOTAL,1659335577,2150909817409.1558
+maharashtra,2022,4,Utility,138571543,
+maharashtra,2023,1,P2P,572302736,
+maharashtra,2023,1,Retail,1121600766,
+maharashtra,2023,1,TOTAL,1843209645,2363317566724.5234
+maharashtra,2023,1,Utility,149306143,
+maharashtra,2023,2,P2P,620451894,
+maharashtra,2023,2,Retail,1273343788,
+maharashtra,2023,2,TOTAL,2058432368,2604704587837.528
+maharashtra,2023,2,Utility,164636686,
+maharashtra,2023,3,P2P,688980001,
+maharashtra,2023,3,Retail,1427891144,
+maharashtra,2023,3,TOTAL,2288748568,2753519460899.4004
+maharashtra,2023,3,Utility,171877423,
+maharashtra,2023,4,P2P,767862734,
+maharashtra,2023,4,Retail,1627859322,
+maharashtra,2023,4,TOTAL,2568566942,3105786845149.348
+maharashtra,2023,4,Utility,172844886,
+maharashtra,2024,1,P2P,843776729,
+maharashtra,2024,1,Retail,1798938438,
+maharashtra,2024,1,TOTAL,2831435504,3382002942775.5654
+maharashtra,2024,1,Utility,188720337,
+maharashtra,2024,2,P2P,879434478,
+maharashtra,2024,2,Retail,1975738521,
+maharashtra,2024,2,TOTAL,3056537192,3575026518542.9116
+maharashtra,2024,2,Utility,201364193,
+maharashtra,2024,3,P2P,971225117,
+maharashtra,2024,3,Retail,2100939879,
+maharashtra,2024,3,TOTAL,3286087251,3690379263272.1494
+maharashtra,2024,3,Utility,213922255,
+maharashtra,2024,4,P2P,1061944663,
+maharashtra,2024,4,Retail,2354931274,
+maharashtra,2024,4,TOTAL,3634900999,4152526918695.738
+maharashtra,2024,4,Utility,218025062,
+maharashtra,2025,1,P2P,1136127810,
+maharashtra,2025,1,Retail,2530485146,
+maharashtra,2025,1,TOTAL,3904534550,4335348832646.413
+maharashtra,2025,1,Utility,237921594,
+maharashtra,2025,2,P2P,1133509660,
+maharashtra,2025,2,Retail,2660636662,
+maharashtra,2025,2,TOTAL,4035923246,4459847561600.475
+maharashtra,2025,2,Utility,241776924,
+maharashtra,2025,3,P2P,1226322130,
+maharashtra,2025,3,Retail,2829226611,
+maharashtra,2025,3,TOTAL,4306180488,4500210515384.953
+maharashtra,2025,3,Utility,250631747,
+maharashtra,2025,4,P2P,1311097640,
+maharashtra,2025,4,Retail,3052486746,
+maharashtra,2025,4,TOTAL,4618105060,4956544899176.127
+maharashtra,2025,4,Utility,254520674,
+maharashtra,2026,1,P2P,1363409161,
+maharashtra,2026,1,Retail,3200987799,
+maharashtra,2026,1,TOTAL,4829477429,5179476090387.984
+maharashtra,2026,1,Utility,265080469,
+maharashtra,2026,2,P2P,1389123843,
+maharashtra,2026,2,Retail,3413003601,
+maharashtra,2026,2,TOTAL,5064451991,5465176553156.582
+maharashtra,2026,2,Utility,262324547,
+manipur,2018,1,P2P,30398,
+manipur,2018,1,Retail,74310,
+manipur,2018,1,TOTAL,104908,152517177.2974037
+manipur,2018,1,Utility,200,
+manipur,2018,2,P2P,69535,
+manipur,2018,2,Retail,113472,
+manipur,2018,2,TOTAL,184930,296675858.0878379
+manipur,2018,2,Utility,1923,
+manipur,2018,3,P2P,103214,
+manipur,2018,3,Retail,113751,
+manipur,2018,3,TOTAL,219782,436231935.4022121
+manipur,2018,3,Utility,2817,
+manipur,2018,4,P2P,116349,
+manipur,2018,4,Retail,164993,
+manipur,2018,4,TOTAL,285294,690125762.2015524
+manipur,2018,4,Utility,3952,
+manipur,2019,1,P2P,147093,
+manipur,2019,1,Retail,170783,
+manipur,2019,1,TOTAL,322920,790454446.3704455
+manipur,2019,1,Utility,5044,
+manipur,2019,2,P2P,161943,
+manipur,2019,2,Retail,200970,
+manipur,2019,2,TOTAL,367371,985994013.9163172
+manipur,2019,2,Utility,4458,
+manipur,2019,3,P2P,191342,
+manipur,2019,3,Retail,204807,
+manipur,2019,3,TOTAL,412093,1155501039.9430437
+manipur,2019,3,Utility,15944,
+manipur,2019,4,P2P,250375,
+manipur,2019,4,Retail,209319,
+manipur,2019,4,TOTAL,511743,1456426016.7193756
+manipur,2019,4,Utility,52049,
+manipur,2020,1,P2P,267095,
+manipur,2020,1,Retail,244184,
+manipur,2020,1,TOTAL,606999,1627281632.673866
+manipur,2020,1,Utility,95720,
+manipur,2020,2,P2P,343823,
+manipur,2020,2,Retail,349701,
+manipur,2020,2,TOTAL,879294,2154620599.909894
+manipur,2020,2,Utility,185770,
+manipur,2020,3,P2P,444736,
+manipur,2020,3,Retail,416199,
+manipur,2020,3,TOTAL,1043328,2794156258.2445955
+manipur,2020,3,Utility,182393,
+manipur,2020,4,P2P,539549,
+manipur,2020,4,Retail,420543,
+manipur,2020,4,TOTAL,1186202,3644196614.1382523
+manipur,2020,4,Utility,226110,
+manipur,2021,1,P2P,553294,
+manipur,2021,1,Retail,220308,
+manipur,2021,1,TOTAL,1151135,3880846919.5235186
+manipur,2021,1,Utility,377533,
+manipur,2021,2,P2P,635650,
+manipur,2021,2,Retail,250250,
+manipur,2021,2,TOTAL,1435977,4129039191.3406844
+manipur,2021,2,Utility,550077,
+manipur,2021,3,P2P,835511,
+manipur,2021,3,Retail,336219,
+manipur,2021,3,TOTAL,1772255,5444167085.189641
+manipur,2021,3,Utility,600525,
+manipur,2021,4,P2P,855988,
+manipur,2021,4,Retail,368527,
+manipur,2021,4,TOTAL,1782570,5545169786.397645
+manipur,2021,4,Utility,558055,
+manipur,2022,1,P2P,1104469,
+manipur,2022,1,Retail,509928,
+manipur,2022,1,TOTAL,2257271,6964838004.509034
+manipur,2022,1,Utility,642874,
+manipur,2022,2,P2P,1198080,
+manipur,2022,2,Retail,645557,
+manipur,2022,2,TOTAL,2451327,7208227925.014736
+manipur,2022,2,Utility,607690,
+manipur,2022,3,P2P,1481055,
+manipur,2022,3,Retail,837582,
+manipur,2022,3,TOTAL,2976452,8100189981.03102
+manipur,2022,3,Utility,657815,
+manipur,2022,4,P2P,1609813,
+manipur,2022,4,Retail,928790,
+manipur,2022,4,TOTAL,3217150,8403643887.5143385
+manipur,2022,4,Utility,678547,
+manipur,2023,1,P2P,1714135,
+manipur,2023,1,Retail,1073657,
+manipur,2023,1,TOTAL,3435277,8751539696.43811
+manipur,2023,1,Utility,647485,
+manipur,2023,2,P2P,815435,
+manipur,2023,2,Retail,585926,
+manipur,2023,2,TOTAL,1700053,4552576250.751693
+manipur,2023,2,Utility,298692,
+manipur,2023,3,P2P,450302,
+manipur,2023,3,Retail,250465,
+manipur,2023,3,TOTAL,904737,3670828688.5792255
+manipur,2023,3,Utility,203970,
+manipur,2023,4,P2P,1100791,
+manipur,2023,4,Retail,688632,
+manipur,2023,4,TOTAL,2203468,6907044662.760012
+manipur,2023,4,Utility,414045,
+manipur,2024,1,P2P,1933165,
+manipur,2024,1,Retail,1380355,
+manipur,2024,1,TOTAL,3974022,9381643367.636852
+manipur,2024,1,Utility,660502,
+manipur,2024,2,P2P,2523049,
+manipur,2024,2,Retail,2012748,
+manipur,2024,2,TOTAL,5268375,11040117731.12242
+manipur,2024,2,Utility,732578,
+manipur,2024,3,P2P,2962849,
+manipur,2024,3,Retail,2087985,
+manipur,2024,3,TOTAL,5806055,11771760861.082079
+manipur,2024,3,Utility,755221,
+manipur,2024,4,P2P,3014393,
+manipur,2024,4,Retail,2123143,
+manipur,2024,4,TOTAL,5798310,12139401338.364204
+manipur,2024,4,Utility,660774,
+manipur,2025,1,P2P,4012837,
+manipur,2025,1,Retail,2888122,
+manipur,2025,1,TOTAL,7775142,14315138066.16877
+manipur,2025,1,Utility,874183,
+manipur,2025,2,P2P,4212499,
+manipur,2025,2,Retail,3542824,
+manipur,2025,2,TOTAL,8600635,14869751104.220009
+manipur,2025,2,Utility,845312,
+manipur,2025,3,P2P,4683706,
+manipur,2025,3,Retail,4269941,
+manipur,2025,3,TOTAL,9804471,16224673451.813852
+manipur,2025,3,Utility,850824,
+manipur,2025,4,P2P,4810704,
+manipur,2025,4,Retail,4174837,
+manipur,2025,4,TOTAL,9815029,16462749477.20841
+manipur,2025,4,Utility,829488,
+manipur,2026,1,P2P,4986200,
+manipur,2026,1,Retail,4367144,
+manipur,2026,1,TOTAL,10234367,17003536000.669716
+manipur,2026,1,Utility,881023,
+manipur,2026,2,P2P,5042151,
+manipur,2026,2,Retail,4552091,
+manipur,2026,2,TOTAL,10459691,16979159239.826668
+manipur,2026,2,Utility,865449,
+meghalaya,2018,1,P2P,14088,
+meghalaya,2018,1,Retail,42995,
+meghalaya,2018,1,TOTAL,57738,76092836.20456234
+meghalaya,2018,1,Utility,655,
+meghalaya,2018,2,P2P,21522,
+meghalaya,2018,2,Retail,56085,
+meghalaya,2018,2,TOTAL,79675,131316474.46133497
+meghalaya,2018,2,Utility,2068,
+meghalaya,2018,3,P2P,38720,
+meghalaya,2018,3,Retail,81832,
+meghalaya,2018,3,TOTAL,123884,233167830.81494468
+meghalaya,2018,3,Utility,3332,
+meghalaya,2018,4,P2P,59703,
+meghalaya,2018,4,Retail,118819,
+meghalaya,2018,4,TOTAL,182356,368078549.99460316
+meghalaya,2018,4,Utility,3834,
+meghalaya,2019,1,P2P,92541,
+meghalaya,2019,1,Retail,135938,
+meghalaya,2019,1,TOTAL,233798,446378841.01343787
+meghalaya,2019,1,Utility,5319,
+meghalaya,2019,2,P2P,107691,
+meghalaya,2019,2,Retail,167684,
+meghalaya,2019,2,TOTAL,280284,589604772.2250164
+meghalaya,2019,2,Utility,4909,
+meghalaya,2019,3,P2P,132605,
+meghalaya,2019,3,Retail,175853,
+meghalaya,2019,3,TOTAL,326183,724948653.2435663
+meghalaya,2019,3,Utility,17725,
+meghalaya,2019,4,P2P,159506,
+meghalaya,2019,4,Retail,163554,
+meghalaya,2019,4,TOTAL,373215,841717696.7390778
+meghalaya,2019,4,Utility,50155,
+meghalaya,2020,1,P2P,165934,
+meghalaya,2020,1,Retail,189179,
+meghalaya,2020,1,TOTAL,440231,985286898.5929303
+meghalaya,2020,1,Utility,85118,
+meghalaya,2020,2,P2P,176495,
+meghalaya,2020,2,Retail,289723,
+meghalaya,2020,2,TOTAL,628610,1103805615.6365817
+meghalaya,2020,2,Utility,162392,
+meghalaya,2020,3,P2P,238589,
+meghalaya,2020,3,Retail,315322,
+meghalaya,2020,3,TOTAL,692059,1513957555.3695621
+meghalaya,2020,3,Utility,138148,
+meghalaya,2020,4,P2P,319172,
+meghalaya,2020,4,Retail,321204,
+meghalaya,2020,4,TOTAL,836361,2026601308.7769709
+meghalaya,2020,4,Utility,195985,
+meghalaya,2021,1,P2P,374973,
+meghalaya,2021,1,Retail,170026,
+meghalaya,2021,1,TOTAL,895045,2367708528.6778736
+meghalaya,2021,1,Utility,350046,
+meghalaya,2021,2,P2P,422974,
+meghalaya,2021,2,Retail,193215,
+meghalaya,2021,2,TOTAL,1126432,2534515849.849267
+meghalaya,2021,2,Utility,510243,
+meghalaya,2021,3,P2P,544751,
+meghalaya,2021,3,Retail,261011,
+meghalaya,2021,3,TOTAL,1354216,3204114778.4993167
+meghalaya,2021,3,Utility,548454,
+meghalaya,2021,4,P2P,686100,
+meghalaya,2021,4,Retail,348960,
+meghalaya,2021,4,TOTAL,1558644,3952050835.0893
+meghalaya,2021,4,Utility,523584,
+meghalaya,2022,1,P2P,932731,
+meghalaya,2022,1,Retail,522433,
+meghalaya,2022,1,TOTAL,2011337,5366114455.583481
+meghalaya,2022,1,Utility,556173,
+meghalaya,2022,2,P2P,1141224,
+meghalaya,2022,2,Retail,740673,
+meghalaya,2022,2,TOTAL,2495929,6101621809.718108
+meghalaya,2022,2,Utility,614032,
+meghalaya,2022,3,P2P,1472843,
+meghalaya,2022,3,Retail,1033414,
+meghalaya,2022,3,TOTAL,3224648,7207201086.186328
+meghalaya,2022,3,Utility,718391,
+meghalaya,2022,4,P2P,1725693,
+meghalaya,2022,4,Retail,1152974,
+meghalaya,2022,4,TOTAL,3625736,8280326984.293905
+meghalaya,2022,4,Utility,747069,
+meghalaya,2023,1,P2P,2010002,
+meghalaya,2023,1,Retail,1323801,
+meghalaya,2023,1,TOTAL,4171750,9672439462.99083
+meghalaya,2023,1,Utility,837947,
+meghalaya,2023,2,P2P,2376705,
+meghalaya,2023,2,Retail,1830555,
+meghalaya,2023,2,TOTAL,5103808,10680548971.431965
+meghalaya,2023,2,Utility,896548,
+meghalaya,2023,3,P2P,2778556,
+meghalaya,2023,3,Retail,2204934,
+meghalaya,2023,3,TOTAL,5927576,11034725792.028677
+meghalaya,2023,3,Utility,944086,
+meghalaya,2023,4,P2P,3410871,
+meghalaya,2023,4,Retail,2726364,
+meghalaya,2023,4,TOTAL,7120043,13509073095.121254
+meghalaya,2023,4,Utility,982808,
+meghalaya,2024,1,P2P,3903641,
+meghalaya,2024,1,Retail,3259975,
+meghalaya,2024,1,TOTAL,8252199,14955862694.89056
+meghalaya,2024,1,Utility,1088583,
+meghalaya,2024,2,P2P,4455087,
+meghalaya,2024,2,Retail,5343544,
+meghalaya,2024,2,TOTAL,10990422,16079921304.581762
+meghalaya,2024,2,Utility,1191791,
+meghalaya,2024,3,P2P,5065670,
+meghalaya,2024,3,Retail,5773240,
+meghalaya,2024,3,TOTAL,12096435,16187154478.952517
+meghalaya,2024,3,Utility,1257525,
+meghalaya,2024,4,P2P,6057301,
+meghalaya,2024,4,Retail,6601880,
+meghalaya,2024,4,TOTAL,13993116,19537014744.836548
+meghalaya,2024,4,Utility,1333935,
+meghalaya,2025,1,P2P,6637505,
+meghalaya,2025,1,Retail,7368816,
+meghalaya,2025,1,TOTAL,15566407,21882492467.99372
+meghalaya,2025,1,Utility,1560086,
+meghalaya,2025,2,P2P,6819794,
+meghalaya,2025,2,Retail,9006438,
+meghalaya,2025,2,TOTAL,17304246,21913728757.238136
+meghalaya,2025,2,Utility,1478014,
+meghalaya,2025,3,P2P,7936464,
+meghalaya,2025,3,Retail,10342245,
+meghalaya,2025,3,TOTAL,19876141,25631760302.720753
+meghalaya,2025,3,Utility,1597432,
+meghalaya,2025,4,P2P,8577148,
+meghalaya,2025,4,Retail,9681598,
+meghalaya,2025,4,TOTAL,19837650,25907174026.51288
+meghalaya,2025,4,Utility,1578904,
+meghalaya,2026,1,P2P,9546670,
+meghalaya,2026,1,Retail,8839945,
+meghalaya,2026,1,TOTAL,19926435,23441855945.13065
+meghalaya,2026,1,Utility,1539820,
+meghalaya,2026,2,P2P,9973916,
+meghalaya,2026,2,Retail,10836114,
+meghalaya,2026,2,TOTAL,22400813,24333710508.62982
+meghalaya,2026,2,Utility,1590783,
+mizoram,2018,1,P2P,7725,
+mizoram,2018,1,Retail,14367,
+mizoram,2018,1,TOTAL,22181,53160735.45542757
+mizoram,2018,1,Utility,89,
+mizoram,2018,2,P2P,12760,
+mizoram,2018,2,Retail,18364,
+mizoram,2018,2,TOTAL,31560,94300176.91130026
+mizoram,2018,2,Utility,436,
+mizoram,2018,3,P2P,20289,
+mizoram,2018,3,Retail,24604,
+mizoram,2018,3,TOTAL,45614,129714622.12975365
+mizoram,2018,3,Utility,721,
+mizoram,2018,4,P2P,28968,
+mizoram,2018,4,Retail,36184,
+mizoram,2018,4,TOTAL,66234,213839671.52367637
+mizoram,2018,4,Utility,1082,
+mizoram,2019,1,P2P,40318,
+mizoram,2019,1,Retail,43515,
+mizoram,2019,1,TOTAL,85219,256961523.2200399
+mizoram,2019,1,Utility,1386,
+mizoram,2019,2,P2P,46960,
+mizoram,2019,2,Retail,52540,
+mizoram,2019,2,TOTAL,100958,321899390.5114357
+mizoram,2019,2,Utility,1458,
+mizoram,2019,3,P2P,52804,
+mizoram,2019,3,Retail,55585,
+mizoram,2019,3,TOTAL,114147,356730288.3142443
+mizoram,2019,3,Utility,5758,
+mizoram,2019,4,P2P,69162,
+mizoram,2019,4,Retail,57139,
+mizoram,2019,4,TOTAL,144316,463491574.6950983
+mizoram,2019,4,Utility,18015,
+mizoram,2020,1,P2P,73986,
+mizoram,2020,1,Retail,72242,
+mizoram,2020,1,TOTAL,179537,512023794.8715464
+mizoram,2020,1,Utility,33309,
+mizoram,2020,2,P2P,75529,
+mizoram,2020,2,Retail,94994,
+mizoram,2020,2,TOTAL,227158,577686076.9074495
+mizoram,2020,2,Utility,56635,
+mizoram,2020,3,P2P,113045,
+mizoram,2020,3,Retail,109236,
+mizoram,2020,3,TOTAL,282613,817121389.324712
+mizoram,2020,3,Utility,60332,
+mizoram,2020,4,P2P,155391,
+mizoram,2020,4,Retail,116071,
+mizoram,2020,4,TOTAL,352855,1096221440.2761316
+mizoram,2020,4,Utility,81393,
+mizoram,2021,1,P2P,177585,
+mizoram,2021,1,Retail,67889,
+mizoram,2021,1,TOTAL,384386,1265644701.42484
+mizoram,2021,1,Utility,138912,
+mizoram,2021,2,P2P,198301,
+mizoram,2021,2,Retail,74439,
+mizoram,2021,2,TOTAL,469489,1293398978.7225688
+mizoram,2021,2,Utility,196749,
+mizoram,2021,3,P2P,249407,
+mizoram,2021,3,Retail,93972,
+mizoram,2021,3,TOTAL,555934,1666750165.8631315
+mizoram,2021,3,Utility,212555,
+mizoram,2021,4,P2P,266273,
+mizoram,2021,4,Retail,107464,
+mizoram,2021,4,TOTAL,565002,1762778939.6199198
+mizoram,2021,4,Utility,191265,
+mizoram,2022,1,P2P,333816,
+mizoram,2022,1,Retail,134652,
+mizoram,2022,1,TOTAL,676714,2163424217.0168552
+mizoram,2022,1,Utility,208246,
+mizoram,2022,2,P2P,367719,
+mizoram,2022,2,Retail,166864,
+mizoram,2022,2,TOTAL,735958,2227243030.2535167
+mizoram,2022,2,Utility,201375,
+mizoram,2022,3,P2P,441599,
+mizoram,2022,3,Retail,209057,
+mizoram,2022,3,TOTAL,872923,2421358158.8989
+mizoram,2022,3,Utility,222267,
+mizoram,2022,4,P2P,527741,
+mizoram,2022,4,Retail,261186,
+mizoram,2022,4,TOTAL,1018730,2778304892.2491627
+mizoram,2022,4,Utility,229803,
+mizoram,2023,1,P2P,601454,
+mizoram,2023,1,Retail,276865,
+mizoram,2023,1,TOTAL,1116672,3027223071.995682
+mizoram,2023,1,Utility,238353,
+mizoram,2023,2,P2P,679572,
+mizoram,2023,2,Retail,358005,
+mizoram,2023,2,TOTAL,1286147,3263852337.1969995
+mizoram,2023,2,Utility,248570,
+mizoram,2023,3,P2P,734614,
+mizoram,2023,3,Retail,389679,
+mizoram,2023,3,TOTAL,1371224,3167055400.83658
+mizoram,2023,3,Utility,246931,
+mizoram,2023,4,P2P,819882,
+mizoram,2023,4,Retail,511251,
+mizoram,2023,4,TOTAL,1576249,3621619372.125742
+mizoram,2023,4,Utility,245116,
+mizoram,2024,1,P2P,860994,
+mizoram,2024,1,Retail,577796,
+mizoram,2024,1,TOTAL,1688924,3701436431.5462136
+mizoram,2024,1,Utility,250134,
+mizoram,2024,2,P2P,960517,
+mizoram,2024,2,Retail,854085,
+mizoram,2024,2,TOTAL,2072275,3870351855.01451
+mizoram,2024,2,Utility,257673,
+mizoram,2024,3,P2P,1088181,
+mizoram,2024,3,Retail,1032373,
+mizoram,2024,3,TOTAL,2395117,3942297215.9296303
+mizoram,2024,3,Utility,274563,
+mizoram,2024,4,P2P,1215748,
+mizoram,2024,4,Retail,1194828,
+mizoram,2024,4,TOTAL,2686856,4470132241.848989
+mizoram,2024,4,Utility,276280,
+mizoram,2025,1,P2P,1412817,
+mizoram,2025,1,Retail,1464155,
+mizoram,2025,1,TOTAL,3214911,4988579857.496769
+mizoram,2025,1,Utility,337939,
+mizoram,2025,2,P2P,1393032,
+mizoram,2025,2,Retail,1693554,
+mizoram,2025,2,TOTAL,3398805,4779116210.284388
+mizoram,2025,2,Utility,312219,
+mizoram,2025,3,P2P,1589619,
+mizoram,2025,3,Retail,2025992,
+mizoram,2025,3,TOTAL,3951837,5101955955.165985
+mizoram,2025,3,Utility,336226,
+mizoram,2025,4,P2P,1786077,
+mizoram,2025,4,Retail,1979390,
+mizoram,2025,4,TOTAL,4103095,5608639114.970993
+mizoram,2025,4,Utility,337628,
+mizoram,2026,1,P2P,1855867,
+mizoram,2026,1,Retail,1959194,
+mizoram,2026,1,TOTAL,4151140,5847542175.098959
+mizoram,2026,1,Utility,336079,
+mizoram,2026,2,P2P,2067137,
+mizoram,2026,2,Retail,2231778,
+mizoram,2026,2,TOTAL,4630626,6078019513.264366
+mizoram,2026,2,Utility,331711,
+nagaland,2018,1,P2P,12854,
+nagaland,2018,1,Retail,39386,
+nagaland,2018,1,TOTAL,52459,93045812.18725257
+nagaland,2018,1,Utility,219,
+nagaland,2018,2,P2P,23666,
+nagaland,2018,2,Retail,58079,
+nagaland,2018,2,TOTAL,82859,188284254.35889083
+nagaland,2018,2,Utility,1114,
+nagaland,2018,3,P2P,38744,
+nagaland,2018,3,Retail,77504,
+nagaland,2018,3,TOTAL,117956,289452939.43801266
+nagaland,2018,3,Utility,1708,
+nagaland,2018,4,P2P,61529,
+nagaland,2018,4,Retail,109267,
+nagaland,2018,4,TOTAL,173326,459578755.86046314
+nagaland,2018,4,Utility,2530,
+nagaland,2019,1,P2P,85647,
+nagaland,2019,1,Retail,124651,
+nagaland,2019,1,TOTAL,214053,552573719.187345
+nagaland,2019,1,Utility,3755,
+nagaland,2019,2,P2P,108986,
+nagaland,2019,2,Retail,156958,
+nagaland,2019,2,TOTAL,269720,724857602.930112
+nagaland,2019,2,Utility,3776,
+nagaland,2019,3,P2P,134567,
+nagaland,2019,3,Retail,167265,
+nagaland,2019,3,TOTAL,318274,885863908.279764
+nagaland,2019,3,Utility,16442,
+nagaland,2019,4,P2P,171822,
+nagaland,2019,4,Retail,163700,
+nagaland,2019,4,TOTAL,387002,1129891007.1426184
+nagaland,2019,4,Utility,51480,
+nagaland,2020,1,P2P,183413,
+nagaland,2020,1,Retail,184484,
+nagaland,2020,1,TOTAL,457785,1216640719.3733199
+nagaland,2020,1,Utility,89888,
+nagaland,2020,2,P2P,219693,
+nagaland,2020,2,Retail,239041,
+nagaland,2020,2,TOTAL,613591,1494171970.2284145
+nagaland,2020,2,Utility,154857,
+nagaland,2020,3,P2P,326189,
+nagaland,2020,3,Retail,292460,
+nagaland,2020,3,TOTAL,767214,2071980086.1068025
+nagaland,2020,3,Utility,148565,
+nagaland,2020,4,P2P,396507,
+nagaland,2020,4,Retail,266738,
+nagaland,2020,4,TOTAL,851689,2766834171.7933636
+nagaland,2020,4,Utility,188444,
+nagaland,2021,1,P2P,419883,
+nagaland,2021,1,Retail,127106,
+nagaland,2021,1,TOTAL,877753,2906783684.0056076
+nagaland,2021,1,Utility,330764,
+nagaland,2021,2,P2P,512516,
+nagaland,2021,2,Retail,130032,
+nagaland,2021,2,TOTAL,1107351,3195473116.112031
+nagaland,2021,2,Utility,464803,
+nagaland,2021,3,P2P,649798,
+nagaland,2021,3,Retail,183947,
+nagaland,2021,3,TOTAL,1316726,4091491954.330838
+nagaland,2021,3,Utility,482981,
+nagaland,2021,4,P2P,692273,
+nagaland,2021,4,Retail,222754,
+nagaland,2021,4,TOTAL,1369793,4397011067.663409
+nagaland,2021,4,Utility,454766,
+nagaland,2022,1,P2P,877525,
+nagaland,2022,1,Retail,323423,
+nagaland,2022,1,TOTAL,1709875,5276073879.483517
+nagaland,2022,1,Utility,508927,
+nagaland,2022,2,P2P,1018561,
+nagaland,2022,2,Retail,441412,
+nagaland,2022,2,TOTAL,1974012,5909718802.434075
+nagaland,2022,2,Utility,514039,
+nagaland,2022,3,P2P,1260750,
+nagaland,2022,3,Retail,562207,
+nagaland,2022,3,TOTAL,2397145,6778968160.648544
+nagaland,2022,3,Utility,574188,
+nagaland,2022,4,P2P,1392790,
+nagaland,2022,4,Retail,603869,
+nagaland,2022,4,TOTAL,2580507,7441611698.7912445
+nagaland,2022,4,Utility,583848,
+nagaland,2023,1,P2P,1539803,
+nagaland,2023,1,Retail,680677,
+nagaland,2023,1,TOTAL,2834148,8050868360.056755
+nagaland,2023,1,Utility,613668,
+nagaland,2023,2,P2P,1655450,
+nagaland,2023,2,Retail,838501,
+nagaland,2023,2,TOTAL,3091461,8263465628.271147
+nagaland,2023,2,Utility,597510,
+nagaland,2023,3,P2P,1932631,
+nagaland,2023,3,Retail,1024556,
+nagaland,2023,3,TOTAL,3581630,8858677977.630177
+nagaland,2023,3,Utility,624443,
+nagaland,2023,4,P2P,2151924,
+nagaland,2023,4,Retail,1196265,
+nagaland,2023,4,TOTAL,3953388,9905355331.48168
+nagaland,2023,4,Utility,605199,
+nagaland,2024,1,P2P,2296558,
+nagaland,2024,1,Retail,1475125,
+nagaland,2024,1,TOTAL,4412466,10241734675.10108
+nagaland,2024,1,Utility,640783,
+nagaland,2024,2,P2P,2698781,
+nagaland,2024,2,Retail,2514000,
+nagaland,2024,2,TOTAL,5897170,11252050159.141838
+nagaland,2024,2,Utility,684389,
+nagaland,2024,3,P2P,3223455,
+nagaland,2024,3,Retail,3141143,
+nagaland,2024,3,TOTAL,7127882,12302746336.824575
+nagaland,2024,3,Utility,763284,
+nagaland,2024,4,P2P,3646828,
+nagaland,2024,4,Retail,3534185,
+nagaland,2024,4,TOTAL,7952281,13952768833.676888
+nagaland,2024,4,Utility,771268,
+nagaland,2025,1,P2P,3745885,
+nagaland,2025,1,Retail,3803438,
+nagaland,2025,1,TOTAL,8417655,13854930060.290958
+nagaland,2025,1,Utility,868332,
+nagaland,2025,2,P2P,3898002,
+nagaland,2025,2,Retail,4724132,
+nagaland,2025,2,TOTAL,9457413,14024796338.65173
+nagaland,2025,2,Utility,835279,
+nagaland,2025,3,P2P,4458684,
+nagaland,2025,3,Retail,5833318,
+nagaland,2025,3,TOTAL,11180872,15195878604.305132
+nagaland,2025,3,Utility,888870,
+nagaland,2025,4,P2P,4922948,
+nagaland,2025,4,Retail,5394902,
+nagaland,2025,4,TOTAL,11172635,16432361934.488552
+nagaland,2025,4,Utility,854785,
+nagaland,2026,1,P2P,5009814,
+nagaland,2026,1,Retail,5145327,
+nagaland,2026,1,TOTAL,11029965,16014395834.15149
+nagaland,2026,1,Utility,874824,
+nagaland,2026,2,P2P,5388614,
+nagaland,2026,2,Retail,6083226,
+nagaland,2026,2,TOTAL,12358326,16371304304.889984
+nagaland,2026,2,Utility,886486,
+odisha,2018,1,P2P,2693875,
+odisha,2018,1,Retail,4336997,
+odisha,2018,1,TOTAL,7048986,5532172856.319677
+odisha,2018,1,Utility,18114,
+odisha,2018,2,P2P,4606791,
+odisha,2018,2,Retail,4832463,
+odisha,2018,2,TOTAL,9547287,9915788853.374897
+odisha,2018,2,Utility,108033,
+odisha,2018,3,P2P,27474197,
+odisha,2018,3,Retail,6109834,
+odisha,2018,3,TOTAL,33773146,26439174825.05436
+odisha,2018,3,Utility,189115,
+odisha,2018,4,P2P,13840684,
+odisha,2018,4,Retail,9660259,
+odisha,2018,4,TOTAL,23730246,26644806732.25345
+odisha,2018,4,Utility,229303,
+odisha,2019,1,P2P,25934247,
+odisha,2019,1,Retail,10887807,
+odisha,2019,1,TOTAL,37193760,38343233060.509186
+odisha,2019,1,Utility,371706,
+odisha,2019,2,P2P,16396541,
+odisha,2019,2,Retail,13345566,
+odisha,2019,2,TOTAL,30088286,44732976144.56491
+odisha,2019,2,Utility,346179,
+odisha,2019,3,P2P,18424210,
+odisha,2019,3,Retail,21330371,
+odisha,2019,3,TOTAL,40800846,56988076003.73456
+odisha,2019,3,Utility,1046265,
+odisha,2019,4,P2P,43533987,
+odisha,2019,4,Retail,19167186,
+odisha,2019,4,TOTAL,65679564,80400377264.45883
+odisha,2019,4,Utility,2978391,
+odisha,2020,1,P2P,27380806,
+odisha,2020,1,Retail,21880811,
+odisha,2020,1,TOTAL,54421577,92843181623.98956
+odisha,2020,1,Utility,5159960,
+odisha,2020,2,P2P,24255361,
+odisha,2020,2,Retail,18242091,
+odisha,2020,2,TOTAL,50392152,90886955389.31903
+odisha,2020,2,Utility,7894700,
+odisha,2020,3,P2P,35509492,
+odisha,2020,3,Retail,25581574,
+odisha,2020,3,TOTAL,69038595,127503888471.30423
+odisha,2020,3,Utility,7947529,
+odisha,2020,4,P2P,48735138,
+odisha,2020,4,Retail,36795800,
+odisha,2020,4,TOTAL,94873191,182755800341.008
+odisha,2020,4,Utility,9342253,
+odisha,2021,1,P2P,56168577,
+odisha,2021,1,Retail,39886914,
+odisha,2021,1,TOTAL,115094652,220742131430.68103
+odisha,2021,1,Utility,19039161,
+odisha,2021,2,P2P,70199957,
+odisha,2021,2,Retail,39885033,
+odisha,2021,2,TOTAL,138225698,259055016593.60217
+odisha,2021,2,Utility,28140708,
+odisha,2021,3,P2P,88531048,
+odisha,2021,3,Retail,65021952,
+odisha,2021,3,TOTAL,183365656,315250260342.66077
+odisha,2021,3,Utility,29812656,
+odisha,2021,4,P2P,97365421,
+odisha,2021,4,Retail,89306095,
+odisha,2021,4,TOTAL,212268637,349960811331.7029
+odisha,2021,4,Utility,25597121,
+odisha,2022,1,P2P,121543612,
+odisha,2022,1,Retail,119389372,
+odisha,2022,1,TOTAL,268911728,461602495894.72363
+odisha,2022,1,Utility,27978744,
+odisha,2022,2,P2P,138799315,
+odisha,2022,2,Retail,150198940,
+odisha,2022,2,TOTAL,322378227,525877207233.302
+odisha,2022,2,Utility,33379972,
+odisha,2022,3,P2P,159103433,
+odisha,2022,3,Retail,183017599,
+odisha,2022,3,TOTAL,380594298,559830322281.8159
+odisha,2022,3,Utility,38473266,
+odisha,2022,4,P2P,178318278,
+odisha,2022,4,Retail,208414479,
+odisha,2022,4,TOTAL,425780932,632323496876.2422
+odisha,2022,4,Utility,39048175,
+odisha,2023,1,P2P,198718809,
+odisha,2023,1,Retail,237800370,
+odisha,2023,1,TOTAL,480048713,753356890534.1677
+odisha,2023,1,Utility,43529534,
+odisha,2023,2,P2P,217465779,
+odisha,2023,2,Retail,275129628,
+odisha,2023,2,TOTAL,540567279,798613320310.5529
+odisha,2023,2,Utility,47971872,
+odisha,2023,3,P2P,239483197,
+odisha,2023,3,Retail,331120980,
+odisha,2023,3,TOTAL,620854881,840399944380.947
+odisha,2023,3,Utility,50250704,
+odisha,2023,4,P2P,283368515,
+odisha,2023,4,Retail,394216870,
+odisha,2023,4,TOTAL,730012056,981621827380.3324
+odisha,2023,4,Utility,52426671,
+odisha,2024,1,P2P,328186502,
+odisha,2024,1,Retail,472041275,
+odisha,2024,1,TOTAL,862406808,1157247753533.8687
+odisha,2024,1,Utility,62179031,
+odisha,2024,2,P2P,342454314,
+odisha,2024,2,Retail,533463941,
+odisha,2024,2,TOTAL,941735991,1163541947521.4395
+odisha,2024,2,Utility,65817736,
+odisha,2024,3,P2P,372510527,
+odisha,2024,3,Retail,583139376,
+odisha,2024,3,TOTAL,1022988856,1175753144610.859
+odisha,2024,3,Utility,67338953,
+odisha,2024,4,P2P,418474939,
+odisha,2024,4,Retail,653769361,
+odisha,2024,4,TOTAL,1141695660,1304112411134.0796
+odisha,2024,4,Utility,69451360,
+odisha,2025,1,P2P,427880801,
+odisha,2025,1,Retail,672598864,
+odisha,2025,1,TOTAL,1174428178,1414655279863.243
+odisha,2025,1,Utility,73948513,
+odisha,2025,2,P2P,429202554,
+odisha,2025,2,Retail,746112659,
+odisha,2025,2,TOTAL,1253470101,1383287521722.9543
+odisha,2025,2,Utility,78154888,
+odisha,2025,3,P2P,451228084,
+odisha,2025,3,Retail,785652801,
+odisha,2025,3,TOTAL,1314272318,1387578878544.61
+odisha,2025,3,Utility,77391433,
+odisha,2025,4,P2P,486153705,
+odisha,2025,4,Retail,841861625,
+odisha,2025,4,TOTAL,1405458809,1488758944141.9893
+odisha,2025,4,Utility,77443479,
+odisha,2026,1,P2P,516558572,
+odisha,2026,1,Retail,889549627,
+odisha,2026,1,TOTAL,1487851895,1697499511605.2278
+odisha,2026,1,Utility,81743696,
+odisha,2026,2,P2P,507336215,
+odisha,2026,2,Retail,932756499,
+odisha,2026,2,TOTAL,1523130010,1666312139398.4292
+odisha,2026,2,Utility,83037296,
+puducherry,2018,1,P2P,40064,
+puducherry,2018,1,Retail,65486,
+puducherry,2018,1,TOTAL,106212,167573456.07454073
+puducherry,2018,1,Utility,662,
+puducherry,2018,2,P2P,56575,
+puducherry,2018,2,Retail,68910,
+puducherry,2018,2,TOTAL,128321,287317471.5783924
+puducherry,2018,2,Utility,2836,
+puducherry,2018,3,P2P,97296,
+puducherry,2018,3,Retail,84545,
+puducherry,2018,3,TOTAL,186869,415949662.45048106
+puducherry,2018,3,Utility,5028,
+puducherry,2018,4,P2P,175338,
+puducherry,2018,4,Retail,135865,
+puducherry,2018,4,TOTAL,317336,629583184.6702774
+puducherry,2018,4,Utility,6133,
+puducherry,2019,1,P2P,308499,
+puducherry,2019,1,Retail,180367,
+puducherry,2019,1,TOTAL,497729,890540067.5128368
+puducherry,2019,1,Utility,8863,
+puducherry,2019,2,P2P,322762,
+puducherry,2019,2,Retail,246183,
+puducherry,2019,2,TOTAL,579081,1156468427.4018884
+puducherry,2019,2,Utility,10136,
+puducherry,2019,3,P2P,404050,
+puducherry,2019,3,Retail,338785,
+puducherry,2019,3,TOTAL,765031,1462124362.8365593
+puducherry,2019,3,Utility,22196,
+puducherry,2019,4,P2P,586080,
+puducherry,2019,4,Retail,451087,
+puducherry,2019,4,TOTAL,1092326,1963177051.3888311
+puducherry,2019,4,Utility,55159,
+puducherry,2020,1,P2P,637583,
+puducherry,2020,1,Retail,580921,
+puducherry,2020,1,TOTAL,1319437,2300219163.043279
+puducherry,2020,1,Utility,100933,
+puducherry,2020,2,P2P,444724,
+puducherry,2020,2,Retail,455143,
+puducherry,2020,2,TOTAL,1040762,1827425177.4942698
+puducherry,2020,2,Utility,140895,
+puducherry,2020,3,P2P,679376,
+puducherry,2020,3,Retail,727619,
+puducherry,2020,3,TOTAL,1545591,2884349251.874382
+puducherry,2020,3,Utility,138596,
+puducherry,2020,4,P2P,1047351,
+puducherry,2020,4,Retail,1272494,
+puducherry,2020,4,TOTAL,2534435,4357050361.95191
+puducherry,2020,4,Utility,214590,
+puducherry,2021,1,P2P,1252418,
+puducherry,2021,1,Retail,1443581,
+puducherry,2021,1,TOTAL,3128221,5316493350.2404785
+puducherry,2021,1,Utility,432222,
+puducherry,2021,2,P2P,1279040,
+puducherry,2021,2,Retail,1385293,
+puducherry,2021,2,TOTAL,3236303,5392106422.861448
+puducherry,2021,2,Utility,571970,
+puducherry,2021,3,P2P,1758454,
+puducherry,2021,3,Retail,2208281,
+puducherry,2021,3,TOTAL,4590304,7468860247.675983
+puducherry,2021,3,Utility,623569,
+puducherry,2021,4,P2P,1825625,
+puducherry,2021,4,Retail,2550628,
+puducherry,2021,4,TOTAL,4932923,7719396424.895111
+puducherry,2021,4,Utility,556670,
+puducherry,2022,1,P2P,2317321,
+puducherry,2022,1,Retail,3461076,
+puducherry,2022,1,TOTAL,6354587,9877119182.394363
+puducherry,2022,1,Utility,576190,
+puducherry,2022,2,P2P,2582879,
+puducherry,2022,2,Retail,4265431,
+puducherry,2022,2,TOTAL,7489973,11295663383.730684
+puducherry,2022,2,Utility,641663,
+puducherry,2022,3,P2P,2958867,
+puducherry,2022,3,Retail,5157180,
+puducherry,2022,3,TOTAL,8848397,12834141844.970497
+puducherry,2022,3,Utility,732350,
+puducherry,2022,4,P2P,3142120,
+puducherry,2022,4,Retail,5863846,
+puducherry,2022,4,TOTAL,9748055,13613642032.366386
+puducherry,2022,4,Utility,742089,
+puducherry,2023,1,P2P,3258866,
+puducherry,2023,1,Retail,6224977,
+puducherry,2023,1,TOTAL,10217489,14216402974.75116
+puducherry,2023,1,Utility,733646,
+puducherry,2023,2,P2P,3459724,
+puducherry,2023,2,Retail,6931355,
+puducherry,2023,2,TOTAL,11193638,15361823627.269354
+puducherry,2023,2,Utility,802559,
+puducherry,2023,3,P2P,3709860,
+puducherry,2023,3,Retail,7920199,
+puducherry,2023,3,TOTAL,12464709,16421645570.85983
+puducherry,2023,3,Utility,834650,
+puducherry,2023,4,P2P,3866931,
+puducherry,2023,4,Retail,8377582,
+puducherry,2023,4,TOTAL,13074652,17039512522.583828
+puducherry,2023,4,Utility,830139,
+puducherry,2024,1,P2P,3982272,
+puducherry,2024,1,Retail,8706366,
+puducherry,2024,1,TOTAL,13519970,17400403122.85509
+puducherry,2024,1,Utility,831332,
+puducherry,2024,2,P2P,4169309,
+puducherry,2024,2,Retail,9569219,
+puducherry,2024,2,TOTAL,14610867,18221014500.6219
+puducherry,2024,2,Utility,872339,
+puducherry,2024,3,P2P,4543301,
+puducherry,2024,3,Retail,10358162,
+puducherry,2024,3,TOTAL,15821171,19306627903.40757
+puducherry,2024,3,Utility,919708,
+puducherry,2024,4,P2P,4665679,
+puducherry,2024,4,Retail,10781586,
+puducherry,2024,4,TOTAL,16376815,19752651111.941074
+puducherry,2024,4,Utility,929550,
+puducherry,2025,1,P2P,5027320,
+puducherry,2025,1,Retail,11618519,
+puducherry,2025,1,TOTAL,17612711,21168624734.74836
+puducherry,2025,1,Utility,966872,
+puducherry,2025,2,P2P,4859467,
+puducherry,2025,2,Retail,11716317,
+puducherry,2025,2,TOTAL,17496015,20741481980.74739
+puducherry,2025,2,Utility,920231,
+puducherry,2025,3,P2P,5067996,
+puducherry,2025,3,Retail,12400209,
+puducherry,2025,3,TOTAL,18401595,21280880580.336613
+puducherry,2025,3,Utility,933390,
+puducherry,2025,4,P2P,5170739,
+puducherry,2025,4,Retail,12734340,
+puducherry,2025,4,TOTAL,18857093,21817658916.471947
+puducherry,2025,4,Utility,952014,
+puducherry,2026,1,P2P,5457257,
+puducherry,2026,1,Retail,13385336,
+puducherry,2026,1,TOTAL,19790951,23200917884.88138
+puducherry,2026,1,Utility,948358,
+puducherry,2026,2,P2P,5456184,
+puducherry,2026,2,Retail,14273998,
+puducherry,2026,2,TOTAL,20671909,23907680131.681885
+puducherry,2026,2,Utility,941727,
+punjab,2018,1,P2P,762537,
+punjab,2018,1,Retail,1378870,
+punjab,2018,1,TOTAL,2152570,3144283659.55326
+punjab,2018,1,Utility,11163,
+punjab,2018,2,P2P,1119836,
+punjab,2018,2,Retail,1731538,
+punjab,2018,2,TOTAL,2932771,5247370432.120748
+punjab,2018,2,Utility,81397,
+punjab,2018,3,P2P,1801894,
+punjab,2018,3,Retail,1933346,
+punjab,2018,3,TOTAL,3874407,7787076149.215161
+punjab,2018,3,Utility,139167,
+punjab,2018,4,P2P,2460715,
+punjab,2018,4,Retail,2824577,
+punjab,2018,4,TOTAL,5490558,11861935853.584469
+punjab,2018,4,Utility,205266,
+punjab,2019,1,P2P,4274369,
+punjab,2019,1,Retail,3247097,
+punjab,2019,1,TOTAL,7829874,14541052478.294441
+punjab,2019,1,Utility,308408,
+punjab,2019,2,P2P,4208807,
+punjab,2019,2,Retail,4325884,
+punjab,2019,2,TOTAL,8907341,18919188553.255802
+punjab,2019,2,Utility,372650,
+punjab,2019,3,P2P,4737624,
+punjab,2019,3,Retail,5622095,
+punjab,2019,3,TOTAL,11034661,23019351919.045273
+punjab,2019,3,Utility,674942,
+punjab,2019,4,P2P,6321702,
+punjab,2019,4,Retail,6254384,
+punjab,2019,4,TOTAL,13980727,29882043953.982292
+punjab,2019,4,Utility,1404641,
+punjab,2020,1,P2P,6448799,
+punjab,2020,1,Retail,7210325,
+punjab,2020,1,TOTAL,15697948,31954421122.46702
+punjab,2020,1,Utility,2038824,
+punjab,2020,2,P2P,5501764,
+punjab,2020,2,Retail,6014021,
+punjab,2020,2,TOTAL,14203459,29836650185.539894
+punjab,2020,2,Utility,2687674,
+punjab,2020,3,P2P,7525655,
+punjab,2020,3,Retail,7823602,
+punjab,2020,3,TOTAL,17887958,41042955723.14191
+punjab,2020,3,Utility,2538701,
+punjab,2020,4,P2P,9697447,
+punjab,2020,4,Retail,10297838,
+punjab,2020,4,TOTAL,23593701,54527944550.72394
+punjab,2020,4,Utility,3598416,
+punjab,2021,1,P2P,11070488,
+punjab,2021,1,Retail,10008900,
+punjab,2021,1,TOTAL,27470162,59753193346.677505
+punjab,2021,1,Utility,6390774,
+punjab,2021,2,P2P,13202084,
+punjab,2021,2,Retail,11144498,
+punjab,2021,2,TOTAL,32681997,70282984186.27884
+punjab,2021,2,Utility,8335415,
+punjab,2021,3,P2P,16413165,
+punjab,2021,3,Retail,16218466,
+punjab,2021,3,TOTAL,41656204,84329568328.41077
+punjab,2021,3,Utility,9024573,
+punjab,2021,4,P2P,17253838,
+punjab,2021,4,Retail,19076362,
+punjab,2021,4,TOTAL,44390425,94107319933.46066
+punjab,2021,4,Utility,8060225,
+punjab,2022,1,P2P,21331370,
+punjab,2022,1,Retail,25097722,
+punjab,2022,1,TOTAL,55588571,113838148481.78015
+punjab,2022,1,Utility,9159479,
+punjab,2022,2,P2P,24605671,
+punjab,2022,2,Retail,34194211,
+punjab,2022,2,TOTAL,69470142,131238733411.7305
+punjab,2022,2,Utility,10670260,
+punjab,2022,3,P2P,29796417,
+punjab,2022,3,Retail,43028061,
+punjab,2022,3,TOTAL,85348374,152008684618.77896
+punjab,2022,3,Utility,12523896,
+punjab,2022,4,P2P,32553199,
+punjab,2022,4,Retail,49331250,
+punjab,2022,4,TOTAL,94706019,172026389446.46945
+punjab,2022,4,Utility,12821570,
+punjab,2023,1,P2P,33559001,
+punjab,2023,1,Retail,51451166,
+punjab,2023,1,TOTAL,98153837,175864657816.9519
+punjab,2023,1,Utility,13143670,
+punjab,2023,2,P2P,39137930,
+punjab,2023,2,Retail,65508285,
+punjab,2023,2,TOTAL,119012408,194504179995.89307
+punjab,2023,2,Utility,14366193,
+punjab,2023,3,P2P,43206798,
+punjab,2023,3,Retail,74686189,
+punjab,2023,3,TOTAL,132850814,205330761365.49872
+punjab,2023,3,Utility,14957827,
+punjab,2023,4,P2P,47207197,
+punjab,2023,4,Retail,81488251,
+punjab,2023,4,TOTAL,143440826,231847076209.30914
+punjab,2023,4,Utility,14745378,
+punjab,2024,1,P2P,46625283,
+punjab,2024,1,Retail,81707832,
+punjab,2024,1,TOTAL,143173269,224139049661.6971
+punjab,2024,1,Utility,14840154,
+punjab,2024,2,P2P,53076867,
+punjab,2024,2,Retail,103791454,
+punjab,2024,2,TOTAL,172858419,244763570598.0551
+punjab,2024,2,Utility,15990098,
+punjab,2024,3,P2P,58951692,
+punjab,2024,3,Retail,112671341,
+punjab,2024,3,TOTAL,188314209,257089702260.87024
+punjab,2024,3,Utility,16691176,
+punjab,2024,4,P2P,64059597,
+punjab,2024,4,Retail,119043043,
+punjab,2024,4,TOTAL,200012060,289869668332.55743
+punjab,2024,4,Utility,16909420,
+punjab,2025,1,P2P,68035690,
+punjab,2025,1,Retail,127552368,
+punjab,2025,1,TOTAL,214700898,303581644145.82666
+punjab,2025,1,Utility,19112840,
+punjab,2025,2,P2P,66681507,
+punjab,2025,2,Retail,135349462,
+punjab,2025,2,TOTAL,219581044,296629559177.728
+punjab,2025,2,Utility,17550075,
+punjab,2025,3,P2P,72569615,
+punjab,2025,3,Retail,147253055,
+punjab,2025,3,TOTAL,238293965,304307748393.4016
+punjab,2025,3,Utility,18471295,
+punjab,2025,4,P2P,78882931,
+punjab,2025,4,Retail,152709681,
+punjab,2025,4,TOTAL,250577223,346479689165.021
+punjab,2025,4,Utility,18984611,
+punjab,2026,1,P2P,80997955,
+punjab,2026,1,Retail,156323287,
+punjab,2026,1,TOTAL,256961583,349778644051.6034
+punjab,2026,1,Utility,19640341,
+punjab,2026,2,P2P,86235320,
+punjab,2026,2,Retail,176968809,
+punjab,2026,2,TOTAL,282364073,369629734686.83813
+punjab,2026,2,Utility,19159944,
+rajasthan,2018,1,P2P,2918332,
+rajasthan,2018,1,Retail,6171468,
+rajasthan,2018,1,TOTAL,9272437,10593171156.518475
+rajasthan,2018,1,Utility,182637,
+rajasthan,2018,2,P2P,4284208,
+rajasthan,2018,2,Retail,7030908,
+rajasthan,2018,2,TOTAL,11883013,18090200568.257637
+rajasthan,2018,2,Utility,567897,
+rajasthan,2018,3,P2P,7866935,
+rajasthan,2018,3,Retail,7654080,
+rajasthan,2018,3,TOTAL,16464948,27314548840.20022
+rajasthan,2018,3,Utility,943933,
+rajasthan,2018,4,P2P,11980655,
+rajasthan,2018,4,Retail,11168140,
+rajasthan,2018,4,TOTAL,24362909,42987736624.69517
+rajasthan,2018,4,Utility,1214114,
+rajasthan,2019,1,P2P,29406151,
+rajasthan,2019,1,Retail,16759749,
+rajasthan,2019,1,TOTAL,48143566,65499410518.32512
+rajasthan,2019,1,Utility,1977666,
+rajasthan,2019,2,P2P,24738172,
+rajasthan,2019,2,Retail,23387217,
+rajasthan,2019,2,TOTAL,50086588,86638751323.82938
+rajasthan,2019,2,Utility,1961199,
+rajasthan,2019,3,P2P,28826157,
+rajasthan,2019,3,Retail,33642559,
+rajasthan,2019,3,TOTAL,65929301,108541401685.51715
+rajasthan,2019,3,Utility,3460585,
+rajasthan,2019,4,P2P,42028213,
+rajasthan,2019,4,Retail,33945223,
+rajasthan,2019,4,TOTAL,83291120,153381418752.1703
+rajasthan,2019,4,Utility,7317684,
+rajasthan,2020,1,P2P,46351996,
+rajasthan,2020,1,Retail,42140703,
+rajasthan,2020,1,TOTAL,99812994,183459625889.9085
+rajasthan,2020,1,Utility,11320295,
+rajasthan,2020,2,P2P,46162638,
+rajasthan,2020,2,Retail,36961229,
+rajasthan,2020,2,TOTAL,98305260,184398456319.7787
+rajasthan,2020,2,Utility,15181393,
+rajasthan,2020,3,P2P,69523816,
+rajasthan,2020,3,Retail,57900495,
+rajasthan,2020,3,TOTAL,143008603,280234259657.3222
+rajasthan,2020,3,Utility,15584292,
+rajasthan,2020,4,P2P,85199155,
+rajasthan,2020,4,Retail,79104977,
+rajasthan,2020,4,TOTAL,184672061,370817106324.81665
+rajasthan,2020,4,Utility,20367929,
+rajasthan,2021,1,P2P,111107699,
+rajasthan,2021,1,Retail,91152365,
+rajasthan,2021,1,TOTAL,240954777,468471366342.2837
+rajasthan,2021,1,Utility,38694713,
+rajasthan,2021,2,P2P,132454889,
+rajasthan,2021,2,Retail,90192431,
+rajasthan,2021,2,TOTAL,274437184,536307861093.09106
+rajasthan,2021,2,Utility,51789864,
+rajasthan,2021,3,P2P,175069182,
+rajasthan,2021,3,Retail,155512206,
+rajasthan,2021,3,TOTAL,384071639,686772090114.5065
+rajasthan,2021,3,Utility,53490251,
+rajasthan,2021,4,P2P,179543868,
+rajasthan,2021,4,Retail,182274484,
+rajasthan,2021,4,TOTAL,410190115,765489774059.7771
+rajasthan,2021,4,Utility,48371763,
+rajasthan,2022,1,P2P,230002464,
+rajasthan,2022,1,Retail,249207437,
+rajasthan,2022,1,TOTAL,535528877,971889889959.4716
+rajasthan,2022,1,Utility,56318976,
+rajasthan,2022,2,P2P,248313762,
+rajasthan,2022,2,Retail,309286081,
+rajasthan,2022,2,TOTAL,620679225,1085864980526.7068
+rajasthan,2022,2,Utility,63079382,
+rajasthan,2022,3,P2P,289727149,
+rajasthan,2022,3,Retail,374499257,
+rajasthan,2022,3,TOTAL,737030782,1197697051891.4873
+rajasthan,2022,3,Utility,72804376,
+rajasthan,2022,4,P2P,317940780,
+rajasthan,2022,4,Retail,426355884,
+rajasthan,2022,4,TOTAL,820996227,1381577028127.7593
+rajasthan,2022,4,Utility,76699563,
+rajasthan,2023,1,P2P,353143283,
+rajasthan,2023,1,Retail,478301186,
+rajasthan,2023,1,TOTAL,919098766,1551787489613.533
+rajasthan,2023,1,Utility,87654297,
+rajasthan,2023,2,P2P,389689144,
+rajasthan,2023,2,Retail,586137559,
+rajasthan,2023,2,TOTAL,1073092744,1694556785190.1575
+rajasthan,2023,2,Utility,97266041,
+rajasthan,2023,3,P2P,438636047,
+rajasthan,2023,3,Retail,696907330,
+rajasthan,2023,3,TOTAL,1237044429,1798770149235.0293
+rajasthan,2023,3,Utility,101501052,
+rajasthan,2023,4,P2P,484389540,
+rajasthan,2023,4,Retail,760169113,
+rajasthan,2023,4,TOTAL,1350966019,2070058351728.4211
+rajasthan,2023,4,Utility,106407366,
+rajasthan,2024,1,P2P,566598111,
+rajasthan,2024,1,Retail,910181233,
+rajasthan,2024,1,TOTAL,1600558212,2352706512651.676
+rajasthan,2024,1,Utility,123778868,
+rajasthan,2024,2,P2P,603687650,
+rajasthan,2024,2,Retail,1080979751,
+rajasthan,2024,2,TOTAL,1818703650,2493535347251.073
+rajasthan,2024,2,Utility,134036249,
+rajasthan,2024,3,P2P,638890431,
+rajasthan,2024,3,Retail,1159471272,
+rajasthan,2024,3,TOTAL,1932844563,2470834793957.131
+rajasthan,2024,3,Utility,134482860,
+rajasthan,2024,4,P2P,672386566,
+rajasthan,2024,4,Retail,1233463293,
+rajasthan,2024,4,TOTAL,2040641000,2791321648381.9277
+rajasthan,2024,4,Utility,134791141,
+rajasthan,2025,1,P2P,665402771,
+rajasthan,2025,1,Retail,1225941832,
+rajasthan,2025,1,TOTAL,2035097242,2747039392692.4717
+rajasthan,2025,1,Utility,143752639,
+rajasthan,2025,2,P2P,674572899,
+rajasthan,2025,2,Retail,1361793084,
+rajasthan,2025,2,TOTAL,2180404184,2831640614175.032
+rajasthan,2025,2,Utility,144038201,
+rajasthan,2025,3,P2P,706351073,
+rajasthan,2025,3,Retail,1471559131,
+rajasthan,2025,3,TOTAL,2323608156,2778203819923.9854
+rajasthan,2025,3,Utility,145697952,
+rajasthan,2025,4,P2P,731137692,
+rajasthan,2025,4,Retail,1482912609,
+rajasthan,2025,4,TOTAL,2359791146,3062398766099.9033
+rajasthan,2025,4,Utility,145740845,
+rajasthan,2026,1,P2P,751360343,
+rajasthan,2026,1,Retail,1529887412,
+rajasthan,2026,1,TOTAL,2435127309,3091642766729.338
+rajasthan,2026,1,Utility,153879554,
+rajasthan,2026,2,P2P,762303898,
+rajasthan,2026,2,Retail,1639275785,
+rajasthan,2026,2,TOTAL,2553428529,3189512812270.483
+rajasthan,2026,2,Utility,151848846,
+sikkim,2018,1,P2P,15233,
+sikkim,2018,1,Retail,37037,
+sikkim,2018,1,TOTAL,52422,76553394.47007194
+sikkim,2018,1,Utility,152,
+sikkim,2018,2,P2P,27106,
+sikkim,2018,2,Retail,59274,
+sikkim,2018,2,TOTAL,87348,165371421.67374858
+sikkim,2018,2,Utility,968,
+sikkim,2018,3,P2P,46387,
+sikkim,2018,3,Retail,75943,
+sikkim,2018,3,TOTAL,124034,264307338.56030768
+sikkim,2018,3,Utility,1704,
+sikkim,2018,4,P2P,71395,
+sikkim,2018,4,Retail,108280,
+sikkim,2018,4,TOTAL,181845,431701308.0315608
+sikkim,2018,4,Utility,2170,
+sikkim,2019,1,P2P,107340,
+sikkim,2019,1,Retail,122550,
+sikkim,2019,1,TOTAL,233031,479741568.5013781
+sikkim,2019,1,Utility,3141,
+sikkim,2019,2,P2P,130037,
+sikkim,2019,2,Retail,165212,
+sikkim,2019,2,TOTAL,298432,708397197.301439
+sikkim,2019,2,Utility,3183,
+sikkim,2019,3,P2P,148858,
+sikkim,2019,3,Retail,168555,
+sikkim,2019,3,TOTAL,333701,791314969.2661016
+sikkim,2019,3,Utility,16288,
+sikkim,2019,4,P2P,195405,
+sikkim,2019,4,Retail,161964,
+sikkim,2019,4,TOTAL,409087,1004355162.7638068
+sikkim,2019,4,Utility,51718,
+sikkim,2020,1,P2P,200232,
+sikkim,2020,1,Retail,180421,
+sikkim,2020,1,TOTAL,459577,1060247749.2178302
+sikkim,2020,1,Utility,78924,
+sikkim,2020,2,P2P,203950,
+sikkim,2020,2,Retail,221971,
+sikkim,2020,2,TOTAL,547369,1206404024.7125049
+sikkim,2020,2,Utility,121448,
+sikkim,2020,3,P2P,264230,
+sikkim,2020,3,Retail,256031,
+sikkim,2020,3,TOTAL,639577,1543361489.5177724
+sikkim,2020,3,Utility,119316,
+sikkim,2020,4,P2P,353096,
+sikkim,2020,4,Retail,273203,
+sikkim,2020,4,TOTAL,778335,2085958059.255025
+sikkim,2020,4,Utility,152036,
+sikkim,2021,1,P2P,436996,
+sikkim,2021,1,Retail,153480,
+sikkim,2021,1,TOTAL,879693,2440814120.1876507
+sikkim,2021,1,Utility,289217,
+sikkim,2021,2,P2P,496633,
+sikkim,2021,2,Retail,160006,
+sikkim,2021,2,TOTAL,1064819,2607900949.033514
+sikkim,2021,2,Utility,408180,
+sikkim,2021,3,P2P,641409,
+sikkim,2021,3,Retail,234862,
+sikkim,2021,3,TOTAL,1295143,3285177951.9864945
+sikkim,2021,3,Utility,418872,
+sikkim,2021,4,P2P,766037,
+sikkim,2021,4,Retail,347103,
+sikkim,2021,4,TOTAL,1498091,3929709746.243639
+sikkim,2021,4,Utility,384951,
+sikkim,2022,1,P2P,946961,
+sikkim,2022,1,Retail,483455,
+sikkim,2022,1,TOTAL,1834534,4527630666.266523
+sikkim,2022,1,Utility,404118,
+sikkim,2022,2,P2P,1270954,
+sikkim,2022,2,Retail,766320,
+sikkim,2022,2,TOTAL,2512240,5966964957.632882
+sikkim,2022,2,Utility,474966,
+sikkim,2022,3,P2P,1454342,
+sikkim,2022,3,Retail,918215,
+sikkim,2022,3,TOTAL,2904465,6064289653.488258
+sikkim,2022,3,Utility,531908,
+sikkim,2022,4,P2P,1598547,
+sikkim,2022,4,Retail,1044864,
+sikkim,2022,4,TOTAL,3192928,6611574174.825417
+sikkim,2022,4,Utility,549517,
+sikkim,2023,1,P2P,1725226,
+sikkim,2023,1,Retail,1136164,
+sikkim,2023,1,TOTAL,3401499,6708361128.239864
+sikkim,2023,1,Utility,540109,
+sikkim,2023,2,P2P,2144313,
+sikkim,2023,2,Retail,1696647,
+sikkim,2023,2,TOTAL,4437602,8547336154.627519
+sikkim,2023,2,Utility,596642,
+sikkim,2023,3,P2P,2132175,
+sikkim,2023,3,Retail,2004746,
+sikkim,2023,3,TOTAL,4740161,8003122189.827261
+sikkim,2023,3,Utility,603240,
+sikkim,2023,4,P2P,2130107,
+sikkim,2023,4,Retail,2139471,
+sikkim,2023,4,TOTAL,4842501,8557427285.088291
+sikkim,2023,4,Utility,572923,
+sikkim,2024,1,P2P,2446211,
+sikkim,2024,1,Retail,2665840,
+sikkim,2024,1,TOTAL,5735877,9346992815.650896
+sikkim,2024,1,Utility,623826,
+sikkim,2024,2,P2P,2862938,
+sikkim,2024,2,Retail,3596853,
+sikkim,2024,2,TOTAL,7126004,11164052278.025002
+sikkim,2024,2,Utility,666213,
+sikkim,2024,3,P2P,3059339,
+sikkim,2024,3,Retail,4040039,
+sikkim,2024,3,TOTAL,7837835,10648114552.763342
+sikkim,2024,3,Utility,738457,
+sikkim,2024,4,P2P,3463436,
+sikkim,2024,4,Retail,4792790,
+sikkim,2024,4,TOTAL,9021976,12713819912.906326
+sikkim,2024,4,Utility,765750,
+sikkim,2025,1,P2P,3649693,
+sikkim,2025,1,Retail,5355602,
+sikkim,2025,1,TOTAL,9852470,12680467274.809103
+sikkim,2025,1,Utility,847175,
+sikkim,2025,2,P2P,3900931,
+sikkim,2025,2,Retail,6402735,
+sikkim,2025,2,TOTAL,11156835,14199545657.211315
+sikkim,2025,2,Utility,853169,
+sikkim,2025,3,P2P,4192100,
+sikkim,2025,3,Retail,6777789,
+sikkim,2025,3,TOTAL,11881826,13872661117.52092
+sikkim,2025,3,Utility,911937,
+sikkim,2025,4,P2P,4339229,
+sikkim,2025,4,Retail,6862025,
+sikkim,2025,4,TOTAL,12122190,14542438211.103767
+sikkim,2025,4,Utility,920936,
+sikkim,2026,1,P2P,4721228,
+sikkim,2026,1,Retail,7607696,
+sikkim,2026,1,TOTAL,13287804,15967341009.509085
+sikkim,2026,1,Utility,958880,
+sikkim,2026,2,P2P,5266430,
+sikkim,2026,2,Retail,8719037,
+sikkim,2026,2,TOTAL,14956244,18254633450.45656
+sikkim,2026,2,Utility,970777,
+tamil nadu,2018,1,P2P,2011437,
+tamil nadu,2018,1,Retail,2877514,
+tamil nadu,2018,1,TOTAL,4923891,8755842361.469446
+tamil nadu,2018,1,Utility,34940,
+tamil nadu,2018,2,P2P,3227447,
+tamil nadu,2018,2,Retail,3673579,
+tamil nadu,2018,2,TOTAL,7129251,15152943528.927313
+tamil nadu,2018,2,Utility,228225,
+tamil nadu,2018,3,P2P,5632565,
+tamil nadu,2018,3,Retail,4759711,
+tamil nadu,2018,3,TOTAL,10812101,22361948450.27646
+tamil nadu,2018,3,Utility,419825,
+tamil nadu,2018,4,P2P,8650679,
+tamil nadu,2018,4,Retail,7901767,
+tamil nadu,2018,4,TOTAL,17123273,33652624050.336956
+tamil nadu,2018,4,Utility,570827,
+tamil nadu,2019,1,P2P,14460181,
+tamil nadu,2019,1,Retail,9953421,
+tamil nadu,2019,1,TOTAL,25178515,46065559235.41664
+tamil nadu,2019,1,Utility,764913,
+tamil nadu,2019,2,P2P,15910165,
+tamil nadu,2019,2,Retail,14143783,
+tamil nadu,2019,2,TOTAL,30904172,60589725794.408585
+tamil nadu,2019,2,Utility,850224,
+tamil nadu,2019,3,P2P,20175934,
+tamil nadu,2019,3,Retail,18733358,
+tamil nadu,2019,3,TOTAL,40615165,75113047933.86618
+tamil nadu,2019,3,Utility,1705873,
+tamil nadu,2019,4,P2P,26891922,
+tamil nadu,2019,4,Retail,23550229,
+tamil nadu,2019,4,TOTAL,54273375,95902389590.0488
+tamil nadu,2019,4,Utility,3831224,
+tamil nadu,2020,1,P2P,29210450,
+tamil nadu,2020,1,Retail,29894565,
+tamil nadu,2020,1,TOTAL,65118379,110698166875.72932
+tamil nadu,2020,1,Utility,6013364,
+tamil nadu,2020,2,P2P,19796701,
+tamil nadu,2020,2,Retail,22003787,
+tamil nadu,2020,2,TOTAL,50385378,87932439310.76688
+tamil nadu,2020,2,Utility,8584890,
+tamil nadu,2020,3,P2P,30434012,
+tamil nadu,2020,3,Retail,31747599,
+tamil nadu,2020,3,TOTAL,70529798,138538123385.73276
+tamil nadu,2020,3,Utility,8348187,
+tamil nadu,2020,4,P2P,46846688,
+tamil nadu,2020,4,Retail,52957176,
+tamil nadu,2020,4,TOTAL,112119794,204191947116.8283
+tamil nadu,2020,4,Utility,12315930,
+tamil nadu,2021,1,P2P,56209553,
+tamil nadu,2021,1,Retail,55184006,
+tamil nadu,2021,1,TOTAL,135702280,245293582891.245
+tamil nadu,2021,1,Utility,24308721,
+tamil nadu,2021,2,P2P,58488704,
+tamil nadu,2021,2,Retail,50846255,
+tamil nadu,2021,2,TOTAL,142941858,255693504471.958
+tamil nadu,2021,2,Utility,33606899,
+tamil nadu,2021,3,P2P,80872706,
+tamil nadu,2021,3,Retail,83456564,
+tamil nadu,2021,3,TOTAL,200552172,356208315248.4176
+tamil nadu,2021,3,Utility,36222902,
+tamil nadu,2021,4,P2P,86906217,
+tamil nadu,2021,4,Retail,99367500,
+tamil nadu,2021,4,TOTAL,218792102,374419414326.7141
+tamil nadu,2021,4,Utility,32518385,
+tamil nadu,2022,1,P2P,111499213,
+tamil nadu,2022,1,Retail,133533757,
+tamil nadu,2022,1,TOTAL,278047655,483121547982.56067
+tamil nadu,2022,1,Utility,33014685,
+tamil nadu,2022,2,P2P,128465769,
+tamil nadu,2022,2,Retail,170116252,
+tamil nadu,2022,2,TOTAL,338126426,560768519721.7483
+tamil nadu,2022,2,Utility,39544405,
+tamil nadu,2022,3,P2P,150895801,
+tamil nadu,2022,3,Retail,206948312,
+tamil nadu,2022,3,TOTAL,403676932,647127117674.8535
+tamil nadu,2022,3,Utility,45832819,
+tamil nadu,2022,4,P2P,160182520,
+tamil nadu,2022,4,Retail,227776260,
+tamil nadu,2022,4,TOTAL,435288054,674950927795.2251
+tamil nadu,2022,4,Utility,47329274,
+tamil nadu,2023,1,P2P,169078610,
+tamil nadu,2023,1,Retail,252046397,
+tamil nadu,2023,1,TOTAL,468044832,720402614621.3375
+tamil nadu,2023,1,Utility,46919825,
+tamil nadu,2023,2,P2P,180963627,
+tamil nadu,2023,2,Retail,271653945,
+tamil nadu,2023,2,TOTAL,504160429,781360465422.6838
+tamil nadu,2023,2,Utility,51542857,
+tamil nadu,2023,3,P2P,198443890,
+tamil nadu,2023,3,Retail,307301051,
+tamil nadu,2023,3,TOTAL,558715546,835710063991.9968
+tamil nadu,2023,3,Utility,52970605,
+tamil nadu,2023,4,P2P,208447240,
+tamil nadu,2023,4,Retail,336363862,
+tamil nadu,2023,4,TOTAL,597821132,878172648141.2632
+tamil nadu,2023,4,Utility,53010030,
+tamil nadu,2024,1,P2P,219014310,
+tamil nadu,2024,1,Retail,370440883,
+tamil nadu,2024,1,TOTAL,643084591,917459762316.2546
+tamil nadu,2024,1,Utility,53629398,
+tamil nadu,2024,2,P2P,232646050,
+tamil nadu,2024,2,Retail,417547691,
+tamil nadu,2024,2,TOTAL,707377354,987216265047.3883
+tamil nadu,2024,2,Utility,57183613,
+tamil nadu,2024,3,P2P,261752730,
+tamil nadu,2024,3,Retail,458580459,
+tamil nadu,2024,3,TOTAL,781508176,1053834607664.4268
+tamil nadu,2024,3,Utility,61174987,
+tamil nadu,2024,4,P2P,272558373,
+tamil nadu,2024,4,Retail,488070607,
+tamil nadu,2024,4,TOTAL,822940769,1091410271995.0776
+tamil nadu,2024,4,Utility,62311789,
+tamil nadu,2025,1,P2P,286554114,
+tamil nadu,2025,1,Retail,524381598,
+tamil nadu,2025,1,TOTAL,875704481,1133708906375.8745
+tamil nadu,2025,1,Utility,64768769,
+tamil nadu,2025,2,P2P,277697186,
+tamil nadu,2025,2,Retail,540167131,
+tamil nadu,2025,2,TOTAL,880043623,1133253062425.902
+tamil nadu,2025,2,Utility,62179306,
+tamil nadu,2025,3,P2P,301171264,
+tamil nadu,2025,3,Retail,589397918,
+tamil nadu,2025,3,TOTAL,954438805,1187233386639.0696
+tamil nadu,2025,3,Utility,63869623,
+tamil nadu,2025,4,P2P,310141970,
+tamil nadu,2025,4,Retail,606536327,
+tamil nadu,2025,4,TOTAL,982036878,1229082839335.558
+tamil nadu,2025,4,Utility,65358581,
+tamil nadu,2026,1,P2P,321088498,
+tamil nadu,2026,1,Retail,630192289,
+tamil nadu,2026,1,TOTAL,1015223360,1291277296711.4182
+tamil nadu,2026,1,Utility,63942573,
+tamil nadu,2026,2,P2P,318715551,
+tamil nadu,2026,2,Retail,667642639,
+tamil nadu,2026,2,TOTAL,1049292967,1316704395266.6187
+tamil nadu,2026,2,Utility,62934777,
+telangana,2018,1,P2P,3466488,
+telangana,2018,1,Retail,5817357,
+telangana,2018,1,TOTAL,9340974,14059023660.623735
+telangana,2018,1,Utility,57129,
+telangana,2018,2,P2P,5011318,
+telangana,2018,2,Retail,6332946,
+telangana,2018,2,TOTAL,11544276,24401325668.781406
+telangana,2018,2,Utility,200012,
+telangana,2018,3,P2P,11838453,
+telangana,2018,3,Retail,7792425,
+telangana,2018,3,TOTAL,19955785,33180363175.151356
+telangana,2018,3,Utility,324907,
+telangana,2018,4,P2P,16046190,
+telangana,2018,4,Retail,13909469,
+telangana,2018,4,TOTAL,30393583,51158381363.15648
+telangana,2018,4,Utility,437924,
+telangana,2019,1,P2P,39258819,
+telangana,2019,1,Retail,24788513,
+telangana,2019,1,TOTAL,64813405,93511348877.08844
+telangana,2019,1,Utility,766073,
+telangana,2019,2,P2P,41264830,
+telangana,2019,2,Retail,39189406,
+telangana,2019,2,TOTAL,81454985,137682802492.51328
+telangana,2019,2,Utility,1000749,
+telangana,2019,3,P2P,52781429,
+telangana,2019,3,Retail,58293457,
+telangana,2019,3,TOTAL,114112049,178114733596.80167
+telangana,2019,3,Utility,3037163,
+telangana,2019,4,P2P,73588551,
+telangana,2019,4,Retail,70715723,
+telangana,2019,4,TOTAL,152510054,249883165634.61353
+telangana,2019,4,Utility,8205780,
+telangana,2020,1,P2P,80752201,
+telangana,2020,1,Retail,83326336,
+telangana,2020,1,TOTAL,177329550,318131593325.3983
+telangana,2020,1,Utility,13251013,
+telangana,2020,2,P2P,67182596,
+telangana,2020,2,Retail,54016206,
+telangana,2020,2,TOTAL,138326729,285827211219.7179
+telangana,2020,2,Utility,17127927,
+telangana,2020,3,P2P,97545501,
+telangana,2020,3,Retail,91185733,
+telangana,2020,3,TOTAL,207472326,428781682179.9675
+telangana,2020,3,Utility,18741092,
+telangana,2020,4,P2P,146516443,
+telangana,2020,4,Retail,150218614,
+telangana,2020,4,TOTAL,321839483,640618169487.1467
+telangana,2020,4,Utility,25104426,
+telangana,2021,1,P2P,166657150,
+telangana,2021,1,Retail,181674390,
+telangana,2021,1,TOTAL,392460349,745675476381.9314
+telangana,2021,1,Utility,44128809,
+telangana,2021,2,P2P,209768440,
+telangana,2021,2,Retail,193360174,
+telangana,2021,2,TOTAL,461066776,943090363047.5881
+telangana,2021,2,Utility,57938162,
+telangana,2021,3,P2P,252405062,
+telangana,2021,3,Retail,276644191,
+telangana,2021,3,TOTAL,592741458,1102647432922.4187
+telangana,2021,3,Utility,63692205,
+telangana,2021,4,P2P,268871846,
+telangana,2021,4,Retail,316270714,
+telangana,2021,4,TOTAL,642408303,1206831019294.7505
+telangana,2021,4,Utility,57265743,
+telangana,2022,1,P2P,333860206,
+telangana,2022,1,Retail,422012965,
+telangana,2022,1,TOTAL,820292794,1529608338617.9746
+telangana,2022,1,Utility,64419623,
+telangana,2022,2,P2P,385083123,
+telangana,2022,2,Retail,533356769,
+telangana,2022,2,TOTAL,993209224,1792476811489.9426
+telangana,2022,2,Utility,74769332,
+telangana,2022,3,P2P,437894151,
+telangana,2022,3,Retail,638075219,
+telangana,2022,3,TOTAL,1161232661,2003594734268.4893
+telangana,2022,3,Utility,85263291,
+telangana,2022,4,P2P,483151075,
+telangana,2022,4,Retail,727397449,
+telangana,2022,4,TOTAL,1298732509,2182810144779.9902
+telangana,2022,4,Utility,88183985,
+telangana,2023,1,P2P,522531494,
+telangana,2023,1,Retail,807980480,
+telangana,2023,1,TOTAL,1424621673,2371715741378.491
+telangana,2023,1,Utility,94109699,
+telangana,2023,2,P2P,592921662,
+telangana,2023,2,Retail,945635928,
+telangana,2023,2,TOTAL,1644044462,2696606763836.345
+telangana,2023,2,Utility,105486872,
+telangana,2023,3,P2P,646881028,
+telangana,2023,3,Retail,1103013563,
+telangana,2023,3,TOTAL,1861859423,2865813600979.7666
+telangana,2023,3,Utility,111964832,
+telangana,2023,4,P2P,695650059,
+telangana,2023,4,Retail,1197673180,
+telangana,2023,4,TOTAL,2006013823,3121625949371.093
+telangana,2023,4,Utility,112690584,
+telangana,2024,1,P2P,734914725,
+telangana,2024,1,Retail,1318718383,
+telangana,2024,1,TOTAL,2170233621,3207009337042.48
+telangana,2024,1,Utility,116600513,
+telangana,2024,2,P2P,782308152,
+telangana,2024,2,Retail,1500188080,
+telangana,2024,2,TOTAL,2403883290,3461907722592.297
+telangana,2024,2,Utility,121387058,
+telangana,2024,3,P2P,841561320,
+telangana,2024,3,Retail,1637882726,
+telangana,2024,3,TOTAL,2607828990,3549548031458.4165
+telangana,2024,3,Utility,128384944,
+telangana,2024,4,P2P,905792395,
+telangana,2024,4,Retail,1785244498,
+telangana,2024,4,TOTAL,2824258573,3859512144223.8027
+telangana,2024,4,Utility,133221680,
+telangana,2025,1,P2P,958239626,
+telangana,2025,1,Retail,1855676564,
+telangana,2025,1,TOTAL,2957671238,4011827575951.1895
+telangana,2025,1,Utility,143755048,
+telangana,2025,2,P2P,962138565,
+telangana,2025,2,Retail,1937172444,
+telangana,2025,2,TOTAL,3044459287,4177136892219.811
+telangana,2025,2,Utility,145148278,
+telangana,2025,3,P2P,1003412650,
+telangana,2025,3,Retail,2078091958,
+telangana,2025,3,TOTAL,3228865085,4188712492031.4736
+telangana,2025,3,Utility,147360477,
+telangana,2025,4,P2P,1062691144,
+telangana,2025,4,Retail,2268697781,
+telangana,2025,4,TOTAL,3485116309,4541925564459.137
+telangana,2025,4,Utility,153727384,
+telangana,2026,1,P2P,1085668689,
+telangana,2026,1,Retail,2320751024,
+telangana,2026,1,TOTAL,3571187698,4713863651916.881
+telangana,2026,1,Utility,164767985,
+telangana,2026,2,P2P,1143923545,
+telangana,2026,2,Retail,2560637907,
+telangana,2026,2,TOTAL,3878232440,5128045744092.112
+telangana,2026,2,Utility,173670988,
+tripura,2018,1,P2P,52393,
+tripura,2018,1,Retail,127863,
+tripura,2018,1,TOTAL,184069,166034070.60133272
+tripura,2018,1,Utility,3813,
+tripura,2018,2,P2P,85672,
+tripura,2018,2,Retail,166739,
+tripura,2018,2,TOTAL,262983,281717097.5101464
+tripura,2018,2,Utility,10572,
+tripura,2018,3,P2P,209683,
+tripura,2018,3,Retail,221767,
+tripura,2018,3,TOTAL,446745,527779192.51871157
+tripura,2018,3,Utility,15295,
+tripura,2018,4,P2P,203650,
+tripura,2018,4,Retail,319338,
+tripura,2018,4,TOTAL,538364,726298399.8778081
+tripura,2018,4,Utility,15376,
+tripura,2019,1,P2P,360490,
+tripura,2019,1,Retail,343127,
+tripura,2019,1,TOTAL,722617,930951274.7847986
+tripura,2019,1,Utility,19000,
+tripura,2019,2,P2P,338442,
+tripura,2019,2,Retail,428388,
+tripura,2019,2,TOTAL,787181,1193045264.9864974
+tripura,2019,2,Utility,20351,
+tripura,2019,3,P2P,382672,
+tripura,2019,3,Retail,452124,
+tripura,2019,3,TOTAL,880275,1426665779.1088414
+tripura,2019,3,Utility,45479,
+tripura,2019,4,P2P,504103,
+tripura,2019,4,Retail,405722,
+tripura,2019,4,TOTAL,1017662,1684739442.0514455
+tripura,2019,4,Utility,107837,
+tripura,2020,1,P2P,487025,
+tripura,2020,1,Retail,467518,
+tripura,2020,1,TOTAL,1129990,2057977801.9370825
+tripura,2020,1,Utility,175447,
+tripura,2020,2,P2P,444122,
+tripura,2020,2,Retail,537656,
+tripura,2020,2,TOTAL,1253367,2215013181.2374315
+tripura,2020,2,Utility,271589,
+tripura,2020,3,P2P,656697,
+tripura,2020,3,Retail,751363,
+tripura,2020,3,TOTAL,1676998,3165287940.7535105
+tripura,2020,3,Utility,268938,
+tripura,2020,4,P2P,792607,
+tripura,2020,4,Retail,835017,
+tripura,2020,4,TOTAL,1967767,3877627429.5468283
+tripura,2020,4,Utility,340143,
+tripura,2021,1,P2P,841592,
+tripura,2021,1,Retail,548634,
+tripura,2021,1,TOTAL,2012544,4367162381.678455
+tripura,2021,1,Utility,622318,
+tripura,2021,2,P2P,953822,
+tripura,2021,2,Retail,628463,
+tripura,2021,2,TOTAL,2428946,4660359423.354675
+tripura,2021,2,Utility,846661,
+tripura,2021,3,P2P,1152547,
+tripura,2021,3,Retail,823202,
+tripura,2021,3,TOTAL,2876416,5802800784.247176
+tripura,2021,3,Utility,900667,
+tripura,2021,4,P2P,1220840,
+tripura,2021,4,Retail,944059,
+tripura,2021,4,TOTAL,2997566,6336990350.00956
+tripura,2021,4,Utility,832667,
+tripura,2022,1,P2P,1605926,
+tripura,2022,1,Retail,1401056,
+tripura,2022,1,TOTAL,3841505,8167021603.850515
+tripura,2022,1,Utility,834523,
+tripura,2022,2,P2P,1895868,
+tripura,2022,2,Retail,1782176,
+tripura,2022,2,TOTAL,4598026,8963681349.511333
+tripura,2022,2,Utility,919982,
+tripura,2022,3,P2P,2395190,
+tripura,2022,3,Retail,2338359,
+tripura,2022,3,TOTAL,5814252,11009012067.584843
+tripura,2022,3,Utility,1080703,
+tripura,2022,4,P2P,2557126,
+tripura,2022,4,Retail,2695646,
+tripura,2022,4,TOTAL,6360774,11623038234.726625
+tripura,2022,4,Utility,1108002,
+tripura,2023,1,P2P,3052408,
+tripura,2023,1,Retail,3266101,
+tripura,2023,1,TOTAL,7564973,13869349810.241547
+tripura,2023,1,Utility,1246464,
+tripura,2023,2,P2P,3251151,
+tripura,2023,2,Retail,3992703,
+tripura,2023,2,TOTAL,8518239,14533054884.912336
+tripura,2023,2,Utility,1274385,
+tripura,2023,3,P2P,3675914,
+tripura,2023,3,Retail,4601060,
+tripura,2023,3,TOTAL,9631541,15862091659.466682
+tripura,2023,3,Utility,1354567,
+tripura,2023,4,P2P,3991339,
+tripura,2023,4,Retail,5363050,
+tripura,2023,4,TOTAL,10707618,17538263497.053307
+tripura,2023,4,Utility,1353229,
+tripura,2024,1,P2P,4244206,
+tripura,2024,1,Retail,5904516,
+tripura,2024,1,TOTAL,11581499,18535441026.607567
+tripura,2024,1,Utility,1432777,
+tripura,2024,2,P2P,4532604,
+tripura,2024,2,Retail,7412685,
+tripura,2024,2,TOTAL,13492767,18847582110.315292
+tripura,2024,2,Utility,1547478,
+tripura,2024,3,P2P,5092683,
+tripura,2024,3,Retail,7914763,
+tripura,2024,3,TOTAL,14575406,20044092205.04162
+tripura,2024,3,Utility,1567960,
+tripura,2024,4,P2P,5671226,
+tripura,2024,4,Retail,8800063,
+tripura,2024,4,TOTAL,16034582,22499864071.518784
+tripura,2024,4,Utility,1563293,
+tripura,2025,1,P2P,6475520,
+tripura,2025,1,Retail,10267509,
+tripura,2025,1,TOTAL,18622077,25016887005.832375
+tripura,2025,1,Utility,1879048,
+tripura,2025,2,P2P,6198843,
+tripura,2025,2,Retail,10787436,
+tripura,2025,2,TOTAL,18753226,23151519446.559258
+tripura,2025,2,Utility,1766947,
+tripura,2025,3,P2P,7108559,
+tripura,2025,3,Retail,11889161,
+tripura,2025,3,TOTAL,20791893,25461605416.507072
+tripura,2025,3,Utility,1794173,
+tripura,2025,4,P2P,7390643,
+tripura,2025,4,Retail,11726652,
+tripura,2025,4,TOTAL,20913736,25744145782.637417
+tripura,2025,4,Utility,1796441,
+tripura,2026,1,P2P,7907062,
+tripura,2026,1,Retail,12274659,
+tripura,2026,1,TOTAL,22097250,27676418661.486366
+tripura,2026,1,Utility,1915529,
+tripura,2026,2,P2P,7972133,
+tripura,2026,2,Retail,12958118,
+tripura,2026,2,TOTAL,22862994,26743110330.736546
+tripura,2026,2,Utility,1932743,
+uttar pradesh,2018,1,P2P,4606138,
+uttar pradesh,2018,1,Retail,10010877,
+uttar pradesh,2018,1,TOTAL,14786466,15841767520.712673
+uttar pradesh,2018,1,Utility,169451,
+uttar pradesh,2018,2,P2P,7156556,
+uttar pradesh,2018,2,Retail,12691830,
+uttar pradesh,2018,2,TOTAL,20337966,28765798204.423042
+uttar pradesh,2018,2,Utility,489580,
+uttar pradesh,2018,3,P2P,14943458,
+uttar pradesh,2018,3,Retail,13655861,
+uttar pradesh,2018,3,TOTAL,29327534,40693763120.758385
+uttar pradesh,2018,3,Utility,728215,
+uttar pradesh,2018,4,P2P,17252893,
+uttar pradesh,2018,4,Retail,22044677,
+uttar pradesh,2018,4,TOTAL,40312896,60754036465.70648
+uttar pradesh,2018,4,Utility,1015326,
+uttar pradesh,2019,1,P2P,35228045,
+uttar pradesh,2019,1,Retail,27231898,
+uttar pradesh,2019,1,TOTAL,64046373,84430169656.88228
+uttar pradesh,2019,1,Utility,1586430,
+uttar pradesh,2019,2,P2P,30351047,
+uttar pradesh,2019,2,Retail,35244958,
+uttar pradesh,2019,2,TOTAL,67580108,110293020020.75023
+uttar pradesh,2019,2,Utility,1984103,
+uttar pradesh,2019,3,P2P,30451139,
+uttar pradesh,2019,3,Retail,42320219,
+uttar pradesh,2019,3,TOTAL,76672707,123828842522.57431
+uttar pradesh,2019,3,Utility,3901349,
+uttar pradesh,2019,4,P2P,45757525,
+uttar pradesh,2019,4,Retail,43340537,
+uttar pradesh,2019,4,TOTAL,97385189,162877433939.99805
+uttar pradesh,2019,4,Utility,8287127,
+uttar pradesh,2020,1,P2P,44357141,
+uttar pradesh,2020,1,Retail,51336077,
+uttar pradesh,2020,1,TOTAL,108112889,190863464183.66577
+uttar pradesh,2020,1,Utility,12419671,
+uttar pradesh,2020,2,P2P,43762763,
+uttar pradesh,2020,2,Retail,47549454,
+uttar pradesh,2020,2,TOTAL,110306561,195404454299.56982
+uttar pradesh,2020,2,Utility,18994344,
+uttar pradesh,2020,3,P2P,60795727,
+uttar pradesh,2020,3,Retail,63325777,
+uttar pradesh,2020,3,TOTAL,141565257,273741446015.2779
+uttar pradesh,2020,3,Utility,17443753,
+uttar pradesh,2020,4,P2P,81130686,
+uttar pradesh,2020,4,Retail,86963902,
+uttar pradesh,2020,4,TOTAL,191598396,380442192615.8421
+uttar pradesh,2020,4,Utility,23503808,
+uttar pradesh,2021,1,P2P,94609938,
+uttar pradesh,2021,1,Retail,89939335,
+uttar pradesh,2021,1,TOTAL,227417493,433880828404.01526
+uttar pradesh,2021,1,Utility,42868220,
+uttar pradesh,2021,2,P2P,116290503,
+uttar pradesh,2021,2,Retail,93709752,
+uttar pradesh,2021,2,TOTAL,273728175,536955159535.7084
+uttar pradesh,2021,2,Utility,63727920,
+uttar pradesh,2021,3,P2P,145996374,
+uttar pradesh,2021,3,Retail,141458681,
+uttar pradesh,2021,3,TOTAL,350675338,627645749576.7488
+uttar pradesh,2021,3,Utility,63220283,
+uttar pradesh,2021,4,P2P,164806510,
+uttar pradesh,2021,4,Retail,177938209,
+uttar pradesh,2021,4,TOTAL,400725104,752059552950.346
+uttar pradesh,2021,4,Utility,57980385,
+uttar pradesh,2022,1,P2P,215231907,
+uttar pradesh,2022,1,Retail,241296678,
+uttar pradesh,2022,1,TOTAL,521369445,955324276610.6467
+uttar pradesh,2022,1,Utility,64840860,
+uttar pradesh,2022,2,P2P,254989934,
+uttar pradesh,2022,2,Retail,322162022,
+uttar pradesh,2022,2,TOTAL,655438792,1150071386489.6924
+uttar pradesh,2022,2,Utility,78286836,
+uttar pradesh,2022,3,P2P,295516731,
+uttar pradesh,2022,3,Retail,391962498,
+uttar pradesh,2022,3,TOTAL,775761504,1224796014974.3357
+uttar pradesh,2022,3,Utility,88282275,
+uttar pradesh,2022,4,P2P,337143421,
+uttar pradesh,2022,4,Retail,459462505,
+uttar pradesh,2022,4,TOTAL,890097755,1446927383901.7651
+uttar pradesh,2022,4,Utility,93491829,
+uttar pradesh,2023,1,P2P,384567010,
+uttar pradesh,2023,1,Retail,521134716,
+uttar pradesh,2023,1,TOTAL,1011060339,1635880038405.158
+uttar pradesh,2023,1,Utility,105358613,
+uttar pradesh,2023,2,P2P,447701272,
+uttar pradesh,2023,2,Retail,651507954,
+uttar pradesh,2023,2,TOTAL,1220844008,1835097474392.2053
+uttar pradesh,2023,2,Utility,121634782,
+uttar pradesh,2023,3,P2P,489387714,
+uttar pradesh,2023,3,Retail,747622088,
+uttar pradesh,2023,3,TOTAL,1361433436,1863230615478.421
+uttar pradesh,2023,3,Utility,124423634,
+uttar pradesh,2023,4,P2P,576483752,
+uttar pradesh,2023,4,Retail,869392341,
+uttar pradesh,2023,4,TOTAL,1577265501,2264890592908.507
+uttar pradesh,2023,4,Utility,131389408,
+uttar pradesh,2024,1,P2P,653033237,
+uttar pradesh,2024,1,Retail,989186934,
+uttar pradesh,2024,1,TOTAL,1794266530,2483961606826.365
+uttar pradesh,2024,1,Utility,152046359,
+uttar pradesh,2024,2,P2P,736075778,
+uttar pradesh,2024,2,Retail,1238837502,
+uttar pradesh,2024,2,TOTAL,2144136082,2705836943014.7227
+uttar pradesh,2024,2,Utility,169222802,
+uttar pradesh,2024,3,P2P,784233917,
+uttar pradesh,2024,3,Retail,1332554852,
+uttar pradesh,2024,3,TOTAL,2285132385,2715325163720.8394
+uttar pradesh,2024,3,Utility,168343616,
+uttar pradesh,2024,4,P2P,880393026,
+uttar pradesh,2024,4,Retail,1489948667,
+uttar pradesh,2024,4,TOTAL,2542936824,3210878904579.125
+uttar pradesh,2024,4,Utility,172595131,
+uttar pradesh,2025,1,P2P,904244198,
+uttar pradesh,2025,1,Retail,1524087525,
+uttar pradesh,2025,1,TOTAL,2618333992,3288600991414.496
+uttar pradesh,2025,1,Utility,190002269,
+uttar pradesh,2025,2,P2P,946221765,
+uttar pradesh,2025,2,Retail,1740462455,
+uttar pradesh,2025,2,TOTAL,2874104324,3364968247717.4697
+uttar pradesh,2025,2,Utility,187420104,
+uttar pradesh,2025,3,P2P,968602273,
+uttar pradesh,2025,3,Retail,1840145039,
+uttar pradesh,2025,3,TOTAL,2995994617,3220415579009.7754
+uttar pradesh,2025,3,Utility,187247305,
+uttar pradesh,2025,4,P2P,1056307689,
+uttar pradesh,2025,4,Retail,1955108328,
+uttar pradesh,2025,4,TOTAL,3206270064,3696522346306.7783
+uttar pradesh,2025,4,Utility,194854047,
+uttar pradesh,2026,1,P2P,1088285716,
+uttar pradesh,2026,1,Retail,2003989823,
+uttar pradesh,2026,1,TOTAL,3294478040,3761378430097.705
+uttar pradesh,2026,1,Utility,202202501,
+uttar pradesh,2026,2,P2P,1167703027,
+uttar pradesh,2026,2,Retail,2293024606,
+uttar pradesh,2026,2,TOTAL,3665306240,3938705461574.024
+uttar pradesh,2026,2,Utility,204578607,
+uttarakhand,2018,1,P2P,441316,
+uttarakhand,2018,1,Retail,992270,
+uttarakhand,2018,1,TOTAL,1451113,1711189177.2167993
+uttarakhand,2018,1,Utility,17527,
+uttarakhand,2018,2,P2P,683917,
+uttarakhand,2018,2,Retail,1238396,
+uttarakhand,2018,2,TOTAL,1963467,3023055876.683943
+uttarakhand,2018,2,Utility,41154,
+uttarakhand,2018,3,P2P,1129789,
+uttarakhand,2018,3,Retail,1333958,
+uttarakhand,2018,3,TOTAL,2523526,4119317467.9760265
+uttarakhand,2018,3,Utility,59779,
+uttarakhand,2018,4,P2P,1703009,
+uttarakhand,2018,4,Retail,1847664,
+uttarakhand,2018,4,TOTAL,3625698,6268906600.516947
+uttarakhand,2018,4,Utility,75025,
+uttarakhand,2019,1,P2P,4072170,
+uttarakhand,2019,1,Retail,2334030,
+uttarakhand,2019,1,TOTAL,6519708,8342691139.590234
+uttarakhand,2019,1,Utility,113508,
+uttarakhand,2019,2,P2P,3080481,
+uttarakhand,2019,2,Retail,3147703,
+uttarakhand,2019,2,TOTAL,6345096,10996460352.932467
+uttarakhand,2019,2,Utility,116912,
+uttarakhand,2019,3,P2P,2917737,
+uttarakhand,2019,3,Retail,3479573,
+uttarakhand,2019,3,TOTAL,6691016,12093509975.50256
+uttarakhand,2019,3,Utility,293706,
+uttarakhand,2019,4,P2P,3960592,
+uttarakhand,2019,4,Retail,3887718,
+uttarakhand,2019,4,TOTAL,8590151,15233913544.563915
+uttarakhand,2019,4,Utility,741841,
+uttarakhand,2020,1,P2P,4002557,
+uttarakhand,2020,1,Retail,4599548,
+uttarakhand,2020,1,TOTAL,9726841,16698596159.683369
+uttarakhand,2020,1,Utility,1124736,
+uttarakhand,2020,2,P2P,3531631,
+uttarakhand,2020,2,Retail,4009760,
+uttarakhand,2020,2,TOTAL,9154035,15661272266.921104
+uttarakhand,2020,2,Utility,1612644,
+uttarakhand,2020,3,P2P,5220599,
+uttarakhand,2020,3,Retail,6069189,
+uttarakhand,2020,3,TOTAL,12900421,23631778724.122528
+uttarakhand,2020,3,Utility,1610633,
+uttarakhand,2020,4,P2P,7078394,
+uttarakhand,2020,4,Retail,9591103,
+uttarakhand,2020,4,TOTAL,18918942,33134968485.444317
+uttarakhand,2020,4,Utility,2249445,
+uttarakhand,2021,1,P2P,8249581,
+uttarakhand,2021,1,Retail,9483409,
+uttarakhand,2021,1,TOTAL,21980872,37055782980.02542
+uttarakhand,2021,1,Utility,4247882,
+uttarakhand,2021,2,P2P,9520718,
+uttarakhand,2021,2,Retail,9938227,
+uttarakhand,2021,2,TOTAL,25376378,41298099649.73271
+uttarakhand,2021,2,Utility,5917433,
+uttarakhand,2021,3,P2P,12313894,
+uttarakhand,2021,3,Retail,14740374,
+uttarakhand,2021,3,TOTAL,33180604,52164580069.14418
+uttarakhand,2021,3,Utility,6126336,
+uttarakhand,2021,4,P2P,13030803,
+uttarakhand,2021,4,Retail,18480818,
+uttarakhand,2021,4,TOTAL,36913646,57949052739.9576
+uttarakhand,2021,4,Utility,5402025,
+uttarakhand,2022,1,P2P,15762028,
+uttarakhand,2022,1,Retail,23662761,
+uttarakhand,2022,1,TOTAL,45265588,69248100029.00323
+uttarakhand,2022,1,Utility,5840799,
+uttarakhand,2022,2,P2P,19583241,
+uttarakhand,2022,2,Retail,34095311,
+uttarakhand,2022,2,TOTAL,60660502,88219812501.76044
+uttarakhand,2022,2,Utility,6981950,
+uttarakhand,2022,3,P2P,21811880,
+uttarakhand,2022,3,Retail,38433164,
+uttarakhand,2022,3,TOTAL,68009292,92527276762.59744
+uttarakhand,2022,3,Utility,7764248,
+uttarakhand,2022,4,P2P,23524459,
+uttarakhand,2022,4,Retail,43930404,
+uttarakhand,2022,4,TOTAL,75301900,102012862486.52225
+uttarakhand,2022,4,Utility,7847037,
+uttarakhand,2023,1,P2P,25042420,
+uttarakhand,2023,1,Retail,46907377,
+uttarakhand,2023,1,TOTAL,80316638,106914144085.76015
+uttarakhand,2023,1,Utility,8366841,
+uttarakhand,2023,2,P2P,31621034,
+uttarakhand,2023,2,Retail,62644014,
+uttarakhand,2023,2,TOTAL,104119321,133676491393.38852
+uttarakhand,2023,2,Utility,9854273,
+uttarakhand,2023,3,P2P,32160873,
+uttarakhand,2023,3,Retail,64961081,
+uttarakhand,2023,3,TOTAL,106784950,128515385224.72354
+uttarakhand,2023,3,Utility,9662996,
+uttarakhand,2023,4,P2P,36002854,
+uttarakhand,2023,4,Retail,73541105,
+uttarakhand,2023,4,TOTAL,119107620,148205383109.23837
+uttarakhand,2023,4,Utility,9563661,
+uttarakhand,2024,1,P2P,37475805,
+uttarakhand,2024,1,Retail,76012656,
+uttarakhand,2024,1,TOTAL,123880004,150315536371.2102
+uttarakhand,2024,1,Utility,10391543,
+uttarakhand,2024,2,P2P,46074342,
+uttarakhand,2024,2,Retail,101329050,
+uttarakhand,2024,2,TOTAL,159360860,180260957246.1923
+uttarakhand,2024,2,Utility,11957468,
+uttarakhand,2024,3,P2P,46985206,
+uttarakhand,2024,3,Retail,100726911,
+uttarakhand,2024,3,TOTAL,159497485,173415603155.37198
+uttarakhand,2024,3,Utility,11785368,
+uttarakhand,2024,4,P2P,50703178,
+uttarakhand,2024,4,Retail,108904701,
+uttarakhand,2024,4,TOTAL,171212380,194796895719.51297
+uttarakhand,2024,4,Utility,11604501,
+uttarakhand,2025,1,P2P,51173488,
+uttarakhand,2025,1,Retail,111485158,
+uttarakhand,2025,1,TOTAL,175355250,193302070369.7801
+uttarakhand,2025,1,Utility,12696604,
+uttarakhand,2025,2,P2P,56901615,
+uttarakhand,2025,2,Retail,132692694,
+uttarakhand,2025,2,TOTAL,202578174,215937765623.93585
+uttarakhand,2025,2,Utility,12983865,
+uttarakhand,2025,3,P2P,55559813,
+uttarakhand,2025,3,Retail,129419380,
+uttarakhand,2025,3,TOTAL,197711630,198250402920.4244
+uttarakhand,2025,3,Utility,12732437,
+uttarakhand,2025,4,P2P,58829901,
+uttarakhand,2025,4,Retail,132326331,
+uttarakhand,2025,4,TOTAL,203745180,220079294173.82812
+uttarakhand,2025,4,Utility,12588948,
+uttarakhand,2026,1,P2P,59360705,
+uttarakhand,2026,1,Retail,132495130,
+uttarakhand,2026,1,TOTAL,204739014,217602962797.85297
+uttarakhand,2026,1,Utility,12883179,
+uttarakhand,2026,2,P2P,69429535,
+uttarakhand,2026,2,Retail,163964261,
+uttarakhand,2026,2,TOTAL,247026782,255234602776.51517
+uttarakhand,2026,2,Utility,13632986,
+west bengal,2018,1,P2P,3872380,
+west bengal,2018,1,Retail,5952060,
+west bengal,2018,1,TOTAL,10151521,7623652076.70104
+west bengal,2018,1,Utility,327081,
+west bengal,2018,2,P2P,7871746,
+west bengal,2018,2,Retail,8205192,
+west bengal,2018,2,TOTAL,16783697,14426440347.675003
+west bengal,2018,2,Utility,706759,
+west bengal,2018,3,P2P,43410545,
+west bengal,2018,3,Retail,9636974,
+west bengal,2018,3,TOTAL,54031451,38668036734.002266
+west bengal,2018,3,Utility,983932,
+west bengal,2018,4,P2P,16024961,
+west bengal,2018,4,Retail,16379853,
+west bengal,2018,4,TOTAL,33555072,33751269225.912643
+west bengal,2018,4,Utility,1150258,
+west bengal,2019,1,P2P,24963489,
+west bengal,2019,1,Retail,16502874,
+west bengal,2019,1,TOTAL,43101342,42921381534.937065
+west bengal,2019,1,Utility,1634979,
+west bengal,2019,2,P2P,19337897,
+west bengal,2019,2,Retail,23489670,
+west bengal,2019,2,TOTAL,44580900,54718845209.54506
+west bengal,2019,2,Utility,1753333,
+west bengal,2019,3,P2P,20140625,
+west bengal,2019,3,Retail,37079581,
+west bengal,2019,3,TOTAL,60043951,66423789032.74228
+west bengal,2019,3,Utility,2823745,
+west bengal,2019,4,P2P,61838956,
+west bengal,2019,4,Retail,24001204,
+west bengal,2019,4,TOTAL,90948911,82930838430.99612
+west bengal,2019,4,Utility,5108751,
+west bengal,2020,1,P2P,26827077,
+west bengal,2020,1,Retail,29827673,
+west bengal,2020,1,TOTAL,63993554,91566525988.34715
+west bengal,2020,1,Utility,7338804,
+west bengal,2020,2,P2P,24627758,
+west bengal,2020,2,Retail,23778596,
+west bengal,2020,2,TOTAL,58763095,99278377224.57706
+west bengal,2020,2,Utility,10356741,
+west bengal,2020,3,P2P,35010257,
+west bengal,2020,3,Retail,33531712,
+west bengal,2020,3,TOTAL,78767654,147424950291.97803
+west bengal,2020,3,Utility,10225685,
+west bengal,2020,4,P2P,45232541,
+west bengal,2020,4,Retail,42774024,
+west bengal,2020,4,TOTAL,101265149,194248152966.42114
+west bengal,2020,4,Utility,13258584,
+west bengal,2021,1,P2P,51079144,
+west bengal,2021,1,Retail,38286845,
+west bengal,2021,1,TOTAL,115001959,231129225939.18713
+west bengal,2021,1,Utility,25635970,
+west bengal,2021,2,P2P,61512765,
+west bengal,2021,2,Retail,41133183,
+west bengal,2021,2,TOTAL,138748743,266671675321.52402
+west bengal,2021,2,Utility,36102795,
+west bengal,2021,3,P2P,79783224,
+west bengal,2021,3,Retail,57001307,
+west bengal,2021,3,TOTAL,175901327,344476718379.314
+west bengal,2021,3,Utility,39116796,
+west bengal,2021,4,P2P,87580931,
+west bengal,2021,4,Retail,67551823,
+west bengal,2021,4,TOTAL,189761882,385851696670.8897
+west bengal,2021,4,Utility,34629128,
+west bengal,2022,1,P2P,115561007,
+west bengal,2022,1,Retail,92376770,
+west bengal,2022,1,TOTAL,244077613,512176281443.31213
+west bengal,2022,1,Utility,36139836,
+west bengal,2022,2,P2P,135617157,
+west bengal,2022,2,Retail,119264274,
+west bengal,2022,2,TOTAL,298813188,605707035569.897
+west bengal,2022,2,Utility,43931757,
+west bengal,2022,3,P2P,164053490,
+west bengal,2022,3,Retail,147555161,
+west bengal,2022,3,TOTAL,364129324,695665215498.2949
+west bengal,2022,3,Utility,52520673,
+west bengal,2022,4,P2P,177653143,
+west bengal,2022,4,Retail,168668806,
+west bengal,2022,4,TOTAL,400458936,749746367003.5804
+west bengal,2022,4,Utility,54136987,
+west bengal,2023,1,P2P,209283878,
+west bengal,2023,1,Retail,200591201,
+west bengal,2023,1,TOTAL,468933668,898862460705.0684
+west bengal,2023,1,Utility,59058589,
+west bengal,2023,2,P2P,240193606,
+west bengal,2023,2,Retail,249804214,
+west bengal,2023,2,TOTAL,557201653,1011853593979.1373
+west bengal,2023,2,Utility,67203833,
+west bengal,2023,3,P2P,270924969,
+west bengal,2023,3,Retail,298345848,
+west bengal,2023,3,TOTAL,642154264,1073507229812.2742
+west bengal,2023,3,Utility,72883447,
+west bengal,2023,4,P2P,317862227,
+west bengal,2023,4,Retail,354140336,
+west bengal,2023,4,TOTAL,747788359,1253569329663.2058
+west bengal,2023,4,Utility,75785796,
+west bengal,2024,1,P2P,355342023,
+west bengal,2024,1,Retail,403108218,
+west bengal,2024,1,TOTAL,843082236,1422966170005.288
+west bengal,2024,1,Utility,84631995,
+west bengal,2024,2,P2P,393501626,
+west bengal,2024,2,Retail,499564293,
+west bengal,2024,2,TOTAL,988799648,1545997993108.2922
+west bengal,2024,2,Utility,95733729,
+west bengal,2024,3,P2P,436505032,
+west bengal,2024,3,Retail,554209559,
+west bengal,2024,3,TOTAL,1091000362,1608053446947.104
+west bengal,2024,3,Utility,100285771,
+west bengal,2024,4,P2P,493207369,
+west bengal,2024,4,Retail,636340603,
+west bengal,2024,4,TOTAL,1230402184,1810747542010.678
+west bengal,2024,4,Utility,100854212,
+west bengal,2025,1,P2P,517424510,
+west bengal,2025,1,Retail,677544402,
+west bengal,2025,1,TOTAL,1304050364,1913847338922.7925
+west bengal,2025,1,Utility,109081452,
+west bengal,2025,2,P2P,534561791,
+west bengal,2025,2,Retail,764023386,
+west bengal,2025,2,TOTAL,1410547289,1934976510103.9966
+west bengal,2025,2,Utility,111962112,
+west bengal,2025,3,P2P,575352040,
+west bengal,2025,3,Retail,845070081,
+west bengal,2025,3,TOTAL,1534941462,1981771949298.0732
+west bengal,2025,3,Utility,114519341,
+west bengal,2025,4,P2P,603154869,
+west bengal,2025,4,Retail,878593910,
+west bengal,2025,4,TOTAL,1595670079,2082769866475.0676
+west bengal,2025,4,Utility,113921300,
+west bengal,2026,1,P2P,643075471,
+west bengal,2026,1,Retail,929319640,
+west bengal,2026,1,TOTAL,1691843395,2280769839448.3564
+west bengal,2026,1,Utility,119448284,
+west bengal,2026,2,P2P,653298215,
+west bengal,2026,2,Retail,1005841996,
+west bengal,2026,2,TOTAL,1782353009,2211838113700.3
+west bengal,2026,2,Utility,123212798,
